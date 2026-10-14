@@ -1,12 +1,19 @@
 # Reel da Evoquex — Clevelândia
 
-- **Vídeo final:** [evoquex-final.mp4](evoquex-final.mp4)
-- **Projeto Remotion completo, com código e materiais:** [evoquex-projeto.zip](evoquex-projeto.zip)
+## Versão 2 — reedição com motion design
+
+- **Vídeo final V2:** [evoquex-motion-v2.mp4](evoquex-motion-v2.mp4)
+- **Projeto Remotion V2, com código e materiais:** [evoquex-motion-v2-projeto.zip](evoquex-motion-v2-projeto.zip)
 
 Abra o arquivo desejado e use **Download raw file** para baixar pelo GitHub.
 
-O vídeo tem 28 segundos, resolução vertical de 1080 × 1920 e 30 fps. Foi exportado em H.264/BT.709, com áudio AAC estéreo. A edição usa o vídeo real da Dany’s Presentes, a fotografia fornecida de Clevelândia, o print original das métricas e um CTA para a Evoquex.
+A V2 tem 28 segundos, resolução vertical de 1080 × 1920 e 30 fps. A composição foi reconstruída com tipografia por palavras, cartões em perspectiva, carrossel, foco/desfoque, recortes do print que conduzem às métricas e sound design sincronizado. Usa o anúncio real da Dany’s Presentes e a foto original de Clevelândia.
 
-As métricas permanecem distintas: 13.064 pessoas alcançadas, 20.981 impressões e aproximadamente 20 mil visualizações, estas identificadas como resultado informado da campanha. Inclui trilha e sound design autorais, com áudio original na abertura.
+Apresenta os indicadores documentados: **13.064 pessoas alcançadas** e **20.981 impressões**. Visualizações não são apresentadas como dado comprovado pelo print.
 
-O MP4 foi validado por decodificação completa e revisão visual de amostras de todas as cenas. O ZIP inclui instruções, código-fonte, materiais e relatórios de validação.
+O MP4 foi validado por decodificação completa, conferência de metadados, análise de áudio e revisão visual ao longo da duração e em tamanho de celular. O ZIP inclui fonte, materiais, instruções e relatórios. O áudio, o logotipo e o conteúdo comercial do vídeo de referência não são reutilizados.
+
+## Versão anterior — V1
+
+- [Vídeo V1](evoquex-final.mp4)
+- [Projeto V1](evoquex-projeto.zip)
