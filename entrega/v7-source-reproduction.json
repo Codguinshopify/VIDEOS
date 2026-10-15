@@ -1,0 +1,24 @@
+{
+  "archive_extracted": true,
+  "external_original_pack_not_required": true,
+  "used_existing_pinned_node_modules": true,
+  "no_new_dependencies_installed": true,
+  "compositions_rendered": true,
+  "frames_rendered": [
+    0,
+    140,
+    321,
+    610,
+    770,
+    1000
+  ],
+  "source_asset_sha256": {
+    "src/Root.jsx": "be4898fe6c78c5c189ee42733eab8001005ccd2c1df7549f97a94cb8c3923bd1",
+    "src/motion-v7/Reel.jsx": "019e58dc5151505615e427d6b6624aaa3b139ed74681317f0ce6e167251bc52f",
+    "src/motion-v7/library.jsx": "aaaf523611509f2f638909888f00ee4378a74b7690b5f93393f3650f4e39a36a",
+    "src/motion-v7/timeline.json": "6b58a3b3dfebca01518e9ea362ca07d9e5fba3325f3715244360f6fc5d0aa19c",
+    "public/audio-v7/direcao-mix.wav": "8d2bd1250ef922ad0a79ef4d6ed5ace9bf8e57cdce5083022ace5b35d0eb8e28",
+    "public/library-v7/brush.png": "67ce186796c62860d5b17f08258fb10e2dedf86f7d0f11c21ef557d12e6d2a54"
+  },
+  "project_path": "/tmp/evoquex-v7-repro-z3qgij_h/evoquex-reel"
+}
