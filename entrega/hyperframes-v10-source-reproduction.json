@@ -1,0 +1,30 @@
+{
+  "archive_extracted": true,
+  "independent_npm_ci_passed": true,
+  "offline_npm_install": true,
+  "node_modules_symlink_used": false,
+  "hyperframes_snapshots_passed": true,
+  "snapshot_times": [
+    0,
+    1.25,
+    3.6,
+    16.5,
+    20.75,
+    25.7,
+    31.5
+  ],
+  "external_original_project_required": false,
+  "core_source_and_assets_sha256": {
+    "index.html": "6c17451841cf4ef68abf03754c75fba229f124e4a40b687f25dcda563e95619f",
+    "style.css": "38b572e441ec92e738bc4a0c92e81c511c955d347c5d381162fae5f29556d2f2",
+    "motion.js": "4cc2aec7b43f19c9d3eaad2dd985ec3a508929b3993018f37ede225ebd53dc4f",
+    "package-lock.json": "3c81c986234e5dcb47d43422940fb0e5641b797bb757cca8ccec5baa85e5333f",
+    "assets/campanha.mp4": "01144794dd01f913af3d6fe1c24563a74ee89461b44289ac4a0dd5534139d335",
+    "assets/mix-v10.wav": "4a511e6f26bbaf25df5415db44f011caa3fc2ce7b8f68f9179a5789c538a96e2",
+    "assets/DM-Sans.woff2": "9fea608a947e67020c33cad9a6fe3d60c54119dfb8cff87768a8117a15ed7543",
+    "vendor/gsap.min.js": "c174bfce53a729418d57a8ad8625e7247c793a22fef8e2851e3cfa3de9cd8280",
+    "vendor/MotionPathPlugin.min.js": "aa5f955ca4ce3095ebe5726f43a46b72532230edb3501b28fb853f189f023cab"
+  },
+  "project_path": "/tmp/evoquex-v10-repro-7xd_5j2w/evoquex-hyperframes-v10",
+  "final_package_updates_reports_only": true
+}

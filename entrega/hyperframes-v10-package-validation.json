@@ -1,0 +1,10 @@
+{
+  "file": "evoquex-hyperframes-v10-projeto.zip",
+  "sha256": "25627691bd2809aebdb893d96d2011d0e4b832d147c32f1e43302bfb0fd9acca",
+  "bytes": 18801955,
+  "crc_verified": true,
+  "files": 76,
+  "self_contained_assets": true,
+  "reference_video_frames_and_audio_excluded": true,
+  "node_modules_and_secrets_excluded": true
+}
