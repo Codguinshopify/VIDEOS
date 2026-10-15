@@ -1,0 +1,27 @@
+{
+  "archive_extracted": true,
+  "independent_npm_ci_passed": true,
+  "npm_install_offline": true,
+  "node_modules_symlink_used": false,
+  "hyperframes_snapshot_passed": true,
+  "snapshot_times": [
+    0,
+    4.5,
+    20,
+    32
+  ],
+  "external_original_project_required": false,
+  "source_sha256": {
+    "index.html": "cfc7797eeba52d89f026be0e7d237aa19b65cb55d6ab0cd2864dc4ffabaebba0",
+    "style.css": "2478a61ea62256f9d9e81c98395a951acde71c07fdad5a7b29fead78da1596ad",
+    "motion.js": "27206e1b589a7df5a3aba2d8095e4b564e180872af09ab2110d8135f2239744f",
+    "assets/campanha.mp4": "01144794dd01f913af3d6fe1c24563a74ee89461b44289ac4a0dd5534139d335",
+    "assets/campanha-hook.mp4": "01144794dd01f913af3d6fe1c24563a74ee89461b44289ac4a0dd5534139d335",
+    "assets/mix-v7.wav": "8d2bd1250ef922ad0a79ef4d6ed5ace9bf8e57cdce5083022ace5b35d0eb8e28",
+    "assets/poster-hook-end.jpg": "0edee26ac16d4fb5857a797f9d9ab976a3b3865b3e4c29932f3c9d77f40d32d3",
+    "vendor/gsap.min.js": "c174bfce53a729418d57a8ad8625e7247c793a22fef8e2851e3cfa3de9cd8280",
+    "package-lock.json": "e4f818ec733db9f6e97ba6dcd42348ca5bed538051f9dcb31a8e3cd83b7da447"
+  },
+  "project_path": "/tmp/evoquex-hf-repro-0afogzjo/evoquex-hyperframes",
+  "final_sources_reextracted_and_snapshotted": true
+}

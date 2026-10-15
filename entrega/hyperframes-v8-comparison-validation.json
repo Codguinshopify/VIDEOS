@@ -1,0 +1,19 @@
+{
+  "file": "comparacao-remotion-hyperframes.mp4",
+  "sha256": "bf719ce8bbe9b6d447b778a64ed34a385f8d0658643436502264d731d987ca13",
+  "bytes": 6938386,
+  "duration": 34.5,
+  "dimensions": [
+    1080,
+    1010
+  ],
+  "frames": 1035,
+  "full_decode_passed": true,
+  "single_audio_track": true,
+  "left": "Remotion V7",
+  "right": "HyperFrames V8",
+  "input_sha256": {
+    "v7": "4c34da06f723e081ccdd3a7d3f3f15d4a3014a666c1d5847e0833b71a17b6b59",
+    "v8": "5e7b0286f51fdccd0d0eb4f0c994529afc5f9a938d468a57ec565cef70bf5574"
+  }
+}
