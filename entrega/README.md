@@ -1,5 +1,22 @@
 # Reel da Evoquex — Clevelândia
 
+## Versão 5 — evolução Park com narração feminina
+
+- **MP4 final:** [evoquex-motion-v5.mp4](evoquex-motion-v5.mp4)
+- **Projeto Remotion completo:** [evoquex-motion-v5-projeto.zip](evoquex-motion-v5-projeto.zip)
+
+25,8 segundos, 1080 × 1920, 30 fps. Evolui os componentes aprovados com portal circular no hook desde o primeiro frame, câmera reenquadrada sobre a filmagem, órbitas em planos e velocidades diferentes, lentes sobre o documento real, tipografia cinética e revelações rápidas de diferentes geometrias. Adapta técnicas concretas da nova referência Park, mantendo a identidade Evoquex e os materiais autênticos.
+
+Narração neural feminina brasileira real, voz pf_dora/Kokoro-ONNX, em seis WAVs que orientaram o timing. Áudio original silenciado; música automatizada por frase, whooshes, traços de papel e impactos sincronizados. Os WAVs, stems, licenças e roteiro acompanham o projeto. O modelo de voz não é necessário para renderizar.
+
+Indicadores preservados: **13.064 pessoas alcançadas** e **20.981 impressões**, comprovados no material fornecido. Nome canônico **Danny’s Presentes** revisado no vídeo e nos arquivos-fonte.
+
+Validação: decodificação integral, 774 quadros, 52 amostras da duração, 35 quadros de transições, 11 do hook, quatro telas de telefone e comparação de seis momentos com V4. Áudio final: -16.04 LUFS / -1.49 dBTP, sem clipping. Conferência independente por reconhecimento de fala, níveis e correlação com o mix. ZIP verificado e testado em uma pasta nova com instalação do lockfile e renderização de sete quadros representativos.
+
+Limitações: a interface do agente não oferece audição. Timbre, entonação e pronúncia de nomes próprios precisam de avaliação auditiva humana; os relatórios não simulam essa escuta. A voz é neural local, o vídeo original tem 5,06 segundos e a foto aérea tem 600 × 337 pixels.
+
+Abra o arquivo e use **Download raw file** para baixar pelo GitHub. As versões anteriores estão preservadas abaixo.
+
 ## Versão 4 — refinamento da versão aprovada
 
 - **MP4 refinado:** [evoquex-motion-v4.mp4](evoquex-motion-v4.mp4)
