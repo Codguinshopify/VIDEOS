@@ -1,0 +1,48 @@
+{
+  "file": "evoquex-hyperframes-v9.mp4",
+  "engine": "HyperFrames 0.8.162 / native HTML + GSAP 3.14.2",
+  "remotion_used_for_render": false,
+  "duration": "34.500000",
+  "frames": 1035,
+  "dimensions": [
+    1080,
+    1920
+  ],
+  "fps": 30,
+  "video_codec": "h264",
+  "pixel_format": "yuv420p",
+  "color_space": "bt709",
+  "audio_codec": "aac",
+  "audio_rate": 48000,
+  "audio_channels": 2,
+  "audio_correlation_with_v7_mix": 0.9992662441550267,
+  "clipped_samples": 0,
+  "loudness": {
+    "input_i": "-16.61",
+    "input_tp": "-1.65",
+    "input_lra": "0.90",
+    "input_thresh": "-26.67",
+    "output_i": "-16.18",
+    "output_tp": "-1.80",
+    "output_lra": "0.70",
+    "output_thresh": "-26.22",
+    "normalization_type": "dynamic",
+    "target_offset": "0.18"
+  },
+  "full_decode_passed": true,
+  "same_original_assets_and_mix_sha256": {
+    "campanha.mp4": "01144794dd01f913af3d6fe1c24563a74ee89461b44289ac4a0dd5534139d335",
+    "clevelandia.jpg": "a5bba18170e69a3b9db2203d0babbb39b341217772a1794495718afaa7b331a1",
+    "resultados.jpg": "e99bf6462689f5d84b7e47f23af46c9fa60b7dd310f0fb5d9c9b324a90ed0147",
+    "mix-v7.wav": "8d2bd1250ef922ad0a79ef4d6ed5ace9bf8e57cdce5083022ace5b35d0eb8e28"
+  },
+  "metrics": {
+    "reach": 13064,
+    "impressions": 20981
+  },
+  "business": "Danny\u2019s Presentes",
+  "new_narration_present": false,
+  "subjective_listening_performed": false,
+  "bytes": 13516511,
+  "sha256": "234f18520f70f36c76442e29d9b65e3dee3dc16c62315350eae2cb20abb57aca"
+}

@@ -1,0 +1,28 @@
+{
+  "archive_extracted": true,
+  "independent_npm_ci_passed": true,
+  "offline_npm_install": true,
+  "node_modules_symlink_used": false,
+  "hyperframes_snapshots_passed": true,
+  "snapshot_times": [
+    0,
+    23.2,
+    24.6,
+    26,
+    32
+  ],
+  "external_original_project_required": false,
+  "core_source_and_assets_sha256": {
+    "index.html": "e7764edacc9bdabf1ea6838fdc5bc35d76f136b29e2224c26b0632f364604b9c",
+    "style.css": "b3bfd0b868794a62c98fbde407066a5f0a5450ad148fe2f5e4c925f369599285",
+    "catalog-motion.js": "34397888b6fcf87165ef8062f2a0aefbc21a696f86ce09b2d69e64b07bdb69ff",
+    "motion.js": "8a30676d08c19fd84eea5801e4ed854e2b8ec74f2191bf8f0a560ba4c0d57cb0",
+    "package-lock.json": "cb1dc51aec30bedfdcafcfa80c86d250443a3f3d508d4f4f232f41d0920eebc2",
+    "assets/campanha.mp4": "01144794dd01f913af3d6fe1c24563a74ee89461b44289ac4a0dd5534139d335",
+    "assets/campanha-hook.mp4": "01144794dd01f913af3d6fe1c24563a74ee89461b44289ac4a0dd5534139d335",
+    "assets/mix-v7.wav": "8d2bd1250ef922ad0a79ef4d6ed5ace9bf8e57cdce5083022ace5b35d0eb8e28",
+    "vendor/gsap.min.js": "c174bfce53a729418d57a8ad8625e7247c793a22fef8e2851e3cfa3de9cd8280"
+  },
+  "project_path": "/tmp/evoquex-v9-repro-v425yyj3/evoquex-hyperframes-v9",
+  "final_archive_report_updates_only": true
+}

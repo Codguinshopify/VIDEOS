@@ -1,0 +1,9 @@
+{
+  "file": "evoquex-hyperframes-v9-projeto.zip",
+  "sha256": "3cfab49d5bccdd653dc7b9ee49ecf85c0f598f0c7e949d89dc472aadb8aa88bb",
+  "bytes": 24477061,
+  "crc_passed": true,
+  "files": 92,
+  "self_contained_assets": true,
+  "node_modules_and_secrets_excluded": true
+}
