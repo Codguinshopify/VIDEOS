@@ -1,0 +1,21 @@
+{
+  "duration": 33,
+  "total_tweens": 116,
+  "mapped_tweens": 72,
+  "sample_viewport": [
+    1080,
+    1920
+  ],
+  "flags": {
+    "paced-slow": 5,
+    "collision": 34
+  },
+  "dead_zones": [],
+  "reviewed_groups": {
+    "collision": "Full-scene rectangles overlap intentionally; complementary clip masks ensure their pixels do not. Other bounds are SVG outline around photo, camera behind real footage, shared masked word rail, and CTA arrow inside pill. Confirmed against final MP4 cut/state samples.",
+    "paced-slow": "Four ambient radial-light motions of16s and one deliberate3.5s camera-plane drift, not slow scene transitions.",
+    "offscreen": "No flagged offscreen tween after providing the correct portrait viewport."
+  },
+  "automatic_motion_check_enabled": false,
+  "mp4_reinspection_after_transition_fixes": true
+}

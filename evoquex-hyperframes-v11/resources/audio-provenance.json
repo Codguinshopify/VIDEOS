@@ -1,0 +1,112 @@
+{
+  "duration": 33,
+  "new_narration_present": false,
+  "rejected_voice_used": false,
+  "original_clip_audio_gain": 0,
+  "reference_audio_reused": false,
+  "music": "Existing Evoquex V7 instrumental stem; GeneralUser GS licensed instruments",
+  "effects": "Reused isolated hit/tick/sweep samples from existing V7 effects stem",
+  "events": [
+    {
+      "time": 0,
+      "type": "hit",
+      "gain": 0.5
+    },
+    {
+      "time": 1.2,
+      "type": "sweep",
+      "gain": 0.4
+    },
+    {
+      "time": 2.45,
+      "type": "sweep",
+      "gain": 0.45
+    },
+    {
+      "time": 4.3,
+      "type": "sweep",
+      "gain": 0.6
+    },
+    {
+      "time": 5.15,
+      "type": "tick",
+      "gain": 0.4
+    },
+    {
+      "time": 9.4,
+      "type": "sweep",
+      "gain": 0.6
+    },
+    {
+      "time": 10.6,
+      "type": "sweep",
+      "gain": 0.4
+    },
+    {
+      "time": 11.8,
+      "type": "tick",
+      "gain": 0.4
+    },
+    {
+      "time": 14.45,
+      "type": "sweep",
+      "gain": 0.6
+    },
+    {
+      "time": 15.5,
+      "type": "hit",
+      "gain": 0.55
+    },
+    {
+      "time": 17.65,
+      "type": "sweep",
+      "gain": 0.5
+    },
+    {
+      "time": 18.4,
+      "type": "hit",
+      "gain": 0.55
+    },
+    {
+      "time": 21,
+      "type": "sweep",
+      "gain": 0.55
+    },
+    {
+      "time": 21.85,
+      "type": "tick",
+      "gain": 0.4
+    },
+    {
+      "time": 24.1,
+      "type": "sweep",
+      "gain": 0.4
+    },
+    {
+      "time": 25.65,
+      "type": "hit",
+      "gain": 0.4
+    },
+    {
+      "time": 27,
+      "type": "sweep",
+      "gain": 0.5
+    },
+    {
+      "time": 28.75,
+      "type": "hit",
+      "gain": 0.5
+    },
+    {
+      "time": 29.2,
+      "type": "tick",
+      "gain": 0.35
+    }
+  ],
+  "sources_sha256": {
+    "resources/audio/music-source.wav": "0d63fd67f4a100e30b9d0a7a488ae35417ad96fc78b57a092e78eac3b9754f6c",
+    "resources/audio/effects-source.wav": "ae73af41be8f7e24365700778f7f8e59eaa4c8773cbebe70f04f92f7a299bd20"
+  },
+  "output_sha256": "96bf140797888272363ae7e437fd44b69c321609baf6dfc8d00d7a634c315a35",
+  "subjective_listening_performed": false
+}

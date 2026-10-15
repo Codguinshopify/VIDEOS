@@ -1,0 +1,1148 @@
+{
+  "partial_inspection_only": true,
+  "full_extraction": false,
+  "outer_entries": [
+    {
+      "name": "6000+Motion Graphics Pack V5.1-002.rar",
+      "uncompressed_bytes": 3400442578,
+      "filetype": 32768
+    }
+  ],
+  "inner_sample_entries": [
+    {
+      "name": "6000+Motion Graphics Pack V5.1/Atom After Effects/Elements/Backgrounds/Flat/Circles.aep",
+      "uncompressed_bytes": 8446847,
+      "filetype": 32768
+    },
+    {
+      "name": "6000+Motion Graphics Pack V5.1/Atom After Effects/Elements/Backgrounds/Flat/Easter.aep",
+      "uncompressed_bytes": 7521389,
+      "filetype": 32768
+    },
+    {
+      "name": "6000+Motion Graphics Pack V5.1/Atom After Effects/Elements/Backgrounds/Flat/Lines.aep",
+      "uncompressed_bytes": 5486329,
+      "filetype": 32768
+    },
+    {
+      "name": "6000+Motion Graphics Pack V5.1/Atom After Effects/Elements/Backgrounds/Flat/Noise.aep",
+      "uncompressed_bytes": 6292240,
+      "filetype": 32768
+    },
+    {
+      "name": "6000+Motion Graphics Pack V5.1/Atom After Effects/Elements/Backgrounds/Flat/Patterns.aep",
+      "uncompressed_bytes": 6470574,
+      "filetype": 32768
+    },
+    {
+      "name": "6000+Motion Graphics Pack V5.1/Atom After Effects/Elements/Backgrounds/Flat/Shapes.aep",
+      "uncompressed_bytes": 7133734,
+      "filetype": 32768
+    },
+    {
+      "name": "6000+Motion Graphics Pack V5.1/Atom After Effects/Elements/Backgrounds/Gradients/Aurora.aep",
+      "uncompressed_bytes": 6265878,
+      "filetype": 32768
+    },
+    {
+      "name": "6000+Motion Graphics Pack V5.1/Atom After Effects/Elements/Backgrounds/Gradients/Chromatic.aep",
+      "uncompressed_bytes": 13005932,
+      "filetype": 32768
+    },
+    {
+      "name": "6000+Motion Graphics Pack V5.1/Atom After Effects/Elements/Backgrounds/Gradients/Lines.aep",
+      "uncompressed_bytes": 5149756,
+      "filetype": 32768
+    },
+    {
+      "name": "6000+Motion Graphics Pack V5.1/Atom After Effects/Elements/Backgrounds/Gradients/Twirl.aep",
+      "uncompressed_bytes": 6151458,
+      "filetype": 32768
+    },
+    {
+      "name": "6000+Motion Graphics Pack V5.1/Atom After Effects/Elements/Backgrounds/Gradients/Two Colors.aep",
+      "uncompressed_bytes": 7027459,
+      "filetype": 32768
+    },
+    {
+      "name": "6000+Motion Graphics Pack V5.1/Atom After Effects/Elements/Backgrounds/Ramps.aep",
+      "uncompressed_bytes": 5904180,
+      "filetype": 32768
+    },
+    {
+      "name": "6000+Motion Graphics Pack V5.1/Atom After Effects/Elements/Icons/Easter.aep",
+      "uncompressed_bytes": 9000243,
+      "filetype": 32768
+    },
+    {
+      "name": "6000+Motion Graphics Pack V5.1/Atom After Effects/Elements/Icons/Icons I.aep",
+      "uncompressed_bytes": 14489751,
+      "filetype": 32768
+    },
+    {
+      "name": "6000+Motion Graphics Pack V5.1/Atom After Effects/Elements/Icons/Icons II.aep",
+      "uncompressed_bytes": 13145212,
+      "filetype": 32768
+    },
+    {
+      "name": "6000+Motion Graphics Pack V5.1/Atom After Effects/Elements/Shapes/Abstract.aep",
+      "uncompressed_bytes": 7486402,
+      "filetype": 32768
+    },
+    {
+      "name": "6000+Motion Graphics Pack V5.1/Atom After Effects/Elements/Shapes/Arrows.aep",
+      "uncompressed_bytes": 9761261,
+      "filetype": 32768
+    },
+    {
+      "name": "6000+Motion Graphics Pack V5.1/Atom After Effects/Elements/Shapes/Basic/Basic I.aep",
+      "uncompressed_bytes": 11206838,
+      "filetype": 32768
+    },
+    {
+      "name": "6000+Motion Graphics Pack V5.1/Atom After Effects/Elements/Shapes/Basic/Basic II.aep",
+      "uncompressed_bytes": 11182421,
+      "filetype": 32768
+    },
+    {
+      "name": "6000+Motion Graphics Pack V5.1/Atom After Effects/Elements/Shapes/Flicker.aep",
+      "uncompressed_bytes": 10365528,
+      "filetype": 32768
+    },
+    {
+      "name": "6000+Motion Graphics Pack V5.1/Atom After Effects/Elements/Shapes/Handdrawn.aep",
+      "uncompressed_bytes": 8159474,
+      "filetype": 32768
+    },
+    {
+      "name": "6000+Motion Graphics Pack V5.1/Atom After Effects/Elements/Shapes/Memphis.aep",
+      "uncompressed_bytes": 7645583,
+      "filetype": 32768
+    },
+    {
+      "name": "6000+Motion Graphics Pack V5.1/Atom After Effects/Elements/Social Media/Buttons.aep",
+      "uncompressed_bytes": 6644534,
+      "filetype": 32768
+    },
+    {
+      "name": "6000+Motion Graphics Pack V5.1/Atom After Effects/Elements/Social Media/Icons/Clean.aep",
+      "uncompressed_bytes": 8353287,
+      "filetype": 32768
+    },
+    {
+      "name": "6000+Motion Graphics Pack V5.1/Atom After Effects/Elements/Social Media/Icons/Flicker.aep",
+      "uncompressed_bytes": 7752260,
+      "filetype": 32768
+    },
+    {
+      "name": "6000+Motion Graphics Pack V5.1/Atom After Effects/Elements/Social Media/Icons/Glow.aep",
+      "uncompressed_bytes": 8849623,
+      "filetype": 32768
+    },
+    {
+      "name": "6000+Motion Graphics Pack V5.1/Atom After Effects/Elements/Social Media/Mockups.aep",
+      "uncompressed_bytes": 12644357,
+      "filetype": 32768
+    },
+    {
+      "name": "6000+Motion Graphics Pack V5.1/Atom After Effects/Elements/Social Media/Swipes.aep",
+      "uncompressed_bytes": 4734692,
+      "filetype": 32768
+    },
+    {
+      "name": "6000+Motion Graphics Pack V5.1/Atom After Effects/Elements/Social Media/Titles.aep",
+      "uncompressed_bytes": 13633541,
+      "filetype": 32768
+    },
+    {
+      "name": "6000+Motion Graphics Pack V5.1/Atom After Effects/Elements/Widgets/Widgets I.aep",
+      "uncompressed_bytes": 12431055,
+      "filetype": 32768
+    },
+    {
+      "name": "6000+Motion Graphics Pack V5.1/Atom After Effects/Elements/Widgets/Widgets II.aep",
+      "uncompressed_bytes": 11514296,
+      "filetype": 32768
+    },
+    {
+      "name": "6000+Motion Graphics Pack V5.1/Atom After Effects/Overlays/Color Correction/Basic.aep",
+      "uncompressed_bytes": 9032039,
+      "filetype": 32768
+    },
+    {
+      "name": "6000+Motion Graphics Pack V5.1/Atom After Effects/Overlays/Color Correction/Duotone.aep",
+      "uncompressed_bytes": 6801247,
+      "filetype": 32768
+    },
+    {
+      "name": "6000+Motion Graphics Pack V5.1/Atom After Effects/Overlays/Color Correction/Gradient.aep",
+      "uncompressed_bytes": 3619836,
+      "filetype": 32768
+    },
+    {
+      "name": "6000+Motion Graphics Pack V5.1/Atom After Effects/Overlays/Color Correction/HDR.aep",
+      "uncompressed_bytes": 4324159,
+      "filetype": 32768
+    },
+    {
+      "name": "6000+Motion Graphics Pack V5.1/Atom After Effects/Overlays/Color Correction/Soft Glow.aep",
+      "uncompressed_bytes": 3212434,
+      "filetype": 32768
+    },
+    {
+      "name": "6000+Motion Graphics Pack V5.1/Atom After Effects/Overlays/Glitch/Bad Signal.aep",
+      "uncompressed_bytes": 13943143,
+      "filetype": 32768
+    },
+    {
+      "name": "6000+Motion Graphics Pack V5.1/Atom After Effects/Overlays/Glitch/Color.aep",
+      "uncompressed_bytes": 13392424,
+      "filetype": 32768
+    },
+    {
+      "name": "6000+Motion Graphics Pack V5.1/Atom After Effects/Overlays/Glitch/Digital.aep",
+      "uncompressed_bytes": 14638630,
+      "filetype": 32768
+    },
+    {
+      "name": "6000+Motion Graphics Pack V5.1/Atom After Effects/Overlays/Glitch/Lens.aep",
+      "uncompressed_bytes": 13703258,
+      "filetype": 32768
+    },
+    {
+      "name": "6000+Motion Graphics Pack V5.1/Atom After Effects/Overlays/Glitch/Pixel Sorting.aep",
+      "uncompressed_bytes": 13191449,
+      "filetype": 32768
+    },
+    {
+      "name": "6000+Motion Graphics Pack V5.1/Atom After Effects/Overlays/Glitch/Pixelation.aep",
+      "uncompressed_bytes": 14539828,
+      "filetype": 32768
+    },
+    {
+      "name": "6000+Motion Graphics Pack V5.1/Atom After Effects/Overlays/Glitch/Shake.aep",
+      "uncompressed_bytes": 12711943,
+      "filetype": 32768
+    },
+    {
+      "name": "6000+Motion Graphics Pack V5.1/Atom After Effects/Overlays/Glitch/Stretch.aep",
+      "uncompressed_bytes": 12767067,
+      "filetype": 32768
+    },
+    {
+      "name": "6000+Motion Graphics Pack V5.1/Atom After Effects/Overlays/Glitch/VHS.aep",
+      "uncompressed_bytes": 11049682,
+      "filetype": 32768
+    },
+    {
+      "name": "6000+Motion Graphics Pack V5.1/Atom After Effects/Overlays/Light FX/Light FX I.aep",
+      "uncompressed_bytes": 15081223,
+      "filetype": 32768
+    },
+    {
+      "name": "6000+Motion Graphics Pack V5.1/Atom After Effects/Overlays/Light FX/Light FX II.aep",
+      "uncompressed_bytes": 11936995,
+      "filetype": 32768
+    },
+    {
+      "name": "6000+Motion Graphics Pack V5.1/Atom After Effects/Overlays/Particles.aep",
+      "uncompressed_bytes": 11926068,
+      "filetype": 32768
+    },
+    {
+      "name": "6000+Motion Graphics Pack V5.1/Atom After Effects/Scenes/Instagram/Stories/Easter.aep",
+      "uncompressed_bytes": 12931676,
+      "filetype": 32768
+    },
+    {
+      "name": "6000+Motion Graphics Pack V5.1/Atom After Effects/Scenes/Instagram/Stories/Stories I.aep",
+      "uncompressed_bytes": 16618731,
+      "filetype": 32768
+    },
+    {
+      "name": "6000+Motion Graphics Pack V5.1/Atom After Effects/Scenes/Instagram/Stories/Stories II.aep",
+      "uncompressed_bytes": 17504888,
+      "filetype": 32768
+    },
+    {
+      "name": "6000+Motion Graphics Pack V5.1/Atom After Effects/Scenes/Instagram/Stories/Stories III.aep",
+      "uncompressed_bytes": 18672576,
+      "filetype": 32768
+    },
+    {
+      "name": "6000+Motion Graphics Pack V5.1/Atom After Effects/Scenes/Instagram/Stories/Stories IV.aep",
+      "uncompressed_bytes": 11783280,
+      "filetype": 32768
+    },
+    {
+      "name": "6000+Motion Graphics Pack V5.1/Atom After Effects/Scenes/Logo Reveals/Glitch.aep",
+      "uncompressed_bytes": 11492763,
+      "filetype": 32768
+    },
+    {
+      "name": "6000+Motion Graphics Pack V5.1/Atom After Effects/Scenes/Logo Reveals/Minimal.aep",
+      "uncompressed_bytes": 11028277,
+      "filetype": 32768
+    },
+    {
+      "name": "6000+Motion Graphics Pack V5.1/Atom After Effects/Scenes/Openers/Glitch.aep",
+      "uncompressed_bytes": 15109515,
+      "filetype": 32768
+    },
+    {
+      "name": "6000+Motion Graphics Pack V5.1/Atom After Effects/Scenes/Openers/Minimal/Minimal I.aep",
+      "uncompressed_bytes": 14831771,
+      "filetype": 32768
+    },
+    {
+      "name": "6000+Motion Graphics Pack V5.1/Atom After Effects/Scenes/Openers/Minimal/Minimal II.aep",
+      "uncompressed_bytes": 13579923,
+      "filetype": 32768
+    },
+    {
+      "name": "6000+Motion Graphics Pack V5.1/Atom After Effects/Scenes/Openers/Minimal/Minimal III.aep",
+      "uncompressed_bytes": 13424801,
+      "filetype": 32768
+    },
+    {
+      "name": "6000+Motion Graphics Pack V5.1/Atom After Effects/Scenes/Openers/Minimal/Minimal IV.aep",
+      "uncompressed_bytes": 15281092,
+      "filetype": 32768
+    },
+    {
+      "name": "6000+Motion Graphics Pack V5.1/Atom After Effects/Transitions/Camera/Corner Spin/Bounce.aep",
+      "uncompressed_bytes": 2243620,
+      "filetype": 32768
+    },
+    {
+      "name": "6000+Motion Graphics Pack V5.1/Atom After Effects/Transitions/Camera/Corner Spin/Chromatic.aep",
+      "uncompressed_bytes": 2389422,
+      "filetype": 32768
+    },
+    {
+      "name": "6000+Motion Graphics Pack V5.1/Atom After Effects/Transitions/Camera/Corner Spin/Hit.aep",
+      "uncompressed_bytes": 2375828,
+      "filetype": 32768
+    },
+    {
+      "name": "6000+Motion Graphics Pack V5.1/Atom After Effects/Transitions/Camera/Corner Spin/Instant.aep",
+      "uncompressed_bytes": 2245880,
+      "filetype": 32768
+    },
+    {
+      "name": "6000+Motion Graphics Pack V5.1/Atom After Effects/Transitions/Camera/Corner Spin/Shake.aep",
+      "uncompressed_bytes": 2374250,
+      "filetype": 32768
+    },
+    {
+      "name": "6000+Motion Graphics Pack V5.1/Atom After Effects/Transitions/Camera/Corner Spin/Simple.aep",
+      "uncompressed_bytes": 2242050,
+      "filetype": 32768
+    },
+    {
+      "name": "6000+Motion Graphics Pack V5.1/Atom After Effects/Transitions/Camera/Corner Spin/Swinging.aep",
+      "uncompressed_bytes": 2319044,
+      "filetype": 32768
+    },
+    {
+      "name": "6000+Motion Graphics Pack V5.1/Atom After Effects/Transitions/Camera/Corner Spin Perspective/Distorted.aep",
+      "uncompressed_bytes": 8266600,
+      "filetype": 32768
+    },
+    {
+      "name": "6000+Motion Graphics Pack V5.1/Atom After Effects/Transitions/Camera/Corner Spin Perspective/Hit.aep",
+      "uncompressed_bytes": 4178374,
+      "filetype": 32768
+    },
+    {
+      "name": "6000+Motion Graphics Pack V5.1/Atom After Effects/Transitions/Camera/Corner Spin Perspective/Simple.aep",
+      "uncompressed_bytes": 7785274,
+      "filetype": 32768
+    },
+    {
+      "name": "6000+Motion Graphics Pack V5.1/Atom After Effects/Transitions/Camera/Shake/Lens.aep",
+      "uncompressed_bytes": 3885548,
+      "filetype": 32768
+    },
+    {
+      "name": "6000+Motion Graphics Pack V5.1/Atom After Effects/Transitions/Camera/Shake/Simple.aep",
+      "uncompressed_bytes": 3024150,
+      "filetype": 32768
+    },
+    {
+      "name": "6000+Motion Graphics Pack V5.1/Atom After Effects/Transitions/Camera/Slide/Blur.aep",
+      "uncompressed_bytes": 3523398,
+      "filetype": 32768
+    },
+    {
+      "name": "6000+Motion Graphics Pack V5.1/Atom After Effects/Transitions/Camera/Slide/Bounce.aep",
+      "uncompressed_bytes": 2226266,
+      "filetype": 32768
+    },
+    {
+      "name": "6000+Motion Graphics Pack V5.1/Atom After Effects/Transitions/Camera/Slide/Chromatic.aep",
+      "uncompressed_bytes": 3721278,
+      "filetype": 32768
+    },
+    {
+      "name": "6000+Motion Graphics Pack V5.1/Atom After Effects/Transitions/Camera/Slide/Fisheye.aep",
+      "uncompressed_bytes": 2363414,
+      "filetype": 32768
+    },
+    {
+      "name": "6000+Motion Graphics Pack V5.1/Atom After Effects/Transitions/Camera/Slide/Flight.aep",
+      "uncompressed_bytes": 2223806,
+      "filetype": 32768
+    },
+    {
+      "name": "6000+Motion Graphics Pack V5.1/Atom After Effects/Transitions/Camera/Slide/Handheld.aep",
+      "uncompressed_bytes": 4722436,
+      "filetype": 32768
+    },
+    {
+      "name": "6000+Motion Graphics Pack V5.1/Atom After Effects/Transitions/Camera/Slide/Instant.aep",
+      "uncompressed_bytes": 2249386,
+      "filetype": 32768
+    },
+    {
+      "name": "6000+Motion Graphics Pack V5.1/Atom After Effects/Transitions/Camera/Slide/Offset.aep",
+      "uncompressed_bytes": 3319916,
+      "filetype": 32768
+    },
+    {
+      "name": "6000+Motion Graphics Pack V5.1/Atom After Effects/Transitions/Camera/Slide/Perspective.aep",
+      "uncompressed_bytes": 2236630,
+      "filetype": 32768
+    },
+    {
+      "name": "6000+Motion Graphics Pack V5.1/Atom After Effects/Transitions/Camera/Slide/Pixelation.aep",
+      "uncompressed_bytes": 2361330,
+      "filetype": 32768
+    },
+    {
+      "name": "6000+Motion Graphics Pack V5.1/Atom After Effects/Transitions/Camera/Slide/Simple.aep",
+      "uncompressed_bytes": 3336514,
+      "filetype": 32768
+    },
+    {
+      "name": "6000+Motion Graphics Pack V5.1/Atom After Effects/Transitions/Camera/Slide/Swinging.aep",
+      "uncompressed_bytes": 5571606,
+      "filetype": 32768
+    },
+    {
+      "name": "6000+Motion Graphics Pack V5.1/Atom After Effects/Transitions/Camera/Spin/Bounce.aep",
+      "uncompressed_bytes": 2234740,
+      "filetype": 32768
+    },
+    {
+      "name": "6000+Motion Graphics Pack V5.1/Atom After Effects/Transitions/Camera/Spin/Chromatic.aep",
+      "uncompressed_bytes": 2374838,
+      "filetype": 32768
+    },
+    {
+      "name": "6000+Motion Graphics Pack V5.1/Atom After Effects/Transitions/Camera/Spin/Fisheye.aep",
+      "uncompressed_bytes": 3621700,
+      "filetype": 32768
+    },
+    {
+      "name": "6000+Motion Graphics Pack V5.1/Atom After Effects/Transitions/Camera/Spin/Hit.aep",
+      "uncompressed_bytes": 2352160,
+      "filetype": 32768
+    },
+    {
+      "name": "6000+Motion Graphics Pack V5.1/Atom After Effects/Transitions/Camera/Spin/Instant.aep",
+      "uncompressed_bytes": 2235812,
+      "filetype": 32768
+    },
+    {
+      "name": "6000+Motion Graphics Pack V5.1/Atom After Effects/Transitions/Camera/Spin/Shake.aep",
+      "uncompressed_bytes": 2361592,
+      "filetype": 32768
+    },
+    {
+      "name": "6000+Motion Graphics Pack V5.1/Atom After Effects/Transitions/Camera/Spin/Simple.aep",
+      "uncompressed_bytes": 2498016,
+      "filetype": 32768
+    },
+    {
+      "name": "6000+Motion Graphics Pack V5.1/Atom After Effects/Transitions/Camera/Spin/Swinging.aep",
+      "uncompressed_bytes": 2308696,
+      "filetype": 32768
+    },
+    {
+      "name": "6000+Motion Graphics Pack V5.1/Atom After Effects/Transitions/Camera/Spin Perspective/Hit.aep",
+      "uncompressed_bytes": 4180790,
+      "filetype": 32768
+    },
+    {
+      "name": "6000+Motion Graphics Pack V5.1/Atom After Effects/Transitions/Camera/Spin Perspective/Simple.aep",
+      "uncompressed_bytes": 4451060,
+      "filetype": 32768
+    },
+    {
+      "name": "6000+Motion Graphics Pack V5.1/Atom After Effects/Transitions/Camera/Spin Perspective/Swinging Edge.aep",
+      "uncompressed_bytes": 1817066,
+      "filetype": 32768
+    },
+    {
+      "name": "6000+Motion Graphics Pack V5.1/Atom After Effects/Transitions/Camera/Zoom/Distortion.aep",
+      "uncompressed_bytes": 3319808,
+      "filetype": 32768
+    },
+    {
+      "name": "6000+Motion Graphics Pack V5.1/Atom After Effects/Transitions/Camera/Zoom/Hit.aep",
+      "uncompressed_bytes": 2065318,
+      "filetype": 32768
+    },
+    {
+      "name": "6000+Motion Graphics Pack V5.1/Atom After Effects/Transitions/Camera/Zoom/Hyper.aep",
+      "uncompressed_bytes": 2982818,
+      "filetype": 32768
+    },
+    {
+      "name": "6000+Motion Graphics Pack V5.1/Atom After Effects/Transitions/Camera/Zoom/Instant.aep",
+      "uncompressed_bytes": 2779266,
+      "filetype": 32768
+    },
+    {
+      "name": "6000+Motion Graphics Pack V5.1/Atom After Effects/Transitions/Camera/Zoom/Pixelation.aep",
+      "uncompressed_bytes": 2952506,
+      "filetype": 32768
+    },
+    {
+      "name": "6000+Motion Graphics Pack V5.1/Atom After Effects/Transitions/Camera/Zoom/Shake.aep",
+      "uncompressed_bytes": 5865390,
+      "filetype": 32768
+    },
+    {
+      "name": "6000+Motion Graphics Pack V5.1/Atom After Effects/Transitions/Camera/Zoom/Simple.aep",
+      "uncompressed_bytes": 2777234,
+      "filetype": 32768
+    },
+    {
+      "name": "6000+Motion Graphics Pack V5.1/Atom After Effects/Transitions/Fade/Blur.aep",
+      "uncompressed_bytes": 2320344,
+      "filetype": 32768
+    },
+    {
+      "name": "6000+Motion Graphics Pack V5.1/Atom After Effects/Transitions/Fade/Chromatic.aep",
+      "uncompressed_bytes": 2352356,
+      "filetype": 32768
+    },
+    {
+      "name": "6000+Motion Graphics Pack V5.1/Atom After Effects/Transitions/Fade/Directional.aep",
+      "uncompressed_bytes": 2626978,
+      "filetype": 32768
+    },
+    {
+      "name": "6000+Motion Graphics Pack V5.1/Atom After Effects/Transitions/Fade/Flicker/Basic.aep",
+      "uncompressed_bytes": 2800065,
+      "filetype": 32768
+    },
+    {
+      "name": "6000+Motion Graphics Pack V5.1/Atom After Effects/Transitions/Fade/Flicker/To Ease.aep",
+      "uncompressed_bytes": 2796895,
+      "filetype": 32768
+    },
+    {
+      "name": "6000+Motion Graphics Pack V5.1/Atom After Effects/Transitions/Fade/Mattes/Directional.aep",
+      "uncompressed_bytes": 2380794,
+      "filetype": 32768
+    },
+    {
+      "name": "6000+Motion Graphics Pack V5.1/Atom After Effects/Transitions/Fade/Mattes/Radial.aep",
+      "uncompressed_bytes": 2121330,
+      "filetype": 32768
+    },
+    {
+      "name": "6000+Motion Graphics Pack V5.1/Atom After Effects/Transitions/Fade/Mattes/Simple.aep",
+      "uncompressed_bytes": 2200261,
+      "filetype": 32768
+    },
+    {
+      "name": "6000+Motion Graphics Pack V5.1/Atom After Effects/Transitions/Fade/Radial.aep",
+      "uncompressed_bytes": 2400870,
+      "filetype": 32768
+    },
+    {
+      "name": "6000+Motion Graphics Pack V5.1/Atom After Effects/Transitions/Fade/Simple.aep",
+      "uncompressed_bytes": 3231568,
+      "filetype": 32768
+    },
+    {
+      "name": "6000+Motion Graphics Pack V5.1/Atom After Effects/Transitions/Glitch/Bad Signal.aep",
+      "uncompressed_bytes": 14935272,
+      "filetype": 32768
+    },
+    {
+      "name": "6000+Motion Graphics Pack V5.1/Atom After Effects/Transitions/Glitch/Color.aep",
+      "uncompressed_bytes": 14744659,
+      "filetype": 32768
+    },
+    {
+      "name": "6000+Motion Graphics Pack V5.1/Atom After Effects/Transitions/Glitch/Overlay.aep",
+      "uncompressed_bytes": 14456525,
+      "filetype": 32768
+    },
+    {
+      "name": "6000+Motion Graphics Pack V5.1/Atom After Effects/Transitions/Glitch/Pixel Sorting.aep",
+      "uncompressed_bytes": 14365890,
+      "filetype": 32768
+    },
+    {
+      "name": "6000+Motion Graphics Pack V5.1/Atom After Effects/Transitions/Glitch/Pixelation.aep",
+      "uncompressed_bytes": 14240328,
+      "filetype": 32768
+    },
+    {
+      "name": "6000+Motion Graphics Pack V5.1/Atom After Effects/Transitions/Glitch/Quick Cuts.aep",
+      "uncompressed_bytes": 18027753,
+      "filetype": 32768
+    },
+    {
+      "name": "6000+Motion Graphics Pack V5.1/Atom After Effects/Transitions/Glitch/Shake.aep",
+      "uncompressed_bytes": 15043285,
+      "filetype": 32768
+    },
+    {
+      "name": "6000+Motion Graphics Pack V5.1/Atom After Effects/Transitions/Glitch/Stretch.aep",
+      "uncompressed_bytes": 14950489,
+      "filetype": 32768
+    },
+    {
+      "name": "6000+Motion Graphics Pack V5.1/Atom After Effects/Transitions/Grunge/Brush/Long.aep",
+      "uncompressed_bytes": 8150450,
+      "filetype": 32768
+    },
+    {
+      "name": "6000+Motion Graphics Pack V5.1/Atom After Effects/Transitions/Grunge/Brush/Short.aep",
+      "uncompressed_bytes": 6131560,
+      "filetype": 32768
+    },
+    {
+      "name": "6000+Motion Graphics Pack V5.1/Atom After Effects/Transitions/Grunge/Color Madness.aep",
+      "uncompressed_bytes": 3981806,
+      "filetype": 32768
+    },
+    {
+      "name": "6000+Motion Graphics Pack V5.1/Atom After Effects/Transitions/Grunge/Decay.aep",
+      "uncompressed_bytes": 3790491,
+      "filetype": 32768
+    },
+    {
+      "name": "6000+Motion Graphics Pack V5.1/Atom After Effects/Transitions/Grunge/Ink.aep",
+      "uncompressed_bytes": 5716022,
+      "filetype": 32768
+    },
+    {
+      "name": "6000+Motion Graphics Pack V5.1/Atom After Effects/Transitions/Grunge/Mattes/Brush.aep",
+      "uncompressed_bytes": 5771642,
+      "filetype": 32768
+    },
+    {
+      "name": "6000+Motion Graphics Pack V5.1/Atom After Effects/Transitions/Grunge/Mattes/Ink.aep",
+      "uncompressed_bytes": 4490650,
+      "filetype": 32768
+    },
+    {
+      "name": "6000+Motion Graphics Pack V5.1/Atom After Effects/Transitions/Grunge/Mixed.aep",
+      "uncompressed_bytes": 7654700,
+      "filetype": 32768
+    },
+    {
+      "name": "6000+Motion Graphics Pack V5.1/Atom After Effects/Transitions/Grunge/Urban.aep",
+      "uncompressed_bytes": 9649959,
+      "filetype": 32768
+    },
+    {
+      "name": "6000+Motion Graphics Pack V5.1/Atom After Effects/Transitions/Light/Fast/Blur.aep",
+      "uncompressed_bytes": 4026596,
+      "filetype": 32768
+    },
+    {
+      "name": "6000+Motion Graphics Pack V5.1/Atom After Effects/Transitions/Light/Fast/Simple.aep",
+      "uncompressed_bytes": 3341604,
+      "filetype": 32768
+    },
+    {
+      "name": "6000+Motion Graphics Pack V5.1/Atom After Effects/Transitions/Light/Flash/Blur.aep",
+      "uncompressed_bytes": 4015870,
+      "filetype": 32768
+    },
+    {
+      "name": "6000+Motion Graphics Pack V5.1/Atom After Effects/Transitions/Light/Flash/Simple.aep",
+      "uncompressed_bytes": 3345618,
+      "filetype": 32768
+    },
+    {
+      "name": "6000+Motion Graphics Pack V5.1/Atom After Effects/Transitions/Light/Flicker/Simple.aep",
+      "uncompressed_bytes": 4931048,
+      "filetype": 32768
+    },
+    {
+      "name": "6000+Motion Graphics Pack V5.1/Atom After Effects/Transitions/Light/Flicker/To Ease.aep",
+      "uncompressed_bytes": 4922772,
+      "filetype": 32768
+    },
+    {
+      "name": "6000+Motion Graphics Pack V5.1/Atom After Effects/Transitions/Light/Slow/Blur.aep",
+      "uncompressed_bytes": 4000434,
+      "filetype": 32768
+    },
+    {
+      "name": "6000+Motion Graphics Pack V5.1/Atom After Effects/Transitions/Light/Slow/Distortion.aep",
+      "uncompressed_bytes": 4909316,
+      "filetype": 32768
+    },
+    {
+      "name": "6000+Motion Graphics Pack V5.1/Atom After Effects/Transitions/Light/Slow/Simple.aep",
+      "uncompressed_bytes": 3340861,
+      "filetype": 32768
+    },
+    {
+      "name": "6000+Motion Graphics Pack V5.1/Atom After Effects/Transitions/Minimal/Arrows.aep",
+      "uncompressed_bytes": 3727732,
+      "filetype": 32768
+    },
+    {
+      "name": "6000+Motion Graphics Pack V5.1/Atom After Effects/Transitions/Minimal/Mattes.aep",
+      "uncompressed_bytes": 14515302,
+      "filetype": 32768
+    },
+    {
+      "name": "6000+Motion Graphics Pack V5.1/Atom After Effects/Transitions/Minimal/Shapes.aep",
+      "uncompressed_bytes": 4033842,
+      "filetype": 32768
+    },
+    {
+      "name": "6000+Motion Graphics Pack V5.1/Atom After Effects/Transitions/Minimal/Slide.aep",
+      "uncompressed_bytes": 4310712,
+      "filetype": 32768
+    },
+    {
+      "name": "6000+Motion Graphics Pack V5.1/Atom After Effects/Transitions/Minimal/Strips.aep",
+      "uncompressed_bytes": 5739052,
+      "filetype": 32768
+    },
+    {
+      "name": "6000+Motion Graphics Pack V5.1/Atom After Effects/Transitions/Minimal/Wipe.aep",
+      "uncompressed_bytes": 5012596,
+      "filetype": 32768
+    },
+    {
+      "name": "6000+Motion Graphics Pack V5.1/Atom After Effects/Transitions/Multi/Flipping.aep",
+      "uncompressed_bytes": 6836758,
+      "filetype": 32768
+    },
+    {
+      "name": "6000+Motion Graphics Pack V5.1/Atom After Effects/Transitions/Multi/Sliding.aep",
+      "uncompressed_bytes": 8196710,
+      "filetype": 32768
+    },
+    {
+      "name": "6000+Motion Graphics Pack V5.1/Atom After Effects/Transitions/Multi/Swinging.aep",
+      "uncompressed_bytes": 6990678,
+      "filetype": 32768
+    },
+    {
+      "name": "6000+Motion Graphics Pack V5.1/Atom After Effects/Transitions/Particles/Flash.aep",
+      "uncompressed_bytes": 7174162,
+      "filetype": 32768
+    },
+    {
+      "name": "6000+Motion Graphics Pack V5.1/Atom After Effects/Transitions/Particles/Twirl.aep",
+      "uncompressed_bytes": 7698912,
+      "filetype": 32768
+    },
+    {
+      "name": "6000+Motion Graphics Pack V5.1/Atom After Effects/Transitions/Particles/Zoom.aep",
+      "uncompressed_bytes": 8056000,
+      "filetype": 32768
+    },
+    {
+      "name": "6000+Motion Graphics Pack V5.1/Atom After Effects/Transitions/Split/Shapes/Arrows.aep",
+      "uncompressed_bytes": 7876932,
+      "filetype": 32768
+    },
+    {
+      "name": "6000+Motion Graphics Pack V5.1/Atom After Effects/Transitions/Split/Shapes/Circles.aep",
+      "uncompressed_bytes": 4472256,
+      "filetype": 32768
+    },
+    {
+      "name": "6000+Motion Graphics Pack V5.1/Atom After Effects/Transitions/Split/Simple/Diagonal.aep",
+      "uncompressed_bytes": 2479078,
+      "filetype": 32768
+    },
+    {
+      "name": "6000+Motion Graphics Pack V5.1/Atom After Effects/Transitions/Split/Simple/Grid.aep",
+      "uncompressed_bytes": 3696848,
+      "filetype": 32768
+    },
+    {
+      "name": "6000+Motion Graphics Pack V5.1/Atom After Effects/Transitions/Split/Simple/Horizontal.aep",
+      "uncompressed_bytes": 4320464,
+      "filetype": 32768
+    },
+    {
+      "name": "6000+Motion Graphics Pack V5.1/Atom After Effects/Transitions/Split/Simple/Vertical.aep",
+      "uncompressed_bytes": 4310784,
+      "filetype": 32768
+    },
+    {
+      "name": "6000+Motion Graphics Pack V5.1/Atom After Effects/Transitions/Typography/Slide.aep",
+      "uncompressed_bytes": 7487808,
+      "filetype": 32768
+    },
+    {
+      "name": "6000+Motion Graphics Pack V5.1/Atom After Effects/Transitions/Warp/Lens/Corner Spin.aep",
+      "uncompressed_bytes": 2391456,
+      "filetype": 32768
+    },
+    {
+      "name": "6000+Motion Graphics Pack V5.1/Atom After Effects/Transitions/Warp/Lens/Shake.aep",
+      "uncompressed_bytes": 3878362,
+      "filetype": 32768
+    },
+    {
+      "name": "6000+Motion Graphics Pack V5.1/Atom After Effects/Transitions/Warp/Lens/Simple.aep",
+      "uncompressed_bytes": 2068718,
+      "filetype": 32768
+    },
+    {
+      "name": "6000+Motion Graphics Pack V5.1/Atom After Effects/Transitions/Warp/Stretch/Shake.aep",
+      "uncompressed_bytes": 2587190,
+      "filetype": 32768
+    },
+    {
+      "name": "6000+Motion Graphics Pack V5.1/Atom After Effects/Transitions/Warp/Stretch/Simple.aep",
+      "uncompressed_bytes": 2551538,
+      "filetype": 32768
+    },
+    {
+      "name": "6000+Motion Graphics Pack V5.1/Atom After Effects/Transitions/Warp/Stretch/Slide.aep",
+      "uncompressed_bytes": 2776534,
+      "filetype": 32768
+    },
+    {
+      "name": "6000+Motion Graphics Pack V5.1/Atom After Effects/Transitions/Warp/Stretch/Twirl.aep",
+      "uncompressed_bytes": 2207784,
+      "filetype": 32768
+    },
+    {
+      "name": "6000+Motion Graphics Pack V5.1/Atom After Effects/Transitions/Warp/Twirl/Chromatic.aep",
+      "uncompressed_bytes": 3571226,
+      "filetype": 32768
+    },
+    {
+      "name": "6000+Motion Graphics Pack V5.1/Atom After Effects/Transitions/Warp/Twirl/Elastic.aep",
+      "uncompressed_bytes": 2194736,
+      "filetype": 32768
+    },
+    {
+      "name": "6000+Motion Graphics Pack V5.1/Atom After Effects/Transitions/Warp/Twirl/Shake.aep",
+      "uncompressed_bytes": 2326778,
+      "filetype": 32768
+    },
+    {
+      "name": "6000+Motion Graphics Pack V5.1/Atom After Effects/Transitions/Warp/Twirl/Simple.aep",
+      "uncompressed_bytes": 2189084,
+      "filetype": 32768
+    },
+    {
+      "name": "6000+Motion Graphics Pack V5.1/Atom After Effects/Transitions/Warp/Twirl/Spin.aep",
+      "uncompressed_bytes": 3037414,
+      "filetype": 32768
+    },
+    {
+      "name": "6000+Motion Graphics Pack V5.1/Atom After Effects/Transitions/Warp/Twirl Perspective/Chromatic.aep",
+      "uncompressed_bytes": 3653784,
+      "filetype": 32768
+    },
+    {
+      "name": "6000+Motion Graphics Pack V5.1/Atom After Effects/Transitions/Warp/Twirl Perspective/Distorted.aep",
+      "uncompressed_bytes": 6299188,
+      "filetype": 32768
+    },
+    {
+      "name": "6000+Motion Graphics Pack V5.1/Atom After Effects/Transitions/Warp/Twirl Perspective/Elastic.aep",
+      "uncompressed_bytes": 3198522,
+      "filetype": 32768
+    },
+    {
+      "name": "6000+Motion Graphics Pack V5.1/Atom After Effects/Transitions/Warp/Twirl Perspective/Simple.aep",
+      "uncompressed_bytes": 5700882,
+      "filetype": 32768
+    },
+    {
+      "name": "6000+Motion Graphics Pack V5.1/Atom After Effects/Typography/Clean/Big.aep",
+      "uncompressed_bytes": 11468612,
+      "filetype": 32768
+    },
+    {
+      "name": "6000+Motion Graphics Pack V5.1/Atom After Effects/Typography/Clean/Callouts/Callouts L.aep",
+      "uncompressed_bytes": 12182465,
+      "filetype": 32768
+    },
+    {
+      "name": "6000+Motion Graphics Pack V5.1/Atom After Effects/Typography/Clean/Callouts/Callouts R.aep",
+      "uncompressed_bytes": 12307741,
+      "filetype": 32768
+    },
+    {
+      "name": "6000+Motion Graphics Pack V5.1/Atom After Effects/Typography/Clean/Captions.aep",
+      "uncompressed_bytes": 3856396,
+      "filetype": 32768
+    },
+    {
+      "name": "6000+Motion Graphics Pack V5.1/Atom After Effects/Typography/Clean/Devices/Smartphones.aep",
+      "uncompressed_bytes": 15074663,
+      "filetype": 32768
+    },
+    {
+      "name": "6000+Motion Graphics Pack V5.1/Atom After Effects/Typography/Clean/Devices/Tablets.aep",
+      "uncompressed_bytes": 10915114,
+      "filetype": 32768
+    },
+    {
+      "name": "6000+Motion Graphics Pack V5.1/Atom After Effects/Typography/Clean/Kinetic.aep",
+      "uncompressed_bytes": 10260268,
+      "filetype": 32768
+    },
+    {
+      "name": "6000+Motion Graphics Pack V5.1/Atom After Effects/Typography/Clean/Lower Thirds/Lower Thirds I.aep",
+      "uncompressed_bytes": 8650106,
+      "filetype": 32768
+    },
+    {
+      "name": "6000+Motion Graphics Pack V5.1/Atom After Effects/Typography/Clean/Lower Thirds/Lower Thirds II.aep",
+      "uncompressed_bytes": 8591288,
+      "filetype": 32768
+    },
+    {
+      "name": "6000+Motion Graphics Pack V5.1/Atom After Effects/Typography/Clean/Minimal/Minimal I.aep",
+      "uncompressed_bytes": 12059305,
+      "filetype": 32768
+    },
+    {
+      "name": "6000+Motion Graphics Pack V5.1/Atom After Effects/Typography/Clean/Minimal/Minimal II.aep",
+      "uncompressed_bytes": 11198343,
+      "filetype": 32768
+    },
+    {
+      "name": "6000+Motion Graphics Pack V5.1/Atom After Effects/Typography/Clean/Minimal/Minimal III.aep",
+      "uncompressed_bytes": 11667325,
+      "filetype": 32768
+    },
+    {
+      "name": "6000+Motion Graphics Pack V5.1/Atom After Effects/Typography/Clean/Minimal/Minimal IV.aep",
+      "uncompressed_bytes": 11649353,
+      "filetype": 32768
+    },
+    {
+      "name": "6000+Motion Graphics Pack V5.1/Atom After Effects/Typography/Clean/Numbers.aep",
+      "uncompressed_bytes": 18601679,
+      "filetype": 32768
+    },
+    {
+      "name": "6000+Motion Graphics Pack V5.1/Atom After Effects/Typography/Clean/Quotes.aep",
+      "uncompressed_bytes": 7850730,
+      "filetype": 32768
+    },
+    {
+      "name": "6000+Motion Graphics Pack V5.1/Atom After Effects/Typography/Clean/Super Simple.aep",
+      "uncompressed_bytes": 9151122,
+      "filetype": 32768
+    },
+    {
+      "name": "6000+Motion Graphics Pack V5.1/Atom After Effects/Typography/Glitch/Displace.aep",
+      "uncompressed_bytes": 12247189,
+      "filetype": 32768
+    },
+    {
+      "name": "6000+Motion Graphics Pack V5.1/Atom After Effects/Typography/Glitch/Flicker.aep",
+      "uncompressed_bytes": 11846516,
+      "filetype": 32768
+    },
+    {
+      "name": "6000+Motion Graphics Pack V5.1/Atom After Effects/Typography/Glitch/Shake.aep",
+      "uncompressed_bytes": 5558882,
+      "filetype": 32768
+    },
+    {
+      "name": "6000+Motion Graphics Pack V5.1/Atom After Effects/Typography/Glitch/VHS.aep",
+      "uncompressed_bytes": 7204468,
+      "filetype": 32768
+    },
+    {
+      "name": "6000+Motion Graphics Pack V5.1/Atom After Effects/Typography/Special Events/Business Conference.aep",
+      "uncompressed_bytes": 5799662,
+      "filetype": 32768
+    },
+    {
+      "name": "6000+Motion Graphics Pack V5.1/Atom After Effects/Typography/Special Events/Christmas.aep",
+      "uncompressed_bytes": 8934885,
+      "filetype": 32768
+    },
+    {
+      "name": "6000+Motion Graphics Pack V5.1/Atom After Effects/Typography/Special Events/Easter.aep",
+      "uncompressed_bytes": 18709218,
+      "filetype": 32768
+    },
+    {
+      "name": "6000+Motion Graphics Pack V5.1/Atom After Effects/Typography/Special Events/Fashion Week.aep",
+      "uncompressed_bytes": 6589008,
+      "filetype": 32768
+    },
+    {
+      "name": "6000+Motion Graphics Pack V5.1/Atom After Effects/Typography/Special Events/Wedding.aep",
+      "uncompressed_bytes": 12901829,
+      "filetype": 32768
+    },
+    {
+      "name": "6000+Motion Graphics Pack V5.1/Atom After Effects/Typography/Stylized/HUD.aep",
+      "uncompressed_bytes": 8149321,
+      "filetype": 32768
+    },
+    {
+      "name": "6000+Motion Graphics Pack V5.1/Atom After Effects/Typography/Stylized/Labels/Labels I.aep",
+      "uncompressed_bytes": 11864868,
+      "filetype": 32768
+    },
+    {
+      "name": "6000+Motion Graphics Pack V5.1/Atom After Effects/Typography/Stylized/Labels/Labels II.aep",
+      "uncompressed_bytes": 10973442,
+      "filetype": 32768
+    },
+    {
+      "name": "6000+Motion Graphics Pack V5.1/Atom After Effects/Typography/Stylized/Particles.aep",
+      "uncompressed_bytes": 13316015,
+      "filetype": 32768
+    },
+    {
+      "name": "6000+Motion Graphics Pack V5.1/Atom After Effects/Typography/Stylized/Popups.aep",
+      "uncompressed_bytes": 6222784,
+      "filetype": 32768
+    },
+    {
+      "name": "6000+Motion Graphics Pack V5.1/Atom After Effects/Typography/Stylized/Vintage/Vintage I.aep",
+      "uncompressed_bytes": 13587846,
+      "filetype": 32768
+    },
+    {
+      "name": "6000+Motion Graphics Pack V5.1/Atom After Effects/Typography/Stylized/Vintage/Vintage II.aep",
+      "uncompressed_bytes": 14998362,
+      "filetype": 32768
+    },
+    {
+      "name": "6000+Motion Graphics Pack V5.1/Atom After Effects/_footage/Brush 1.JPG",
+      "uncompressed_bytes": 149530,
+      "filetype": 32768
+    },
+    {
+      "name": "6000+Motion Graphics Pack V5.1/Atom After Effects/_footage/Brush 2.png",
+      "uncompressed_bytes": 903622,
+      "filetype": 32768
+    },
+    {
+      "name": "6000+Motion Graphics Pack V5.1/Atom After Effects/_footage/Brushes/brush 1.JPG",
+      "uncompressed_bytes": 149530,
+      "filetype": 32768
+    },
+    {
+      "name": "6000+Motion Graphics Pack V5.1/Atom After Effects/_footage/Brushes/brush 10.JPG",
+      "uncompressed_bytes": 129449,
+      "filetype": 32768
+    },
+    {
+      "name": "6000+Motion Graphics Pack V5.1/Atom After Effects/_footage/Brushes/brush 2.JPG",
+      "uncompressed_bytes": 144210,
+      "filetype": 32768
+    },
+    {
+      "name": "6000+Motion Graphics Pack V5.1/Atom After Effects/_footage/Brushes/brush 3.JPG",
+      "uncompressed_bytes": 84458,
+      "filetype": 32768
+    },
+    {
+      "name": "6000+Motion Graphics Pack V5.1/Atom After Effects/_footage/Brushes/brush 4.JPG",
+      "uncompressed_bytes": 107437,
+      "filetype": 32768
+    },
+    {
+      "name": "6000+Motion Graphics Pack V5.1/Atom After Effects/_footage/Brushes/brush 5.JPG",
+      "uncompressed_bytes": 157328,
+      "filetype": 32768
+    },
+    {
+      "name": "6000+Motion Graphics Pack V5.1/Atom After Effects/_footage/Brushes/brush 6.JPG",
+      "uncompressed_bytes": 183477,
+      "filetype": 32768
+    },
+    {
+      "name": "6000+Motion Graphics Pack V5.1/Atom After Effects/_footage/Brushes/brush 7.JPG",
+      "uncompressed_bytes": 121748,
+      "filetype": 32768
+    },
+    {
+      "name": "6000+Motion Graphics Pack V5.1/Atom After Effects/_footage/Brushes/brush 8.JPG",
+      "uncompressed_bytes": 122372,
+      "filetype": 32768
+    },
+    {
+      "name": "6000+Motion Graphics Pack V5.1/Atom After Effects/_footage/Brushes/brush 9.JPG",
+      "uncompressed_bytes": 181992,
+      "filetype": 32768
+    },
+    {
+      "name": "6000+Motion Graphics Pack V5.1/Atom After Effects/_footage/Guide Images/Guide_1.jpg",
+      "uncompressed_bytes": 299158,
+      "filetype": 32768
+    },
+    {
+      "name": "6000+Motion Graphics Pack V5.1/Atom After Effects/_footage/Guide Images/Guide_2.jpg",
+      "uncompressed_bytes": 304237,
+      "filetype": 32768
+    },
+    {
+      "name": "6000+Motion Graphics Pack V5.1/Atom After Effects/_footage/Ink/Ink_1.mp4",
+      "uncompressed_bytes": 5490778,
+      "filetype": 32768
+    },
+    {
+      "name": "6000+Motion Graphics Pack V5.1/Atom After Effects/_footage/Ink/Ink_10.mp4",
+      "uncompressed_bytes": 8190580,
+      "filetype": 32768
+    },
+    {
+      "name": "6000+Motion Graphics Pack V5.1/Atom After Effects/_footage/Ink/Ink_11.mp4",
+      "uncompressed_bytes": 2990065,
+      "filetype": 32768
+    },
+    {
+      "name": "6000+Motion Graphics Pack V5.1/Atom After Effects/_footage/Ink/Ink_12.mp4",
+      "uncompressed_bytes": 3696321,
+      "filetype": 32768
+    },
+    {
+      "name": "6000+Motion Graphics Pack V5.1/Atom After Effects/_footage/Ink/Ink_13.mp4",
+      "uncompressed_bytes": 3336920,
+      "filetype": 32768
+    },
+    {
+      "name": "6000+Motion Graphics Pack V5.1/Atom After Effects/_footage/Ink/Ink_14.mp4",
+      "uncompressed_bytes": 3879675,
+      "filetype": 32768
+    },
+    {
+      "name": "6000+Motion Graphics Pack V5.1/Atom After Effects/_footage/Ink/Ink_15.mp4",
+      "uncompressed_bytes": 2786950,
+      "filetype": 32768
+    }
+  ],
+  "sample_limit_bytes": 134217728,
+  "outer_format": "RAR5",
+  "inner_prefix_bytes": 134217728,
+  "inner_sample_stop_reason": "Truncated input file (needed 2786950 bytes, only 1978975 available)",
+  "inner_format": "RAR5"
+}

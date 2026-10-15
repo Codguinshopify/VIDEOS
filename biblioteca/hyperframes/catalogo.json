@@ -1,0 +1,106 @@
+{
+  "revision": "08ee1bd5ad59987a7f2525222683e24ca30971f9",
+  "installation_method": "Exact Git source extraction; not hyperframes add. Archived HTML is .html.txt to prevent Studio mutation.",
+  "items": [
+    {
+      "name": "hw-underline",
+      "type": "components",
+      "path": "biblioteca/hyperframes/hw-underline",
+      "source": "https://github.com/heygen-com/hyperframes/tree/08ee1bd5ad59987a7f2525222683e24ca30971f9/registry/components/hw-underline",
+      "sha256": {
+        "hw-underline.html.txt": "2e4fdeac4c27f9c90bc6f87b4fee041426a095c9c4ad00b6cc0cf4005470e174",
+        "registry-item.json": "ff5722e07d5347cb549c92fc909660949544edef950c47059be4447bb2ce2f47"
+      }
+    },
+    {
+      "name": "line-swap",
+      "type": "components",
+      "path": "biblioteca/hyperframes/line-swap",
+      "source": "https://github.com/heygen-com/hyperframes/tree/08ee1bd5ad59987a7f2525222683e24ca30971f9/registry/components/line-swap",
+      "sha256": {
+        "registry-item.json": "eb900b8be2f42d9162d1a395d3638a46a61e59b4e745dd27e0b7d6805cceb5a1",
+        "line-swap.html.txt": "24fb7b6b8ed1455e2bcf22addfa80d02dbc1008473b4cef98e7346709aa80ad7"
+      }
+    },
+    {
+      "name": "svg-mask-reveal",
+      "type": "components",
+      "path": "biblioteca/hyperframes/svg-mask-reveal",
+      "source": "https://github.com/heygen-com/hyperframes/tree/08ee1bd5ad59987a7f2525222683e24ca30971f9/registry/components/svg-mask-reveal",
+      "sha256": {
+        "registry-item.json": "ccd79e7aebbb2eaa4ccafc5ff1febf227b8e4d9ed14eb110821705d675b42b55",
+        "svg-mask-reveal.html.txt": "e9a80816b10684acd337eaad4a401693f07a5a3829e40e2605e294bd4ff43857"
+      }
+    },
+    {
+      "name": "focus-blur-resolve",
+      "type": "components",
+      "path": "biblioteca/hyperframes/focus-blur-resolve",
+      "source": "https://github.com/heygen-com/hyperframes/tree/08ee1bd5ad59987a7f2525222683e24ca30971f9/registry/components/focus-blur-resolve",
+      "sha256": {
+        "registry-item.json": "539a1e45dddde15b00d78d0841d54ed6e5f3590ba257ac9f390c8b132cad003d",
+        "focus-blur-resolve.html.txt": "b99792ffbd9cccbf86fb6228f69316264b8c9220067392fd1a78639c621b4ada"
+      }
+    },
+    {
+      "name": "icon-morph-beat",
+      "type": "components",
+      "path": "biblioteca/hyperframes/icon-morph-beat",
+      "source": "https://github.com/heygen-com/hyperframes/tree/08ee1bd5ad59987a7f2525222683e24ca30971f9/registry/components/icon-morph-beat",
+      "sha256": {
+        "icon-morph-beat.html.txt": "e0b8bcd72028d9d7309726133a3c6f72e6b3f99c001670afcf3edbe1483297b8",
+        "registry-item.json": "6500b0b7344308a14b623a6488ee014e722930cb13b9755d303f44ef435e8b46"
+      }
+    },
+    {
+      "name": "arc-motion-path",
+      "type": "components",
+      "path": "biblioteca/hyperframes/arc-motion-path",
+      "source": "https://github.com/heygen-com/hyperframes/tree/08ee1bd5ad59987a7f2525222683e24ca30971f9/registry/components/arc-motion-path",
+      "sha256": {
+        "arc-motion-path.html.txt": "26fe5636069b3396af3f8ed4d88034bf939c78eb1e836cd3db9899e7f669a187",
+        "registry-item.json": "0d6c2d58e620b10debfe2ba77b42e0beaaf3bf8d2847f5c594a87f101236062e"
+      }
+    },
+    {
+      "name": "lt-accent-underline",
+      "type": "blocks",
+      "path": "biblioteca/hyperframes/lt-accent-underline",
+      "source": "https://github.com/heygen-com/hyperframes/tree/08ee1bd5ad59987a7f2525222683e24ca30971f9/registry/blocks/lt-accent-underline",
+      "sha256": {
+        "lt-accent-underline.html.txt": "08e62fd35e14b99dd35e658b941f2b33781ff1cadb428d7b9626d69cfe3c4fe7",
+        "registry-item.json": "d3de484e773f303850b46eff647433fbead634b644304c70346ef73af9087cbf"
+      }
+    },
+    {
+      "name": "kinetic-type-swap",
+      "type": "components",
+      "path": "biblioteca/hyperframes/kinetic-type-swap",
+      "source": "https://github.com/heygen-com/hyperframes/tree/08ee1bd5ad59987a7f2525222683e24ca30971f9/registry/components/kinetic-type-swap",
+      "sha256": {
+        "kinetic-type-swap.html.txt": "e98407ad72306094c3f17f25043924c5214428ef290235db0409c44865e259ba",
+        "registry-item.json": "44f750b33cd855b60fe21e8b6dda17e8bd59e4e9b74ca679e28df4ddbc56d101"
+      }
+    },
+    {
+      "name": "count-up",
+      "type": "components",
+      "path": "biblioteca/hyperframes/count-up",
+      "source": "https://github.com/heygen-com/hyperframes/tree/08ee1bd5ad59987a7f2525222683e24ca30971f9/registry/components/count-up",
+      "sha256": {
+        "count-up.html.txt": "6b34b9873a243fedb060d23f4eb5cef1b61a5b169ec1ae064030b70b48beea66",
+        "registry-item.json": "6d4a59b657c81b6d607ddd01e1a7c9a568bc01fd7bcedc1569c22591fd642d03"
+      }
+    },
+    {
+      "name": "camera-rig-depth-stack",
+      "type": "components",
+      "path": "biblioteca/hyperframes/camera-rig-depth-stack",
+      "source": "https://github.com/heygen-com/hyperframes/tree/08ee1bd5ad59987a7f2525222683e24ca30971f9/registry/components/camera-rig-depth-stack",
+      "sha256": {
+        "camera-rig-depth-stack.html.txt": "d0ab77610390dd1e30ac53347b06e3d6aa432ac972989c18df8593d2a2b6b19e",
+        "registry-item.json": "db81f7e929376a6348dd45a30634a578178406c7370bb71a339d2503a26fe1df"
+      }
+    }
+  ]
+}

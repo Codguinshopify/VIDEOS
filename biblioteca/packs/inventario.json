@@ -1,0 +1,119 @@
+{
+  "schema": 1,
+  "remote_branch": "packs-lfs",
+  "remote_commit": "fcf095991ad0ce8b0e10728c8abf927bc4bddfa9",
+  "volumes": [
+    {
+      "name": "pack/6000+Motion Graphics Pack V5.1-002_rar.part1.rar",
+      "bytes": 1048576000,
+      "sha256": "2600fa0f9f53ab9484f1fb822eeeec4b1e78cb98a03776b56b55275a8cd432fc",
+      "status": "Downloaded and checksum validated previously; partial extraction retained."
+    },
+    {
+      "name": "pack/6000+Motion Graphics Pack V5.1-002_rar.part2.rar",
+      "bytes": 1048576000,
+      "sha256": "f01638e9cd0f52482941d8648bee33f0fe8e98b8ca92306fb4e958c176f15426",
+      "status": "LFS pointer identified remotely this stage; content not downloaded or analysed."
+    }
+  ],
+  "full_archive_available": false,
+  "missing": "Further volumes, including part3, not present in inspected remote tree. Cannot assert full extraction.",
+  "aep": "Many AEP paths visible in partial inventory; no After Effects runtime, plugin or editable-project execution here. Seek pre-rendered media or export via AE when available.",
+  "selected_for_v11": [],
+  "selection_reason": "Validated ink/brush footage is stylistically unsuitable for the clean line-based direction; no unnecessary ink wipe added.",
+  "items": [
+    {
+      "path": "biblioteca/packs/6000-motion-amostras/Brush 2.png",
+      "bytes": 903622,
+      "sha256": "67ce186796c62860d5b17f08258fb10e2dedf86f7d0f11c21ef557d12e6d2a54",
+      "status": "complete extracted sample; partial archive",
+      "compatible": true,
+      "licence": "User supplied pack; specific redistribution/commercial licence not found. Do not presume licence.",
+      "integration": "PNG brush, alpha must be inspected before using as mask."
+    },
+    {
+      "path": "biblioteca/packs/6000-motion-amostras/Ink_1.mp4",
+      "bytes": 5490778,
+      "sha256": "435f70f604a3ab8ba44b61f31f5eb6464ffa03170829cf9c26744d559fc9e14a",
+      "status": "complete extracted sample; partial archive",
+      "compatible": true,
+      "licence": "User supplied pack; specific redistribution/commercial licence not found. Do not presume licence.",
+      "duration": 10.01,
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "integration": "Video as luma mask; requires conversion/threshold and pixel review, not alpha by default."
+    },
+    {
+      "path": "biblioteca/packs/6000-motion-amostras/Ink_10.mp4",
+      "bytes": 8190580,
+      "sha256": "1709aa51d4549e4cc04e7e815c3730f3ab3644a8f80380f8839a4f777c8caef8",
+      "status": "complete extracted sample; partial archive",
+      "compatible": true,
+      "licence": "User supplied pack; specific redistribution/commercial licence not found. Do not presume licence.",
+      "duration": 14.748067,
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "integration": "Video as luma mask; requires conversion/threshold and pixel review, not alpha by default."
+    },
+    {
+      "path": "biblioteca/packs/6000-motion-amostras/Ink_11.mp4",
+      "bytes": 2990065,
+      "sha256": "31a921be476f62904c513f84ff45ec7b723bb1b32f3fbd720b09bb6058f5a65b",
+      "status": "complete extracted sample; partial archive",
+      "compatible": true,
+      "licence": "User supplied pack; specific redistribution/commercial licence not found. Do not presume licence.",
+      "duration": 4.84,
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "integration": "Video as luma mask; requires conversion/threshold and pixel review, not alpha by default."
+    },
+    {
+      "path": "biblioteca/packs/6000-motion-amostras/Ink_12.mp4",
+      "bytes": 3696321,
+      "sha256": "9011841fa8273f0c3f0c5de7cdb535c48e6c5de860606c5d57d172abeee8fc19",
+      "status": "complete extracted sample; partial archive",
+      "compatible": true,
+      "licence": "User supplied pack; specific redistribution/commercial licence not found. Do not presume licence.",
+      "duration": 4.84,
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "integration": "Video as luma mask; requires conversion/threshold and pixel review, not alpha by default."
+    },
+    {
+      "path": "biblioteca/packs/6000-motion-amostras/Ink_13.mp4",
+      "bytes": 3336920,
+      "sha256": "f8e7aac871d07dcf16484fa9f0a6d337daf99f24dfb7cd4ef9225e5a87d9c60c",
+      "status": "complete extracted sample; partial archive",
+      "compatible": true,
+      "licence": "User supplied pack; specific redistribution/commercial licence not found. Do not presume licence.",
+      "duration": 4.84,
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "integration": "Video as luma mask; requires conversion/threshold and pixel review, not alpha by default."
+    },
+    {
+      "path": "biblioteca/packs/6000-motion-amostras/Ink_14.mp4",
+      "bytes": 3879675,
+      "sha256": "32386bb26eddcbf112fba506be460133eb554259dc957464a668e8d0ecc3f40f",
+      "status": "complete extracted sample; partial archive",
+      "compatible": true,
+      "licence": "User supplied pack; specific redistribution/commercial licence not found. Do not presume licence.",
+      "duration": 4.84,
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "integration": "Video as luma mask; requires conversion/threshold and pixel review, not alpha by default."
+    }
+  ]
+}

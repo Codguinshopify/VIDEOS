@@ -1,0 +1,18 @@
+{
+  "runtime": "HyperFrames 0.8.162; GSAP 3.14.2; no added runtime dependencies",
+  "font": "DM Sans variable local / OFL",
+  "icons": "Lucide 0.468.0 original SVG geometry / ISC; pathLength for trace",
+  "catalog_revision": "08ee1bd5ad59987a7f2525222683e24ca30971f9",
+  "catalog_use": {
+    "line-swap": "Single masked rail swaps opening words and strategic questions; exact shared rail prevents glyph overlap.",
+    "lt-accent-underline": "Accent grows with origin at left and unfolds into an authored media boundary.",
+    "focus-blur-resolve": "V10 letter blur/scale/stagger retained on Evoquex signature."
+  },
+  "catalog_sources": "../biblioteca/hyperframes/catalogo.json",
+  "motion_kit_sha256": "ea6ee1a32fb5bf3593efbfa911296c9340aa6928b3af8d01661241c0379309c5",
+  "permanent_references": "../biblioteca/referencias/catalogo.json",
+  "reference_media_in_video": false,
+  "reference_audio_reused": false,
+  "pack_inventory": "../biblioteca/packs/inventario.json",
+  "pack_selection": "Complete extracted ink and brush media available; not selected because clean line direction has no need for ink. Part2 pointer found but not inspected; further volumes absent. No AEP execution."
+}

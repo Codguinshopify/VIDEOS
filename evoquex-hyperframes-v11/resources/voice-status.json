@@ -1,0 +1,11 @@
+{
+  "callable_professional_voice_tools": [],
+  "ELEVENLABS_API_KEY_present": false,
+  "OPENAI_API_KEY_present": false,
+  "HEYGEN_API_KEY_present": false,
+  "native_tts_command": "hyperframes 0.8.162 tts --list tested successfully; Kokoro engine",
+  "voice_generation_tested": false,
+  "reason": "Existing local family rejected by user. No authenticated professional provider found; no generated narration claimed.",
+  "purchase_or_plan_change": false,
+  "insertion_prepared": true
+}

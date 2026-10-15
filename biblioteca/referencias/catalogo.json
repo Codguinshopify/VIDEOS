@@ -1,0 +1,29 @@
+{
+  "schema": 1,
+  "references": [
+    {
+      "id": "park-shard-cloud",
+      "path": "biblioteca/referencias/park-shard-cloud/Park_Criativo_video_no_watermark (1).mp4",
+      "sha256": "d3b4dbe47d772e8a54371336ccc9db228166b4936775cea28415edd894d9d93c",
+      "bytes": 981385,
+      "duration": 44.651973,
+      "dimensions": [
+        576,
+        1024
+      ],
+      "usage": "Somente estudo técnico; não inserir imagem, voz, música ou identidade da referência no vídeo comercial."
+    },
+    {
+      "id": "park-virgilio",
+      "path": "biblioteca/referencias/park-virgilio/Park_Criativo_video_no_watermark.mp4",
+      "sha256": "f21687d6e6c8f224378de5f8ac82056e3e60c9d87554d2cbfb23d750f824bc54",
+      "bytes": 1463928,
+      "duration": 64.713991,
+      "dimensions": [
+        576,
+        1024
+      ],
+      "usage": "Somente estudo técnico; não inserir imagem, voz, música ou identidade da referência no vídeo comercial."
+    }
+  ]
+}

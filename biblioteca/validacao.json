@@ -1,0 +1,57 @@
+{
+  "ok": true,
+  "media_and_component_checks": [
+    {
+      "path": "biblioteca/referencias/park-shard-cloud/Park_Criativo_video_no_watermark (1).mp4",
+      "sha256": "d3b4dbe47d772e8a54371336ccc9db228166b4936775cea28415edd894d9d93c",
+      "ok": true
+    },
+    {
+      "path": "biblioteca/referencias/park-virgilio/Park_Criativo_video_no_watermark.mp4",
+      "sha256": "f21687d6e6c8f224378de5f8ac82056e3e60c9d87554d2cbfb23d750f824bc54",
+      "ok": true
+    },
+    {
+      "path": "biblioteca/packs/6000-motion-amostras/Brush 2.png",
+      "sha256": "67ce186796c62860d5b17f08258fb10e2dedf86f7d0f11c21ef557d12e6d2a54",
+      "ok": true
+    },
+    {
+      "path": "biblioteca/packs/6000-motion-amostras/Ink_1.mp4",
+      "sha256": "435f70f604a3ab8ba44b61f31f5eb6464ffa03170829cf9c26744d559fc9e14a",
+      "ok": true
+    },
+    {
+      "path": "biblioteca/packs/6000-motion-amostras/Ink_10.mp4",
+      "sha256": "1709aa51d4549e4cc04e7e815c3730f3ab3644a8f80380f8839a4f777c8caef8",
+      "ok": true
+    },
+    {
+      "path": "biblioteca/packs/6000-motion-amostras/Ink_11.mp4",
+      "sha256": "31a921be476f62904c513f84ff45ec7b723bb1b32f3fbd720b09bb6058f5a65b",
+      "ok": true
+    },
+    {
+      "path": "biblioteca/packs/6000-motion-amostras/Ink_12.mp4",
+      "sha256": "9011841fa8273f0c3f0c5de7cdb535c48e6c5de860606c5d57d172abeee8fc19",
+      "ok": true
+    },
+    {
+      "path": "biblioteca/packs/6000-motion-amostras/Ink_13.mp4",
+      "sha256": "f8e7aac871d07dcf16484fa9f0a6d337daf99f24dfb7cd4ef9225e5a87d9c60c",
+      "ok": true
+    },
+    {
+      "path": "biblioteca/packs/6000-motion-amostras/Ink_14.mp4",
+      "sha256": "32386bb26eddcbf112fba506be460133eb554259dc957464a668e8d0ecc3f40f",
+      "ok": true
+    },
+    {
+      "path": "biblioteca/componentes/motion-kit.js",
+      "sha256": "ea6ee1a32fb5bf3593efbfa911296c9340aa6928b3af8d01661241c0379309c5",
+      "ok": true
+    }
+  ],
+  "catalogue_sources": 10,
+  "full_pack_extraction_claimed": false
+}

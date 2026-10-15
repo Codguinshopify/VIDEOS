@@ -1,0 +1,35 @@
+{
+  "items": [
+    {
+      "name": "motion-kit",
+      "path": "biblioteca/componentes/motion-kit.js",
+      "sha256": "ea6ee1a32fb5bf3593efbfa911296c9340aa6928b3af8d01661241c0379309c5",
+      "dependencies": [
+        "GSAP 3.14.2",
+        "DOM/SVG"
+      ],
+      "host_example": "evoquex-hyperframes-v11/motion.js",
+      "api": {
+        "draw": "draw(timeline, selector, atSeconds, duration, stagger)",
+        "maskedSwap": "maskedSwap(timeline, railSelector, absoluteOffsetPx, atSeconds, duration)",
+        "focus": "focus(timeline, glyphSelector, atSeconds)",
+        "underline": "underline(timeline, selector, atSeconds, duration)"
+      },
+      "origin": "Adapted motion mechanics from preserved HyperFrames catalog originals; project glue by Evoquex."
+    }
+  ],
+  "historical_reuse": [
+    {
+      "project": "entrega/evoquex-hyperframes-v10-projeto.zip",
+      "notes": "Pearlescent lens, original filming plane, focus wordmark, self-contained licensed audio inputs."
+    },
+    {
+      "project": "entrega/evoquex-hyperframes-v9-projeto.zip",
+      "notes": "Seven additional catalog components with exact original sources and adaptation notes."
+    },
+    {
+      "project": "entrega/evoquex-motion-v7-projeto.zip",
+      "notes": "Remotion library architecture; React functions need adaptation, not native HyperFrames execution."
+    }
+  ]
+}

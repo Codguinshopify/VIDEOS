@@ -1,0 +1,179 @@
+[
+  {
+    "source": "6000+Motion Graphics Pack V5.1/Atom After Effects/_footage/Brush 2.png",
+    "complete": true,
+    "bytes": 903622,
+    "sha256": "67ce186796c62860d5b17f08258fb10e2dedf86f7d0f11c21ef557d12e6d2a54",
+    "sample_path": "/workspace/pack-lfs-validacao/amostras/Brush 2.png",
+    "probe_ok": true,
+    "media": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "png",
+          "codec_type": "video",
+          "width": 3517,
+          "height": 989,
+          "pix_fmt": "pal8"
+        }
+      ],
+      "format": {}
+    }
+  },
+  {
+    "source": "6000+Motion Graphics Pack V5.1/Atom After Effects/_footage/Ink/Ink_1.mp4",
+    "complete": true,
+    "bytes": 5490778,
+    "sha256": "435f70f604a3ab8ba44b61f31f5eb6464ffa03170829cf9c26744d559fc9e14a",
+    "sample_path": "/workspace/pack-lfs-validacao/amostras/Ink_1.mp4",
+    "probe_ok": true,
+    "media": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "h264",
+          "codec_type": "video",
+          "width": 1920,
+          "height": 1080,
+          "pix_fmt": "yuv420p"
+        }
+      ],
+      "format": {
+        "duration": "10.010000"
+      }
+    },
+    "full_video_decode_ok": true
+  },
+  {
+    "source": "6000+Motion Graphics Pack V5.1/Atom After Effects/_footage/Ink/Ink_10.mp4",
+    "complete": true,
+    "bytes": 8190580,
+    "sha256": "1709aa51d4549e4cc04e7e815c3730f3ab3644a8f80380f8839a4f777c8caef8",
+    "sample_path": "/workspace/pack-lfs-validacao/amostras/Ink_10.mp4",
+    "probe_ok": true,
+    "media": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "h264",
+          "codec_type": "video",
+          "width": 1920,
+          "height": 1080,
+          "pix_fmt": "yuv420p"
+        }
+      ],
+      "format": {
+        "duration": "14.748067"
+      }
+    },
+    "full_video_decode_ok": true
+  },
+  {
+    "source": "6000+Motion Graphics Pack V5.1/Atom After Effects/_footage/Ink/Ink_11.mp4",
+    "complete": true,
+    "bytes": 2990065,
+    "sha256": "31a921be476f62904c513f84ff45ec7b723bb1b32f3fbd720b09bb6058f5a65b",
+    "sample_path": "/workspace/pack-lfs-validacao/amostras/Ink_11.mp4",
+    "probe_ok": true,
+    "media": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "h264",
+          "codec_type": "video",
+          "width": 1920,
+          "height": 1080,
+          "pix_fmt": "yuv420p"
+        }
+      ],
+      "format": {
+        "duration": "4.840000"
+      }
+    },
+    "full_video_decode_ok": true
+  },
+  {
+    "source": "6000+Motion Graphics Pack V5.1/Atom After Effects/_footage/Ink/Ink_12.mp4",
+    "complete": true,
+    "bytes": 3696321,
+    "sha256": "9011841fa8273f0c3f0c5de7cdb535c48e6c5de860606c5d57d172abeee8fc19",
+    "sample_path": "/workspace/pack-lfs-validacao/amostras/Ink_12.mp4",
+    "probe_ok": true,
+    "media": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "h264",
+          "codec_type": "video",
+          "width": 1920,
+          "height": 1080,
+          "pix_fmt": "yuv420p"
+        }
+      ],
+      "format": {
+        "duration": "4.840000"
+      }
+    },
+    "full_video_decode_ok": true
+  },
+  {
+    "source": "6000+Motion Graphics Pack V5.1/Atom After Effects/_footage/Ink/Ink_13.mp4",
+    "complete": true,
+    "bytes": 3336920,
+    "sha256": "f8e7aac871d07dcf16484fa9f0a6d337daf99f24dfb7cd4ef9225e5a87d9c60c",
+    "sample_path": "/workspace/pack-lfs-validacao/amostras/Ink_13.mp4",
+    "probe_ok": true,
+    "media": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "h264",
+          "codec_type": "video",
+          "width": 1920,
+          "height": 1080,
+          "pix_fmt": "yuv420p"
+        }
+      ],
+      "format": {
+        "duration": "4.840000"
+      }
+    },
+    "full_video_decode_ok": true
+  },
+  {
+    "source": "6000+Motion Graphics Pack V5.1/Atom After Effects/_footage/Ink/Ink_14.mp4",
+    "complete": true,
+    "bytes": 3879675,
+    "sha256": "32386bb26eddcbf112fba506be460133eb554259dc957464a668e8d0ecc3f40f",
+    "sample_path": "/workspace/pack-lfs-validacao/amostras/Ink_14.mp4",
+    "probe_ok": true,
+    "media": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "h264",
+          "codec_type": "video",
+          "width": 1920,
+          "height": 1080,
+          "pix_fmt": "yuv420p"
+        }
+      ],
+      "format": {
+        "duration": "4.840000"
+      }
+    },
+    "full_video_decode_ok": true
+  },
+  {
+    "source": "6000+Motion Graphics Pack V5.1/Atom After Effects/_footage/Ink/Ink_15.mp4",
+    "complete": false,
+    "reason": "I/O error when unstoring file"
+  }
+]

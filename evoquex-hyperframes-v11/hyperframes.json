@@ -1,0 +1,8 @@
+{
+  "registry": "https://raw.githubusercontent.com/heygen-com/hyperframes/08ee1bd5ad59987a7f2525222683e24ca30971f9/registry",
+  "paths": {
+    "blocks": "compositions",
+    "components": "compositions/components",
+    "assets": "assets"
+  }
+}

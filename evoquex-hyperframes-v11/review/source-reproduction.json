@@ -1,0 +1,29 @@
+{
+  "ok": true,
+  "fresh_archive_extract": true,
+  "independent_offline_npm_ci": true,
+  "npm_cache": "/workspace/.npm",
+  "node_modules_symlink": false,
+  "native_snapshot_times": [
+    0,
+    3.6,
+    7,
+    12.8,
+    16,
+    19.5,
+    24.9,
+    31.5
+  ],
+  "snapshots_created": 9,
+  "source_and_asset_hashes_match_rendered_project": {
+    "index.html": "4431df93b44d6e98c18811393029675cd245bbb1d8a0656ed726ddcde5a8a9fe",
+    "style.css": "4298a9478c645ab01456dc7e0135d76af5acd80967ae77b360e9e89b969bb5d8",
+    "motion.js": "0e3658101ef9ea15842d8f279f8626f2d6bd859b80590bf10698c445fed0dc24",
+    "vendor/evoquex-motion-kit.js": "ea6ee1a32fb5bf3593efbfa911296c9340aa6928b3af8d01661241c0379309c5",
+    "package-lock.json": "734b92dedb10ffe8fbb091bcd49c88a32ce76cf461aaaf20bb2ff45032cceacf",
+    "assets/campanha.mp4": "01144794dd01f913af3d6fe1c24563a74ee89461b44289ac4a0dd5534139d335",
+    "assets/mix-v11.wav": "96bf140797888272363ae7e437fd44b69c321609baf6dfc8d00d7a634c315a35",
+    "assets/DM-Sans.woff2": "9fea608a947e67020c33cad9a6fe3d60c54119dfb8cff87768a8117a15ed7543"
+  },
+  "source_zip_updated_afterwards_for_documentation_and_review_only": true
+}
