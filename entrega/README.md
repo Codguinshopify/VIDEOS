@@ -1,5 +1,20 @@
 # Reel da Evoquex — Clevelândia
 
+## Versão 4 — refinamento da versão aprovada
+
+- **MP4 refinado:** [evoquex-motion-v4.mp4](evoquex-motion-v4.mp4)
+- **Projeto Remotion atualizado, materiais e instruções:** [evoquex-motion-v4-projeto.zip](evoquex-motion-v4-projeto.zip)
+
+26 segundos, 1080 × 1920, 30 fps. Preserva as seis cenas e a direção visual da V3, com hook desde o frame zero, máscaras entre cenas de 9–12 frames, entradas mais ágeis, pausas reduzidas e grafia Danny’s Presentes corrigida no vídeo e no código. Mantém a direção musical, com efeitos e fades sincronizados aos novos tempos. A licença dos instrumentos acompanha o projeto.
+
+Indicadores documentados: **13.064 pessoas alcançadas** e **20.981 impressões**. Não se apresentam impressões como visualizações.
+
+O MP4 foi decodificado por inteiro e conferido em 52 amostras da duração, 35 quadros de transições, 11 quadros do hook e quatro telas de telefone. Áudio AAC: -17.39 LUFS, pico verdadeiro -1.50 dBTP. O ZIP inclui os três arquivos originais, fontes e licenças, mixagem pronta, código, scripts e relatórios.
+
+Limitações: a interface do agente não oferece escuta; a revisão sonora foi técnica. A fotografia original tem 600 × 337 pixels e o trecho de vídeo disponível tem 5,06 segundos. A inspeção da referência foi feita por sequências de frames, sem alegar reprodução audiovisual humana.
+
+Abra o arquivo desejado e use **Download raw file** para baixar pelo GitHub.
+
 ## Versão 3 — nova execução visual e sonora
 
 - **MP4 V3:** [evoquex-motion-v3.mp4](evoquex-motion-v3.mp4)
@@ -22,7 +37,7 @@ Abra o arquivo desejado e use **Download raw file** para baixar pelo GitHub.
 
 Abra o arquivo desejado e use **Download raw file** para baixar pelo GitHub.
 
-A V2 tem 28 segundos, resolução vertical de 1080 × 1920 e 30 fps. A composição foi reconstruída com tipografia por palavras, cartões em perspectiva, carrossel, foco/desfoque, recortes do print que conduzem às métricas e sound design sincronizado. Usa o anúncio real da Dany’s Presentes e a foto original de Clevelândia.
+A V2 tem 28 segundos, resolução vertical de 1080 × 1920 e 30 fps. A composição foi reconstruída com tipografia por palavras, cartões em perspectiva, carrossel, foco/desfoque, recortes do print que conduzem às métricas e sound design sincronizado. Usa o anúncio real da Danny’s Presentes e a foto original de Clevelândia.
 
 Apresenta os indicadores documentados: **13.064 pessoas alcançadas** e **20.981 impressões**. Visualizações não são apresentadas como dado comprovado pelo print.
 
