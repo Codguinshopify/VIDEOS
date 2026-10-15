@@ -1,0 +1,4 @@
+# Arquivos compactados desta pasta e subpastas usam Git LFS.
+*.[rR][aA][rR] filter=lfs diff=lfs merge=lfs -text
+*.[zZ][iI][pP] filter=lfs diff=lfs merge=lfs -text
+*.7[zZ] filter=lfs diff=lfs merge=lfs -text
