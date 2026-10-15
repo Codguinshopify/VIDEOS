@@ -1,5 +1,24 @@
 # Reel da Evoquex — Clevelândia
 
+## Versão 6 — nova direção / prévia com trilha e efeitos
+
+- **Prévia Full HD:** [evoquex-motion-v6-previa.mp4](evoquex-motion-v6-previa.mp4)
+- **Projeto Remotion:** [evoquex-motion-v6-projeto.zip](evoquex-motion-v6-projeto.zip)
+
+**Não é a versão definitiva com locução.** A voz artificial rejeitada não foi reutilizada. ElevenLabs com plano comercial foi escolhido; a credencial segura ainda não está disponível e a API retornou bloqueio do proxy antes da aplicação da configuração. A narração natural permanece pendente. Não se simula áudio que não existe.
+
+31 segundos, 1080 × 1920, 30 fps. Nova estrutura com nove capítulos, trocas internas de palavras/layouts, morph play/pin/chat, ícones desenhados, vídeo em faixas, câmera/parallax, documentos que atravessam as cenas, faixa numérica de alcance, split de definições e CTA com gente dentro do balão. Paleta e informação real mantidas; a V5 continua preservada.
+
+Nome: Danny’s Presentes. Dados: **13.064 pessoas alcançadas** e **20.981 impressões/exibições do anúncio**. Sem vendas, receita, visualizações ou depoimentos inventados.
+
+Música autoral nova de 128 BPM, 26 eventos de efeitos sincronizados e stems reais. Áudio original silenciado. Licença do banco instrumental acompanha o ZIP. Mix de prévia: -16.48 LUFS / -1.73 dBTP, sem clipping.
+
+Arquivo decodificado por inteiro; revisão visual em 124 amostras da duração, 34 quadros do hook, 56 quadros das passagens, 28 estados internos e seis telas de telefone. Projeto extraído, instalação offline do lockfile e sete stills verificados. A interface do agente não oferece audição: aprovação auditiva e naturalidade vocal não foram alegadas.
+
+Para concluir a locução, preencher ELEVENLABS_API_KEY nas configurações seguras do ambiente, salvar/aplicar e publicar a configuração, depois revalidar acesso à API, produzir a voz, ajustar timing/mixagem e exportar novamente. A integração está no projeto; o render definitivo é bloqueado sem nova voz real.
+
+Abra o arquivo e use **Download raw file** para baixar pelo GitHub.
+
 ## Versão 5 — evolução Park com narração feminina
 
 - **MP4 final:** [evoquex-motion-v5.mp4](evoquex-motion-v5.mp4)
