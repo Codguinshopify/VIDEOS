@@ -1,5 +1,20 @@
 # Reel da Evoquex — Clevelândia
 
+## Versão 3 — nova execução visual e sonora
+
+- **MP4 V3:** [evoquex-motion-v3.mp4](evoquex-motion-v3.mp4)
+- **Projeto Remotion V3, materiais e instruções:** [evoquex-motion-v3-projeto.zip](evoquex-motion-v3-projeto.zip)
+
+28 segundos, 1080 × 1920, 30 fps. Máscaras tipográficas, fotografia em perspectiva com marcação da praça, extração gráfica das métricas do documento, distribuição vetorial em planos e transformação em CTA. Composição musical nova com instrumentos amostrados, efeitos pontuais e fala original na abertura. A licença dos instrumentos acompanha o projeto.
+
+Indicadores documentados: **13.064 pessoas alcançadas** e **20.981 impressões**. Não se apresentam impressões como visualizações.
+
+O MP4 foi decodificado por inteiro e conferido em 56 amostras da duração, 35 quadros de transições e quatro telas de telefone. Áudio AAC: -17.40 LUFS, pico verdadeiro -1.50 dBTP. O ZIP inclui os três arquivos originais, fontes e licenças, mixagem pronta, código, scripts e relatórios.
+
+Limitações: a interface do agente não oferece escuta; a revisão sonora foi técnica. A fotografia original tem 600 × 337 pixels e o trecho de vídeo disponível tem 5,06 segundos. A inspeção da referência foi feita por sequências de frames, sem alegar reprodução audiovisual humana.
+
+Abra o arquivo desejado e use **Download raw file** para baixar pelo GitHub.
+
 ## Versão 2 — reedição com motion design
 
 - **Vídeo final V2:** [evoquex-motion-v2.mp4](evoquex-motion-v2.mp4)
