@@ -1,0 +1,212 @@
+# EVOQUEX — RECONSTRUÇÃO PROFISSIONAL DE MOTION DESIGN
+
+## Objetivo principal
+
+Reconstrua o vídeo atual da Evoquex, transformando-o em uma produção de **motion design profissional, com movimento contínuo, composições dinâmicas e transições criativas do início ao fim**.
+
+O problema da versão atual é claro: os primeiros 4 segundos apresentam uma linguagem visual interessante, mas, depois disso, o vídeo perde força e se transforma em uma edição convencional com textos animados. Isso precisa ser corrigido.
+
+**Não quero um vídeo convencional com alguns efeitos. Quero motion design de verdade durante toda a produção.**
+
+Você tem autonomia para analisar, reconstruir, experimentar e tomar decisões criativas. Não interrompa o trabalho para pedir autorização a cada escolha.
+
+## 1. Três referências permanentes e obrigatórias
+
+Os três vídeos de referência que estou anexando novamente são a principal referência visual e técnica deste projeto.
+
+Não os trate como simples inspiração. Eles representam o padrão de motion design que quero alcançar.
+
+Execute as seguintes ações:
+
+1. Localize e examine integralmente os três vídeos anexados, assim como as versões que já existam nos arquivos do projeto.
+2. Preserve os três vídeos como **referências permanentes do projeto**, em uma localização organizada, estável e acessível ao agente MD.
+3. Registre essa exigência nas instruções persistentes do agente MD e nas instruções relevantes do projeto. O agente deve saber que essas referências precisam ser consultadas em todos os futuros trabalhos de motion design da Evoquex.
+4. Analise os vídeos visualmente ao longo do tempo, identificando suas técnicas reais: entradas e saídas, transformações, transições, ritmo, tipografia cinética, mudanças de composição, profundidade, sobreposições, uso de cores, enquadramento e sincronização sonora.
+5. Transforme essa análise em orientações práticas que possam ser reutilizadas durante a implementação.
+
+A análise deve servir à execução. Não basta assistir aos vídeos e produzir uma lista de características.
+
+**Regra permanente:** sempre que criar ou revisar um vídeo de motion design da Evoquex, consulte os três vídeos de referência antes de definir a abordagem visual. Não substitua essa consulta por memória, descrições antigas ou referências genéricas.
+
+Se os arquivos anexados não estiverem acessíveis, procure as cópias existentes no projeto. Não afirme que examinou um vídeo que não conseguiu abrir.
+
+## 2. Aproveite a biblioteca completa do Hyperframes
+
+O Hyperframes é a ferramenta principal deste trabalho. Sua biblioteca, seus recursos e seu ecossistema existem justamente para viabilizar produções com motion design.
+
+Antes de reconstruir o vídeo:
+
+- Examine a biblioteca e os recursos disponíveis no ambiente Hyperframes.
+- Verifique as skills existentes, os exemplos, os templates, os componentes, os efeitos, as técnicas e os materiais que possam ser aplicados ao projeto.
+- Examine os packs de recursos disponíveis e os novos arquivos adicionados ao Git ou ao projeto.
+- Identifique os recursos que realmente contribuem para aproximar o resultado das três referências.
+- Implemente os recursos compatíveis que forem úteis, combinando-os quando necessário com código e soluções próprias.
+
+Não faça apenas um inventário da biblioteca. **Use os recursos para construir o vídeo.**
+
+Também não presuma que a biblioteca atual é a mesma de execuções anteriores: os packs são atualizados com frequência. Examine o que está disponível agora e aproveite as melhorias relevantes.
+
+Não use o Hyperframes apenas como estrutura para colocar textos na tela. Explore seu potencial para composições, transformações, sistemas de movimento, camadas, efeitos e transições.
+
+## 3. Skills e agente MD
+
+Examine as skills disponíveis e utilize todas as que forem pertinentes e compatíveis com o trabalho. Não limite a execução a uma única skill quando houver recursos complementares que possam melhorar o resultado.
+
+Dê prioridade às capacidades relacionadas a:
+
+- Análise de vídeos de referência e decomposição visual.
+- Motion design e tipografia cinética.
+- Transições complexas e continuidade de movimento.
+- Composição, hierarquia visual, profundidade e parallax.
+- Design e integração de elementos gráficos.
+- Geração de assets com IA, quando isso trouxer valor real.
+- Animação e implementação no Hyperframes.
+- Design de som e sincronização audiovisual.
+- Renderização, inspeção visual e controle de qualidade.
+
+Se as skills existentes forem insuficientes, crie ou aprimore skills operacionais reutilizáveis para as lacunas identificadas, seguindo a estrutura e as convenções do ambiente.
+
+O agente MD deve receber instruções claras para consultar as referências permanentes, verificar os recursos atualizados do Hyperframes e aplicar as skills relevantes nos próximos projetos. Não crie skills redundantes só para aumentar a quantidade: priorize utilidade prática e reutilização.
+
+## 4. Reconstrução do vídeo atual
+
+Use o vídeo atual como ponto de partida, mas não fique preso à sua edição.
+
+### Primeiros quatro segundos
+
+Os primeiros quatro segundos da versão atual são o benchmark de qualidade visual. Preserve a ideia do gancho e sua identidade, mas você pode aprimorá-los se encontrar uma solução melhor.
+
+O gancho trabalha com estas mensagens:
+
+- SUA EMPRESA
+- É CONHECIDA
+- EM CLEVELÂNDIA.
+- MAS É VISTA?
+
+A identidade visual utiliza fundo escuro, texto branco e destaques em azul `#54A6FF` e vermelho `#F87171`.
+
+Mantenha a força, o contraste e a qualidade visual dessa abertura. Não interprete isso como uma ordem para congelar cada frame ou impedir melhorias.
+
+### A partir do segundo quatro
+
+Reconstrua praticamente toda a edição posterior ao gancho.
+
+Aproveite os materiais, as ideias e as cenas que ainda forem úteis, mas refaça a linguagem de movimento, a composição e as transições para que o restante do vídeo alcance o mesmo nível — ou supere — a abertura.
+
+Não preserve uma cena só porque ela já existe. Preserve-a se ela contribuir para o resultado final.
+
+## 5. Motion design real em toda a sequência
+
+A composição deve estar em constante evolução. O movimento precisa fazer parte da narrativa visual, e não ser apenas um acabamento aplicado ao texto.
+
+Explore, conforme o estilo das referências:
+
+- Palavras que atravessam a tela, mudam de escala e reaparecem em outras regiões da composição.
+- Elementos que se transformam em outros elementos.
+- Transições em que uma palavra, forma ou imagem impulsiona a próxima cena.
+- Movimentos que empurram, revelam, ocultam, fragmentam ou reorganizam a composição.
+- Mudanças de enquadramento, escala, profundidade, cor e estrutura visual.
+- Camadas e sobreposições que criem relações visuais entre os elementos.
+- Tipografia cinética integrada a formas, imagens e outros componentes gráficos.
+- Transições que conectem visualmente as frases, em vez de apenas substituir uma cena por outra.
+
+Cada frase ou bloco de informação deve ter uma solução visual coerente com sua mensagem. Não reutilize a mesma animação básica em todas as cenas.
+
+A composição deve mudar com frequência, idealmente a cada nova frase ou unidade de sentido, mantendo continuidade visual entre os movimentos.
+
+Evite textos parados sobre fundos genéricos, cartões convencionais, slides disfarçados de vídeo e animações simples de entrada e saída como solução predominante.
+
+O objetivo não é colocar o máximo possível de efeitos na tela. É construir movimento intencional, expressivo e tecnicamente bem executado.
+
+## 6. Referências como padrão de execução
+
+Adapte as técnicas dos três vídeos à identidade da Evoquex, mas preserve a riqueza de movimento e a qualidade de execução que os tornam referências de motion design.
+
+Não copie mecanicamente cada cena. Reconstrua a lógica visual por trás delas e aplique-a ao conteúdo da Evoquex.
+
+Para cada trecho do vídeo, considere:
+
+- Qual é a mensagem?
+- Qual técnica das referências é mais adequada?
+- Como os elementos entram, interagem e se transformam?
+- Como essa composição conduz à próxima?
+- Qual é a função do som no movimento?
+- O resultado realmente parece motion design ou voltou a ser apenas uma edição convencional?
+
+Se um trecho parecer apenas uma edição comum com texto animado, revise-o.
+
+## 7. Uso das imagens reais da Danny’s Presentes
+
+O vídeo divulga a campanha da Danny’s Presentes durante o Dia das Crianças em Clevelândia, Paraná.
+
+Utilize as imagens reais da loja como prova visual breve e integrada ao motion design. O material real deve reforçar a mensagem, e não transformar o vídeo em uma sequência convencional de filmagens ou mockups de celular.
+
+Mantenha o motion design como protagonista. Integre as imagens por meio de composições, máscaras, recortes, sobreposições, movimentos e transições coerentes com as referências.
+
+A campanha confirma **20 mil visualizações de pessoas de Clevelândia**. Preserve esse dado exatamente, sem convertê-lo em alcance, impressões ou outra métrica.
+
+Não invente resultados, depoimentos ou números adicionais.
+
+Não mantenha “Evoquex” ou “Clevelândia” como marca-d’água persistente depois dos primeiros cinco segundos. Use a marca quando fizer sentido na composição ou no encerramento.
+
+## 8. Roteiro e ritmo
+
+O foco deste trabalho é a direção de motion design, não a reescrita do roteiro.
+
+Preserve as mensagens e a estrutura narrativa atuais, permitindo apenas ajustes mínimos de texto quando forem indispensáveis ao ritmo, à legibilidade ou à transição visual.
+
+Não reescreva o roteiro, não acrescente informações e não introduza novas promessas comerciais.
+
+Ajuste a duração das cenas e, se necessário, a duração total do vídeo para que o ritmo seja natural e impactante. Não prolongue a produção artificialmente.
+
+Respeite a densidade de texto observada nas três referências, priorizando legibilidade, impacto e espaço para o movimento. Evite acumular muitos blocos de texto simultaneamente.
+
+## 9. Música e sound design
+
+A trilha atual é repetitiva e precisa ser substituída ou reconstruída.
+
+Analise a lógica sonora dos três vídeos de referência e aplique princípios compatíveis ao projeto: ritmo, pausas, acentos, transições sonoras e sincronização com os movimentos.
+
+Crie uma experiência audiovisual coesa. Os efeitos sonoros devem reforçar transformações, entradas, saídas e mudanças de composição, sem competir com a mensagem.
+
+Evite uma trilha genérica acompanhada por efeitos aleatórios. O som deve participar do design do movimento.
+
+## 10. Processo de execução e revisão
+
+Trabalhe de forma autônoma e iterativa:
+
+1. Localize o projeto, o vídeo atual, os três vídeos de referência e os assets disponíveis.
+2. Examine as referências e os recursos atualizados do Hyperframes.
+3. Defina uma abordagem visual baseada na análise efetiva das referências.
+4. Reconstrua o vídeo, começando pela melhoria das cenas posteriores ao quarto segundo.
+5. Renderize uma versão completa.
+6. Inspecione o vídeo renderizado, não apenas o código ou a timeline.
+7. Corrija trechos que percam intensidade, apresentem movimentos genéricos, falhas de composição, problemas de legibilidade ou transições desconectadas.
+8. Renderize novamente quando as correções forem necessárias.
+
+Tome as decisões criativas por conta própria. Não interrompa o trabalho para solicitar aprovação de cada transição ou técnica.
+
+## 11. Critério de aprovação
+
+Antes de concluir, verifique se:
+
+- Os três vídeos de referência foram efetivamente consultados.
+- A partir do segundo quatro, a edição foi reconstruída de maneira substancial.
+- O motion design se mantém ao longo de todo o vídeo.
+- As transições têm intenção visual e conexão entre as cenas.
+- O resultado utiliza recursos reais do Hyperframes e as skills pertinentes disponíveis.
+- A densidade de texto respeita as referências e mantém boa legibilidade.
+- O material da Danny’s Presentes está integrado sem dominar a produção.
+- O dado de 20 mil visualizações de pessoas de Clevelândia foi preservado corretamente.
+- O áudio está sincronizado com o movimento.
+- O render final foi inspecionado e os problemas evidentes foram corrigidos.
+
+**Não considere o trabalho concluído apenas porque o vídeo renderizou sem erros.** A conclusão depende da qualidade visual do resultado.
+
+## 12. Entrega
+
+A entrega solicitada é **somente o vídeo final renderizado**, pronto para eu assistir e avaliar.
+
+Não apresente relatório técnico, inventário de arquivos, explicações sobre código, lista de skills, resumo das alterações ou descrição do processo. Não substitua o vídeo por um roteiro ou por uma prévia estática.
+
+Se houver um bloqueio real que impeça a conclusão, comunique apenas o impedimento específico. Caso contrário, conclua o trabalho e disponibilize o vídeo final.

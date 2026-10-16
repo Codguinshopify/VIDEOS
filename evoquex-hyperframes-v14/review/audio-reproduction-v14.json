@@ -1,0 +1,34 @@
+{
+  "ok": true,
+  "source_inputs_copied": [
+    "scripts/compose-audio.py",
+    "resources/scene-timing-v14.json",
+    "resources/audio/GeneralUser-GS-LICENSE.txt"
+  ],
+  "existing_verified_soundfont_cache_used": true,
+  "old_stems_or_previous_mix_present_in_reproduction_folder": false,
+  "network_used": false,
+  "compared_files": {
+    "assets/mix-v14.wav": {
+      "source_sha256": "223148ffd396d1216b23b73888d6e332944393135829c75acec833aeb44bdcd2",
+      "reproduced_sha256": "223148ffd396d1216b23b73888d6e332944393135829c75acec833aeb44bdcd2",
+      "identical": true
+    },
+    "resources/audio/music-original-v14.wav": {
+      "source_sha256": "501543f4c96c84b18353d30e6d512a0866b4885f004b7addd99da737001e6c20",
+      "reproduced_sha256": "501543f4c96c84b18353d30e6d512a0866b4885f004b7addd99da737001e6c20",
+      "identical": true
+    },
+    "resources/audio/effects-original-v14.wav": {
+      "source_sha256": "0b8138558ee68cc74c5880f378b6c3b8d68dce5ea4f5f22ed8eda728dafe9d17",
+      "reproduced_sha256": "0b8138558ee68cc74c5880f378b6c3b8d68dce5ea4f5f22ed8eda728dafe9d17",
+      "identical": true
+    },
+    "resources/audio/evoquex-original-score-v14.mid": {
+      "source_sha256": "f8a3918bb804adb96f6d36ff5c4a862b7c8904d3af7fc4af18dcebab71d30e9c",
+      "reproduced_sha256": "f8a3918bb804adb96f6d36ff5c4a862b7c8904d3af7fc4af18dcebab71d30e9c",
+      "identical": true
+    }
+  },
+  "subjective_listening_performed": false
+}

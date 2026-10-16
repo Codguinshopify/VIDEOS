@@ -121,6 +121,15 @@ tl.to('#far-plane', { x: -24, z: -90, duration: 0.7, ease: 'power3.inOut' }, 14)
 Antes do trecho, o CSS ou um `tl.set` deve posicionar e esconder corretamente os
 elementos ainda inativos. Não anime a mesma propriedade do mesmo elemento em tweens
 simultâneos conflitantes; use wrappers diferentes para câmera, conteúdo e articulação.
+
+Armadilha confirmada na revisão V14: `fromTo(..., {opacity: 0}, {opacity: 1,
+immediateRender: false}, at)` **não aplica o estado inicial antes de `at`**. Se o CSS
+deixar o elemento visível, ele pode aparecer cedo, sumir no começo do tween e entrar
+de novo. Defina o estado inativo em CSS ou em `tl.set(..., 0)` e o destino visível
+explicitamente no tween. Faça o mesmo para placas em `scaleX`, partículas SVG,
+clips e rótulos futuros; não esconda apenas seus filhos enquanto o suporte fica vazio.
+Inspecione também os frames imediatamente anteriores ao anchor, não só a entrada.
+
 Não distorça letras ao transformar a geometria de uma moldura: mantenha texto em plano
 separado ou aplique compensação verificada. Respeite `prefers-reduced-motion` apenas
 quando fizer parte da entrega interativa; não altere o render temporal por ambiente.

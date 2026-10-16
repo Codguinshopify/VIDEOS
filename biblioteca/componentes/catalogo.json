@@ -86,6 +86,55 @@
         "No own timeline registration, audio/media playback, clocks, async font measurements or physics simulation. Host owns deterministic registration and visual acceptance."
       ],
       "validation_status": "Source copied bit-identically from stable V13 host; final render motion review is separate, not inferred from syntax or catalogue registration."
+    },
+    {
+      "name": "evoquex-v14-motion",
+      "path": "biblioteca/componentes/evoquex-v14-motion.js",
+      "sha256": "e5d345b3e755fb33d0cc8d164dc38e5b5ca11f6e4e111e8c4acfd571392dba5e",
+      "dependencies": [
+        "GSAP 3.14.2 supplied by host",
+        "DOM/SVG; CSS 2.5D for glyph entrances; no new dependency"
+      ],
+      "global": "window.EvoquexV14",
+      "host_example": "evoquex-hyperframes-v14/motion.js",
+      "api": {
+        "glyphs": "glyphs() -> void. Synchronously replaces each [data-letters] text with span.vchar nodes, aria-hidden=true, and retains the original text as parent aria-label. Call once before timeline construction.",
+        "letters": "letters(timeline, containerSelector, atSeconds, {y=90,x=0,rx=55,rz=0,opacity=0,duration=.4,stagger=.018,ease=\"power4.out\"}) -> void. Explicit fromTo entrance for generated glyphs; immediateRender=false. The host owns parent visibility and initial state.",
+        "draw": "draw(timeline, svgGeometrySelector, atSeconds, duration=.55) -> void. Reads SVG getTotalLength synchronously, prepares dasharray/dashoffset and draws all matched elements together with power2.inOut.",
+        "poseFor": "poseFor([x0,y0,x1,y1], margin=1) -> {scale,x,y}. Fits an explicit authored world rectangle into the fixed 1080x1920 viewport; same pure framing equation as caption-camera-follow, with no async font or DOM measurement.",
+        "camera": "camera(timeline, nodeOrSelector, authoredBox, atSeconds, duration=.6, margin=1) -> void. Tweens x/y/scale to poseFor with power3.inOut; host must set transformOrigin 0 0 and own world geometry.",
+        "mesh": "mesh(svgGroupSelector) -> {state,render,morph}. Appends 36 SVG polygons with an 18-point outer contour, 9-point inner contour and center. state={phase:0,light:0}; render() derives points and per-face blue lighting from state. morph(timeline, phase, atSeconds, duration=.5) tweens phase with power3.inOut and updates polygons. Five authored states phase0..4: play triangle, arrow, location marker, circle, speech bubble; four continuous transformations."
+      },
+      "catalogue_origins": [
+        {
+          "name": "facet-morph",
+          "path": "biblioteca/hyperframes/facet-morph",
+          "source": "https://github.com/heygen-com/hyperframes/tree/08ee1bd5ad59987a7f2525222683e24ca30971f9/registry/components/facet-morph",
+          "mechanic": "Retains the 18 outer / 9 inner / center topology and 36 corresponding SVG triangles with numeric interpolation and per-face lighting. V14 authors equal-count resampled semantic contours and timeline phase control; it does not copy the original blob/mark/badge forms or entire registry clock."
+        },
+        {
+          "name": "caption-camera-follow",
+          "path": "biblioteca/hyperframes/caption-camera-follow",
+          "source": "https://github.com/heygen-com/hyperframes/tree/08ee1bd5ad59987a7f2525222683e24ca30971f9/registry/components/caption-camera-follow",
+          "mechanic": "Pure poseFor fit-to-box equation. V14 uses fixed authored portrait boxes, original Portuguese words and power3.inOut; it does not import English text, global GSAP defaults, original blur smear or original timeline."
+        }
+      ],
+      "catalogue_revision": "08ee1bd5ad59987a7f2525222683e24ca30971f9",
+      "upstream_license": "Apache-2.0; complete upstream text preserved in biblioteca/hyperframes/LICENSE and host resources/HyperFrames-LICENSE. Stable host header records the revision and adapted mechanisms. GSAP retains its separate vendor license. Pack media licensing is not implied.",
+      "example_usage": [
+        "mesh morphs through phase1 at9.0s, phase2 at11.35s, phase3 at13.55s and phase4 at17.85s in the V14 host; composition owns placement, scale, masks, motion-path and light animation.",
+        "camera moves the proof-world framing at15.9s and visits authored CTA stations at21.67s,22.8s and24.05s. Shared world coordinates keep type positions deterministic; boxes were customized for portrait legibility."
+      ],
+      "limits": [
+        "glyphs mutates DOM; call once on original text. Styling .vchar, wrapping, clipping, text layout and font loading belong to the host.",
+        "letters appends \" .vchar\" to one container selector; ungrouped comma lists are not a supported grouping API.",
+        "poseFor/camera are fixed to1080x1920, need positive nonzero rectangle dimensions and margin, and expect transformOrigin0 0. They do not auto-detect subject boxes or solve perspective.",
+        "draw requires SVG elements supporting getTotalLength; it sets initial stroke style during construction and does not establish stroke paint or clear previous dash settings.",
+        "mesh appends36polygons on each call, with no cleanup or reusable factory options. Call once per empty SVG group. The five form tables, blue base RGB[84,166,255], radius185 and lighting are authored constants; changing silhouette requires corresponding resampled contours.",
+        "mesh is a deterministic flat SVG facet effect, not a physical3D mesh or general topology/physics engine. state.phase0..4 and state.light are authored timeline values; changing state directly requires calling render().",
+        "No own timeline registration, audio/media playback, clocks, async measurements or extra dependencies. The host owns complete scene timing and rendered audiovisual acceptance."
+      ],
+      "validation_status": "Copied bit-identically from MD-confirmed stable V14 helper SHA e5d345b3e755fb33d0cc8d164dc38e5b5ca11f6e4e111e8c4acfd571392dba5e. This library registration and hash validation do not assert final V14 render approval; that QA is recorded separately."
     }
   ],
   "historical_reuse": [

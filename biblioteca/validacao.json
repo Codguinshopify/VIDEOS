@@ -95,8 +95,13 @@
       "path": "biblioteca/componentes/evoquex-v13-motion.js",
       "sha256": "7a5e38e65bbc346da88fdb7ee4c7ea296d652ff6c48f8eda863557be0c87011d",
       "ok": true
+    },
+    {
+      "path": "biblioteca/componentes/evoquex-v14-motion.js",
+      "sha256": "e5d345b3e755fb33d0cc8d164dc38e5b5ca11f6e4e111e8c4acfd571392dba5e",
+      "ok": true
     }
   ],
-  "catalogue_sources": 21,
+  "catalogue_sources": 23,
   "full_pack_extraction_claimed": false
 }

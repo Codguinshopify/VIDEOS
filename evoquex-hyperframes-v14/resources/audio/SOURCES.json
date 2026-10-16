@@ -1,0 +1,44 @@
+{
+  "version": "V14",
+  "current_final_mix": "assets/mix-v14.wav",
+  "music_is_new_original_composition": true,
+  "old_music_or_effect_stems_required": false,
+  "reference_audio_reused": false,
+  "narration_present": false,
+  "subjective_listening_performed": false,
+  "files": [
+    {
+      "path": "assets/mix-v14.wav",
+      "sha256": "223148ffd396d1216b23b73888d6e332944393135829c75acec833aeb44bdcd2",
+      "bytes": 4992078
+    },
+    {
+      "path": "resources/audio/evoquex-original-score-v14.mid",
+      "sha256": "f8a3918bb804adb96f6d36ff5c4a862b7c8904d3af7fc4af18dcebab71d30e9c",
+      "bytes": 2165
+    },
+    {
+      "path": "resources/audio/music-original-v14.wav",
+      "sha256": "501543f4c96c84b18353d30e6d512a0866b4885f004b7addd99da737001e6c20",
+      "bytes": 4992044
+    },
+    {
+      "path": "resources/audio/effects-original-v14.wav",
+      "sha256": "0b8138558ee68cc74c5880f378b6c3b8d68dce5ea4f5f22ed8eda728dafe9d17",
+      "bytes": 4992044
+    },
+    {
+      "path": "resources/audio/GeneralUser-GS-LICENSE.txt",
+      "sha256": "7b32efefdf95ce38a043799f0659853ddc00fbaa14d8c50f0aca16b9b8b405be",
+      "bytes": 2317
+    }
+  ],
+  "soundfont_for_recomposition_only": {
+    "repository": "https://github.com/mrbumpy409/GeneralUser-GS",
+    "commit": "684543d5e5efaef08d02be50dcda8d552478fa60",
+    "sha256": "9575028c7a1f589f5770fccc8cff2734566af40cd26ed836944e9a5152688cfe",
+    "already_cached": true,
+    "required_for_video_render": false
+  },
+  "provenance": "resources/audio/provenance-v14.json"
+}

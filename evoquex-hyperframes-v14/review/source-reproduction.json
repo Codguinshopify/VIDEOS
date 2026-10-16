@@ -1,0 +1,266 @@
+{
+  "version": "V14",
+  "ok": true,
+  "extracted_project": "/tmp/v14-final-source-repro-kzaqfm5q/evoquex-hyperframes-v14",
+  "archive_crc_passed": true,
+  "archive_paths_safe": true,
+  "archive_symlinks_rejected": true,
+  "archive_members_at_extraction": 77,
+  "all_archive_entries_matched_current_local_bytes_before_extraction": true,
+  "zip_sha256_intentionally_not_a_dependency": true,
+  "repackaging_note": "Documentation and QA may be repackaged after this report without changing these render/fact inputs. No ZIP hash is part of this reproduction contract.",
+  "node_modules_independent_directory": true,
+  "commands": [
+    {
+      "command": "npm ci --offline --cache /workspace/.npm --no-audit --no-fund",
+      "exit_code": 0,
+      "output": "added 80 packages in 4s",
+      "network_used": false,
+      "different_cache_used": false
+    },
+    {
+      "command": "node scripts/hf.mjs lint --json",
+      "exit_code": 0,
+      "result": {
+        "ok": true,
+        "errorCount": 0,
+        "warningCount": 0,
+        "infoCount": 0,
+        "findings": [],
+        "filesScanned": 1,
+        "_meta": {
+          "version": "0.8.162",
+          "updateAvailable": false
+        }
+      }
+    },
+    {
+      "command": "node scripts/hf.mjs snapshot --at 0,3.3,5.7,7.8,10.4,13.1,16.4,19.4,24.7 --output review/repro-snapshots",
+      "exit_code": 0,
+      "requested_frames": 9,
+      "actual_frames": 10,
+      "loaded_fonts": 1
+    },
+    {
+      "command": "python scripts/validate-source.py",
+      "exit_code": 0,
+      "active_metric_source": "explicit_user_attestation",
+      "real_footage_union_seconds": 2.5600000000000005
+    }
+  ],
+  "render_and_factual_inputs": [
+    {
+      "path": "assets/DM-Sans.woff2",
+      "original_sha256": "9fea608a947e67020c33cad9a6fe3d60c54119dfb8cff87768a8117a15ed7543",
+      "extracted_sha256": "9fea608a947e67020c33cad9a6fe3d60c54119dfb8cff87768a8117a15ed7543",
+      "matches": true
+    },
+    {
+      "path": "assets/campanha.mp4",
+      "original_sha256": "01144794dd01f913af3d6fe1c24563a74ee89461b44289ac4a0dd5534139d335",
+      "extracted_sha256": "01144794dd01f913af3d6fe1c24563a74ee89461b44289ac4a0dd5534139d335",
+      "matches": true
+    },
+    {
+      "path": "assets/clevelandia.jpg",
+      "original_sha256": "a5bba18170e69a3b9db2203d0babbb39b341217772a1794495718afaa7b331a1",
+      "extracted_sha256": "a5bba18170e69a3b9db2203d0babbb39b341217772a1794495718afaa7b331a1",
+      "matches": true
+    },
+    {
+      "path": "assets/mix-v14.wav",
+      "original_sha256": "223148ffd396d1216b23b73888d6e332944393135829c75acec833aeb44bdcd2",
+      "extracted_sha256": "223148ffd396d1216b23b73888d6e332944393135829c75acec833aeb44bdcd2",
+      "matches": true
+    },
+    {
+      "path": "hyperframes.json",
+      "original_sha256": "8af50d8d2ca7a808044b1eb551b7aa542ea7006e1f84d43eb25dd8e50faf38d7",
+      "extracted_sha256": "8af50d8d2ca7a808044b1eb551b7aa542ea7006e1f84d43eb25dd8e50faf38d7",
+      "matches": true
+    },
+    {
+      "path": "index.html",
+      "original_sha256": "ee2fb22261b994340cca5d181d9a1320fd0f36c30956afad08a671ec3ce78970",
+      "extracted_sha256": "ee2fb22261b994340cca5d181d9a1320fd0f36c30956afad08a671ec3ce78970",
+      "matches": true
+    },
+    {
+      "path": "meta.json",
+      "original_sha256": "a9384a6cc5a18e94770a5309a346fbbd222e820936a8de19c588803f66db5b7e",
+      "extracted_sha256": "a9384a6cc5a18e94770a5309a346fbbd222e820936a8de19c588803f66db5b7e",
+      "matches": true
+    },
+    {
+      "path": "motion.js",
+      "original_sha256": "e9942459cb9d4002dcac0c468b9177ab8d87a28b235c08f80217a67d4f9ab73f",
+      "extracted_sha256": "e9942459cb9d4002dcac0c468b9177ab8d87a28b235c08f80217a67d4f9ab73f",
+      "matches": true
+    },
+    {
+      "path": "package-lock.json",
+      "original_sha256": "9602d0227afffe0b806010b7133d7afb2ab43d92cd8aa1ee2bd2f547f54217e5",
+      "extracted_sha256": "9602d0227afffe0b806010b7133d7afb2ab43d92cd8aa1ee2bd2f547f54217e5",
+      "matches": true
+    },
+    {
+      "path": "package.json",
+      "original_sha256": "920f8ae7801c9fc58821b8706414696a3b2c0638847ee36ea000b1987a1e53eb",
+      "extracted_sha256": "920f8ae7801c9fc58821b8706414696a3b2c0638847ee36ea000b1987a1e53eb",
+      "matches": true
+    },
+    {
+      "path": "resources/briefing-v14.txt",
+      "original_sha256": "95f60861ac08f851386c96fae5d8322e938eb9bf67a5b56af945f7d0dd9788f4",
+      "extracted_sha256": "95f60861ac08f851386c96fae5d8322e938eb9bf67a5b56af945f7d0dd9788f4",
+      "matches": true
+    },
+    {
+      "path": "resources/case-facts-v14.json",
+      "original_sha256": "2884ea8150cafdc7fe0d2960a66f570782fb1acf606f779f600b9f8384c4674d",
+      "extracted_sha256": "2884ea8150cafdc7fe0d2960a66f570782fb1acf606f779f600b9f8384c4674d",
+      "matches": true
+    },
+    {
+      "path": "resources/qa-contract-v14.json",
+      "original_sha256": "878579b8669b15a11fcfeadfd968e3bf017af502651a2499f9b835eba47c6e90",
+      "extracted_sha256": "878579b8669b15a11fcfeadfd968e3bf017af502651a2499f9b835eba47c6e90",
+      "matches": true
+    },
+    {
+      "path": "resources/scene-timing-v14.json",
+      "original_sha256": "216328fe4255f09ac37106b363a4280413b4eb6ae14190eef5a94f013e16a367",
+      "extracted_sha256": "216328fe4255f09ac37106b363a4280413b4eb6ae14190eef5a94f013e16a367",
+      "matches": true
+    },
+    {
+      "path": "style.css",
+      "original_sha256": "7be71d7b22cfe728c4f4534fd4addcfddd67cd79c93a4f600266fe8c5e25c196",
+      "extracted_sha256": "7be71d7b22cfe728c4f4534fd4addcfddd67cd79c93a4f600266fe8c5e25c196",
+      "matches": true
+    },
+    {
+      "path": "vendor/MotionPathPlugin.min.js",
+      "original_sha256": "aa5f955ca4ce3095ebe5726f43a46b72532230edb3501b28fb853f189f023cab",
+      "extracted_sha256": "aa5f955ca4ce3095ebe5726f43a46b72532230edb3501b28fb853f189f023cab",
+      "matches": true
+    },
+    {
+      "path": "vendor/evoquex-v12-effects.js",
+      "original_sha256": "18ec4bace80716614e09cfbbf1a9fa555d07af64f33788e52063a411f778eec2",
+      "extracted_sha256": "18ec4bace80716614e09cfbbf1a9fa555d07af64f33788e52063a411f778eec2",
+      "matches": true
+    },
+    {
+      "path": "vendor/evoquex-v14-motion.js",
+      "original_sha256": "e5d345b3e755fb33d0cc8d164dc38e5b5ca11f6e4e111e8c4acfd571392dba5e",
+      "extracted_sha256": "e5d345b3e755fb33d0cc8d164dc38e5b5ca11f6e4e111e8c4acfd571392dba5e",
+      "matches": true
+    },
+    {
+      "path": "vendor/gsap.min.js",
+      "original_sha256": "c174bfce53a729418d57a8ad8625e7247c793a22fef8e2851e3cfa3de9cd8280",
+      "extracted_sha256": "c174bfce53a729418d57a8ad8625e7247c793a22fef8e2851e3cfa3de9cd8280",
+      "matches": true
+    }
+  ],
+  "snapshots": [
+    {
+      "path": "review/repro-snapshots/frame-00-at-0s.png",
+      "dimensions": [
+        1080,
+        1920
+      ],
+      "sha256": "01bd6356b1b6e5d6b14b5397e20268af095a7ea43e53bee3c3c92187c8b2792d"
+    },
+    {
+      "path": "review/repro-snapshots/frame-01-at-3.3s.png",
+      "dimensions": [
+        1080,
+        1920
+      ],
+      "sha256": "520a9d3d9872e945ad02190532e2e8668800fbc004ff733bcf74fbf128d84921"
+    },
+    {
+      "path": "review/repro-snapshots/frame-02-at-5.7s.png",
+      "dimensions": [
+        1080,
+        1920
+      ],
+      "sha256": "63f8527609c763a7cd0935464509113db6287a02556bdd1bf2601585307d60e2"
+    },
+    {
+      "path": "review/repro-snapshots/frame-03-at-7.8s.png",
+      "dimensions": [
+        1080,
+        1920
+      ],
+      "sha256": "ecc6b496c7bd06f7ee04f4448e1cb0cca0c0f8235142d6d04052c969a2c117e3"
+    },
+    {
+      "path": "review/repro-snapshots/frame-04-at-10.4s.png",
+      "dimensions": [
+        1080,
+        1920
+      ],
+      "sha256": "a6d89f053fa8c4f0dc7274b66e5d170e06df9d58468c159349d64795a97bceb5"
+    },
+    {
+      "path": "review/repro-snapshots/frame-05-at-13.1s.png",
+      "dimensions": [
+        1080,
+        1920
+      ],
+      "sha256": "7f3b8f2fa4161969e142a713589f9869804d7b7d2cada158e7bb0518a8e1146f"
+    },
+    {
+      "path": "review/repro-snapshots/frame-06-at-16.4s.png",
+      "dimensions": [
+        1080,
+        1920
+      ],
+      "sha256": "d5b144127bd907f519a5968f142fd30b023b21d23ef5e83488436fe8ac9b4956"
+    },
+    {
+      "path": "review/repro-snapshots/frame-07-at-19.4s.png",
+      "dimensions": [
+        1080,
+        1920
+      ],
+      "sha256": "14977f14de1e92bb6a56e04daf5c67df1ca4a188c16e7ac97abb0dd4b0bdc1da"
+    },
+    {
+      "path": "review/repro-snapshots/frame-08-at-24.7s.png",
+      "dimensions": [
+        1080,
+        1920
+      ],
+      "sha256": "8edc5b06eb6bcc55677eeea97d178e0158aa8d6c3a47e05d1e60a1a0f1452d78"
+    },
+    {
+      "path": "review/repro-snapshots/frame-09-at-25.22s.png",
+      "dimensions": [
+        1080,
+        1920
+      ],
+      "sha256": "b62dcc52f313519dcf49f1f16025efd20277a97adbb582442623047a77b958f3"
+    }
+  ],
+  "all_requested_frames_present": true,
+  "all_snapshots_dimensions_correct": true,
+  "all_snapshots_decoded": true,
+  "contact_sheets_visually_inspected": true,
+  "visual_result": "Hook, city strata, brief film, distribution, local marker, active20milviews, strategy and final CTA appear in native captures; no missing assets identified. Intermediate type fragmentation is intentional.",
+  "validated_final_video_sha256": "a07de6cdbab452fb10e0d65c731710d4f64d14caa94a100730dec78838964417",
+  "no_v12_or_v13_sibling_dependency": true,
+  "baseline_comparison_required": false,
+  "full_video_rerender_performed_in_reproduction": false,
+  "continuous_playback_performed": false,
+  "subjective_listening_performed": false,
+  "source_package_review_frame_dumps_excluded": true,
+  "source_package_old_briefs_and_unused_media_excluded": true,
+  "nonblocking_warnings": [
+    "Native CLI could not persist global history under the user cache; requested snapshot files were saved successfully.",
+    "CLI added one end-of-timeline snapshot at25.22seconds to nine requested times."
+  ]
+}

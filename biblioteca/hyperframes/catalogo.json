@@ -211,6 +211,26 @@
         "slit-scan-reveal.html.txt": "896d30e1162029a6f6085d3deb08da22a2b9ef717b1ac0597b09953ec0b1aae7",
         "registry-item.json": "22ead401c64a947af5f05a78139f7be47f090687971af52499a55ec2c8ede77b"
       }
+    },
+    {
+      "name": "facet-morph",
+      "type": "components",
+      "path": "biblioteca/hyperframes/facet-morph",
+      "source": "https://github.com/heygen-com/hyperframes/tree/08ee1bd5ad59987a7f2525222683e24ca30971f9/registry/components/facet-morph",
+      "sha256": {
+        "facet-morph.html.txt": "ebb10804d82647be0452aa15b4601aa8fb2d4c5c37d9f9cb3092203dad38d53b",
+        "registry-item.json": "d295fcddd250fc920dcad916e91bcafdbf10efd952f47ad2b881d404a10a36e3"
+      }
+    },
+    {
+      "name": "caption-camera-follow",
+      "type": "components",
+      "path": "biblioteca/hyperframes/caption-camera-follow",
+      "source": "https://github.com/heygen-com/hyperframes/tree/08ee1bd5ad59987a7f2525222683e24ca30971f9/registry/components/caption-camera-follow",
+      "sha256": {
+        "caption-camera-follow.html.txt": "4a0da1ba065882e95274468c8f3e36f1094fc598c3c93be1fc63182e9e42953c",
+        "registry-item.json": "9a231316fbc229723242d30bfda8d74fd32f7d45a7237b2cd67bf0e6986660e6"
+      }
     }
   ]
 }

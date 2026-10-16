@@ -1,0 +1,64 @@
+{
+  "version": "V14",
+  "updated_date_utc": "2026-10-16",
+  "status": "pending",
+  "narration_present": false,
+  "requested_voice": {
+    "gender": "female",
+    "language": "pt-BR",
+    "quality": "Natural, expressiva, segura e profissional."
+  },
+  "provider_requested": "ElevenLabs",
+  "environment_checks": {
+    "authenticated_generation_test_performed_for_v14": false,
+    "audio_export_test_performed_for_v14": false,
+    "plugin_installation_verified_for_v14": null,
+    "current_plan_verified": false,
+    "free_plan_limits_verified": false,
+    "commercial_usage_rights_verified": false,
+    "credential_values_recorded": false,
+    "note": "Nenhuma geração autenticada está confirmada para a V14; não presumir que instalação ou verificações históricas comprovem acesso funcional atual."
+  },
+  "existing_audio": {
+    "file": "assets/mix-v14.wav",
+    "type": "instrumental_and_effects_only",
+    "production_status": "produced_technical_export_validation_passed_no_subjective_listening",
+    "music_direction": "Nova composição musical V14; a trilha repetitiva anterior foi rejeitada.",
+    "new_score_midi": "resources/audio/evoquex-original-score-v14.mid",
+    "new_instrumental": "resources/audio/music-original-v14.wav",
+    "original_clip_audio_gain": 0,
+    "reference_audio_reused": false,
+    "rejected_kokoro_voice_reused": false,
+    "provenance_status": "Novo mix integrado ao MP4 final e validado tecnicamente; sem escuta subjetiva.",
+    "provenance_file": "resources/audio/provenance-v14.json",
+    "final_export_sha256": "a07de6cdbab452fb10e0d65c731710d4f64d14caa94a100730dec78838964417"
+  },
+  "prepared_materials": {
+    "storyboard": "STORYBOARD.md",
+    "scene_timing": "resources/scene-timing-v14.json",
+    "target_duration_seconds": 26,
+    "target_video_frames": 780,
+    "timing_is_measured_voice_alignment": false,
+    "real_narration_file": null,
+    "voice_cues_file": null
+  },
+  "next_steps_if_narration_is_resumed": [
+    "Verificar ferramenta e autenticação disponíveis sem registrar credenciais.",
+    "Conferir limites e direitos aplicáveis do plano gratuito antes do uso; não comprar nem alterar plano.",
+    "Gerar ou receber uma gravação feminina brasileira adequada somente por um caminho disponível e autorizado.",
+    "Medir o áudio real e revisar pronúncia, naturalidade e inteligibilidade por escuta quando houver ferramenta acessível.",
+    "Retimar cenas, música, efeitos e ducking a partir da gravação real, sem apontar para arquivo inexistente.",
+    "Validar o MP4 atualizado e registrar separadamente os checks técnicos e a revisão por audição."
+  ],
+  "purchases_or_plan_changes_performed": false,
+  "voice_generation_cost_incurred": false,
+  "subjective_listening_performed": false,
+  "limitations": [
+    "Não existe locução V14 produzida, alinhada ou exportada.",
+    "O timing de 26 segundos é editorial e não comprova sincronização com fala real.",
+    "A revisão do MP4 final foi por sequências de frames e checks técnicos, sem playback contínuo ou escuta.",
+    "Não há escuta subjetiva disponível nesta interface."
+  ],
+  "delivery": "Somente o MP4 final; não incluir relatório, inventário ou resumo técnico ao usuário.",
+  "no_placeholder_voice_file_referenced": true
+}

@@ -1,0 +1,17 @@
+# Áudio V14 — composição original de 26 segundos
+
+O arquivo final real é `assets/mix-v14.wav`: PCM16, estéreo, 48 kHz. Esta trilha foi **composta de novo**; não é outra montagem do loop ou dos stems V7/V12/V13. O hook sonoro também foi redesenhado, pois nesta etapa não existe congelamento obrigatório dos primeiros quatro segundos.
+
+O arranjo foi registrado em `evoquex-original-score-v14.mid`, com 220 notas, 100 BPM e centro em mi menor. A instrumentação usa Electric Piano 2, Synth Bass 2, vibrafone, pad suave e percussão General MIDI. As frases, voicings e durações foram escritos para os movimentos, em vez de repetir o mesmo compasso durante todo o vídeo.
+
+As três seções são: hook/localidade com pontuações individuais de 0 a 6,35 s; quatro frases harmônicas e melódicas diferentes para produção, divulgação, localidade e prova de 6,35 a 17,6 s; retomada, crescimento e resolução do convite de 17,6 a 26 s. Há redução de energia antes da prova e na câmera de saída, e a bateria cessa no convite final para dar espaço à leitura. O acorde de assinatura se resolve em 24,5 s e o fade termina em 26 s.
+
+Os 22 acentos de sound design são PCM original gerado de forma determinística: impactos com queda de frequência, whooshes de ruído filtrado, dobras em pequenas camadas e clicks afinados. As fórmulas e o seed estão em `scripts/compose-audio.py`. Não são efeitos retirados das referências ou de packs sem licença. O volume do instrumental recebe automação nos pontos de transformação; não há efeito em cada letra.
+
+Os stems novos reais ficam em `music-original-v14.wav` e `effects-original-v14.wav`. `provenance-v14.json` registra cada nota MIDI, evento, instrumento, banco, hash, automação, compressor e parâmetros de masterização. `SOURCES.json` identifica os arquivos vigentes. A licença integral do GeneralUser GS foi preservada com as ressalvas originais do autor sobre a procedência das amostras.
+
+Para recompor, execute `python scripts/compose-audio.py` a partir da raiz do projeto. São necessários Python, NumPy, SciPy, FFmpeg, libfluidsynth e o banco GeneralUser GS verificado. Esses recursos já existem neste ambiente. O script procura o banco em `/workspace/.cache/evoquex-audio/GeneralUser-GS.sf2`; para outra localização, use `EVOQUEX_SF2`. A composição verifica o SHA-256 `9575028c7a1f589f5770fccc8cff2734566af40cd26ed836944e9a5152688cfe`. O banco não precisa ser distribuído com o vídeo: a renderização só usa o WAV final pronto. A recomposição é que precisa do banco e da biblioteca FluidSynth. O comando antigo `scripts/remix-audio.py` agora apenas encaminha para a composição V14; não carrega stems antigos.
+
+Uma reprodução isolada, sem nenhum stem ou mix antigo na pasta, produziu MIDI e três WAVs com bytes idênticos. Os resultados estão em `review/audio-reproduction-v14.json`. A validação técnica do WAV está em `review/audio-validation-v14.json`. A análise de envelopes sonoros das quatro referências locais foi realizada sobre os arquivos completos e ficou em `review/reference-audio-envelope-v14.json`; não foi reutilizado áudio dessas referências.
+
+Não há locução nova, fala original do anúncio ou reuso da voz rejeitada. Não houve chamada a serviço pago, compra, geração TTS ou uso de credencial. **Não houve escuta subjetiva nem reprodução audiovisual contínua nesta interface**; as validações registradas são de sinal, duração, clipping, loudness, reprodução determinística e sincronização temporal.

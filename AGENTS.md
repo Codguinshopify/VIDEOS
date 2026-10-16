@@ -126,3 +126,45 @@ estiverem disponíveis, declarar a limitação sem afirmar que assistiu ou ouviu
 Entregar vídeo renderizado e revisado, com o relatório objetivo pedido nesta etapa:
 técnica/referência/trecho, recursos reutilizados, problemas corrigidos e limitações.
 Não gerar montagem comparativa. A documentação não substitui a execução do vídeo.
+
+## Direção vigente e agente MD — diretriz V14
+
+O briefing V14 é a instrução atual e **prevalece sobre as restrições históricas da
+V13 quando houver conflito**. Leia `.agents/agents/md.md` ao assumir a direção de
+motion design. É um arquivo de instruções locais persistentes; não alegar registro
+ou descoberta automática de agente em nuvem.
+
+Antes de cada novo trabalho ou revisão da Evoquex, consultar novamente **os três
+MP4 reais** de Shard Cloud, Virgílio e OtoCriativo, nos caminhos permanentes e com os
+hashes de `biblioteca/referencias/catalogo.json`. Não substituir a consulta por memória,
+descrições ou análises antigas. Os três anexos reenviados na V14 foram deduplicados
+por hash e correspondem às cópias já preservadas. A referência adicional Weven continua
+disponível. Registrar a consulta efetiva internamente e não alegar playback/escuta
+quando só houver decodificação e análise de quadros.
+
+O hook é benchmark de qualidade e **pode ser aprimorado**: não exigir igualdade de
+cada frame com a V13. Preservar a ideia do gancho, fundo escuro, branco, azul `#54A6FF`
+e vermelho `#F87171`. Reconstruir substancialmente o pós-hook, com motion como
+protagonista, composições conectadas e filmagem real breve. Não manter “Evoquex” ou
+“Clevelândia” como marca-d’água persistente depois dos primeiros cinco segundos.
+As mensagens e a estrutura narrativa permanecem; só ajustar texto minimamente
+quando indispensável ao ritmo, à leitura ou à transição. A duração pode ser ajustada.
+
+**Dado ativo da V14:** “20 mil visualizações de pessoas de Clevelândia”, atestado
+pelo usuário no novo briefing. Essa é sua procedência; não afirmar verificação
+documental independente. Na nova edição, substituir a apresentação das métricas
+antigas por esse dado, sem convertê-lo em impressões, alcance ou 20 mil pessoas únicas.
+Não usar a captura de 20.981 impressões/13.064 de alcance como prova das novas views.
+Preservar os arquivos e as informações históricas da V13, sem reescrevê-los retroativamente.
+Danny’s Presentes continua sendo a grafia correta; não inventar vendas ou resultados.
+
+A trilha anterior foi rejeitada por repetição: substituí-la ou reconstruir a música
+e sincronizar o sound design às transformações. Consultar acervo, Git e biblioteca
+HyperFrames atualizados, não apenas o inventário de uma execução anterior. Usar os
+recursos úteis de fato, mantendo procedência e compatibilidade verificáveis.
+
+**Entrega V14: somente o MP4 final**, sem relatório, resumo das mudanças, inventário,
+lista de skills, código ou descrição do processo. Fontes, auditorias e QA permanecem
+internos ao repositório. Se um bloqueio real impedir a conclusão, informar apenas o
+impedimento específico. As decisões criativas já estão autorizadas; não pedir
+aprovação a cada transição ou escolha técnica.

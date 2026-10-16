@@ -1,0 +1,49 @@
+{
+  "version": "V14",
+  "video_sha256": "a07de6cdbab452fb10e0d65c731710d4f64d14caa94a100730dec78838964417",
+  "rendered_full_versions": 3,
+  "technical_output_validation": "review/output-validation.json",
+  "source_binding": "review/source-file-sha256-final.json",
+  "native_validation": "review/native-check-final.json",
+  "actual_mp4_review": {
+    "full_duration_sampled_frames": 52,
+    "hook_consecutive_frames_extracted": 120,
+    "transition_consecutive_frames_extracted": 435,
+    "first_export_transition_frames_reviewed_by_independent_reviewer": 435,
+    "final_export_fresh_independent_correction_frames": 90,
+    "final_export_additional_director_critical_frames": 21,
+    "whole_duration_motion_decode_frames": 780,
+    "sampling_manifest": "review/hf-v14-sampling.json",
+    "independent_review": "review/independent-motion-review-final.md",
+    "director_critical_sheet_external": "/workspace/audit-v14-md/final-third/critical-dense.jpg"
+  },
+  "findings_fixed": [
+    "premature white wedge",
+    "local photo/caption overlap",
+    "play object/title overlap",
+    "unclear pin silhouette",
+    "empty premature brand band",
+    "outgoing CTA fragment at top",
+    "slow white wipe",
+    "premature objective/graph-label/graph-traveller/shadow/echo states",
+    "one-frame full-video flash before lamella reveal",
+    "empty video panel during outgoing white plane"
+  ],
+  "preserved": {
+    "business_name": "Danny’s Presentes",
+    "metric": "20 mil visualizações de pessoas de Clevelândia",
+    "metric_provenance": "explicit user attestation; not inferred from historical screenshot",
+    "original_media_hashes_unchanged": true,
+    "prior_V13_source_preserved": true
+  },
+  "audio": {
+    "new_original_score": true,
+    "source_mix_sha256": "223148ffd396d1216b23b73888d6e332944393135829c75acec833aeb44bdcd2",
+    "real_narration_present": false,
+    "original_footage_audio_gain": 0,
+    "subjective_listening_performed": false,
+    "technical_AAC_checks_passed": true
+  },
+  "continuous_realtime_playback_performed": false,
+  "final_delivery": "Only final MP4 link; no technical report or comparison"
+}

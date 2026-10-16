@@ -1,0 +1,80 @@
+{
+  "version": "V14",
+  "timing_source": "resources/scene-timing-v14.json",
+  "facts_source": "resources/case-facts-v14.json",
+  "render_file": "renders/evoquex-hyperframes-v14.mp4",
+  "composition_id": "evoquex-hf-v14",
+  "dimensions": [
+    1080,
+    1920
+  ],
+  "duration_seconds": 26,
+  "fps": 30,
+  "expected_frames": 780,
+  "hook_is_quality_benchmark": true,
+  "hook_pixel_identity_required": false,
+  "copy_contract_mode": "current_brief_and_scene_messages_with_minimal_rhythm_changes",
+  "active_metric": "20 mil visualizações de pessoas de Clevelândia",
+  "metric_source_type": "explicit_user_attestation",
+  "old_screenshot_must_not_be_referenced": true,
+  "maximum_real_footage_union_seconds": 3.0,
+  "planned_real_footage_window": [
+    6.9,
+    9.46
+  ],
+  "planned_slats": 3,
+  "watermark_disallowed_after_seconds": 5,
+  "watermark_stationary_candidate_minimum_seconds": 4,
+  "delivery": "final_mp4_only",
+  "review_windows": [
+    [
+      4,
+      5.8
+    ],
+    [
+      6.1,
+      7.6
+    ],
+    [
+      8.8,
+      10.3
+    ],
+    [
+      11.2,
+      12.6
+    ],
+    [
+      13.6,
+      15.1
+    ],
+    [
+      16.9,
+      18.6
+    ],
+    [
+      19.6,
+      21.2
+    ],
+    [
+      21.6,
+      23.4
+    ],
+    [
+      24,
+      25.7
+    ]
+  ],
+  "phone_check_frames": {
+    "hook": 98,
+    "local": 170,
+    "production": 235,
+    "distribution": 310,
+    "metric": 485,
+    "strategy": 580,
+    "cta": 740
+  },
+  "review_limitations": [
+    "No subjective listening or continuous audiovisual playback available.",
+    "Consecutive frames, DOM trajectories and numerical image-flow estimates support review but do not certify subjective quality."
+  ]
+}

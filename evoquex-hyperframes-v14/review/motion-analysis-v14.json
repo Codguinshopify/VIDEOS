@@ -1,0 +1,42 @@
+{
+  "version": "V14",
+  "video": "evoquex-hyperframes-v14.mp4",
+  "video_sha256": "a07de6cdbab452fb10e0d65c731710d4f64d14caa94a100730dec78838964417",
+  "full_ffmpeg_decode_passed": true,
+  "decoded_frames": 780,
+  "analysis_dimensions": [
+    180,
+    320
+  ],
+  "fps": 30,
+  "flow_method": "NumPy local differential Lucas-Kanade 8x8 cells",
+  "cv2_available": false,
+  "new_dependencies_installed": false,
+  "estimated_trajectories_are_semantic_object_tracks": false,
+  "cumulative_estimate_resets_at_seconds": [
+    0,
+    4,
+    6.6,
+    9.2,
+    11.6,
+    14,
+    18,
+    20.5
+  ],
+  "low_motion_candidates_are_quality_failures": false,
+  "hook_pixel_identity_required": false,
+  "artifacts_sha256": {
+    "motion-flow-v14.csv": "0168a3f7abf2be9fb60e27e2df385fdc930e6d044dcaf044d6af1ace5ecf8fd8",
+    "motion-pacing-v14.csv": "ba58fc4e8d8509854ac162d2f213cd43f1f50c4fc1c9e1c425b2d56baca706e2"
+  },
+  "continuous_playback_performed": false,
+  "subjective_listening_performed": false,
+  "limitations": [
+    "Differential flow assumes local texture and small motion; blur, cuts, large jumps and occlusion can invalidate estimates.",
+    "Cumulative scene displacement is an image-flow estimate, not an identified object trajectory.",
+    "Moving grain/glow can contribute motion; review semantic objects and consecutive frames separately.",
+    "Static reading/proof holds can be intentional; numerical motion is not a quality score.",
+    "The hook is a quality benchmark in V14; no pixel-identity constraint or baseline comparison is imposed.",
+    "No audiovisual playback or subjective sound review is performed by this script."
+  ]
+}

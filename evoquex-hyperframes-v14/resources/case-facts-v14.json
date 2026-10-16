@@ -1,0 +1,25 @@
+{
+  "version": "v14",
+  "business_name": "Danny’s Presentes",
+  "campaign_location": "Clevelândia",
+  "video_produced_by": "Evoquex",
+  "active_metric": {
+    "display": "20 mil visualizações de pessoas de Clevelândia",
+    "value": 20000,
+    "unit": "visualizações",
+    "source_type": "explicit_user_attestation",
+    "source": "briefing-v14.txt",
+    "brief_sha256": "95f60861ac08f851386c96fae5d8322e938eb9bf67a5b56af945f7d0dd9788f4",
+    "independently_documented_by_old_screenshot": false,
+    "unique_people_claimed": false
+  },
+  "excluded_old_screenshot_metrics": {
+    "impressions": 20981,
+    "reach": 13064,
+    "reason": "Different units; not evidence for active views metric"
+  },
+  "narration": {
+    "present": false,
+    "reason": "No authenticated high quality voice service; rejected synthetic voice not reused"
+  }
+}

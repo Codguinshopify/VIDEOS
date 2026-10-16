@@ -1,0 +1,157 @@
+{
+  "duration": 26,
+  "fps": 30,
+  "scenes": [
+    {
+      "start": 0,
+      "end": 4,
+      "name": "Hook",
+      "copy": "SUA EMPRESA → É CONHECIDA → EM CLEVELÂNDIA. → MAS É VISTA?",
+      "movement": "Rig tipográfico com quatro eixos, profundidade, contraste e máscara. A pergunta entrega a abertura circular."
+    },
+    {
+      "start": 4,
+      "end": 6.6,
+      "name": "Reconhecimento",
+      "copy": "Já viu por aqui? Uma das nossas divulgações.",
+      "movement": "Letras se articulam, por aqui abre paisagem em faixas; paisagem fecha em lâminas e desloca o campo."
+    },
+    {
+      "start": 6.6,
+      "end": 9.2,
+      "name": "Produção",
+      "copy": "Produzimos o vídeo. Danny’s Presentes",
+      "movement": "Fundo branco entra pelo espaço entre palavras; filme real único só6.9–9.46,3lamelas. Play facetado nasce da mesma geometria."
+    },
+    {
+      "start": 9.2,
+      "end": 11.6,
+      "name": "Divulgação",
+      "copy": "E divulgamos pela Evoquex. Objetivo: ir além dos seguidores.",
+      "movement": "Play vira seta com36facetas, rastro emcurva. Palavra e faixa azul ocupam o espaço que o filme devolve."
+    },
+    {
+      "start": 11.6,
+      "end": 14,
+      "name": "Localidade",
+      "copy": "Só para Clevelândia.",
+      "movement": "Seta dobra em marcador local. Tipografia muda de orientação, pin aproximae abre o campo azul da prova."
+    },
+    {
+      "start": 14,
+      "end": 18,
+      "name": "Prova",
+      "copy": "20 mil visualizações de pessoas de Clevelândia",
+      "movement": "Numeral recomposto por fatiasemprofundidade. Mil articula, qualificador entra apósassentamento; câmera deslocae reframa, mantendo frase inteira legível."
+    },
+    {
+      "start": 18,
+      "end": 20.5,
+      "name": "Relevância",
+      "copy": "Cada empresa. Uma estratégia. Mensagem → Público.",
+      "movement": "Ponto do0saiemtrajetória evirabalão, dois polos se aproximam e conexão se torna underline da estratégia."
+    },
+    {
+      "start": 20.5,
+      "end": 26,
+      "name": "Convite",
+      "copy": "E a sua empresa? E o seu serviço? Conversa com a gente. Evoquex",
+      "movement": "Câmerafazrota por palavras emum mundo2160px. Ligação vira fronteira, campoazul invade, tipoConversa assumeescala e assinatura resolve; não há doisblocosfixospor4s."
+    }
+  ],
+  "audio_anchors": [
+    {
+      "time": 0,
+      "cue": "hook_empresa"
+    },
+    {
+      "time": 1.1,
+      "cue": "hook_conhecida"
+    },
+    {
+      "time": 1.85,
+      "cue": "hook_cidade"
+    },
+    {
+      "time": 2.75,
+      "cue": "hook_pergunta"
+    },
+    {
+      "time": 3.85,
+      "cue": "iris"
+    },
+    {
+      "time": 5.45,
+      "cue": "paisagem_abre"
+    },
+    {
+      "time": 6.35,
+      "cue": "forma_transformacao"
+    },
+    {
+      "time": 7.05,
+      "cue": "filme_abre"
+    },
+    {
+      "time": 9.0,
+      "cue": "lamelas_dobram"
+    },
+    {
+      "time": 10.0,
+      "cue": "divulgacao_faixa"
+    },
+    {
+      "time": 11.35,
+      "cue": "forma_local"
+    },
+    {
+      "time": 12.15,
+      "cue": "localidade_tipo"
+    },
+    {
+      "time": 13.6,
+      "cue": "marcador_abre"
+    },
+    {
+      "time": 14.15,
+      "cue": "numero_20mil"
+    },
+    {
+      "time": 17.6,
+      "cue": "camera_sai"
+    },
+    {
+      "time": 18.8,
+      "cue": "estrategia"
+    },
+    {
+      "time": 19.45,
+      "cue": "conexao"
+    },
+    {
+      "time": 20.45,
+      "cue": "cta_transicao"
+    },
+    {
+      "time": 22,
+      "cue": "servico"
+    },
+    {
+      "time": 23,
+      "cue": "conversa"
+    },
+    {
+      "time": 24.5,
+      "cue": "assinatura"
+    }
+  ],
+  "media_window": {
+    "id": "real-film",
+    "source": "assets/campanha.mp4",
+    "start": 6.9,
+    "duration": 2.56,
+    "end": 9.46,
+    "muted": true,
+    "reason": "Only brief real footage; retain during the outgoing plane until it is fully occluded, avoiding an empty rectangle."
+  }
+}

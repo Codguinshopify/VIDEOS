@@ -15,6 +15,36 @@ e exige examinar o arquivo efetivamente entregue.
 - Arquivo final exportado, fontes reais da campanha e documentação dos áudios.
 - Relatórios de lint, layout, render e validação disponíveis na versão instalada.
 
+## Contrato ativo e precedência das instruções
+
+Antes de validar, identifique a versão e o briefing mais recente do usuário. Extraia
+um contrato ativo com duração/fps esperados, grafia, mensagens, métricas e suas
+unidades, procedência de cada alegação, intervalos protegidos quando houver e forma
+de entrega. Use o manifesto dessa produção quando existir; caso contrário, derive-o
+das instruções explícitas e registre a fonte internamente. Não reutilize valores
+fixados num validador antigo sem confrontá-los com o pedido vigente.
+
+Uma correção explícita do usuário para a edição atual prevalece sobre documentos
+históricos e regras de versões anteriores. Preserve o histórico: não reescreva uma
+captura ou relatório antigo para fazê-lo comprovar um novo dado. Diferencie evidência
+documental verificada, declaração do usuário e inferência; atribua cada alegação à
+sua fonte real, sem inventar validação independente. Não acrescente aprovação extra
+para aplicar uma correção que o usuário já determinou.
+
+Na **V14**, o contrato substitui a exibição dos dados antigos por **“20 mil
+visualizações de pessoas de Clevelândia”**, atestadas pelo usuário no novo briefing.
+Verifique exatamente a unidade visualizações. Não chamar de 20 mil pessoas únicas,
+alcance ou impressões. A captura histórica de 20.981 impressões/13.064 de alcance
+não comprova o novo total e não deve ser apresentada como essa prova. Registre que
+a declaração não foi validada de forma documental independente nesta etapa.
+
+Também na V14: o hook é benchmark e pode melhorar, portanto não exigir igualdade
+dos 120 frames; a duração pode mudar; filmagem é breve e subordinada ao motion;
+não há marca-d'água persistente de Evoquex/Clevelândia depois de cinco segundos;
+a música repetitiva deve ser substituída ou reconstruída; **a entrega é só o MP4**.
+As regras V13 abaixo aplicam-se à V13 ou a outro pedido que congele explicitamente
+trecho e roteiro, não como restrição automática de toda produção futura.
+
 ## Procedimento
 
 1. Identifique o arquivo candidato por caminho, tamanho e hash. Rode os checks
@@ -37,12 +67,13 @@ e exige examinar o arquivo efetivamente entregue.
    sem gerar ou entregar vídeos comparativos. Verifique a narrativa completa: cada
    frase acrescenta informação, as métricas funcionam como prova e o CTA soa próximo.
    A densidade de movimento deve servir à clareza, sem checklist de efeitos aleatórios.
-6. Revise os textos tanto no código quanto nos frames. Neste case, a grafia é
-   **Danny’s Presentes**. Evoquex produziu o vídeo; a campanha foi direcionada somente
-   a Clevelândia. Confira os dados contra a captura real: **13.064 pessoas alcançadas**
-   e **20.981 impressões/exibições do anúncio**. Não converter em visualizações,
-   vendas, conversões, ROI, alcance de não seguidores ou crescimento fictício. Não
-   usar gráficos que sugiram evolução temporal não documentada.
+6. Revise textos tanto no código quanto nos frames contra o contrato ativo. A grafia
+   deste case é **Danny’s Presentes**; Evoquex produziu o vídeo e a campanha foi
+   direcionada somente a Clevelândia. Confira valor, unidade e procedência da métrica
+   vigente, distinguindo visualizações, impressões, alcance e pessoas únicas. Não
+   converter uma unidade em outra, inferir vendas/ROI ou desenhar evolução temporal
+   não documentada. Dados históricos não devem invalidar uma nova declaração do
+   usuário nem servir como prova documental falsa dela.
 7. Valide o áudio efetivamente presente no MP4: decodificação, duração, clipping,
    loudness e pico verdadeiro quando as ferramentas permitirem. Verifique os cues
    contra os frames reais e o alinhamento das frases/acentos. Números de loudness e
@@ -140,11 +171,27 @@ comparativo e seus logs ficam no projeto, não como material de comparação ao 
   voz é natural. Sem ferramenta de escuta, declare validação técnica e limite sonoro.
 - Relacione técnicas às janelas verificadas e marque pendências reais. Uma passagem
   não examinada não recebe status “aprovada” apenas porque o render terminou.
+- Para entradas futuras, inspecione `at − 2/fps`, `at − 1/fps`, `at` e os primeiros
+  frames posteriores, além do estado inicial do vídeo. Um `fromTo` com
+  `immediateRender: false` não esconde um alvo que o CSS deixou no estado final;
+  placas vazias, rótulos ou partículas podem vazar cedo e produzir
+  “aparece → esconde → entra”. Confira o suporte e seus filhos. O estado inativo
+  deve estar definido em CSS ou `tl.set` no início, com destino explícito no tween.
+- Confira exatamente o primeiro frame ativo e a saída da mídia real. Os atributos
+  HTML/SVG da máscara também precisam refletir o estado inicial fechado; um tween
+  que começa um frame depois não corrige um flash já exportado. Compare o intervalo
+  de mídia do motor com o intervalo em que sua janela ainda está visível: se o vídeo
+  termina antes da saída do suporte, pode aparecer uma placa escura. Ajuste duração,
+  máscara ou saída usando frames reais; normalizar slats simultâneos não significa
+  contar várias reproduções independentes do mesmo trecho.
 
 ## Critério de entrega
 
 Entregue somente o vídeo editado, sem comparativos ou pacotes extras, salvo pedido
 explícito. O usuário prefere link direto GitHub
 `/raw/refs/heads/<branch>/entrega/<arquivo>.mp4`. Confirme que o arquivo publicado
-corresponde ao validado. Resuma melhorias efetivas e limitações materiais, com voz
-pendente quando aplicável; não declare aprovada uma dimensão que não pôde verificar.
+corresponde ao validado. Se o pedido vigente autorizar um resumo, descreva melhorias
+efetivas e limitações materiais sem declarar aprovada uma dimensão que não pôde
+verificar. Se determinar somente o vídeo, como na V14, entregue só o link do MP4,
+sem relatório ou descrição do processo. Comunique apenas um bloqueio específico
+quando ele impedir a conclusão.
