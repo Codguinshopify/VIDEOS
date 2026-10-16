@@ -1,0 +1,74 @@
+[
+  {
+    "id": "shard-disc",
+    "source": "park-shard-cloud/Park_Criativo_video_no_watermark (1).mp4",
+    "frames": 39,
+    "first_frame": 60,
+    "last_frame": 98,
+    "stride": 1,
+    "fps": 30
+  },
+  {
+    "id": "shard-plus",
+    "source": "park-shard-cloud/Park_Criativo_video_no_watermark (1).mp4",
+    "frames": 29,
+    "first_frame": 782,
+    "last_frame": 810,
+    "stride": 1,
+    "fps": 30
+  },
+  {
+    "id": "oto-cards",
+    "source": "oto-criativo/oto_criativo_video_no_watermark.mp4",
+    "frames": 25,
+    "first_frame": 231,
+    "last_frame": 255,
+    "stride": 1,
+    "fps": 30
+  },
+  {
+    "id": "oto-label",
+    "source": "oto-criativo/oto_criativo_video_no_watermark.mp4",
+    "frames": 25,
+    "first_frame": 440,
+    "last_frame": 464,
+    "stride": 1,
+    "fps": 30
+  },
+  {
+    "id": "virgilio-photo",
+    "source": "park-virgilio/Park_Criativo_video_no_watermark.mp4",
+    "frames": 31,
+    "first_frame": 564,
+    "last_frame": 594,
+    "stride": 1,
+    "fps": 30
+  },
+  {
+    "id": "virgilio-cta",
+    "source": "park-virgilio/Park_Criativo_video_no_watermark.mp4",
+    "frames": 31,
+    "first_frame": 1659,
+    "last_frame": 1719,
+    "stride": 2,
+    "fps": 30
+  },
+  {
+    "id": "weven-cursor",
+    "source": "park-weven/Park_Criativo_video_no_watermark (1).mp4",
+    "frames": 25,
+    "first_frame": 366,
+    "last_frame": 414,
+    "stride": 2,
+    "fps": 30
+  },
+  {
+    "id": "weven-band",
+    "source": "park-weven/Park_Criativo_video_no_watermark (1).mp4",
+    "frames": 23,
+    "first_frame": 834,
+    "last_frame": 879,
+    "stride": 2,
+    "fps": 30
+  }
+]

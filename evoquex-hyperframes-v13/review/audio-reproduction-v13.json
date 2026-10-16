@@ -1,0 +1,9 @@
+{
+  "isolated_source_reproduction_passed": true,
+  "source_and_reproduction_sha256": "d81ac627ec92d9ec88ce11a151587990284966ec4984b429cef17e79a3cf9952",
+  "same_bytes": true,
+  "copies_used_instead_of_source_symlinks": true,
+  "network_used": false,
+  "historical_v12_directory_modified": false,
+  "hook_prefix_preserved": true
+}

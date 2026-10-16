@@ -8,7 +8,7 @@ não depende de anexos temporários do chat ou de caminhos externos à cópia do
 | Quatro referências originais | `referencias/catalogo.json` | MP4 originais, nomes preservados em diretórios distintos, com hash e metadados. Estudo somente. |
 | Análise de técnicas | `referencias/ANALISE.md` | Trechos e decisões de adaptação, sem reproduzir a identidade das peças. |
 | Catálogo HyperFrames selecionado | `hyperframes/catalogo.json` | Fontes originais fixadas em revisão Git. HTML arquivado como `.html.txt`, para o Studio não alterar sua integridade. |
-| Recursos de packs | `packs/inventario.json` | Amostras completas já extraídas; volumes adicionais apenas identificados. AEP requer outro runtime. |
+| Recursos de packs | `packs/inventario.json` | 6000: três volumes SHA conferidos e arquivo completo listado; amostras pequenas preservadas. Glitch: somente prefixo inspecionado. AEP requer outro runtime. |
 | Componentes Evoquex | `componentes/catalogo.json` | Funções compartilháveis e caminho da produção que as utiliza. |
 | Validador da biblioteca | `scripts/verificar.py` | `python biblioteca/scripts/verificar.py` valida existência, hashes e decodificação da mídia catalogada. |
 
@@ -29,3 +29,7 @@ implementadas e seus critérios estão em ../evoquex-hyperframes-v12/REFERENCE-I
 
 A referência Park/Weven anterior foi recuperada na auditoria por hash de todos os
 anexos, com análise própria. Uploads de conteúdo idêntico não duplicam a biblioteca.
+
+Auditoria V13 dos packs: leia `packs/README.md` para volumes, formatos, cinco novas
+amostras verificadas e pendência de licença. Não confunda completude do RAR6000
+com execução de todos os projetos; Glitch continua uma inspeção parcial.

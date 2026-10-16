@@ -171,6 +171,46 @@
         "grain-overlay.html.txt": "97a0da8f26feca9574abcf08b8186cef10ea4819b2aeabc30547ae16ed9ae80d",
         "registry-item.json": "bd0c8976bc2cf7c6ed6aae3a64023c73e61505b604dfba97220ed27bbca0e897"
       }
+    },
+    {
+      "name": "type-match-cut",
+      "type": "components",
+      "path": "biblioteca/hyperframes/type-match-cut",
+      "source": "https://github.com/heygen-com/hyperframes/tree/08ee1bd5ad59987a7f2525222683e24ca30971f9/registry/components/type-match-cut",
+      "sha256": {
+        "type-match-cut.html.txt": "403c1a3200f795809bbf37bc6eb1f7659969dfcd2948a2c88c1308c843ad0b21",
+        "registry-item.json": "c73ac4c039826cb2257a65cd2b9a42d0f917639c82ee7b7a5ee7bde3ca3c2211"
+      }
+    },
+    {
+      "name": "text-match-cut",
+      "type": "components",
+      "path": "biblioteca/hyperframes/text-match-cut",
+      "source": "https://github.com/heygen-com/hyperframes/tree/08ee1bd5ad59987a7f2525222683e24ca30971f9/registry/components/text-match-cut",
+      "sha256": {
+        "text-match-cut.html.txt": "9bc1cc08bf75b56aa20b911d706e88755b1a6b39220f5ed5f7e70318ae184186",
+        "registry-item.json": "a62b0d13260f63c74b01077950d09f969a7283f3992329eaec065132f923fbd3"
+      }
+    },
+    {
+      "name": "pan-stations",
+      "type": "components",
+      "path": "biblioteca/hyperframes/pan-stations",
+      "source": "https://github.com/heygen-com/hyperframes/tree/08ee1bd5ad59987a7f2525222683e24ca30971f9/registry/components/pan-stations",
+      "sha256": {
+        "pan-stations.html.txt": "3d3b32584a7b969025e13a5586a6f7f66cadca311758ce6f735e523a170d6ed3",
+        "registry-item.json": "1160de064078645677aa563bd1243517529f69afb10c011474f1dd08d71a63ac"
+      }
+    },
+    {
+      "name": "slit-scan-reveal",
+      "type": "components",
+      "path": "biblioteca/hyperframes/slit-scan-reveal",
+      "source": "https://github.com/heygen-com/hyperframes/tree/08ee1bd5ad59987a7f2525222683e24ca30971f9/registry/components/slit-scan-reveal",
+      "sha256": {
+        "slit-scan-reveal.html.txt": "896d30e1162029a6f6085d3deb08da22a2b9ef717b1ac0597b09953ec0b1aae7",
+        "registry-item.json": "22ead401c64a947af5f05a78139f7be47f090687971af52499a55ec2c8ede77b"
+      }
     }
   ]
 }

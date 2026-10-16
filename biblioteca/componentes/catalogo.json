@@ -36,6 +36,56 @@
       ],
       "origin": "Mechanics adapted from pinned HyperFrames catalogue, source archives and Apache2 license preserved. Rectangles are explicit, no async layout reads.",
       "limits": "CSS2.5D only; flipBox counter-scale selected children; no physics/reflow. Native host render validation required."
+    },
+    {
+      "name": "evoquex-v13-motion",
+      "path": "biblioteca/componentes/evoquex-v13-motion.js",
+      "sha256": "7a5e38e65bbc346da88fdb7ee4c7ea296d652ff6c48f8eda863557be0c87011d",
+      "dependencies": [
+        "GSAP 3.14.2 supplied by host",
+        "DOM/SVG; CSS2.5D; no new dependency"
+      ],
+      "global": "window.EvoquexV13",
+      "host_example": "evoquex-hyperframes-v13/motion.js",
+      "api": {
+        "e85": "e85(normalizedProgress) -> easedProgress. Cubic-bezier(.85,0,.15,1), solved by24 bisection iterations; use progress0..1.",
+        "glyphs": "glyphs() -> void. Synchronously replaces text of [data-letters] with span.vchar nodes and keeps original text as aria-label; call once before timeline construction.",
+        "letters": "letters(timeline, containerSelector, atSeconds, {x=12,y=100,rot=65,tilt=3,duration=.46,ease=\"power4.out\",stagger=.018}) -> void. One entrance per generated glyph, alternating lateral offset/X/Z rotation.",
+        "slices": "slices(timeline, containerSelector, atSeconds, {distance=130,duration=.5,ease=\"back.out(1.08)\"}) -> void. Exactly3 DOM children.slice; authored y/rotation arrays and35ms offsets recombine the complementary clipped planes.",
+        "frame": "frame(timeline, svgRectAttributeObject, atSeconds, duration=.6) -> void. Tweens attributes of the host #flow-frame SVG rect using e85; fixed global target is intentional."
+      },
+      "catalogue_origins": [
+        {
+          "name": "text-match-cut",
+          "path": "biblioteca/hyperframes/text-match-cut",
+          "mechanic": "E85 single smooth motion curve, here24 bisection iterations rather than upstream28."
+        },
+        {
+          "name": "pan-stations",
+          "path": "biblioteca/hyperframes/pan-stations",
+          "mechanic": "Continuous host world/strip with staged camera stops. Host motion.js owns camera changes; helper does not implement a full station generator."
+        },
+        {
+          "name": "type-match-cut",
+          "path": "biblioteca/hyperframes/type-match-cut",
+          "mechanic": "Type and complementary aperture linked to media-boundary transformation; explicit host clipping/layout needed."
+        },
+        {
+          "name": "slit-scan-reveal",
+          "path": "biblioteca/hyperframes/slit-scan-reveal",
+          "mechanic": "Fragmented temporal arrival followed by coherent resolve adapted as3 clipped DOM planes. This is not the literal96-band Canvas time-sampling renderer."
+        }
+      ],
+      "catalogue_revision": "08ee1bd5ad59987a7f2525222683e24ca30971f9",
+      "upstream_license": "Apache-2.0; full text in biblioteca/hyperframes/LICENSE. GSAP retains its separate vendor license. Local project adaptation does not assert licensing of pack media.",
+      "limits": [
+        "glyphs mutates DOM; not repeat-safe after composition construction unless host recreates original text.",
+        "letters selector must address one container; do not pass an ungrouped comma list. The caller owns line breaks, clipping and timeline/initial-state interactions.",
+        "slices supports exactly3 children; more children would exceed the authored arrays. It does not subdivide text/images or set masks automatically.",
+        "frame is coupled to one SVG rect ID and changes SVG geometry, not CSS layout boxes.",
+        "No own timeline registration, audio/media playback, clocks, async font measurements or physics simulation. Host owns deterministic registration and visual acceptance."
+      ],
+      "validation_status": "Source copied bit-identically from stable V13 host; final render motion review is separate, not inferred from syntax or catalogue registration."
     }
   ],
   "historical_reuse": [

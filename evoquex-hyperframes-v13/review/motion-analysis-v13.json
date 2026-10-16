@@ -1,0 +1,92 @@
+{
+  "version": "V13",
+  "video": "evoquex-hyperframes-v13.mp4",
+  "video_sha256": "548a550705c835551b4ab2817acec0d92862eb79fee40b6299a18c54c6a81ef2",
+  "full_ffmpeg_decode_passed": true,
+  "decoded_frames": 900,
+  "analysis_dimensions": [
+    180,
+    320
+  ],
+  "fps": 30,
+  "flow_method": "NumPy local differential Lucas-Kanade 8x8 cells",
+  "cv2_available": false,
+  "new_dependencies_installed": false,
+  "estimated_trajectories_are_semantic_object_tracks": false,
+  "cumulative_estimate_resets_at_seconds": [
+    0,
+    4,
+    8,
+    15,
+    21
+  ],
+  "low_motion_candidates_are_quality_failures": false,
+  "hook_ssim": {
+    "baseline": "/workspace/VIDEOS/evoquex-hyperframes-v12/renders/evoquex-hyperframes-v12.mp4",
+    "baseline_sha256": "928b0b271c5144169af4dfe378935af5f8b4ca1b45fa4865bb63b7b1fd2b3361",
+    "candidate_sha256": "548a550705c835551b4ab2817acec0d92862eb79fee40b6299a18c54c6a81ef2",
+    "frames": 120,
+    "interval": "[0,4)",
+    "resolution": [
+      1080,
+      1920
+    ],
+    "minimum_ssim": 0.998027,
+    "mean_ssim": 0.9997497333333334,
+    "frames_below_0_999": [
+      105,
+      106,
+      107,
+      108,
+      109,
+      110,
+      111,
+      112,
+      113,
+      114,
+      115,
+      116,
+      117,
+      118,
+      119
+    ],
+    "command": [
+      "ffmpeg",
+      "-v",
+      "error",
+      "-i",
+      "/workspace/VIDEOS/evoquex-hyperframes-v12/renders/evoquex-hyperframes-v12.mp4",
+      "-i",
+      "/workspace/VIDEOS/evoquex-hyperframes-v13/renders/evoquex-hyperframes-v13.mp4",
+      "-filter_complex",
+      "[0:v]trim=start_frame=0:end_frame=120,setpts=PTS-STARTPTS,format=yuv420p[a];[1:v]trim=start_frame=0:end_frame=120,setpts=PTS-STARTPTS,format=yuv420p[b];[a][b]ssim=stats_file=/workspace/VIDEOS/evoquex-hyperframes-v13/review/hook-ssim-v13.log[compared]",
+      "-map",
+      "[compared]",
+      "-frames:v",
+      "120",
+      "-an",
+      "-f",
+      "null",
+      "-"
+    ],
+    "log": "review/hook-ssim-v13.log",
+    "csv": "review/hook-ssim-v13.csv",
+    "meaning": "Per-frame similarity of decoded H264 exports. SSIM alone does not prove lossless pixel identity."
+  },
+  "artifacts_sha256": {
+    "hook-ssim-v13.csv": "c75ca7af3e9d7151212d719c9327db49d84a38d2f80c9768369681d68c05af1f",
+    "hook-ssim-v13.log": "d78800e1007434a613b6a9e0ba95025edb3ef5d9ec952309be08435ed176a263",
+    "motion-flow-v13.csv": "85c05d3c9d5be4fd151bd9c04197f4f7bfc7b7bbdfbc970a09b4962be3aace3d",
+    "motion-pacing-v13.csv": "b53e388c93b5bb0b46c100ee0778083ee91ee044246d95d3b9d13e5a6d05f56a"
+  },
+  "continuous_playback_performed": false,
+  "subjective_listening_performed": false,
+  "limitations": [
+    "Differential flow assumes local texture and small motion; blur, cuts, large jumps and occlusion can invalidate estimates.",
+    "Cumulative scene displacement is an image-flow estimate, not an identified object trajectory.",
+    "Moving grain/glow can contribute motion; review semantic objects and consecutive frames separately.",
+    "Static reading/proof holds can be intentional; numerical motion is not a quality score.",
+    "Decoded-export SSIM does not replace the protected-hook source/lossless identity contract.",
+    "No audiovisual playback or subjective sound review is performed by this script."
+  ]
+}

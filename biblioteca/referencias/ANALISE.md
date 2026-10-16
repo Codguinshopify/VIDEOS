@@ -66,3 +66,12 @@ armazenada em park-weven/. A análise dela é adicional à direção já estabel
 sem fingir que foi examinada antes de ser localizada. Não é Shard nem Virgílio.
 Seus verbos/ícones/processo e transformações reforçam técnicas já escolhidas;
 funil/CRM/receita não entram no case sem dados. Análise detalhada no mesmo diretório.
+
+
+## Estudo de continuidade V13
+
+`ANALISE-MOTION-V13.md` registra oito técnicas, trajetórias e tempos nas quatro
+referências, reexaminadas em 228 frames densos. Manifesto ordenado em
+`motion-v13-sequence-sampling.json`. As propostas foram executadas e conferidas em
+`../../evoquex-hyperframes-v13/REFERENCE-IMPLEMENTATION.md`; a V13 preserva o hook
+aprovado e reconstrói o movimento após 4 s sem reescrever o texto.

@@ -72,6 +72,75 @@ e exige examinar o arquivo efetivamente entregue.
   checagens de marca/dados e limites reais da avaliação sonora.
 - Fontes e registros preservados no repositório para continuidade.
 
+## Trechos e textos protegidos — regra operacional V13
+
+O briefing V13 congela o hook **0–4 s** e o conteúdo atual do roteiro. Primeiro fixe
+qual arquivo/código é a base aprovada, sua duração, fps e hash. Guarde uma lista dos
+textos por unidade narrativa e dos setters que alteram texto durante o timeline.
+Compare esse conteúdo antes/depois, incluindo palavras em máscaras, CTA e textos
+ocultos que se tornam visíveis. É permitido reorganizar a composição; não é permitido
+reescrever frases para resolver coerência nesta etapa. Contadores intermediários
+devem ser tratados como animação de um mesmo dado, não como novas alegações.
+
+Para preservar o hook de um vídeo 30fps, verifique **todos os frames 0–119**,
+intervalo `[0,4)`, e examine a emenda em 4 s separadamente. Mudanças globais de CSS,
+fontes, filtros, GSAP e composição podem alterar o hook mesmo sem editar seu bloco de
+código. Faça comparação automatizada por frame/pixel, não só igualdade de strings.
+
+1. Capture baseline e candidato em condições idênticas: resolução, fps, fontes,
+   navegador, renderer, seek e estado inicial. Prefira frames lossless do mesmo
+   pipeline para verificar identidade visual. Hash por frame igual comprova pixels
+   iguais naquele domínio de captura; registre os 120 resultados e os dois hashes-fonte.
+2. Compare também os primeiros 4 s dos MP4 exportados. Registre contagem e alinhamento,
+   erro absoluto médio/máximo e/ou PSNR/SSIM. Não escolha tolerância depois de ver os
+   resultados só para aprovar. Diferenças precisam ser localizadas e explicadas.
+3. H.264 de um render completo pode mudar pixels por compressão ou decisões de GOP.
+   Uma boa métrica perceptual não prova igualdade de pixels. Separe “fontes/capturas
+   lossless idênticas” de “MP4 perceptualmente semelhante”. Se houver diferença de
+   layout, timing, máscara, cor ou letra, investigue a causa e corrija o hook protegido.
+
+Exemplo técnico, executado com os arquivos reais e ambos em 30 fps/mesmas dimensões:
+
+```bash
+ffmpeg -v error -i baseline.mp4 -vf "trim=start=0:end=4,setpts=PTS-STARTPTS,format=rgb24" -an -f framemd5 baseline-hook.framemd5
+ffmpeg -v error -i candidate.mp4 -vf "trim=start=0:end=4,setpts=PTS-STARTPTS,format=rgb24" -an -f framemd5 candidate-hook.framemd5
+ffmpeg -i baseline.mp4 -i candidate.mp4 -filter_complex "[0:v]trim=start=0:end=4,setpts=PTS-STARTPTS[b];[1:v]trim=start=0:end=4,setpts=PTS-STARTPTS[n];[b][n]psnr=stats_file=hook-psnr.log" -an -f null -
+```
+
+Compare os hashes de conteúdo de cada frame, não apenas os arquivos `framemd5`
+inteiros, cujos cabeçalhos/metadados podem variar. Esses comandos não geram vídeo
+comparativo e seus logs ficam no projeto, não como material de comparação ao usuário.
+
+## Revisão real do movimento e dos sound cues
+
+- Use reprodução audiovisual do MP4 completo quando a interface oferecer uma
+  ferramenta realmente acessível. Se só for possível decodificar/extrair quadros,
+  **não declare que assistiu ao vídeo em playback**. Registre a limitação e examine
+  sequências consecutivas suficientes para cada gesto, além das amostras do vídeo
+  inteiro. Screenshots isolados não validam ritmo, settle ou continuidade.
+- Na faixa 4 s–fim, selecione cada transição e movimento principal no storyboard.
+  Extraia todos os quadros de janelas curtas que incluam antecipação, passagem e
+  assentamento. Numere-os por frame/timestamp. Procure saltos, inversão inesperada,
+  esticamento de letras, oclusões e intervalos ilegíveis nos estados intermediários.
+- Quando puder inspecionar o runtime, registre trajetórias em intervalos regulares:
+  centro/bounding box, escala, rotação, opacidade e clip do objeto de continuidade.
+  Compare posição/velocidade na emenda com a intenção do storyboard. Trajetória de
+  DOM é apoio técnico; confirme a aparência correspondente no MP4.
+- Conteúdo principal estático com grão ou glow em movimento não comprova motion
+  elaborado. Inspecione objeto e hierarquia por região/trecho. Quantidade de tweens,
+  optical flow ou ausência de dead zones não são, isoladamente, critérios de qualidade.
+  Preserve holds úteis para leitura, prova e conclusão.
+- Prepare uma tabela `cue → gesto → tempo planejado → frame/tempo observado →
+  arquivo de som → resultado`. Verifique acento e antecipação intencionais no áudio
+  real decodificado e nos frames do render, não apenas no nome do evento no código.
+  Defina tolerância de sincronização conforme o gesto/fps antes da revisão; um sweep
+  pode preceder o impacto por intenção, sem ser erro. Registre a diferença observada.
+- Meça clipping, loudness, true peak, canais e ducking quando aplicável. RMS/picos
+  ajudam a localizar eventos, mas não demonstram que o efeito “soa bem” ou que uma
+  voz é natural. Sem ferramenta de escuta, declare validação técnica e limite sonoro.
+- Relacione técnicas às janelas verificadas e marque pendências reais. Uma passagem
+  não examinada não recebe status “aprovada” apenas porque o render terminou.
+
 ## Critério de entrega
 
 Entregue somente o vídeo editado, sem comparativos ou pacotes extras, salvo pedido

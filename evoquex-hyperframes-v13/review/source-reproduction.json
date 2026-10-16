@@ -1,0 +1,316 @@
+{
+  "version": "V13",
+  "ok": true,
+  "reproduction_type": "isolated_source_archive_extraction_offline_install_and_native_snapshots",
+  "extracted_project": "/tmp/v13-source-repro-ljavluwq/evoquex-hyperframes-v13",
+  "archive_crc_passed": true,
+  "archive_safe_paths_checked": true,
+  "archive_symlinks_rejected": true,
+  "archive_members_at_extraction": 127,
+  "archive_hash_intentionally_not_a_dependency": true,
+  "source_hash_scope": "Only render inputs, runtime configuration, local dependency metadata and media. Documentation and QA reports may be repackaged without changing this reproduction.",
+  "node_modules_independent_directory": true,
+  "runtime_versions": {
+    "node": "v24.19.0",
+    "npm": "11.9.0",
+    "hyperframes": "0.8.162",
+    "gsap": "3.14.2"
+  },
+  "commands": [
+    {
+      "command": "npm ci --offline --cache /workspace/.npm --no-audit --no-fund",
+      "exit_code": 0,
+      "result": "added 80 packages in 2s",
+      "offline": true,
+      "cache": "/workspace/.npm",
+      "different_cache_used": false
+    },
+    {
+      "command": "node scripts/hf.mjs lint --json",
+      "exit_code": 0,
+      "result": {
+        "ok": true,
+        "errorCount": 0,
+        "warningCount": 0,
+        "infoCount": 0,
+        "findings": [],
+        "filesScanned": 1,
+        "_meta": {
+          "version": "0.8.162",
+          "updateAvailable": false
+        }
+      }
+    },
+    {
+      "command": "node scripts/hf.mjs snapshot --at 0,3.3,5.9,9.9,13.8,18.8,24.5,28.7 --output review/repro-snapshots",
+      "exit_code": 0,
+      "requested_frames": 8,
+      "generated_frames": 9,
+      "font_count_reported": 1
+    }
+  ],
+  "source_render_inputs": [
+    {
+      "path": "assets/DM-Sans.woff2",
+      "original_sha256": "9fea608a947e67020c33cad9a6fe3d60c54119dfb8cff87768a8117a15ed7543",
+      "extracted_sha256": "9fea608a947e67020c33cad9a6fe3d60c54119dfb8cff87768a8117a15ed7543",
+      "matches": true
+    },
+    {
+      "path": "assets/arrow-up-right.svg",
+      "original_sha256": "7a58fb69deddd385b9bd47b406d3e9f3ccfbe11b319efcd5071cbd5b19c1bd4f",
+      "extracted_sha256": "7a58fb69deddd385b9bd47b406d3e9f3ccfbe11b319efcd5071cbd5b19c1bd4f",
+      "matches": true
+    },
+    {
+      "path": "assets/camera.svg",
+      "original_sha256": "89b7493fb7f18b3a303184f9dea61e989521eae4a98349bbaa979a586f063cba",
+      "extracted_sha256": "89b7493fb7f18b3a303184f9dea61e989521eae4a98349bbaa979a586f063cba",
+      "matches": true
+    },
+    {
+      "path": "assets/campanha.mp4",
+      "original_sha256": "01144794dd01f913af3d6fe1c24563a74ee89461b44289ac4a0dd5534139d335",
+      "extracted_sha256": "01144794dd01f913af3d6fe1c24563a74ee89461b44289ac4a0dd5534139d335",
+      "matches": true
+    },
+    {
+      "path": "assets/clevelandia.jpg",
+      "original_sha256": "a5bba18170e69a3b9db2203d0babbb39b341217772a1794495718afaa7b331a1",
+      "extracted_sha256": "a5bba18170e69a3b9db2203d0babbb39b341217772a1794495718afaa7b331a1",
+      "matches": true
+    },
+    {
+      "path": "assets/megaphone.svg",
+      "original_sha256": "ebdb880d7460c4eb4f590faca7933b1560a4abbc2edbf7cd8ffb602cc7b15340",
+      "extracted_sha256": "ebdb880d7460c4eb4f590faca7933b1560a4abbc2edbf7cd8ffb602cc7b15340",
+      "matches": true
+    },
+    {
+      "path": "assets/message-circle.svg",
+      "original_sha256": "f62830d9fbbbf697e53555398d31a342ddec8dd008d707f21cd90bb19befcc87",
+      "extracted_sha256": "f62830d9fbbbf697e53555398d31a342ddec8dd008d707f21cd90bb19befcc87",
+      "matches": true
+    },
+    {
+      "path": "assets/mix-v12.wav",
+      "original_sha256": "cde124ba505d0fe60ab30f239ccf510c2f452e012b59c551419ca9009cd6fdb7",
+      "extracted_sha256": "cde124ba505d0fe60ab30f239ccf510c2f452e012b59c551419ca9009cd6fdb7",
+      "matches": true
+    },
+    {
+      "path": "assets/mix-v13.wav",
+      "original_sha256": "d81ac627ec92d9ec88ce11a151587990284966ec4984b429cef17e79a3cf9952",
+      "extracted_sha256": "d81ac627ec92d9ec88ce11a151587990284966ec4984b429cef17e79a3cf9952",
+      "matches": true
+    },
+    {
+      "path": "assets/play.svg",
+      "original_sha256": "f0cab5b458fdf5e5d5d1a8aeb3d368ccab337cc578b1f8081807b8e39f68f1a1",
+      "extracted_sha256": "f0cab5b458fdf5e5d5d1a8aeb3d368ccab337cc578b1f8081807b8e39f68f1a1",
+      "matches": true
+    },
+    {
+      "path": "assets/poster-hook-end.jpg",
+      "original_sha256": "0edee26ac16d4fb5857a797f9d9ab976a3b3865b3e4c29932f3c9d77f40d32d3",
+      "extracted_sha256": "0edee26ac16d4fb5857a797f9d9ab976a3b3865b3e4c29932f3c9d77f40d32d3",
+      "matches": true
+    },
+    {
+      "path": "assets/resultados.jpg",
+      "original_sha256": "e99bf6462689f5d84b7e47f23af46c9fa60b7dd310f0fb5d9c9b324a90ed0147",
+      "extracted_sha256": "e99bf6462689f5d84b7e47f23af46c9fa60b7dd310f0fb5d9c9b324a90ed0147",
+      "matches": true
+    },
+    {
+      "path": "assets/target.svg",
+      "original_sha256": "24062423af9b4ba3cc3306862826c74715aaaf4b32a335b2ed87265dbbd9c4c9",
+      "extracted_sha256": "24062423af9b4ba3cc3306862826c74715aaaf4b32a335b2ed87265dbbd9c4c9",
+      "matches": true
+    },
+    {
+      "path": "hyperframes.json",
+      "original_sha256": "8af50d8d2ca7a808044b1eb551b7aa542ea7006e1f84d43eb25dd8e50faf38d7",
+      "extracted_sha256": "8af50d8d2ca7a808044b1eb551b7aa542ea7006e1f84d43eb25dd8e50faf38d7",
+      "matches": true
+    },
+    {
+      "path": "index.html",
+      "original_sha256": "cba944cb6c4f961d1251fd133f477903ad2f219295fc481fd5f1f7a462ec0a58",
+      "extracted_sha256": "cba944cb6c4f961d1251fd133f477903ad2f219295fc481fd5f1f7a462ec0a58",
+      "matches": true
+    },
+    {
+      "path": "meta.json",
+      "original_sha256": "d3521dc88888065aa793b2fc7c136f5c1a937994dfec8f39f76552b59adf7a7a",
+      "extracted_sha256": "d3521dc88888065aa793b2fc7c136f5c1a937994dfec8f39f76552b59adf7a7a",
+      "matches": true
+    },
+    {
+      "path": "motion.js",
+      "original_sha256": "d00766a58f3a1668f98ca109fbd4548b5f57762aeab40af49bf9cdb9ac84370e",
+      "extracted_sha256": "d00766a58f3a1668f98ca109fbd4548b5f57762aeab40af49bf9cdb9ac84370e",
+      "matches": true
+    },
+    {
+      "path": "package-lock.json",
+      "original_sha256": "6d67f4a41c650e5c5e3cf771980788ff9fa50e0fe1cecd36367e1f304956751d",
+      "extracted_sha256": "6d67f4a41c650e5c5e3cf771980788ff9fa50e0fe1cecd36367e1f304956751d",
+      "matches": true
+    },
+    {
+      "path": "package.json",
+      "original_sha256": "1f766541b72826f95269a1355f2237aad5acf784c42a356842feec1e345e0a42",
+      "extracted_sha256": "1f766541b72826f95269a1355f2237aad5acf784c42a356842feec1e345e0a42",
+      "matches": true
+    },
+    {
+      "path": "scripts/hf.mjs",
+      "original_sha256": "26c8c386644f519a1397662c00b5ec4a8cd38eccbe0de6a4c51c2be609efcf3c",
+      "extracted_sha256": "26c8c386644f519a1397662c00b5ec4a8cd38eccbe0de6a4c51c2be609efcf3c",
+      "matches": true
+    },
+    {
+      "path": "style.css",
+      "original_sha256": "bf69b5ab4202f3e9183dae240e489b521dc3a714289ed90bc246e2b17dcc9469",
+      "extracted_sha256": "bf69b5ab4202f3e9183dae240e489b521dc3a714289ed90bc246e2b17dcc9469",
+      "matches": true
+    },
+    {
+      "path": "vendor/MotionPathPlugin.min.js",
+      "original_sha256": "aa5f955ca4ce3095ebe5726f43a46b72532230edb3501b28fb853f189f023cab",
+      "extracted_sha256": "aa5f955ca4ce3095ebe5726f43a46b72532230edb3501b28fb853f189f023cab",
+      "matches": true
+    },
+    {
+      "path": "vendor/evoquex-motion-kit.js",
+      "original_sha256": "ea6ee1a32fb5bf3593efbfa911296c9340aa6928b3af8d01661241c0379309c5",
+      "extracted_sha256": "ea6ee1a32fb5bf3593efbfa911296c9340aa6928b3af8d01661241c0379309c5",
+      "matches": true
+    },
+    {
+      "path": "vendor/evoquex-v12-effects.js",
+      "original_sha256": "18ec4bace80716614e09cfbbf1a9fa555d07af64f33788e52063a411f778eec2",
+      "extracted_sha256": "18ec4bace80716614e09cfbbf1a9fa555d07af64f33788e52063a411f778eec2",
+      "matches": true
+    },
+    {
+      "path": "vendor/evoquex-v13-motion.js",
+      "original_sha256": "7a5e38e65bbc346da88fdb7ee4c7ea296d652ff6c48f8eda863557be0c87011d",
+      "extracted_sha256": "7a5e38e65bbc346da88fdb7ee4c7ea296d652ff6c48f8eda863557be0c87011d",
+      "matches": true
+    },
+    {
+      "path": "vendor/gsap.min.js",
+      "original_sha256": "c174bfce53a729418d57a8ad8625e7247c793a22fef8e2851e3cfa3de9cd8280",
+      "extracted_sha256": "c174bfce53a729418d57a8ad8625e7247c793a22fef8e2851e3cfa3de9cd8280",
+      "matches": true
+    }
+  ],
+  "source_render_input_mismatches": [],
+  "snapshots": [
+    {
+      "file": "review/repro-snapshots/frame-00-at-0s.png",
+      "dimensions": [
+        1080,
+        1920
+      ],
+      "sha256": "7b0cf98a66a059e37e8c3859f1fad75e3c1ddfc706c3e0c6cdfc0a6bcd9d643f",
+      "nonuniform_image": true
+    },
+    {
+      "file": "review/repro-snapshots/frame-01-at-3.3s.png",
+      "dimensions": [
+        1080,
+        1920
+      ],
+      "sha256": "307d423a75d2d73e63af494c24066e6aaf98005ddc656f4000fbf36b8cd3b42e",
+      "nonuniform_image": true
+    },
+    {
+      "file": "review/repro-snapshots/frame-02-at-5.9s.png",
+      "dimensions": [
+        1080,
+        1920
+      ],
+      "sha256": "8b16fd7b270fcae2796578f0baea71fc800c907025d3aac37c67840ade17e7b5",
+      "nonuniform_image": true
+    },
+    {
+      "file": "review/repro-snapshots/frame-03-at-9.9s.png",
+      "dimensions": [
+        1080,
+        1920
+      ],
+      "sha256": "9665388db2b4466834289cce05e7e9999c5de741ce0610e39fb9d6abb57f690d",
+      "nonuniform_image": true
+    },
+    {
+      "file": "review/repro-snapshots/frame-04-at-13.8s.png",
+      "dimensions": [
+        1080,
+        1920
+      ],
+      "sha256": "16343e33f1f857e4801cfb0376f70b04a5d3db3bf32a29a1f4440d267ca000c2",
+      "nonuniform_image": true
+    },
+    {
+      "file": "review/repro-snapshots/frame-05-at-18.8s.png",
+      "dimensions": [
+        1080,
+        1920
+      ],
+      "sha256": "fef7256fde41d3d750c8b5164f6526c95c5cc12573de7fc69150c3537f0c392f",
+      "nonuniform_image": true
+    },
+    {
+      "file": "review/repro-snapshots/frame-06-at-24.5s.png",
+      "dimensions": [
+        1080,
+        1920
+      ],
+      "sha256": "78a82d593ec3f4c1b62e7197ac8871b518274704c49dae58d8b021d27ad045f8",
+      "nonuniform_image": true
+    },
+    {
+      "file": "review/repro-snapshots/frame-07-at-28.7s.png",
+      "dimensions": [
+        1080,
+        1920
+      ],
+      "sha256": "93a915c4c0ddfc9ec5b9d532c759390aaa5988ed78dad672df4ef9c433ff3292",
+      "nonuniform_image": true
+    },
+    {
+      "file": "review/repro-snapshots/frame-08-at-29.1s.png",
+      "dimensions": [
+        1080,
+        1920
+      ],
+      "sha256": "85077340d9c6d4a5be5934a9f52439e36b6e06862eaa1e1896b033fab3ad2b42",
+      "nonuniform_image": true
+    }
+  ],
+  "all_requested_frames_present": true,
+  "all_snapshots_dimensions_correct": true,
+  "all_snapshots_decoded": true,
+  "visual_contact_sheet_inspected": true,
+  "visual_inspection_result": "Requested hook, city, filming, locality, proof, question and CTA states are populated. The 5.9s state is an intermediate sliced-word animation, not a missing font. No missing render media identified in these source-reproduction samples. This does not claim full continuous-video playback.",
+  "baseline_v12_sibling_present": false,
+  "validate_source_executed_in_isolated_copy": false,
+  "baseline_dependency_distinction": "The approved V12 source/video is required only for comparative protected-hook QA. It is not required to install, lint or render the V13 composition. validate-source was not executed in isolation; this reproduction does not replace the original checkout protected-hook/copy report.",
+  "validated_delivery_video_reference": {
+    "file": "evoquex-hyperframes-v13.mp4",
+    "sha256": "548a550705c835551b4ab2817acec0d92862eb79fee40b6299a18c54c6a81ef2",
+    "hash_confirmed_in_original_checkout": true,
+    "mp4_not_in_source_archive": true,
+    "final_video_rendered_in_reproduction": false
+  },
+  "nonblocking_warnings": [
+    "HyperFrames could not persist global snapshot history under /home/agent/.cache/hyperframes/history; requested native snapshot files were saved successfully.",
+    "CLI automatically added an end-of-timeline frame at 29.10s, producing 9 images for 8 requested times."
+  ],
+  "subjective_listening_performed": false,
+  "continuous_playback_performed": false,
+  "final_video_rendered_in_reproduction": false
+}

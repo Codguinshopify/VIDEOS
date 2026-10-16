@@ -1,0 +1,161 @@
+{
+  "ok": true,
+  "version": "V13",
+  "duration_seconds": 30,
+  "expected_frames": 900,
+  "local_refs_resolved": [
+    {
+      "owner": "index.html",
+      "ref": "style.css",
+      "path": "style.css"
+    },
+    {
+      "owner": "index.html",
+      "ref": "vendor/gsap.min.js",
+      "path": "vendor/gsap.min.js"
+    },
+    {
+      "owner": "index.html",
+      "ref": "vendor/evoquex-v12-effects.js",
+      "path": "vendor/evoquex-v12-effects.js"
+    },
+    {
+      "owner": "index.html",
+      "ref": "vendor/MotionPathPlugin.min.js",
+      "path": "vendor/MotionPathPlugin.min.js"
+    },
+    {
+      "owner": "index.html",
+      "ref": "vendor/evoquex-v13-motion.js",
+      "path": "vendor/evoquex-v13-motion.js"
+    },
+    {
+      "owner": "index.html",
+      "ref": "assets/clevelandia.jpg",
+      "path": "assets/clevelandia.jpg"
+    },
+    {
+      "owner": "index.html",
+      "ref": "assets/poster-hook-end.jpg",
+      "path": "assets/poster-hook-end.jpg"
+    },
+    {
+      "owner": "index.html",
+      "ref": "assets/campanha.mp4",
+      "path": "assets/campanha.mp4"
+    },
+    {
+      "owner": "index.html",
+      "ref": "assets/mix-v13.wav",
+      "path": "assets/mix-v13.wav"
+    },
+    {
+      "owner": "index.html",
+      "ref": "motion.js",
+      "path": "motion.js"
+    },
+    {
+      "owner": "style.css",
+      "ref": "assets/DM-Sans.woff2",
+      "path": "assets/DM-Sans.woff2"
+    },
+    {
+      "owner": "style.css",
+      "ref": "assets/resultados.jpg",
+      "path": "assets/resultados.jpg"
+    }
+  ],
+  "no_external_assets": true,
+  "motion_kit_matches_permanent_library": true,
+  "source_sha256": {
+    "index.html": "cba944cb6c4f961d1251fd133f477903ad2f219295fc481fd5f1f7a462ec0a58",
+    "style.css": "bf69b5ab4202f3e9183dae240e489b521dc3a714289ed90bc246e2b17dcc9469",
+    "motion.js": "d00766a58f3a1668f98ca109fbd4548b5f57762aeab40af49bf9cdb9ac84370e",
+    "vendor/evoquex-v12-effects.js": "18ec4bace80716614e09cfbbf1a9fa555d07af64f33788e52063a411f778eec2",
+    "vendor/evoquex-v13-motion.js": "7a5e38e65bbc346da88fdb7ee4c7ea296d652ff6c48f8eda863557be0c87011d",
+    "vendor/MotionPathPlugin.min.js": "aa5f955ca4ce3095ebe5726f43a46b72532230edb3501b28fb853f189f023cab",
+    "package.json": "1f766541b72826f95269a1355f2237aad5acf784c42a356842feec1e345e0a42",
+    "package-lock.json": "6d67f4a41c650e5c5e3cf771980788ff9fa50e0fe1cecd36367e1f304956751d",
+    "hyperframes.json": "8af50d8d2ca7a808044b1eb551b7aa542ea7006e1f84d43eb25dd8e50faf38d7",
+    "meta.json": "d3521dc88888065aa793b2fc7c136f5c1a937994dfec8f39f76552b59adf7a7a"
+  },
+  "copy_contract": {
+    "present": true,
+    "validated": true,
+    "contract_sha256": "26857a5c5065beeee849a9617e257355bb1da4ccc0ec47b42b59b0573afa2746",
+    "required_phrases_checked": [
+      "CLEVELÂNDIA · EVOQUEX",
+      "Já viu",
+      "por aqui?",
+      "Uma das nossas",
+      "divulgações.",
+      "UM CASE REAL",
+      "Danny’s",
+      "Presentes",
+      "Produzimos",
+      "o vídeo.",
+      "E divulgamos",
+      "pela",
+      "Evoquex.",
+      "Só para",
+      "Clevelândia.",
+      "Produção + divulgação",
+      "Objetivo: ir além dos seguidores.",
+      "Nos registros da campanha:",
+      "20.981",
+      "impressões",
+      "exibições do anúncio",
+      "13.064",
+      "pessoas",
+      "alcançadas",
+      "alcance",
+      "Captura original",
+      "da campanha.",
+      "Danny’s Presentes",
+      "Cada empresa.",
+      "Uma",
+      "estratégia.",
+      "Mensagem",
+      "Público",
+      "E a sua",
+      "empresa?",
+      "serviço?",
+      "Conversa",
+      "com a gente.",
+      "Evoquex"
+    ],
+    "forbidden_phrases_checked": [
+      "20 mil visualizações",
+      "vendas geradas",
+      "ROI de",
+      "Luciane"
+    ],
+    "normalized_dom_text_sha256": "bc7f4f5ff65a0bceedf449fd2b509bae33cf12b39858e9e91e57ee7fbbd14bec",
+    "protected_hook": {
+      "present": true,
+      "validated": true,
+      "baseline_available": true,
+      "baseline": "/workspace/VIDEOS/evoquex-hyperframes-v12",
+      "interval": "[0,4)",
+      "frames": 120,
+      "html_hook_section_equal": true,
+      "css_prefix_equal": true,
+      "js_prefix_equal": true,
+      "normalized_hook_section_sha256": "70b16282f81c59335dcfe8bfd81b96b78839a0a3da2f9094ad4050ed278425b1",
+      "normalized_css_prefix_sha256": "9ac9baef3d6f4cf7cba4406507bd15dd47317405fd4111ab027b09e34ff7f09a",
+      "normalized_js_prefix_sha256": "ba279c8d20ebae6f13d0e0026f7b72602f4081cc5d7184630e00442b31dca4ce",
+      "normalization": "Ignore Studio data-hf-id, surrounding whitespace, added head scripts and V13 composition-id rename.",
+      "visual_pixel_identity_verified_here": false
+    },
+    "scope": "Static DOM copy and optional explicit full-text/fragment contract; dynamic setters also require contract/hook review."
+  },
+  "hook_manifest_files": [],
+  "hook_visual_identity_checked_here": false,
+  "normalized_dom_text": "Evoquex · Danny’s Presentes · Ser vista Evoquex S U A E M P R E S A É CONHECIDA CONHECIDA CONHECIDA CONHECIDA EM CLEVELÂNDIA. MAS É V I S T A ? VISTA? CLEVELÂNDIA · EVOQUEX Já viu por aqui? Uma das nossas divulgações. divulgações. divulgações. UM CASE REAL Danny’s Presentes Produção + divulgação Produzimos o vídeo. E divulgamos pela Evoquex. Evoquex. Evoquex. Só para Clevelândia. Objetivo: ir além dos seguidores. Nos registros da campanha: 20.981 20.981 20.981 impressões exibições do anúncio 13 . 064 pessoas alcançadas alcance Captura original da campanha. Danny’s Presentes Cada empresa. Uma estratégia. Mensagem Público E a sua empresa? serviço? Conversa com a gente. Evoquex",
+  "original_footage_plays_once": true,
+  "original_footage_audio_muted": true,
+  "original_proof_complementary_panels": 3,
+  "original_proof_img_elements": 0,
+  "voice_file_not_referenced": true,
+  "voice_windows": "resources/voice-cues.json"
+}

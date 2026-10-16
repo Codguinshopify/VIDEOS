@@ -92,3 +92,37 @@ Skills locais, com procedimentos reais em `.agents/skills/`:
 - `motion-quality-control/SKILL.md`: QA real de imagem/áudio/fatos, com limitações claras.
 Essas skills complementam as dos plugins; leia seus arquivos quando aplicáveis.
 Não afirmar registro automático em um serviço de skills que não tenha sido testado.
+
+## Execução contínua após o hook — diretriz V13
+
+O hook aprovado de **0 a 4 segundos** é a base protegida desta etapa: preservar sua
+composição, cores, tipografia e movimentos. Reconstruir a execução visual **de 4 s até
+o encerramento**, com continuidade, tipografia cinética, máscaras, profundidade e
+transições escolhidas para cada ideia. Não reescrever o roteiro por iniciativa
+própria e não desviar esta etapa para coerência textual. O restante deve alcançar o
+acabamento do hook; fade/zoom repetido, screenshots em mockups e cartelas independentes
+não cumprem esse objetivo. Minimalismo significa hierarquia; não simplificação do motion.
+
+Antes de implementar, auditar Git e arquivos locais contra o histórico disponível,
+incluindo branches relevantes, novos packs, áudio, componentes, scripts e referências.
+Preservar alterações existentes e registrar base, caminhos, formatos, integridade,
+compatibilidade e recursos realmente escolhidos. Não alegar auditoria completa com
+histórico ou volumes faltantes. Usar os recursos úteis descobertos quando adequados,
+não apenas listá-los. Não assumir que presets AEP/MOGRT executam em HyperFrames.
+
+Aplicar `motion-direction/SKILL.md` em `.agents/skills/` para storyboard por trecho,
+foco, estado inicial, trajetória, curva, saída, conexão, recursos e sound cue. Essa
+skill complementa as quatro locais e as skills oficiais do motor. Pesquisar exemplos
+da versão instalada antes de decidir uma solução personalizada; só registrar uma
+técnica como implementada após confirmá-la no MP4 exportado.
+
+O QA deve comparar automaticamente o hook inteiro `[0,4)` por frames/pixels contra
+a base aprovada, distinguindo identidade lossless de diferenças de compressão no MP4.
+Verificar também invariância dos textos, frames consecutivos das transições,
+trajetórias, leitura e sincronização dos acentos. Não confundir screenshots isolados,
+grão animado ou contagem de tweens com revisão do movimento. Se playback/escuta não
+estiverem disponíveis, declarar a limitação sem afirmar que assistiu ou ouviu.
+
+Entregar vídeo renderizado e revisado, com o relatório objetivo pedido nesta etapa:
+técnica/referência/trecho, recursos reutilizados, problemas corrigidos e limitações.
+Não gerar montagem comparativa. A documentação não substitui a execução do vídeo.

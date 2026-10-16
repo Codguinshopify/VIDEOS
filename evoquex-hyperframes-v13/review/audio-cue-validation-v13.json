@@ -1,0 +1,531 @@
+{
+  "ok": true,
+  "file": "renders/evoquex-hyperframes-v13.mp4",
+  "sha256": "548a550705c835551b4ab2817acec0d92862eb79fee40b6299a18c54c6a81ef2",
+  "bytes": 11388859,
+  "output_validation_report_sha256": "6b4b61146238031adb3bcef1a178991e05fbb50cfe44472ad9508aa0a5e28fd3",
+  "source_motion_sha256": "d00766a58f3a1668f98ca109fbd4548b5f57762aeab40af49bf9cdb9ac84370e",
+  "source_audio_provenance_sha256": "75f016e7c01982378a10dff5633b22a94fce08a3619bc86239f0405892d94fdb",
+  "duration_seconds": 30,
+  "final_mp4_checks_reused_for_exact_matching_sha": true,
+  "audio": {
+    "codec": "aac",
+    "sample_rate": 48000,
+    "channels": 2,
+    "integrated_lufs": -16.25,
+    "true_peak_dbtp": -1.74,
+    "loudness_range_lu": 2.1,
+    "clipped_samples": 0,
+    "correlation_no_shift_with_wav": 0.9993028084816102,
+    "full_decode_passed": true
+  },
+  "protected_hook": {
+    "wav_source_approved_prefix_bit_exact": true,
+    "preserved_stereo_frames": 192000,
+    "pcm_prefix_sha256": "50d3a486fcc2f64bde3ff7c62e3c35e233a8ddf594bbbf8e537ab4a72514fd09",
+    "mp4_first4_seconds_decoded_frames": 192000,
+    "mp4_hook_to_wav_pcm_correlation": 0.9990667011695105,
+    "aac_hook_bit_identical_claimed": false,
+    "aac_decoded_hook_equals_source_pcm": false
+  },
+  "effects_checked": 24,
+  "new_post4_effects": 19,
+  "inherited_effects": 5,
+  "all_effect_peaks_supported_by_actual_visual_movement": true,
+  "method": "Read final timeline and helper staggers, reconstruct isolated source effects with recorded playback rates/reverse/edge envelopes and measure maximum10ms RMS window. Reuse matching final-MP4 decode/loudness/correlation report; new decode of first4s only for hook PCM comparison.",
+  "events": [
+    {
+      "index": 1,
+      "kind": "impact",
+      "anchor_seconds": 0,
+      "effect_window_seconds": [
+        0.0,
+        0.24166666666666667
+      ],
+      "isolated_source_effect_highest_10ms_rms_center_seconds": 0.011708,
+      "visual_window_seconds": [
+        0,
+        0.9
+      ],
+      "visual_motion": "Hook articulado desde o primeiro frame",
+      "intent": "entrada",
+      "rms_peak_inside_visual_window": true,
+      "nearest_window_distance_seconds": 0,
+      "notes": "",
+      "inherited_approved_prefix": true
+    },
+    {
+      "index": 2,
+      "kind": "sweep",
+      "anchor_seconds": 0.8,
+      "effect_window_seconds": [
+        0.7,
+        0.8666666666666666
+      ],
+      "isolated_source_effect_highest_10ms_rms_center_seconds": 0.780687,
+      "visual_window_seconds": [
+        0.76,
+        1.22
+      ],
+      "visual_motion": "Título recua e etiqueta ocupa seu plano",
+      "intent": "movimento",
+      "rms_peak_inside_visual_window": true,
+      "nearest_window_distance_seconds": 0,
+      "notes": "",
+      "inherited_approved_prefix": true
+    },
+    {
+      "index": 3,
+      "kind": "sweep",
+      "anchor_seconds": 1.65,
+      "effect_window_seconds": [
+        1.53,
+        1.7368958333333333
+      ],
+      "isolated_source_effect_highest_10ms_rms_center_seconds": 1.628979,
+      "visual_window_seconds": [
+        1.63,
+        2.04
+      ],
+      "visual_motion": "Troca vertical para a localidade",
+      "intent": "entrada",
+      "rms_peak_inside_visual_window": false,
+      "nearest_window_distance_seconds": 0.001021,
+      "notes": "Centro da janelaRMS antecede o movimento por1,021ms; a janela de10ms sobrepõe o início visual. Menos de0,04frame em30fps, dentro do hook aprovado.",
+      "inherited_approved_prefix": true
+    },
+    {
+      "index": 4,
+      "kind": "impact",
+      "anchor_seconds": 2.65,
+      "effect_window_seconds": [
+        2.65,
+        3.0036666666666667
+      ],
+      "isolated_source_effect_highest_10ms_rms_center_seconds": 2.658562,
+      "visual_window_seconds": [
+        2.65,
+        3.25
+      ],
+      "visual_motion": "Letras de VISTA? e cantos de enquadramento",
+      "intent": "entrada",
+      "rms_peak_inside_visual_window": true,
+      "nearest_window_distance_seconds": 0,
+      "notes": "",
+      "inherited_approved_prefix": true
+    },
+    {
+      "index": 5,
+      "kind": "sweep",
+      "anchor_seconds": 3.85,
+      "effect_window_seconds": [
+        3.68,
+        3.952729166666667
+      ],
+      "isolated_source_effect_highest_10ms_rms_center_seconds": 3.821375,
+      "visual_window_seconds": [
+        3.82,
+        4.47
+      ],
+      "visual_motion": "Iris para a localidade real",
+      "intent": "início",
+      "rms_peak_inside_visual_window": true,
+      "nearest_window_distance_seconds": 0,
+      "notes": "",
+      "inherited_approved_prefix": true
+    },
+    {
+      "index": 6,
+      "kind": "tick",
+      "anchor_seconds": 4.05,
+      "effect_window_seconds": [
+        4.05,
+        4.099104166666667
+      ],
+      "isolated_source_effect_highest_10ms_rms_center_seconds": 4.056083,
+      "visual_window_seconds": [
+        4.04,
+        4.7
+      ],
+      "visual_motion": "Já viu articulado em eixos opostos",
+      "intent": "entrada",
+      "rms_peak_inside_visual_window": true,
+      "nearest_window_distance_seconds": 0,
+      "notes": "",
+      "inherited_approved_prefix": false
+    },
+    {
+      "index": 7,
+      "kind": "sweep",
+      "anchor_seconds": 5.15,
+      "effect_window_seconds": [
+        5.03,
+        5.2700000000000005
+      ],
+      "isolated_source_effect_highest_10ms_rms_center_seconds": 5.145062,
+      "visual_window_seconds": [
+        5.04,
+        5.95
+      ],
+      "visual_motion": "Tipo vira abertura da imagem, city-open5.15–5.83",
+      "intent": "início",
+      "rms_peak_inside_visual_window": true,
+      "nearest_window_distance_seconds": 0,
+      "notes": "",
+      "inherited_approved_prefix": false
+    },
+    {
+      "index": 8,
+      "kind": "sweep",
+      "anchor_seconds": 7.7,
+      "effect_window_seconds": [
+        7.55,
+        7.85
+      ],
+      "isolated_source_effect_highest_10ms_rms_center_seconds": 7.701083,
+      "visual_window_seconds": [
+        7.64,
+        8.41
+      ],
+      "visual_motion": "Câmera vertical e contorno da mídia",
+      "intent": "movimento",
+      "rms_peak_inside_visual_window": true,
+      "nearest_window_distance_seconds": 0,
+      "notes": "",
+      "inherited_approved_prefix": false
+    },
+    {
+      "index": 9,
+      "kind": "impact",
+      "anchor_seconds": 8.1,
+      "effect_window_seconds": [
+        8.1,
+        8.422229166666666
+      ],
+      "isolated_source_effect_highest_10ms_rms_center_seconds": 8.108104,
+      "visual_window_seconds": [
+        8.02,
+        8.75
+      ],
+      "visual_motion": "Vídeo real chega e sua janela se abre",
+      "intent": "movimento",
+      "rms_peak_inside_visual_window": true,
+      "nearest_window_distance_seconds": 0,
+      "notes": "",
+      "inherited_approved_prefix": false
+    },
+    {
+      "index": 10,
+      "kind": "sweep",
+      "anchor_seconds": 9.6,
+      "effect_window_seconds": [
+        9.515,
+        9.6968125
+      ],
+      "isolated_source_effect_highest_10ms_rms_center_seconds": 9.603354,
+      "visual_window_seconds": [
+        9.5,
+        10.2
+      ],
+      "visual_motion": "Mídia avança, tipografia recua",
+      "intent": "movimento",
+      "rms_peak_inside_visual_window": true,
+      "nearest_window_distance_seconds": 0,
+      "notes": "",
+      "inherited_approved_prefix": false
+    },
+    {
+      "index": 11,
+      "kind": "sweep",
+      "anchor_seconds": 10.45,
+      "effect_window_seconds": [
+        10.325,
+        10.575
+      ],
+      "isolated_source_effect_highest_10ms_rms_center_seconds": 10.455021,
+      "visual_window_seconds": [
+        10.35,
+        11.1
+      ],
+      "visual_motion": "Dobradiça da produção para distribuição",
+      "intent": "movimento",
+      "rms_peak_inside_visual_window": true,
+      "nearest_window_distance_seconds": 0,
+      "notes": "",
+      "inherited_approved_prefix": false
+    },
+    {
+      "index": 12,
+      "kind": "tick",
+      "anchor_seconds": 11.15,
+      "effect_window_seconds": [
+        11.15,
+        11.220520833333333
+      ],
+      "isolated_source_effect_highest_10ms_rms_center_seconds": 11.156271,
+      "visual_window_seconds": [
+        10.93,
+        11.54
+      ],
+      "visual_motion": "Etiqueta Evoquex em três fatias",
+      "intent": "movimento",
+      "rms_peak_inside_visual_window": true,
+      "nearest_window_distance_seconds": 0,
+      "notes": "",
+      "inherited_approved_prefix": false
+    },
+    {
+      "index": 13,
+      "kind": "sweep",
+      "anchor_seconds": 12.75,
+      "effect_window_seconds": [
+        12.65,
+        12.864291666666666
+      ],
+      "isolated_source_effect_highest_10ms_rms_center_seconds": 12.752292,
+      "visual_window_seconds": [
+        12.74,
+        13.55
+      ],
+      "visual_motion": "Clevelândia e janela horizontal da mesma mídia",
+      "intent": "início",
+      "rms_peak_inside_visual_window": true,
+      "nearest_window_distance_seconds": 0,
+      "notes": "",
+      "inherited_approved_prefix": false
+    },
+    {
+      "index": 14,
+      "kind": "sweep",
+      "anchor_seconds": 14.7,
+      "effect_window_seconds": [
+        14.56,
+        14.832729166666667
+      ],
+      "isolated_source_effect_highest_10ms_rms_center_seconds": 14.701375,
+      "visual_window_seconds": [
+        14.63,
+        15.35
+      ],
+      "visual_motion": "Câmera e contorno conduzem à prova",
+      "intent": "movimento",
+      "rms_peak_inside_visual_window": true,
+      "nearest_window_distance_seconds": 0,
+      "notes": "",
+      "inherited_approved_prefix": false
+    },
+    {
+      "index": 15,
+      "kind": "impact",
+      "anchor_seconds": 15.65,
+      "effect_window_seconds": [
+        15.65,
+        15.94
+      ],
+      "isolated_source_effect_highest_10ms_rms_center_seconds": 15.6575,
+      "visual_window_seconds": [
+        15.12,
+        15.74
+      ],
+      "visual_motion": "20.981 se reúne em três fatias",
+      "intent": "assentamento",
+      "rms_peak_inside_visual_window": true,
+      "nearest_window_distance_seconds": 0,
+      "notes": "O efeito culmina a0,013s do término da primeira fatia; última fatia termina15,74s.",
+      "inherited_approved_prefix": false
+    },
+    {
+      "index": 16,
+      "kind": "tick",
+      "anchor_seconds": 16.3,
+      "effect_window_seconds": [
+        16.3,
+        16.34660416666667
+      ],
+      "isolated_source_effect_highest_10ms_rms_center_seconds": 16.306021,
+      "visual_window_seconds": [
+        16.02,
+        16.67
+      ],
+      "visual_motion": "Seta documental desenhada junto à captura",
+      "intent": "movimento",
+      "rms_peak_inside_visual_window": true,
+      "nearest_window_distance_seconds": 0,
+      "notes": "O nome original do evento fala em abertura dos painéis. Os painéis entram15,2–16,05s; o tick16,3s acompanha o ponteiro16,02–16,67s, não sua abertura.",
+      "inherited_approved_prefix": false
+    },
+    {
+      "index": 17,
+      "kind": "sweep",
+      "anchor_seconds": 17.85,
+      "effect_window_seconds": [
+        17.75,
+        17.95
+      ],
+      "isolated_source_effect_highest_10ms_rms_center_seconds": 17.847646,
+      "visual_window_seconds": [
+        17.8,
+        18.73
+      ],
+      "visual_motion": "Troca de direção das métricas e reposição do documento",
+      "intent": "início",
+      "rms_peak_inside_visual_window": true,
+      "nearest_window_distance_seconds": 0,
+      "notes": "",
+      "inherited_approved_prefix": false
+    },
+    {
+      "index": 18,
+      "kind": "impact",
+      "anchor_seconds": 18.45,
+      "effect_window_seconds": [
+        18.45,
+        18.6648125
+      ],
+      "isolated_source_effect_highest_10ms_rms_center_seconds": 18.4605,
+      "visual_window_seconds": [
+        17.98,
+        18.73
+      ],
+      "visual_motion": "Dígitos e rótulo de13.064 se recompõem",
+      "intent": "assentamento",
+      "rms_peak_inside_visual_window": true,
+      "nearest_window_distance_seconds": 0,
+      "notes": "O impacto18,45s chega junto ao assentamento do primeiro grupo de dígitos(~18,46s), seguido do segundo(~18,515s).",
+      "inherited_approved_prefix": false
+    },
+    {
+      "index": 19,
+      "kind": "sweep",
+      "anchor_seconds": 20.85,
+      "effect_window_seconds": [
+        20.71,
+        21.01
+      ],
+      "isolated_source_effect_highest_10ms_rms_center_seconds": 20.858917,
+      "visual_window_seconds": [
+        20.7,
+        21.4
+      ],
+      "visual_motion": "Câmera lateral e contorno para estratégia",
+      "intent": "movimento",
+      "rms_peak_inside_visual_window": true,
+      "nearest_window_distance_seconds": 0,
+      "notes": "",
+      "inherited_approved_prefix": false
+    },
+    {
+      "index": 20,
+      "kind": "tick",
+      "anchor_seconds": 22.25,
+      "effect_window_seconds": [
+        22.25,
+        22.308520833333333
+      ],
+      "isolated_source_effect_highest_10ms_rms_center_seconds": 22.256312,
+      "visual_window_seconds": [
+        22.1,
+        22.85
+      ],
+      "visual_motion": "Linha Mensagem/Público e viajante percorrem a curva",
+      "intent": "movimento",
+      "rms_peak_inside_visual_window": true,
+      "nearest_window_distance_seconds": 0,
+      "notes": "Marca a construção do vínculo, não a chegada final do viajante22,85s.",
+      "inherited_approved_prefix": false
+    },
+    {
+      "index": 21,
+      "kind": "sweep",
+      "anchor_seconds": 23.65,
+      "effect_window_seconds": [
+        23.555,
+        23.748541666666668
+      ],
+      "isolated_source_effect_highest_10ms_rms_center_seconds": 23.654771,
+      "visual_window_seconds": [
+        23.35,
+        24.55
+      ],
+      "visual_motion": "Diagrama comprime; fronteira/CTA redistribui o espaço",
+      "intent": "movimento",
+      "rms_peak_inside_visual_window": true,
+      "nearest_window_distance_seconds": 0,
+      "notes": "",
+      "inherited_approved_prefix": false
+    },
+    {
+      "index": 22,
+      "kind": "impact",
+      "anchor_seconds": 25.35,
+      "effect_window_seconds": [
+        25.35,
+        25.683333333333334
+      ],
+      "isolated_source_effect_highest_10ms_rms_center_seconds": 25.358292,
+      "visual_window_seconds": [
+        25.05,
+        25.98
+      ],
+      "visual_motion": "Conversa/com a gente em duas linhas articuladas",
+      "intent": "movimento",
+      "rms_peak_inside_visual_window": true,
+      "nearest_window_distance_seconds": 0,
+      "notes": "",
+      "inherited_approved_prefix": false
+    },
+    {
+      "index": 23,
+      "kind": "sweep",
+      "anchor_seconds": 26.4,
+      "effect_window_seconds": [
+        26.32,
+        26.482166666666668
+      ],
+      "isolated_source_effect_highest_10ms_rms_center_seconds": 26.398625,
+      "visual_window_seconds": [
+        26.24,
+        27.02
+      ],
+      "visual_motion": "Empresa sai, serviço e concordância entram",
+      "intent": "movimento",
+      "rms_peak_inside_visual_window": true,
+      "nearest_window_distance_seconds": 0,
+      "notes": "O sweep acompanha a saída e o ponto de troca. Serviço inicia26,48s; não é um som de término do novo texto.",
+      "inherited_approved_prefix": false
+    },
+    {
+      "index": 24,
+      "kind": "tick",
+      "anchor_seconds": 28.4,
+      "effect_window_seconds": [
+        28.4,
+        28.46708333333333
+      ],
+      "isolated_source_effect_highest_10ms_rms_center_seconds": 28.406521,
+      "visual_window_seconds": [
+        28.14,
+        28.54
+      ],
+      "visual_motion": "Último assentamento do campo de CTA",
+      "intent": "assentamento",
+      "rms_peak_inside_visual_window": true,
+      "nearest_window_distance_seconds": 0,
+      "notes": "Assinatura e seta já concluíram; o tick28,4s reforça o settle do campo, não um desenho ainda em andamento.",
+      "inherited_approved_prefix": false
+    }
+  ],
+  "narration_present": false,
+  "original_video_audio_muted": true,
+  "reference_audio_reused": false,
+  "subjective_listening_performed": false,
+  "continuous_audiovisual_playback_performed": false,
+  "limits": [
+    "Technical timing and signal checks only; no subjective listening.",
+    "Source-effect RMS timing is a code/PCM measurement, not isolated extraction of each effect from the mixed AAC.",
+    "WAV prefix is exact to V12; lossy AAC is not claimed bit-identical.",
+    "Two descriptive cue roles are reassociated to actual overlapping movement in the final timeline, recorded individually."
+  ],
+  "effect_peaks_inside_visual_windows": 23,
+  "effect_peaks_with_subframe_anticipation": 1
+}

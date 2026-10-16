@@ -1,0 +1,1404 @@
+{
+  "duration_seconds": 30,
+  "sample_rate": 48000,
+  "new_narration_present": false,
+  "original_clip_audio_gain": 0,
+  "reference_audio_reused": false,
+  "rejected_voice_used": false,
+  "subjective_listening_performed": false,
+  "music_origin": "Existing Evoquex V7 original 120 BPM instrumental stem; no reference music reused.",
+  "effects_origin": "Isolated regions of existing Evoquex V7 effects stem; tape-speed/reverse/pan/envelope edits only.",
+  "license": "GeneralUser GS v2.0.3 / License v2.0, included unmodified in resources/audio/GeneralUser-GS-LICENSE.txt. Author expressly permits commercial musical recordings; complete sample-provenance qualifications preserved.",
+  "source_repository": "https://github.com/mrbumpy409/GeneralUser-GS",
+  "source_soundfont_git_commit": "684543d5e5efaef08d02be50dcda8d552478fa60",
+  "source_soundfont_sha256": "9575028c7a1f589f5770fccc8cff2734566af40cd26ed836944e9a5152688cfe",
+  "files_sha256": {
+    "resources/audio/music-source.wav": "0d63fd67f4a100e30b9d0a7a488ae35417ad96fc78b57a092e78eac3b9754f6c",
+    "resources/audio/effects-source.wav": "ae73af41be8f7e24365700778f7f8e59eaa4c8773cbebe70f04f92f7a299bd20",
+    "assets/mix-v12.wav": "cde124ba505d0fe60ab30f239ccf510c2f452e012b59c551419ca9009cd6fdb7",
+    "resources/audio/GeneralUser-GS-LICENSE.txt": "7b32efefdf95ce38a043799f0659853ddc00fbaa14d8c50f0aca16b9b8b405be"
+  },
+  "output_sha256": "d81ac627ec92d9ec88ce11a151587990284966ec4984b429cef17e79a3cf9952",
+  "music_sections": [
+    {
+      "out": [
+        4,
+        8
+      ],
+      "source": [
+        24,
+        28
+      ],
+      "gain": 0.94,
+      "role": "New chord phrase under kinetic locality / type mask"
+    },
+    {
+      "out": [
+        8,
+        15
+      ],
+      "source": [
+        16,
+        23
+      ],
+      "gain": 1.0,
+      "role": "Actual production case / film reveal"
+    },
+    {
+      "out": [
+        15,
+        21
+      ],
+      "source": [
+        8,
+        14
+      ],
+      "gain": 0.87,
+      "role": "Fragmented numerals and real evidence panels"
+    },
+    {
+      "out": [
+        21,
+        25.5
+      ],
+      "source": [
+        24,
+        28.5
+      ],
+      "gain": 0.94,
+      "role": "Opposing type planes, message/public links"
+    },
+    {
+      "out": [
+        25.5,
+        30
+      ],
+      "source": [
+        28,
+        32.5
+      ],
+      "gain": 1.02,
+      "role": "Two-line CTA articulation and signature resolve"
+    }
+  ],
+  "approved_hook_preservation": {
+    "approved_source": "assets/mix-v12.wav",
+    "source_file_sha256": "cde124ba505d0fe60ab30f239ccf510c2f452e012b59c551419ca9009cd6fdb7",
+    "preserved_start_seconds": 0,
+    "preserved_end_seconds_exclusive": 4,
+    "preserved_stereo_frames": 192000,
+    "preserved_scalar_channel_samples": 384000,
+    "preserved_pcm_bytes": 768000,
+    "approved_prefix_pcm_sha256": "50d3a486fcc2f64bde3ff7c62e3c35e233a8ddf594bbbf8e537ab4a72514fd09",
+    "output_prefix_pcm_sha256": "50d3a486fcc2f64bde3ff7c62e3c35e233a8ddf594bbbf8e537ab4a72514fd09",
+    "exact_equal": true,
+    "modified_frames_before_4s": 0,
+    "crossfade_start_seconds": 4,
+    "crossfade_end_seconds": 4.064,
+    "crossfade_curve": "Raised cosine; equal-sum complementary weights",
+    "global_normalization_applied": false,
+    "post_4s_only_normalization_applied": true
+  },
+  "music_splice_crossfade_seconds": 0.016,
+  "music_intensity_points": [
+    [
+      0,
+      0
+    ],
+    [
+      4,
+      0.92
+    ],
+    [
+      5.05,
+      0.92
+    ],
+    [
+      5.15,
+      0.65
+    ],
+    [
+      5.45,
+      0.96
+    ],
+    [
+      7.52,
+      0.96
+    ],
+    [
+      7.72,
+      0.34
+    ],
+    [
+      7.96,
+      0.18
+    ],
+    [
+      8.1,
+      0.48
+    ],
+    [
+      8.3,
+      0.97
+    ],
+    [
+      9.55,
+      0.97
+    ],
+    [
+      9.6,
+      0.76
+    ],
+    [
+      9.85,
+      0.97
+    ],
+    [
+      10.45,
+      0.65
+    ],
+    [
+      10.7,
+      0.92
+    ],
+    [
+      14.48,
+      0.94
+    ],
+    [
+      14.7,
+      0.35
+    ],
+    [
+      15.05,
+      0.44
+    ],
+    [
+      15.65,
+      0.83
+    ],
+    [
+      17.68,
+      0.89
+    ],
+    [
+      17.85,
+      0.55
+    ],
+    [
+      18.45,
+      0.88
+    ],
+    [
+      20.62,
+      0.9
+    ],
+    [
+      20.85,
+      0.32
+    ],
+    [
+      21.2,
+      0.92
+    ],
+    [
+      23.55,
+      0.92
+    ],
+    [
+      23.65,
+      0.68
+    ],
+    [
+      24.1,
+      0.88
+    ],
+    [
+      25.2,
+      0.94
+    ],
+    [
+      25.35,
+      0.48
+    ],
+    [
+      25.7,
+      1.0
+    ],
+    [
+      28.4,
+      0.94
+    ],
+    [
+      29.15,
+      0.94
+    ],
+    [
+      30,
+      0
+    ]
+  ],
+  "effect_source_regions": {
+    "impact": {
+      "source_seconds": [
+        0,
+        0.29
+      ],
+      "description": "Existing short low-frequency hit"
+    },
+    "tick": {
+      "source_seconds": [
+        0.4,
+        0.455
+      ],
+      "description": "Existing short tonal/noise accent"
+    },
+    "sweep": {
+      "source_seconds": [
+        1.43,
+        1.73
+      ],
+      "description": "Existing filtered-noise movement"
+    }
+  },
+  "events": [
+    {
+      "anchor": 0,
+      "kind": "impact",
+      "rate": 1.2,
+      "gain": 0.62,
+      "pan": 0,
+      "offset": 0,
+      "role": "First-frame hook hit",
+      "start_seconds": 0.0,
+      "duration_seconds": 0.24166666666666667,
+      "source_seconds": [
+        0,
+        0.29
+      ],
+      "semitones_tape_speed": 3.15641,
+      "reverse": false,
+      "envelope_seconds": {
+        "attack": 0.004,
+        "release": 0.018
+      },
+      "inherited_approved_prefix": true
+    },
+    {
+      "anchor": 0.8,
+      "kind": "sweep",
+      "rate": 1.8,
+      "gain": 0.48,
+      "pan": -0.38,
+      "offset": -0.1,
+      "role": "Word flip",
+      "start_seconds": 0.7,
+      "duration_seconds": 0.16666666666666666,
+      "source_seconds": [
+        1.43,
+        1.73
+      ],
+      "semitones_tape_speed": 10.17596,
+      "reverse": false,
+      "envelope_seconds": {
+        "attack": 0.004,
+        "release": 0.018
+      },
+      "inherited_approved_prefix": true
+    },
+    {
+      "anchor": 1.65,
+      "kind": "sweep",
+      "rate": 1.45,
+      "gain": 0.6,
+      "pan": 0.38,
+      "offset": -0.12,
+      "role": "Typographic whip",
+      "start_seconds": 1.53,
+      "duration_seconds": 0.20689583333333333,
+      "source_seconds": [
+        1.43,
+        1.73
+      ],
+      "semitones_tape_speed": 6.43263,
+      "reverse": false,
+      "envelope_seconds": {
+        "attack": 0.004,
+        "release": 0.018
+      },
+      "inherited_approved_prefix": true
+    },
+    {
+      "anchor": 2.65,
+      "kind": "impact",
+      "rate": 0.82,
+      "gain": 0.76,
+      "pan": 0,
+      "offset": 0,
+      "role": "Red VISTA? emphasis",
+      "start_seconds": 2.65,
+      "duration_seconds": 0.3536666666666667,
+      "source_seconds": [
+        0,
+        0.29
+      ],
+      "semitones_tape_speed": -3.43565,
+      "reverse": false,
+      "envelope_seconds": {
+        "attack": 0.004,
+        "release": 0.018
+      },
+      "inherited_approved_prefix": true
+    },
+    {
+      "anchor": 3.85,
+      "kind": "sweep",
+      "rate": 1.1,
+      "gain": 0.67,
+      "pan": -0.26,
+      "offset": -0.17,
+      "reverse": true,
+      "role": "Into local recognition",
+      "start_seconds": 3.68,
+      "duration_seconds": 0.2727291666666667,
+      "source_seconds": [
+        1.43,
+        1.73
+      ],
+      "semitones_tape_speed": 1.65004,
+      "envelope_seconds": {
+        "attack": 0.004,
+        "release": 0.018
+      },
+      "inherited_approved_prefix": true
+    },
+    {
+      "anchor": 4.05,
+      "kind": "tick",
+      "rate": 1.12,
+      "gain": 0.66,
+      "pan": -0.18,
+      "offset": 0,
+      "role": "Opposing typography planes",
+      "start_seconds": 4.05,
+      "duration_seconds": 0.049104166666666664,
+      "source_seconds": [
+        0.4,
+        0.455
+      ],
+      "semitones_tape_speed": 1.96198,
+      "reverse": false,
+      "envelope_seconds": {
+        "attack": 0.004,
+        "release": 0.018
+      }
+    },
+    {
+      "anchor": 5.15,
+      "kind": "sweep",
+      "rate": 1.25,
+      "gain": 0.62,
+      "pan": 0.32,
+      "offset": -0.12,
+      "role": "Type becomes city-image mask",
+      "start_seconds": 5.03,
+      "duration_seconds": 0.24,
+      "source_seconds": [
+        1.43,
+        1.73
+      ],
+      "semitones_tape_speed": 3.86314,
+      "reverse": false,
+      "envelope_seconds": {
+        "attack": 0.004,
+        "release": 0.018
+      }
+    },
+    {
+      "anchor": 7.7,
+      "kind": "sweep",
+      "rate": 1.0,
+      "gain": 0.6,
+      "pan": -0.24,
+      "offset": -0.15,
+      "reverse": true,
+      "role": "Vertical camera handoff preparation",
+      "start_seconds": 7.55,
+      "duration_seconds": 0.3,
+      "source_seconds": [
+        1.43,
+        1.73
+      ],
+      "semitones_tape_speed": 0.0,
+      "envelope_seconds": {
+        "attack": 0.004,
+        "release": 0.018
+      }
+    },
+    {
+      "anchor": 8.1,
+      "kind": "impact",
+      "rate": 0.9,
+      "gain": 0.7,
+      "pan": 0,
+      "offset": 0,
+      "role": "Campaign film arrives",
+      "start_seconds": 8.1,
+      "duration_seconds": 0.3222291666666667,
+      "source_seconds": [
+        0,
+        0.29
+      ],
+      "semitones_tape_speed": -1.82404,
+      "reverse": false,
+      "envelope_seconds": {
+        "attack": 0.004,
+        "release": 0.018
+      }
+    },
+    {
+      "anchor": 9.6,
+      "kind": "sweep",
+      "rate": 1.65,
+      "gain": 0.46,
+      "pan": 0.36,
+      "offset": -0.085,
+      "role": "Media advances while typography recedes",
+      "start_seconds": 9.515,
+      "duration_seconds": 0.1818125,
+      "source_seconds": [
+        1.43,
+        1.73
+      ],
+      "semitones_tape_speed": 8.66959,
+      "reverse": false,
+      "envelope_seconds": {
+        "attack": 0.004,
+        "release": 0.018
+      }
+    },
+    {
+      "anchor": 10.45,
+      "kind": "sweep",
+      "rate": 1.2,
+      "gain": 0.6,
+      "pan": -0.34,
+      "offset": -0.125,
+      "reverse": true,
+      "role": "Distribution flip",
+      "start_seconds": 10.325,
+      "duration_seconds": 0.25,
+      "source_seconds": [
+        1.43,
+        1.73
+      ],
+      "semitones_tape_speed": 3.15641,
+      "envelope_seconds": {
+        "attack": 0.004,
+        "release": 0.018
+      }
+    },
+    {
+      "anchor": 11.15,
+      "kind": "tick",
+      "rate": 0.78,
+      "gain": 0.8,
+      "pan": 0.12,
+      "offset": 0,
+      "role": "Evoquex segmented label assembles",
+      "start_seconds": 11.15,
+      "duration_seconds": 0.07052083333333334,
+      "source_seconds": [
+        0.4,
+        0.455
+      ],
+      "semitones_tape_speed": -4.30145,
+      "reverse": false,
+      "envelope_seconds": {
+        "attack": 0.004,
+        "release": 0.018
+      }
+    },
+    {
+      "anchor": 12.75,
+      "kind": "sweep",
+      "rate": 1.4,
+      "gain": 0.54,
+      "pan": 0.3,
+      "offset": -0.1,
+      "role": "Clevel\u00e2ndia window extends",
+      "start_seconds": 12.65,
+      "duration_seconds": 0.21429166666666666,
+      "source_seconds": [
+        1.43,
+        1.73
+      ],
+      "semitones_tape_speed": 5.82512,
+      "reverse": false,
+      "envelope_seconds": {
+        "attack": 0.004,
+        "release": 0.018
+      }
+    },
+    {
+      "anchor": 14.7,
+      "kind": "sweep",
+      "rate": 1.1,
+      "gain": 0.64,
+      "pan": -0.28,
+      "offset": -0.14,
+      "reverse": true,
+      "role": "Camera delivers evidence plane",
+      "start_seconds": 14.56,
+      "duration_seconds": 0.2727291666666667,
+      "source_seconds": [
+        1.43,
+        1.73
+      ],
+      "semitones_tape_speed": 1.65004,
+      "envelope_seconds": {
+        "attack": 0.004,
+        "release": 0.018
+      }
+    },
+    {
+      "anchor": 15.65,
+      "kind": "impact",
+      "rate": 1.0,
+      "gain": 0.7,
+      "pan": 0,
+      "offset": 0,
+      "role": "20.981 sliced numeral resolves",
+      "start_seconds": 15.65,
+      "duration_seconds": 0.29,
+      "source_seconds": [
+        0,
+        0.29
+      ],
+      "semitones_tape_speed": 0.0,
+      "reverse": false,
+      "envelope_seconds": {
+        "attack": 0.004,
+        "release": 0.018
+      }
+    },
+    {
+      "anchor": 16.3,
+      "kind": "tick",
+      "rate": 1.18,
+      "gain": 0.64,
+      "pan": 0.26,
+      "offset": 0,
+      "role": "Evidence screenshot opens in panels",
+      "start_seconds": 16.3,
+      "duration_seconds": 0.04660416666666667,
+      "source_seconds": [
+        0.4,
+        0.455
+      ],
+      "semitones_tape_speed": 2.86544,
+      "reverse": false,
+      "envelope_seconds": {
+        "attack": 0.004,
+        "release": 0.018
+      }
+    },
+    {
+      "anchor": 17.85,
+      "kind": "sweep",
+      "rate": 1.5,
+      "gain": 0.57,
+      "pan": 0.28,
+      "offset": -0.1,
+      "role": "Metric changes direction",
+      "start_seconds": 17.75,
+      "duration_seconds": 0.2,
+      "source_seconds": [
+        1.43,
+        1.73
+      ],
+      "semitones_tape_speed": 7.01955,
+      "reverse": false,
+      "envelope_seconds": {
+        "attack": 0.004,
+        "release": 0.018
+      }
+    },
+    {
+      "anchor": 18.45,
+      "kind": "impact",
+      "rate": 1.35,
+      "gain": 0.58,
+      "pan": 0.04,
+      "offset": 0,
+      "role": "13.064 reach numeral resolves",
+      "start_seconds": 18.45,
+      "duration_seconds": 0.2148125,
+      "source_seconds": [
+        0,
+        0.29
+      ],
+      "semitones_tape_speed": 5.19551,
+      "reverse": false,
+      "envelope_seconds": {
+        "attack": 0.004,
+        "release": 0.018
+      }
+    },
+    {
+      "anchor": 20.85,
+      "kind": "sweep",
+      "rate": 1.0,
+      "gain": 0.62,
+      "pan": -0.3,
+      "offset": -0.14,
+      "role": "Lateral camera into strategy",
+      "start_seconds": 20.71,
+      "duration_seconds": 0.3,
+      "source_seconds": [
+        1.43,
+        1.73
+      ],
+      "semitones_tape_speed": 0.0,
+      "reverse": false,
+      "envelope_seconds": {
+        "attack": 0.004,
+        "release": 0.018
+      }
+    },
+    {
+      "anchor": 22.25,
+      "kind": "tick",
+      "rate": 0.94,
+      "gain": 0.7,
+      "pan": 0.24,
+      "offset": 0,
+      "role": "Message and audience links connect",
+      "start_seconds": 22.25,
+      "duration_seconds": 0.058520833333333334,
+      "source_seconds": [
+        0.4,
+        0.455
+      ],
+      "semitones_tape_speed": -1.07121,
+      "reverse": false,
+      "envelope_seconds": {
+        "attack": 0.004,
+        "release": 0.018
+      }
+    },
+    {
+      "anchor": 23.65,
+      "kind": "sweep",
+      "rate": 1.55,
+      "gain": 0.52,
+      "pan": -0.28,
+      "offset": -0.095,
+      "reverse": true,
+      "role": "Connector becomes layout boundary",
+      "start_seconds": 23.555,
+      "duration_seconds": 0.19354166666666667,
+      "source_seconds": [
+        1.43,
+        1.73
+      ],
+      "semitones_tape_speed": 7.58722,
+      "envelope_seconds": {
+        "attack": 0.004,
+        "release": 0.018
+      }
+    },
+    {
+      "anchor": 25.35,
+      "kind": "impact",
+      "rate": 0.87,
+      "gain": 0.62,
+      "pan": 0,
+      "offset": 0,
+      "role": "Two-line CTA assembles",
+      "start_seconds": 25.35,
+      "duration_seconds": 0.3333333333333333,
+      "source_seconds": [
+        0,
+        0.29
+      ],
+      "semitones_tape_speed": -2.41095,
+      "reverse": false,
+      "envelope_seconds": {
+        "attack": 0.004,
+        "release": 0.018
+      }
+    },
+    {
+      "anchor": 26.4,
+      "kind": "sweep",
+      "rate": 1.85,
+      "gain": 0.4,
+      "pan": 0.3,
+      "offset": -0.08,
+      "role": "Empresa-to-servi\u00e7o directional word change",
+      "start_seconds": 26.32,
+      "duration_seconds": 0.16216666666666665,
+      "source_seconds": [
+        1.43,
+        1.73
+      ],
+      "semitones_tape_speed": 10.6503,
+      "reverse": false,
+      "envelope_seconds": {
+        "attack": 0.004,
+        "release": 0.018
+      }
+    },
+    {
+      "anchor": 28.4,
+      "kind": "tick",
+      "rate": 0.82,
+      "gain": 0.58,
+      "pan": 0,
+      "offset": 0,
+      "role": "Final signature and arrow resolve",
+      "start_seconds": 28.4,
+      "duration_seconds": 0.06708333333333333,
+      "source_seconds": [
+        0.4,
+        0.455
+      ],
+      "semitones_tape_speed": -3.43565,
+      "reverse": false,
+      "envelope_seconds": {
+        "attack": 0.004,
+        "release": 0.018
+      }
+    }
+  ],
+  "new_post4_events": [
+    {
+      "anchor": 4.05,
+      "kind": "tick",
+      "rate": 1.12,
+      "gain": 0.66,
+      "pan": -0.18,
+      "offset": 0,
+      "role": "Opposing typography planes",
+      "start_seconds": 4.05,
+      "duration_seconds": 0.049104166666666664,
+      "source_seconds": [
+        0.4,
+        0.455
+      ],
+      "semitones_tape_speed": 1.96198,
+      "reverse": false,
+      "envelope_seconds": {
+        "attack": 0.004,
+        "release": 0.018
+      }
+    },
+    {
+      "anchor": 5.15,
+      "kind": "sweep",
+      "rate": 1.25,
+      "gain": 0.62,
+      "pan": 0.32,
+      "offset": -0.12,
+      "role": "Type becomes city-image mask",
+      "start_seconds": 5.03,
+      "duration_seconds": 0.24,
+      "source_seconds": [
+        1.43,
+        1.73
+      ],
+      "semitones_tape_speed": 3.86314,
+      "reverse": false,
+      "envelope_seconds": {
+        "attack": 0.004,
+        "release": 0.018
+      }
+    },
+    {
+      "anchor": 7.7,
+      "kind": "sweep",
+      "rate": 1.0,
+      "gain": 0.6,
+      "pan": -0.24,
+      "offset": -0.15,
+      "reverse": true,
+      "role": "Vertical camera handoff preparation",
+      "start_seconds": 7.55,
+      "duration_seconds": 0.3,
+      "source_seconds": [
+        1.43,
+        1.73
+      ],
+      "semitones_tape_speed": 0.0,
+      "envelope_seconds": {
+        "attack": 0.004,
+        "release": 0.018
+      }
+    },
+    {
+      "anchor": 8.1,
+      "kind": "impact",
+      "rate": 0.9,
+      "gain": 0.7,
+      "pan": 0,
+      "offset": 0,
+      "role": "Campaign film arrives",
+      "start_seconds": 8.1,
+      "duration_seconds": 0.3222291666666667,
+      "source_seconds": [
+        0,
+        0.29
+      ],
+      "semitones_tape_speed": -1.82404,
+      "reverse": false,
+      "envelope_seconds": {
+        "attack": 0.004,
+        "release": 0.018
+      }
+    },
+    {
+      "anchor": 9.6,
+      "kind": "sweep",
+      "rate": 1.65,
+      "gain": 0.46,
+      "pan": 0.36,
+      "offset": -0.085,
+      "role": "Media advances while typography recedes",
+      "start_seconds": 9.515,
+      "duration_seconds": 0.1818125,
+      "source_seconds": [
+        1.43,
+        1.73
+      ],
+      "semitones_tape_speed": 8.66959,
+      "reverse": false,
+      "envelope_seconds": {
+        "attack": 0.004,
+        "release": 0.018
+      }
+    },
+    {
+      "anchor": 10.45,
+      "kind": "sweep",
+      "rate": 1.2,
+      "gain": 0.6,
+      "pan": -0.34,
+      "offset": -0.125,
+      "reverse": true,
+      "role": "Distribution flip",
+      "start_seconds": 10.325,
+      "duration_seconds": 0.25,
+      "source_seconds": [
+        1.43,
+        1.73
+      ],
+      "semitones_tape_speed": 3.15641,
+      "envelope_seconds": {
+        "attack": 0.004,
+        "release": 0.018
+      }
+    },
+    {
+      "anchor": 11.15,
+      "kind": "tick",
+      "rate": 0.78,
+      "gain": 0.8,
+      "pan": 0.12,
+      "offset": 0,
+      "role": "Evoquex segmented label assembles",
+      "start_seconds": 11.15,
+      "duration_seconds": 0.07052083333333334,
+      "source_seconds": [
+        0.4,
+        0.455
+      ],
+      "semitones_tape_speed": -4.30145,
+      "reverse": false,
+      "envelope_seconds": {
+        "attack": 0.004,
+        "release": 0.018
+      }
+    },
+    {
+      "anchor": 12.75,
+      "kind": "sweep",
+      "rate": 1.4,
+      "gain": 0.54,
+      "pan": 0.3,
+      "offset": -0.1,
+      "role": "Clevel\u00e2ndia window extends",
+      "start_seconds": 12.65,
+      "duration_seconds": 0.21429166666666666,
+      "source_seconds": [
+        1.43,
+        1.73
+      ],
+      "semitones_tape_speed": 5.82512,
+      "reverse": false,
+      "envelope_seconds": {
+        "attack": 0.004,
+        "release": 0.018
+      }
+    },
+    {
+      "anchor": 14.7,
+      "kind": "sweep",
+      "rate": 1.1,
+      "gain": 0.64,
+      "pan": -0.28,
+      "offset": -0.14,
+      "reverse": true,
+      "role": "Camera delivers evidence plane",
+      "start_seconds": 14.56,
+      "duration_seconds": 0.2727291666666667,
+      "source_seconds": [
+        1.43,
+        1.73
+      ],
+      "semitones_tape_speed": 1.65004,
+      "envelope_seconds": {
+        "attack": 0.004,
+        "release": 0.018
+      }
+    },
+    {
+      "anchor": 15.65,
+      "kind": "impact",
+      "rate": 1.0,
+      "gain": 0.7,
+      "pan": 0,
+      "offset": 0,
+      "role": "20.981 sliced numeral resolves",
+      "start_seconds": 15.65,
+      "duration_seconds": 0.29,
+      "source_seconds": [
+        0,
+        0.29
+      ],
+      "semitones_tape_speed": 0.0,
+      "reverse": false,
+      "envelope_seconds": {
+        "attack": 0.004,
+        "release": 0.018
+      }
+    },
+    {
+      "anchor": 16.3,
+      "kind": "tick",
+      "rate": 1.18,
+      "gain": 0.64,
+      "pan": 0.26,
+      "offset": 0,
+      "role": "Evidence screenshot opens in panels",
+      "start_seconds": 16.3,
+      "duration_seconds": 0.04660416666666667,
+      "source_seconds": [
+        0.4,
+        0.455
+      ],
+      "semitones_tape_speed": 2.86544,
+      "reverse": false,
+      "envelope_seconds": {
+        "attack": 0.004,
+        "release": 0.018
+      }
+    },
+    {
+      "anchor": 17.85,
+      "kind": "sweep",
+      "rate": 1.5,
+      "gain": 0.57,
+      "pan": 0.28,
+      "offset": -0.1,
+      "role": "Metric changes direction",
+      "start_seconds": 17.75,
+      "duration_seconds": 0.2,
+      "source_seconds": [
+        1.43,
+        1.73
+      ],
+      "semitones_tape_speed": 7.01955,
+      "reverse": false,
+      "envelope_seconds": {
+        "attack": 0.004,
+        "release": 0.018
+      }
+    },
+    {
+      "anchor": 18.45,
+      "kind": "impact",
+      "rate": 1.35,
+      "gain": 0.58,
+      "pan": 0.04,
+      "offset": 0,
+      "role": "13.064 reach numeral resolves",
+      "start_seconds": 18.45,
+      "duration_seconds": 0.2148125,
+      "source_seconds": [
+        0,
+        0.29
+      ],
+      "semitones_tape_speed": 5.19551,
+      "reverse": false,
+      "envelope_seconds": {
+        "attack": 0.004,
+        "release": 0.018
+      }
+    },
+    {
+      "anchor": 20.85,
+      "kind": "sweep",
+      "rate": 1.0,
+      "gain": 0.62,
+      "pan": -0.3,
+      "offset": -0.14,
+      "role": "Lateral camera into strategy",
+      "start_seconds": 20.71,
+      "duration_seconds": 0.3,
+      "source_seconds": [
+        1.43,
+        1.73
+      ],
+      "semitones_tape_speed": 0.0,
+      "reverse": false,
+      "envelope_seconds": {
+        "attack": 0.004,
+        "release": 0.018
+      }
+    },
+    {
+      "anchor": 22.25,
+      "kind": "tick",
+      "rate": 0.94,
+      "gain": 0.7,
+      "pan": 0.24,
+      "offset": 0,
+      "role": "Message and audience links connect",
+      "start_seconds": 22.25,
+      "duration_seconds": 0.058520833333333334,
+      "source_seconds": [
+        0.4,
+        0.455
+      ],
+      "semitones_tape_speed": -1.07121,
+      "reverse": false,
+      "envelope_seconds": {
+        "attack": 0.004,
+        "release": 0.018
+      }
+    },
+    {
+      "anchor": 23.65,
+      "kind": "sweep",
+      "rate": 1.55,
+      "gain": 0.52,
+      "pan": -0.28,
+      "offset": -0.095,
+      "reverse": true,
+      "role": "Connector becomes layout boundary",
+      "start_seconds": 23.555,
+      "duration_seconds": 0.19354166666666667,
+      "source_seconds": [
+        1.43,
+        1.73
+      ],
+      "semitones_tape_speed": 7.58722,
+      "envelope_seconds": {
+        "attack": 0.004,
+        "release": 0.018
+      }
+    },
+    {
+      "anchor": 25.35,
+      "kind": "impact",
+      "rate": 0.87,
+      "gain": 0.62,
+      "pan": 0,
+      "offset": 0,
+      "role": "Two-line CTA assembles",
+      "start_seconds": 25.35,
+      "duration_seconds": 0.3333333333333333,
+      "source_seconds": [
+        0,
+        0.29
+      ],
+      "semitones_tape_speed": -2.41095,
+      "reverse": false,
+      "envelope_seconds": {
+        "attack": 0.004,
+        "release": 0.018
+      }
+    },
+    {
+      "anchor": 26.4,
+      "kind": "sweep",
+      "rate": 1.85,
+      "gain": 0.4,
+      "pan": 0.3,
+      "offset": -0.08,
+      "role": "Empresa-to-servi\u00e7o directional word change",
+      "start_seconds": 26.32,
+      "duration_seconds": 0.16216666666666665,
+      "source_seconds": [
+        1.43,
+        1.73
+      ],
+      "semitones_tape_speed": 10.6503,
+      "reverse": false,
+      "envelope_seconds": {
+        "attack": 0.004,
+        "release": 0.018
+      }
+    },
+    {
+      "anchor": 28.4,
+      "kind": "tick",
+      "rate": 0.82,
+      "gain": 0.58,
+      "pan": 0,
+      "offset": 0,
+      "role": "Final signature and arrow resolve",
+      "start_seconds": 28.4,
+      "duration_seconds": 0.06708333333333333,
+      "source_seconds": [
+        0.4,
+        0.455
+      ],
+      "semitones_tape_speed": -3.43565,
+      "reverse": false,
+      "envelope_seconds": {
+        "attack": 0.004,
+        "release": 0.018
+      }
+    }
+  ],
+  "music_short_ducks": [
+    {
+      "anchor_seconds": 5.15,
+      "points_seconds": [
+        5.115,
+        5.15,
+        5.205,
+        5.340000000000001
+      ],
+      "gains": [
+        1,
+        0.76,
+        0.76,
+        1
+      ]
+    },
+    {
+      "anchor_seconds": 7.7,
+      "points_seconds": [
+        7.665,
+        7.7,
+        7.755,
+        7.890000000000001
+      ],
+      "gains": [
+        1,
+        0.76,
+        0.76,
+        1
+      ]
+    },
+    {
+      "anchor_seconds": 8.1,
+      "points_seconds": [
+        8.065,
+        8.1,
+        8.155,
+        8.29
+      ],
+      "gains": [
+        1,
+        0.53,
+        0.53,
+        1
+      ]
+    },
+    {
+      "anchor_seconds": 9.6,
+      "points_seconds": [
+        9.565,
+        9.6,
+        9.655,
+        9.79
+      ],
+      "gains": [
+        1,
+        0.76,
+        0.76,
+        1
+      ]
+    },
+    {
+      "anchor_seconds": 10.45,
+      "points_seconds": [
+        10.415,
+        10.45,
+        10.504999999999999,
+        10.639999999999999
+      ],
+      "gains": [
+        1,
+        0.76,
+        0.76,
+        1
+      ]
+    },
+    {
+      "anchor_seconds": 12.75,
+      "points_seconds": [
+        12.715,
+        12.75,
+        12.805,
+        12.94
+      ],
+      "gains": [
+        1,
+        0.76,
+        0.76,
+        1
+      ]
+    },
+    {
+      "anchor_seconds": 14.7,
+      "points_seconds": [
+        14.665,
+        14.7,
+        14.754999999999999,
+        14.889999999999999
+      ],
+      "gains": [
+        1,
+        0.76,
+        0.76,
+        1
+      ]
+    },
+    {
+      "anchor_seconds": 15.65,
+      "points_seconds": [
+        15.615,
+        15.65,
+        15.705,
+        15.84
+      ],
+      "gains": [
+        1,
+        0.53,
+        0.53,
+        1
+      ]
+    },
+    {
+      "anchor_seconds": 17.85,
+      "points_seconds": [
+        17.815,
+        17.85,
+        17.905,
+        18.040000000000003
+      ],
+      "gains": [
+        1,
+        0.76,
+        0.76,
+        1
+      ]
+    },
+    {
+      "anchor_seconds": 18.45,
+      "points_seconds": [
+        18.415,
+        18.45,
+        18.505,
+        18.64
+      ],
+      "gains": [
+        1,
+        0.53,
+        0.53,
+        1
+      ]
+    },
+    {
+      "anchor_seconds": 20.85,
+      "points_seconds": [
+        20.815,
+        20.85,
+        20.905,
+        21.040000000000003
+      ],
+      "gains": [
+        1,
+        0.76,
+        0.76,
+        1
+      ]
+    },
+    {
+      "anchor_seconds": 23.65,
+      "points_seconds": [
+        23.615,
+        23.65,
+        23.705,
+        23.84
+      ],
+      "gains": [
+        1,
+        0.76,
+        0.76,
+        1
+      ]
+    },
+    {
+      "anchor_seconds": 25.35,
+      "points_seconds": [
+        25.315,
+        25.35,
+        25.405,
+        25.540000000000003
+      ],
+      "gains": [
+        1,
+        0.53,
+        0.53,
+        1
+      ]
+    },
+    {
+      "anchor_seconds": 26.4,
+      "points_seconds": [
+        26.365,
+        26.4,
+        26.455,
+        26.59
+      ],
+      "gains": [
+        1,
+        0.76,
+        0.76,
+        1
+      ]
+    }
+  ],
+  "premaster_linear_gain": 1.0,
+  "final_fade_seconds": 0.85,
+  "mastering": {
+    "method": "FFmpeg two-pass loudnorm on 4\u201330 s ONLY; approved 0\u20134 s PCM copied literally afterwards",
+    "post4_target_lufs": -16.1,
+    "post4_true_peak_limit_dbfs": -2,
+    "complete_mix_true_peak_acceptance_dbfs": -1.5,
+    "loudness_range_target": 7,
+    "second_pass_filter": "loudnorm=I=-16.1:TP=-2:LRA=7:measured_I=-27.01:measured_TP=-8.54:measured_LRA=2.40:measured_thresh=-37.04:offset=0.45:linear=true:print_format=json"
+  },
+  "requirements": [
+    "Python 3",
+    "NumPy (already installed)",
+    "FFmpeg (already installed)"
+  ],
+  "regenerate": "python scripts/remix-audio.py"
+}

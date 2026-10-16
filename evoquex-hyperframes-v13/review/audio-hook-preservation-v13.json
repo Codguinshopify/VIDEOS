@@ -1,0 +1,18 @@
+{
+  "approved_source": "assets/mix-v12.wav",
+  "source_file_sha256": "cde124ba505d0fe60ab30f239ccf510c2f452e012b59c551419ca9009cd6fdb7",
+  "preserved_start_seconds": 0,
+  "preserved_end_seconds_exclusive": 4,
+  "preserved_stereo_frames": 192000,
+  "preserved_scalar_channel_samples": 384000,
+  "preserved_pcm_bytes": 768000,
+  "approved_prefix_pcm_sha256": "50d3a486fcc2f64bde3ff7c62e3c35e233a8ddf594bbbf8e537ab4a72514fd09",
+  "output_prefix_pcm_sha256": "50d3a486fcc2f64bde3ff7c62e3c35e233a8ddf594bbbf8e537ab4a72514fd09",
+  "exact_equal": true,
+  "modified_frames_before_4s": 0,
+  "crossfade_start_seconds": 4,
+  "crossfade_end_seconds": 4.064,
+  "crossfade_curve": "Raised cosine; equal-sum complementary weights",
+  "global_normalization_applied": false,
+  "post_4s_only_normalization_applied": true
+}

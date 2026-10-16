@@ -1,0 +1,53 @@
+{
+  "version": "V13",
+  "updated_date_utc": "2026-10-16",
+  "status": "pending",
+  "narration_present": false,
+  "requested_voice": {
+    "gender": "female",
+    "language": "pt-BR",
+    "quality": "Natural, expressiva, segura e publicitária sem leitura mecânica."
+  },
+  "provider": "ElevenLabs",
+  "environment_checks": {
+    "generation_tool_exposed_in_current_session": false,
+    "api_key_present": false,
+    "plugin_installation_verified": null,
+    "authenticated_generation_test_performed": false,
+    "audio_export_test_performed": false,
+    "plan_verified": false,
+    "free_plan_limits_verified": false,
+    "commercial_usage_rights_verified": false,
+    "credential_values_recorded": false
+  },
+  "existing_audio": {
+    "file": "assets/mix-v13.wav",
+    "type": "instrumental_and_effects_only",
+    "original_clip_audio_gain": 0,
+    "reference_audio_reused": false,
+    "rejected_kokoro_voice_reused": false,
+    "provenance": "resources/audio/provenance-v13.json"
+  },
+  "prepared_materials": {
+    "script_and_editorial_windows": "resources/voice-cues.json",
+    "storyboard": "STORYBOARD.md",
+    "timing_is_measured_alignment": false,
+    "real_narration_file": null
+  },
+  "next_steps": [
+    "Verificar ferramenta e autenticação realmente disponíveis sem revelar credenciais.",
+    "Conferir os limites e direitos aplicáveis do plano gratuito antes de uso; não comprar nem alterar plano.",
+    "Gerar ou receber uma gravação feminina brasileira adequada somente por um caminho disponível e autorizado.",
+    "Medir o áudio real e revisar pronúncia, naturalidade e inteligibilidade por escuta quando houver ferramenta acessível.",
+    "Retimar cenas, música, efeitos e ducking, atualizar o HTML com arquivo real e renderizar novamente.",
+    "Validar o MP4 final e registrar separadamente checks técnicos e revisão por audição."
+  ],
+  "purchases_or_plan_changes_performed": false,
+  "subjective_listening_performed": false,
+  "limitations": [
+    "Não existe locução nova para ouvir, alinhar ou exportar nesta versão.",
+    "As janelas são estimativas editoriais; não provam sincronização com fala real.",
+    "Não há reprodução sonora subjetiva disponível nesta interface."
+  ],
+  "no_placeholder_audio_referenced": true
+}

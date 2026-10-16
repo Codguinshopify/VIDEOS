@@ -7,7 +7,7 @@ for rel,key in [('referencias/catalogo.json','references'),('packs/inventario.js
     for item in json.loads((B/rel).read_text())[key]:
         f=ROOT/item['path'];assert f.is_file(),str(f)
         assert hashlib.sha256(f.read_bytes()).hexdigest()==item['sha256'],str(f)
-        if f.suffix.lower() in ['.mp4','.png']:
+        if f.suffix.lower() in ['.mp4','.png','.wav']:
             subprocess.run(['ffmpeg','-v','error','-xerror','-i',str(f),'-f','null','-'],capture_output=True,check=True)
         checks.append({'path':item['path'],'sha256':item['sha256'],'ok':True})
 for item in json.loads((B/'hyperframes/catalogo.json').read_text())['items']:

@@ -1,0 +1,27 @@
+{
+  "runtime": "HyperFrames 0.8.162 / GSAP 3.14.2 pinned; no new runtime dependency",
+  "font": "DM Sans local/OFL",
+  "icons": "Existing Lucide0.468.0SVG/ISC; no new handdrawn icons",
+  "catalogue_revision": "08ee1bd5ad59987a7f2525222683e24ca30971f9",
+  "sources": "../biblioteca/hyperframes/catalogo.json",
+  "reference_catalogue": "../biblioteca/referencias/catalogo.json",
+  "reference_media_used": false,
+  "reference_audio_used": false,
+  "adaptations": [
+    "Approved V12 hook source preserved [0,4)",
+    "Type/photo aperture from type-match-cut principle, adapted to real local photograph",
+    "Shared camera stations from pan-stations, adapted to vertical and horizontal path",
+    "E85 cubic-bezier bisection from text-match-cut, not a CSS fade",
+    "Three complementary type slices from Oto motion analysis",
+    "Shared frame geometry from local modal-morph adaptation",
+    "Real screenshot unfolded into complementary CSS panels",
+    "Actual MotionPathPlugin curve for message/public connector",
+    "Connector becomes the blue CTA field at matching y1050",
+    "Licensed SVG strokes and articulated enterprise/service question"
+  ],
+  "pack_use": [],
+  "pack_reason": "Three 6000 volumes now complete and inner archive audited. Selected real files are technically usable, but effects commercial license absent; new pack media not forced into final. Glitch prefix/previews only.",
+  "ai_visual_assets_generated": false,
+  "ai_reason": "Real campaign/city/proof media plus native vector/type geometry satisfy identified needs; a generated stand-in would add no factual value.",
+  "catalogue_selected_sources": 21
+}

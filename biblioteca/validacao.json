@@ -57,6 +57,31 @@
       "ok": true
     },
     {
+      "path": "biblioteca/packs/6000-motion-audit-v13/TransitionFlare_1.mp4",
+      "sha256": "7df10f2f854204e001b7c45234c711f7e0a07ad2f6cbded95f3ec3ef62c3e829",
+      "ok": true
+    },
+    {
+      "path": "biblioteca/packs/6000-motion-audit-v13/SFX - Fast Swoosh 1.wav",
+      "sha256": "68a0da89fe528a5468f2902b73a6d53b3a68bd82370e98384154db7287a97473",
+      "ok": true
+    },
+    {
+      "path": "biblioteca/packs/6000-motion-audit-v13/SFX - Impact 1.wav",
+      "sha256": "cc87bf699bec061913cb96eac93adbe986be98da69472703fd4e4b02c4dd6172",
+      "ok": true
+    },
+    {
+      "path": "biblioteca/packs/6000-motion-audit-v13/Fonts.html",
+      "sha256": "89f03a56d698f6b9244af32cb1540ff9e3c3baee3ca41ab6a31f45b8862ebbe3",
+      "ok": true
+    },
+    {
+      "path": "biblioteca/packs/6000-motion-audit-v13/Fonts.txt",
+      "sha256": "d3a0014ff31c242da60ac801218e1db7a31c7b7b6c6cff0ce98aae6df71f0639",
+      "ok": true
+    },
+    {
       "path": "biblioteca/componentes/motion-kit.js",
       "sha256": "ea6ee1a32fb5bf3593efbfa911296c9340aa6928b3af8d01661241c0379309c5",
       "ok": true
@@ -65,8 +90,13 @@
       "path": "biblioteca/componentes/evoquex-v12-effects.js",
       "sha256": "18ec4bace80716614e09cfbbf1a9fa555d07af64f33788e52063a411f778eec2",
       "ok": true
+    },
+    {
+      "path": "biblioteca/componentes/evoquex-v13-motion.js",
+      "sha256": "7a5e38e65bbc346da88fdb7ee4c7ea296d652ff6c48f8eda863557be0c87011d",
+      "ok": true
     }
   ],
-  "catalogue_sources": 17,
+  "catalogue_sources": 21,
   "full_pack_extraction_claimed": false
 }

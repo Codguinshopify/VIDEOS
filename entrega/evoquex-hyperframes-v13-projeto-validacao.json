@@ -1,0 +1,13 @@
+{
+  "version": "V13",
+  "file": "evoquex-hyperframes-v13-projeto.zip",
+  "sha256": "877fa4be9e4bae3b7c83e34c7f2b30ecf19d2989c1d61b669005bdf1636eb9ed",
+  "bytes": 28491125,
+  "crc_verified": true,
+  "files": 128,
+  "self_contained_assets": true,
+  "source_hash_manifest": "review/source-file-sha256.json",
+  "reference_video_frames_and_audio_excluded": true,
+  "comparison_renders_excluded": true,
+  "node_modules_and_secrets_excluded": true
+}

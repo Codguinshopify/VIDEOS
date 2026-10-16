@@ -1,0 +1,578 @@
+{
+  "schema": 1,
+  "created_utc": "2026-10-16T13:32:43.753648+00:00",
+  "baselines": {
+    "v12": "ef13b86ed238901ca92564b0ce501bb0b7c1dbee",
+    "packs": "fcf095991ad0ce8b0e10728c8abf927bc4bddfa9"
+  },
+  "remote_heads": [
+    {
+      "branch": "comparacao-hyperframes-v8",
+      "sha": "bbc544292992ddce2d71edb1c7859e876d05c3e0",
+      "files": 30,
+      "author_time": "2026-10-15T20:38:22Z",
+      "subject": "Add native HyperFrames V8 video, comparison and reproducible project"
+    },
+    {
+      "branch": "edicao-v7-bibliotecas",
+      "sha": "5076ea07a056029006c2a20ce4832fa7f2663876",
+      "files": 21,
+      "author_time": "2026-10-15T19:35:53Z",
+      "subject": "Deliver V7 Remotion preview with adapted HyperFrames library and pack assets"
+    },
+    {
+      "branch": "entrega-evoquex",
+      "sha": "b2efd94aed79f11a6cdc0c6b485797848a44c2eb",
+      "files": 14,
+      "author_time": "2026-10-15T13:12:54-03:00",
+      "subject": "Delete packs"
+    },
+    {
+      "branch": "hyperframes-v10-direcao-criativa",
+      "sha": "a68b54a8ed98870623b35325e0f51e423303db7e",
+      "files": 43,
+      "author_time": "2026-10-15T22:48:56Z",
+      "subject": "Rebuild Evoquex V10 art direction around continuous motion and reference"
+    },
+    {
+      "branch": "hyperframes-v11-biblioteca-permanente",
+      "sha": "0ca586233fffe474cf0477cd5e28502dea73ce05",
+      "files": 171,
+      "author_time": "2026-10-15T23:27:39Z",
+      "subject": "Evolve Evoquex V11 motion and preserve reusable production library"
+    },
+    {
+      "branch": "hyperframes-v12-motion-publicitario",
+      "sha": "ef13b86ed238901ca92564b0ce501bb0b7c1dbee",
+      "files": 293,
+      "author_time": "2026-10-16T00:34:09Z",
+      "subject": "Create Evoquex V12 reference-led motion, sound design and reusable library"
+    },
+    {
+      "branch": "hyperframes-v9-catalogo",
+      "sha": "e208111f3e21d6382492ac0861ef5a45b8e7dbd6",
+      "files": 37,
+      "author_time": "2026-10-15T21:26:02Z",
+      "subject": "Build new HyperFrames V9 scenes with seven catalog resources"
+    },
+    {
+      "branch": "packs-lfs",
+      "sha": "b1e0a83a28f424143601f134d9e1de2570eaf54c",
+      "files": 24,
+      "author_time": "2026-10-15T20:52:17-03:00",
+      "subject": "Create 6000+Motion Graphics Pack V5.1-002_rar.part3.rar"
+    }
+  ],
+  "new_files_from_pack_baseline": [
+    "pack/6000+Motion Graphics Pack V5.1-002_rar.part3.rar",
+    "pack/650+ Glitch Elements v1.0-009_rar.part1.rar",
+    "pack/650+ Glitch Elements v1.0-009_rar.part2.rar",
+    "pack/650+ Glitch Elements v1.0-009_rar.part3.rar"
+  ],
+  "v12_remote_unchanged": true,
+  "large_files_in_normal_git_added": false,
+  "main_unborn_preserved": true,
+  "main_index_status_after": "",
+  "6000": {
+    "remote_commit": "b1e0a83a28f424143601f134d9e1de2570eaf54c",
+    "volumes": [
+      {
+        "path": "pack/6000+Motion Graphics Pack V5.1-002_rar.part1.rar",
+        "bytes": 1048576000,
+        "sha256": "2600fa0f9f53ab9484f1fb822eeeec4b1e78cb98a03776b56b55275a8cd432fc",
+        "sha256_verified": true
+      },
+      {
+        "path": "pack/6000+Motion Graphics Pack V5.1-002_rar.part2.rar",
+        "bytes": 1048576000,
+        "sha256": "f01638e9cd0f52482941d8648bee33f0fe8e98b8ca92306fb4e958c176f15426",
+        "sha256_verified": true
+      },
+      {
+        "path": "pack/6000+Motion Graphics Pack V5.1-002_rar.part3.rar",
+        "bytes": 680009440,
+        "sha256": "688d8389895c80e7d0870de9b58c441efd6d9da79cc595d33115e3157d6103fb",
+        "sha256_verified": true
+      }
+    ],
+    "outer_complete": true,
+    "inner_bytes": 3400442578,
+    "inner_sha256": "da6b3f82dee8c8dfbaf91f62e5d8fd677fd17161d822a32a6a30563e0ff65952",
+    "full_inner_listing": true,
+    "tree_entries": 11829,
+    "format_counts": {
+      ".aep": 206,
+      ".jpg": 20,
+      ".png": 4605,
+      ".mp4": 83,
+      ".gif": 4601,
+      ".wav": 567,
+      ".html": 1,
+      ".txt": 2,
+      ".mogrt": 1354,
+      ".json": 1,
+      ".aegraphic": 1,
+      ".atom": 1
+    },
+    "regular_expanded_bytes": 4977698862,
+    "all_media_decoded": false,
+    "native_project_execution": false,
+    "license_search": {
+      "tree_entries_checked": 11829,
+      "basename_terms": [
+        "license",
+        "licence",
+        "readme",
+        "eula",
+        "terms",
+        "licen",
+        "read me"
+      ],
+      "matching_paths": [],
+      "documentation_files": [
+        "Documentation/Fonts.txt",
+        "Documentation/Fonts.html"
+      ],
+      "conclusion": "Font download links do not grant commercial use or redistribution of this pack. Rights evidence remains pending."
+    },
+    "small_permanent_selection": {
+      "path": "/workspace/VIDEOS/biblioteca/packs/6000-motion-audit-v13",
+      "total_bytes": 3958157,
+      "files": [
+        {
+          "path": "biblioteca/packs/6000-motion-audit-v13/TransitionFlare_1.mp4",
+          "bytes": 2946332,
+          "sha256": "7df10f2f854204e001b7c45234c711f7e0a07ad2f6cbded95f3ec3ef62c3e829",
+          "source_archive": "pack/6000+Motion Graphics Pack V5.1-002_rar.part1.rar + part2.rar + part3.rar",
+          "source_entry": "6000+Motion Graphics Pack V5.1/Atom After Effects/_footage/Light/TransitionFlare_1.mp4",
+          "status": "complete selected entry; CRC read and file SHA-256 verified; full archive available locally this audit",
+          "compatible": true,
+          "licence": "No specific commercial-use/redistribution license found in full pack tree. Use pending rights evidence; not included in V13 audiovisual output.",
+          "use_status": "catalogued_for_future_use_pending_rights_evidence",
+          "selected_for_v13": false,
+          "format": "MP4 H264/yuv420p, no alpha",
+          "dimensions": [
+            1920,
+            1920
+          ],
+          "duration": 1.668333,
+          "integration": "Muted video with tested screen blend or luma conversion after rights evidence; black background is not transparency.",
+          "full_decode_ok": true
+        },
+        {
+          "path": "biblioteca/packs/6000-motion-audit-v13/SFX - Fast Swoosh 1.wav",
+          "bytes": 211724,
+          "sha256": "68a0da89fe528a5468f2902b73a6d53b3a68bd82370e98384154db7287a97473",
+          "source_archive": "pack/6000+Motion Graphics Pack V5.1-002_rar.part1.rar + part2.rar + part3.rar",
+          "source_entry": "6000+Motion Graphics Pack V5.1/Atom Preview Assets/Sound Effects/Fast Swooshes/SFX - Fast Swoosh 1.wav",
+          "status": "complete selected entry; CRC read and file SHA-256 verified; full archive available locally this audit",
+          "compatible": true,
+          "licence": "No specific commercial-use/redistribution license found in full pack tree. Use pending rights evidence; not included in V13 audiovisual output.",
+          "use_status": "catalogued_for_future_use_pending_rights_evidence",
+          "selected_for_v13": false,
+          "format": "WAV PCM16LE stereo 44100Hz",
+          "duration": 1.2,
+          "integration": "Direct separate audio element / FFmpeg mix after rights evidence; no After Effects required.",
+          "full_decode_ok": true,
+          "signal_check": {
+            "frame_count": 52920,
+            "sample_rate": 44100,
+            "channels": 2,
+            "first_over_minus40_db_seconds": 0.103855,
+            "last_over_minus40_db_seconds": 0.597506,
+            "peak_time_seconds": 0.344082,
+            "peak_integer": 14308,
+            "sample_values_at_int16_limits": 0,
+            "longest_consecutive_frames_at_fullscale": 0,
+            "subjective_listening_performed": false
+          }
+        },
+        {
+          "path": "biblioteca/packs/6000-motion-audit-v13/SFX - Impact 1.wav",
+          "bytes": 793844,
+          "sha256": "cc87bf699bec061913cb96eac93adbe986be98da69472703fd4e4b02c4dd6172",
+          "source_archive": "pack/6000+Motion Graphics Pack V5.1-002_rar.part1.rar + part2.rar + part3.rar",
+          "source_entry": "6000+Motion Graphics Pack V5.1/Atom Preview Assets/Sound Effects/Impacts/SFX - Impact 1.wav",
+          "status": "complete selected entry; CRC read and file SHA-256 verified; full archive available locally this audit",
+          "compatible": true,
+          "licence": "No specific commercial-use/redistribution license found in full pack tree. Use pending rights evidence; not included in V13 audiovisual output.",
+          "use_status": "catalogued_for_future_use_pending_rights_evidence",
+          "selected_for_v13": false,
+          "format": "WAV PCM16LE stereo 44100Hz",
+          "duration": 4.5,
+          "integration": "Direct separate audio element / FFmpeg mix after rights evidence; no After Effects required.",
+          "full_decode_ok": true,
+          "signal_check": {
+            "frame_count": 198450,
+            "sample_rate": 44100,
+            "channels": 2,
+            "first_over_minus40_db_seconds": 0.000272,
+            "last_over_minus40_db_seconds": 2.345918,
+            "peak_time_seconds": 0.004512,
+            "peak_integer": 30858,
+            "sample_values_at_int16_limits": 0,
+            "longest_consecutive_frames_at_fullscale": 0,
+            "subjective_listening_performed": false
+          }
+        },
+        {
+          "path": "biblioteca/packs/6000-motion-audit-v13/Fonts.html",
+          "bytes": 4250,
+          "sha256": "89f03a56d698f6b9244af32cb1540ff9e3c3baee3ca41ab6a31f45b8862ebbe3",
+          "source_archive": "pack/6000+Motion Graphics Pack V5.1-002_rar.part1.rar + part2.rar + part3.rar",
+          "source_entry": "6000+Motion Graphics Pack V5.1/Documentation/Fonts.html",
+          "status": "complete selected entry; CRC read and file SHA-256 verified; full archive available locally this audit",
+          "compatible": false,
+          "licence": "No specific commercial-use/redistribution license found in full pack tree. Use pending rights evidence; not included in V13 audiovisual output.",
+          "use_status": "catalogued_for_future_use_pending_rights_evidence",
+          "selected_for_v13": false,
+          "format": "Documentation text/HTML",
+          "integration": "Read as font list only; not a pack license; HTML not executed."
+        },
+        {
+          "path": "biblioteca/packs/6000-motion-audit-v13/Fonts.txt",
+          "bytes": 2007,
+          "sha256": "d3a0014ff31c242da60ac801218e1db7a31c7b7b6c6cff0ce98aae6df71f0639",
+          "source_archive": "pack/6000+Motion Graphics Pack V5.1-002_rar.part1.rar + part2.rar + part3.rar",
+          "source_entry": "6000+Motion Graphics Pack V5.1/Documentation/Fonts.txt",
+          "status": "complete selected entry; CRC read and file SHA-256 verified; full archive available locally this audit",
+          "compatible": false,
+          "licence": "No specific commercial-use/redistribution license found in full pack tree. Use pending rights evidence; not included in V13 audiovisual output.",
+          "use_status": "catalogued_for_future_use_pending_rights_evidence",
+          "selected_for_v13": false,
+          "format": "Documentation text/HTML",
+          "integration": "Read as font list only; not a pack license; HTML not executed."
+        }
+      ]
+    }
+  },
+  "glitch": {
+    "remote_volumes": [
+      {
+        "path": "pack/650+ Glitch Elements v1.0-009_rar.part1.rar",
+        "bytes": 1048576000,
+        "lfs_oid": "sha256:48e774893e493646ea7f9c5148f9bf739d9b9baaa7f273820fd643458a0b1c93"
+      },
+      {
+        "path": "pack/650+ Glitch Elements v1.0-009_rar.part2.rar",
+        "bytes": 1048576000,
+        "lfs_oid": "sha256:80262a642e958a604de0c44800f5339b99dafc773166bed911338cd6dda3dc61"
+      },
+      {
+        "path": "pack/650+ Glitch Elements v1.0-009_rar.part3.rar",
+        "bytes": 315397780,
+        "lfs_oid": "sha256:4fd8702a13d25d25a7e81eab55bfae69c1c0281cb0280f88fc6ee611e6597550"
+      }
+    ],
+    "remote_sequence_present": [
+      1,
+      2,
+      3
+    ],
+    "local_full_archive": false,
+    "range_download": {
+      "part": 1,
+      "http_status": 206,
+      "byte_range": [
+        0,
+        8388607
+      ],
+      "prefix_bytes": 8388608,
+      "prefix_sha256": "15d80e1955369d2a0525b20bbe5476e5fcf8191c3f4f6089471309f31b7b543f",
+      "full_volume_sha_verified": false
+    },
+    "inspection": "RAR inside RAR. Partial inner listing reached Atom Preview Assets/Elements/Gradients; 4GIF+4PNG complete preview entries were CRC-read and fully decoded, all250x141. Partial prefixes remain private audit data, not normal-Git assets.",
+    "native_projects_executed": false,
+    "rights_evidence": "not found in inspected prefix; no conclusion about uninspected remainder",
+    "usable_production_hd_assets_confirmed": false
+  },
+  "hyperframes_catalog": {
+    "ok": true,
+    "revision": "08ee1bd5ad59987a7f2525222683e24ca30971f9",
+    "catalog_items": 21,
+    "files_checked": 42,
+    "checks": [
+      {
+        "path": "biblioteca/hyperframes/hw-underline/hw-underline.html.txt",
+        "sha256": "2e4fdeac4c27f9c90bc6f87b4fee041426a095c9c4ad00b6cc0cf4005470e174"
+      },
+      {
+        "path": "biblioteca/hyperframes/hw-underline/registry-item.json",
+        "sha256": "ff5722e07d5347cb549c92fc909660949544edef950c47059be4447bb2ce2f47"
+      },
+      {
+        "path": "biblioteca/hyperframes/line-swap/registry-item.json",
+        "sha256": "eb900b8be2f42d9162d1a395d3638a46a61e59b4e745dd27e0b7d6805cceb5a1"
+      },
+      {
+        "path": "biblioteca/hyperframes/line-swap/line-swap.html.txt",
+        "sha256": "24fb7b6b8ed1455e2bcf22addfa80d02dbc1008473b4cef98e7346709aa80ad7"
+      },
+      {
+        "path": "biblioteca/hyperframes/svg-mask-reveal/registry-item.json",
+        "sha256": "ccd79e7aebbb2eaa4ccafc5ff1febf227b8e4d9ed14eb110821705d675b42b55"
+      },
+      {
+        "path": "biblioteca/hyperframes/svg-mask-reveal/svg-mask-reveal.html.txt",
+        "sha256": "e9a80816b10684acd337eaad4a401693f07a5a3829e40e2605e294bd4ff43857"
+      },
+      {
+        "path": "biblioteca/hyperframes/focus-blur-resolve/registry-item.json",
+        "sha256": "539a1e45dddde15b00d78d0841d54ed6e5f3590ba257ac9f390c8b132cad003d"
+      },
+      {
+        "path": "biblioteca/hyperframes/focus-blur-resolve/focus-blur-resolve.html.txt",
+        "sha256": "b99792ffbd9cccbf86fb6228f69316264b8c9220067392fd1a78639c621b4ada"
+      },
+      {
+        "path": "biblioteca/hyperframes/icon-morph-beat/icon-morph-beat.html.txt",
+        "sha256": "e0b8bcd72028d9d7309726133a3c6f72e6b3f99c001670afcf3edbe1483297b8"
+      },
+      {
+        "path": "biblioteca/hyperframes/icon-morph-beat/registry-item.json",
+        "sha256": "6500b0b7344308a14b623a6488ee014e722930cb13b9755d303f44ef435e8b46"
+      },
+      {
+        "path": "biblioteca/hyperframes/arc-motion-path/arc-motion-path.html.txt",
+        "sha256": "26fe5636069b3396af3f8ed4d88034bf939c78eb1e836cd3db9899e7f669a187"
+      },
+      {
+        "path": "biblioteca/hyperframes/arc-motion-path/registry-item.json",
+        "sha256": "0d6c2d58e620b10debfe2ba77b42e0beaaf3bf8d2847f5c594a87f101236062e"
+      },
+      {
+        "path": "biblioteca/hyperframes/lt-accent-underline/lt-accent-underline.html.txt",
+        "sha256": "08e62fd35e14b99dd35e658b941f2b33781ff1cadb428d7b9626d69cfe3c4fe7"
+      },
+      {
+        "path": "biblioteca/hyperframes/lt-accent-underline/registry-item.json",
+        "sha256": "d3de484e773f303850b46eff647433fbead634b644304c70346ef73af9087cbf"
+      },
+      {
+        "path": "biblioteca/hyperframes/kinetic-type-swap/kinetic-type-swap.html.txt",
+        "sha256": "e98407ad72306094c3f17f25043924c5214428ef290235db0409c44865e259ba"
+      },
+      {
+        "path": "biblioteca/hyperframes/kinetic-type-swap/registry-item.json",
+        "sha256": "44f750b33cd855b60fe21e8b6dda17e8bd59e4e9b74ca679e28df4ddbc56d101"
+      },
+      {
+        "path": "biblioteca/hyperframes/count-up/count-up.html.txt",
+        "sha256": "6b34b9873a243fedb060d23f4eb5cef1b61a5b169ec1ae064030b70b48beea66"
+      },
+      {
+        "path": "biblioteca/hyperframes/count-up/registry-item.json",
+        "sha256": "6d4a59b657c81b6d607ddd01e1a7c9a568bc01fd7bcedc1569c22591fd642d03"
+      },
+      {
+        "path": "biblioteca/hyperframes/camera-rig-depth-stack/camera-rig-depth-stack.html.txt",
+        "sha256": "d0ab77610390dd1e30ac53347b06e3d6aa432ac972989c18df8593d2a2b6b19e"
+      },
+      {
+        "path": "biblioteca/hyperframes/camera-rig-depth-stack/registry-item.json",
+        "sha256": "db81f7e929376a6348dd45a30634a578178406c7370bb71a339d2503a26fe1df"
+      },
+      {
+        "path": "biblioteca/hyperframes/whip-pan-cut/whip-pan-cut.html.txt",
+        "sha256": "2e21c04b6b72c4c4087b9e926da4f83b95940e798b9e5ad26e4845c41e6df7b7"
+      },
+      {
+        "path": "biblioteca/hyperframes/whip-pan-cut/registry-item.json",
+        "sha256": "d94fc3446d2e150451f7adf66af231663c36dd3318ce8777ba6702c0ed03f591"
+      },
+      {
+        "path": "biblioteca/hyperframes/perspective-marquee/perspective-marquee.html.txt",
+        "sha256": "14d4544b748881f564ee3a2ffd55b1a630179b47b9d17bc3ee24667baf7c1698"
+      },
+      {
+        "path": "biblioteca/hyperframes/perspective-marquee/registry-item.json",
+        "sha256": "dd58efc4635d18550ef20d380f2140a63e41c36ef534f804e79bd9f0cca92d39"
+      },
+      {
+        "path": "biblioteca/hyperframes/iris-reveal/iris-reveal.html.txt",
+        "sha256": "977a7e068ebe7f547006794ee36ef4d30cd36d68edbd05acf60719e294de989e"
+      },
+      {
+        "path": "biblioteca/hyperframes/iris-reveal/registry-item.json",
+        "sha256": "fa1700c4e29b98ad6169a8cbe67438a583d9f6797f7d1d82f5aef6ca3ddcab18"
+      },
+      {
+        "path": "biblioteca/hyperframes/modal-morph/modal-morph.html.txt",
+        "sha256": "a932a8deece4bbe231f99010e01800e35564a4d59ca4d59bbce09b1f0be942b4"
+      },
+      {
+        "path": "biblioteca/hyperframes/modal-morph/registry-item.json",
+        "sha256": "a0b1a87b24fbd21e8f19863da00ce91cb5861b3c3df77e3703bba7401fb9a6b4"
+      },
+      {
+        "path": "biblioteca/hyperframes/scan-band/scan-band.html.txt",
+        "sha256": "66e19b727703fa360aca5a9c87b930e71b07b3d1c1649eb8e0befab4e614e83f"
+      },
+      {
+        "path": "biblioteca/hyperframes/scan-band/registry-item.json",
+        "sha256": "c7e2f1f9e50a36438a034d530e597d1d0c585877bb6a5d4d6be108dc9a295c4e"
+      },
+      {
+        "path": "biblioteca/hyperframes/light-sweep-pass/light-sweep-pass.html.txt",
+        "sha256": "16f8575923e3deacbbf2a2154bf4ec7c77ae8dd8d588c0ce0b5e25e5eea7376a"
+      },
+      {
+        "path": "biblioteca/hyperframes/light-sweep-pass/registry-item.json",
+        "sha256": "9228f84345f6d0e3b4a3fdf3e0d577589c448d6d333834293d5bcc48c6c7b9f3"
+      },
+      {
+        "path": "biblioteca/hyperframes/grain-overlay/grain-overlay.html.txt",
+        "sha256": "97a0da8f26feca9574abcf08b8186cef10ea4819b2aeabc30547ae16ed9ae80d"
+      },
+      {
+        "path": "biblioteca/hyperframes/grain-overlay/registry-item.json",
+        "sha256": "bd0c8976bc2cf7c6ed6aae3a64023c73e61505b604dfba97220ed27bbca0e897"
+      },
+      {
+        "path": "biblioteca/hyperframes/type-match-cut/type-match-cut.html.txt",
+        "sha256": "403c1a3200f795809bbf37bc6eb1f7659969dfcd2948a2c88c1308c843ad0b21"
+      },
+      {
+        "path": "biblioteca/hyperframes/type-match-cut/registry-item.json",
+        "sha256": "c73ac4c039826cb2257a65cd2b9a42d0f917639c82ee7b7a5ee7bde3ca3c2211"
+      },
+      {
+        "path": "biblioteca/hyperframes/text-match-cut/text-match-cut.html.txt",
+        "sha256": "9bc1cc08bf75b56aa20b911d706e88755b1a6b39220f5ed5f7e70318ae184186"
+      },
+      {
+        "path": "biblioteca/hyperframes/text-match-cut/registry-item.json",
+        "sha256": "a62b0d13260f63c74b01077950d09f969a7283f3992329eaec065132f923fbd3"
+      },
+      {
+        "path": "biblioteca/hyperframes/pan-stations/pan-stations.html.txt",
+        "sha256": "3d3b32584a7b969025e13a5586a6f7f66cadca311758ce6f735e523a170d6ed3"
+      },
+      {
+        "path": "biblioteca/hyperframes/pan-stations/registry-item.json",
+        "sha256": "1160de064078645677aa563bd1243517529f69afb10c011474f1dd08d71a63ac"
+      },
+      {
+        "path": "biblioteca/hyperframes/slit-scan-reveal/slit-scan-reveal.html.txt",
+        "sha256": "896d30e1162029a6f6085d3deb08da22a2b9ef717b1ac0597b09953ec0b1aae7"
+      },
+      {
+        "path": "biblioteca/hyperframes/slit-scan-reveal/registry-item.json",
+        "sha256": "22ead401c64a947af5f05a78139f7be47f090687971af52499a55ec2c8ede77b"
+      }
+    ],
+    "installation": "Exact Git sources, no hyperframes add, no upgrade"
+  },
+  "validation": {
+    "ok": true,
+    "media_and_component_checks": [
+      {
+        "path": "biblioteca/referencias/park-shard-cloud/Park_Criativo_video_no_watermark (1).mp4",
+        "sha256": "d3b4dbe47d772e8a54371336ccc9db228166b4936775cea28415edd894d9d93c",
+        "ok": true
+      },
+      {
+        "path": "biblioteca/referencias/park-virgilio/Park_Criativo_video_no_watermark.mp4",
+        "sha256": "f21687d6e6c8f224378de5f8ac82056e3e60c9d87554d2cbfb23d750f824bc54",
+        "ok": true
+      },
+      {
+        "path": "biblioteca/referencias/oto-criativo/oto_criativo_video_no_watermark.mp4",
+        "sha256": "39bc21037a522d3088630fcf79b9da61cc759c31b5386c39759e074283395a8c",
+        "ok": true
+      },
+      {
+        "path": "biblioteca/referencias/park-weven/Park_Criativo_video_no_watermark (1).mp4",
+        "sha256": "55e691627b4c2c44f867184702be323dd885e9f3767a4a9a7223eb4cbe1c6e95",
+        "ok": true
+      },
+      {
+        "path": "biblioteca/packs/6000-motion-amostras/Brush 2.png",
+        "sha256": "67ce186796c62860d5b17f08258fb10e2dedf86f7d0f11c21ef557d12e6d2a54",
+        "ok": true
+      },
+      {
+        "path": "biblioteca/packs/6000-motion-amostras/Ink_1.mp4",
+        "sha256": "435f70f604a3ab8ba44b61f31f5eb6464ffa03170829cf9c26744d559fc9e14a",
+        "ok": true
+      },
+      {
+        "path": "biblioteca/packs/6000-motion-amostras/Ink_10.mp4",
+        "sha256": "1709aa51d4549e4cc04e7e815c3730f3ab3644a8f80380f8839a4f777c8caef8",
+        "ok": true
+      },
+      {
+        "path": "biblioteca/packs/6000-motion-amostras/Ink_11.mp4",
+        "sha256": "31a921be476f62904c513f84ff45ec7b723bb1b32f3fbd720b09bb6058f5a65b",
+        "ok": true
+      },
+      {
+        "path": "biblioteca/packs/6000-motion-amostras/Ink_12.mp4",
+        "sha256": "9011841fa8273f0c3f0c5de7cdb535c48e6c5de860606c5d57d172abeee8fc19",
+        "ok": true
+      },
+      {
+        "path": "biblioteca/packs/6000-motion-amostras/Ink_13.mp4",
+        "sha256": "f8e7aac871d07dcf16484fa9f0a6d337daf99f24dfb7cd4ef9225e5a87d9c60c",
+        "ok": true
+      },
+      {
+        "path": "biblioteca/packs/6000-motion-amostras/Ink_14.mp4",
+        "sha256": "32386bb26eddcbf112fba506be460133eb554259dc957464a668e8d0ecc3f40f",
+        "ok": true
+      },
+      {
+        "path": "biblioteca/packs/6000-motion-audit-v13/TransitionFlare_1.mp4",
+        "sha256": "7df10f2f854204e001b7c45234c711f7e0a07ad2f6cbded95f3ec3ef62c3e829",
+        "ok": true
+      },
+      {
+        "path": "biblioteca/packs/6000-motion-audit-v13/SFX - Fast Swoosh 1.wav",
+        "sha256": "68a0da89fe528a5468f2902b73a6d53b3a68bd82370e98384154db7287a97473",
+        "ok": true
+      },
+      {
+        "path": "biblioteca/packs/6000-motion-audit-v13/SFX - Impact 1.wav",
+        "sha256": "cc87bf699bec061913cb96eac93adbe986be98da69472703fd4e4b02c4dd6172",
+        "ok": true
+      },
+      {
+        "path": "biblioteca/packs/6000-motion-audit-v13/Fonts.html",
+        "sha256": "89f03a56d698f6b9244af32cb1540ff9e3c3baee3ca41ab6a31f45b8862ebbe3",
+        "ok": true
+      },
+      {
+        "path": "biblioteca/packs/6000-motion-audit-v13/Fonts.txt",
+        "sha256": "d3a0014ff31c242da60ac801218e1db7a31c7b7b6c6cff0ce98aae6df71f0639",
+        "ok": true
+      },
+      {
+        "path": "biblioteca/componentes/motion-kit.js",
+        "sha256": "ea6ee1a32fb5bf3593efbfa911296c9340aa6928b3af8d01661241c0379309c5",
+        "ok": true
+      },
+      {
+        "path": "biblioteca/componentes/evoquex-v12-effects.js",
+        "sha256": "18ec4bace80716614e09cfbbf1a9fa555d07af64f33788e52063a411f778eec2",
+        "ok": true
+      }
+    ],
+    "catalogue_sources": 21,
+    "full_pack_extraction_claimed": false
+  },
+  "reports": {
+    "markdown": "git-library-audit.md",
+    "branch_trees": "git-remote-tree-audit.json",
+    "full_6000_tree_private": "6000-complete-inventory.json",
+    "selected_candidates_private": "6000-selected-inventory.json",
+    "compact_permanent_inventory": "biblioteca/packs/inventario.json",
+    "range_prefix_manifest": "partial-listing-glitch.json"
+  },
+  "limitations": [
+    "No specific commercial license found for pack candidates; not used in V13 soundtrack or image.",
+    "Glitch only range-prefix inspected, not a complete archive test.",
+    "No subjective audio listening; signal/codec/CRC/decode checks only.",
+    "Catalog sources preserved/adaptation proposed, not claimed rendered V13 implementation.",
+    "RAR payloads and prefixes remain private/LFS; paths inside permanent selection resolve in repository."
+  ]
+}

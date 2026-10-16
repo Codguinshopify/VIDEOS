@@ -1,0 +1,4723 @@
+{
+  "schema": 1,
+  "reviewed_at_utc": "2026-10-16T13:51:14.133537+00:00",
+  "project": "evoquex-hyperframes-v13",
+  "status": "motion_map_reviewed_no_additional_blocking_visual_issue_in_sampled_final_export",
+  "viewport": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30
+  },
+  "duration_seconds": 30,
+  "video": {
+    "path": "renders/evoquex-hyperframes-v13.mp4",
+    "sha256": "548a550705c835551b4ab2817acec0d92862eb79fee40b6299a18c54c6a81ef2",
+    "first_candidate_rejected_for_this_report": "a8357e4481 prefix; not used as final acceptance"
+  },
+  "map": {
+    "path": "review/animation-map/animation-map.json",
+    "sha256": "06218dea7240c36765b3bf0c8cfa1653f8d79dabf7993d717863663909b06fc6",
+    "total_tweens": 356,
+    "mapped_tweens": 283,
+    "skipped_micro_tweens": 73,
+    "flagged_tweens": 197,
+    "counts": {
+      "collision": 186,
+      "paced-slow": 2,
+      "offscreen": 15,
+      "paced-fast": 5,
+      "degenerate": 2
+    },
+    "collision_pair_count": 174,
+    "collision_pairs": [
+      [
+        1,
+        5
+      ],
+      [
+        2,
+        5
+      ],
+      [
+        3,
+        5
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        6,
+        9
+      ],
+      [
+        6,
+        58
+      ],
+      [
+        7,
+        8
+      ],
+      [
+        8,
+        9
+      ],
+      [
+        9,
+        10
+      ],
+      [
+        9,
+        12
+      ],
+      [
+        10,
+        12
+      ],
+      [
+        13,
+        14
+      ],
+      [
+        17,
+        18
+      ],
+      [
+        17,
+        20
+      ],
+      [
+        18,
+        20
+      ],
+      [
+        21,
+        23
+      ],
+      [
+        25,
+        33
+      ],
+      [
+        26,
+        33
+      ],
+      [
+        27,
+        33
+      ],
+      [
+        28,
+        33
+      ],
+      [
+        29,
+        33
+      ],
+      [
+        29,
+        34
+      ],
+      [
+        30,
+        31
+      ],
+      [
+        30,
+        33
+      ],
+      [
+        31,
+        33
+      ],
+      [
+        32,
+        33
+      ],
+      [
+        35,
+        36
+      ],
+      [
+        35,
+        38
+      ],
+      [
+        36,
+        38
+      ],
+      [
+        37,
+        40
+      ],
+      [
+        38,
+        40
+      ],
+      [
+        41,
+        56
+      ],
+      [
+        42,
+        56
+      ],
+      [
+        43,
+        56
+      ],
+      [
+        44,
+        45
+      ],
+      [
+        44,
+        56
+      ],
+      [
+        45,
+        56
+      ],
+      [
+        46,
+        47
+      ],
+      [
+        46,
+        56
+      ],
+      [
+        47,
+        56
+      ],
+      [
+        48,
+        49
+      ],
+      [
+        48,
+        56
+      ],
+      [
+        49,
+        56
+      ],
+      [
+        50,
+        51
+      ],
+      [
+        50,
+        56
+      ],
+      [
+        51,
+        56
+      ],
+      [
+        52,
+        53
+      ],
+      [
+        52,
+        56
+      ],
+      [
+        53,
+        56
+      ],
+      [
+        54,
+        56
+      ],
+      [
+        55,
+        56
+      ],
+      [
+        55,
+        57
+      ],
+      [
+        56,
+        57
+      ],
+      [
+        58,
+        59
+      ],
+      [
+        62,
+        68
+      ],
+      [
+        62,
+        74
+      ],
+      [
+        65,
+        66
+      ],
+      [
+        67,
+        69
+      ],
+      [
+        68,
+        74
+      ],
+      [
+        70,
+        71
+      ],
+      [
+        72,
+        73
+      ],
+      [
+        75,
+        76
+      ],
+      [
+        77,
+        78
+      ],
+      [
+        79,
+        80
+      ],
+      [
+        93,
+        94
+      ],
+      [
+        96,
+        97
+      ],
+      [
+        98,
+        99
+      ],
+      [
+        101,
+        102
+      ],
+      [
+        101,
+        103
+      ],
+      [
+        102,
+        103
+      ],
+      [
+        106,
+        107
+      ],
+      [
+        109,
+        110
+      ],
+      [
+        111,
+        112
+      ],
+      [
+        113,
+        114
+      ],
+      [
+        115,
+        116
+      ],
+      [
+        120,
+        123
+      ],
+      [
+        121,
+        122
+      ],
+      [
+        121,
+        123
+      ],
+      [
+        121,
+        124
+      ],
+      [
+        122,
+        123
+      ],
+      [
+        122,
+        124
+      ],
+      [
+        123,
+        124
+      ],
+      [
+        129,
+        130
+      ],
+      [
+        133,
+        134
+      ],
+      [
+        136,
+        139
+      ],
+      [
+        150,
+        156
+      ],
+      [
+        153,
+        154
+      ],
+      [
+        153,
+        155
+      ],
+      [
+        154,
+        155
+      ],
+      [
+        156,
+        157
+      ],
+      [
+        156,
+        163
+      ],
+      [
+        157,
+        163
+      ],
+      [
+        168,
+        169
+      ],
+      [
+        174,
+        175
+      ],
+      [
+        180,
+        181
+      ],
+      [
+        181,
+        185
+      ],
+      [
+        182,
+        185
+      ],
+      [
+        183,
+        186
+      ],
+      [
+        183,
+        189
+      ],
+      [
+        184,
+        185
+      ],
+      [
+        184,
+        187
+      ],
+      [
+        184,
+        188
+      ],
+      [
+        184,
+        189
+      ],
+      [
+        184,
+        190
+      ],
+      [
+        186,
+        189
+      ],
+      [
+        187,
+        189
+      ],
+      [
+        188,
+        189
+      ],
+      [
+        188,
+        190
+      ],
+      [
+        192,
+        193
+      ],
+      [
+        199,
+        200
+      ],
+      [
+        199,
+        201
+      ],
+      [
+        199,
+        224
+      ],
+      [
+        200,
+        202
+      ],
+      [
+        200,
+        203
+      ],
+      [
+        200,
+        224
+      ],
+      [
+        201,
+        224
+      ],
+      [
+        202,
+        204
+      ],
+      [
+        202,
+        205
+      ],
+      [
+        202,
+        224
+      ],
+      [
+        203,
+        204
+      ],
+      [
+        203,
+        224
+      ],
+      [
+        204,
+        205
+      ],
+      [
+        204,
+        224
+      ],
+      [
+        205,
+        224
+      ],
+      [
+        206,
+        207
+      ],
+      [
+        206,
+        224
+      ],
+      [
+        207,
+        224
+      ],
+      [
+        208,
+        209
+      ],
+      [
+        208,
+        224
+      ],
+      [
+        209,
+        224
+      ],
+      [
+        210,
+        211
+      ],
+      [
+        210,
+        224
+      ],
+      [
+        211,
+        224
+      ],
+      [
+        212,
+        213
+      ],
+      [
+        212,
+        214
+      ],
+      [
+        212,
+        224
+      ],
+      [
+        213,
+        224
+      ],
+      [
+        214,
+        224
+      ],
+      [
+        215,
+        216
+      ],
+      [
+        215,
+        224
+      ],
+      [
+        216,
+        224
+      ],
+      [
+        217,
+        224
+      ],
+      [
+        218,
+        224
+      ],
+      [
+        219,
+        224
+      ],
+      [
+        220,
+        224
+      ],
+      [
+        221,
+        222
+      ],
+      [
+        221,
+        224
+      ],
+      [
+        222,
+        224
+      ],
+      [
+        223,
+        224
+      ],
+      [
+        229,
+        230
+      ],
+      [
+        244,
+        245
+      ],
+      [
+        246,
+        247
+      ],
+      [
+        248,
+        249
+      ],
+      [
+        250,
+        251
+      ],
+      [
+        253,
+        254
+      ],
+      [
+        255,
+        256
+      ],
+      [
+        257,
+        258
+      ],
+      [
+        259,
+        260
+      ],
+      [
+        261,
+        262
+      ],
+      [
+        266,
+        267
+      ],
+      [
+        268,
+        269
+      ],
+      [
+        270,
+        271
+      ],
+      [
+        272,
+        273
+      ],
+      [
+        274,
+        282
+      ],
+      [
+        275,
+        282
+      ],
+      [
+        276,
+        277
+      ],
+      [
+        276,
+        282
+      ],
+      [
+        277,
+        282
+      ],
+      [
+        278,
+        279
+      ],
+      [
+        278,
+        282
+      ],
+      [
+        279,
+        282
+      ],
+      [
+        280,
+        281
+      ],
+      [
+        280,
+        282
+      ],
+      [
+        281,
+        282
+      ]
+    ],
+    "dead_zones_reported": 0,
+    "frames_sampled_per_tween": 6
+  },
+  "rendered_review": {
+    "method": "32 frames extracted directly from completed final MP4 at specific mask/scene/metric/CTA times, three sheets visually inspected. Comparison to live code and map geometry; no source visual edits.",
+    "sampling_manifest": "review/motion-map-final-sampling.json",
+    "sheets": [
+      "review/motion-map-final-548a550705/sheet-1.jpg",
+      "review/motion-map-final-548a550705/sheet-2.jpg",
+      "review/motion-map-final-548a550705/sheet-3.jpg"
+    ],
+    "times": [
+      4.6,
+      5.05,
+      5.3,
+      5.8,
+      6.4,
+      7.35,
+      7.82,
+      8.2,
+      8.7,
+      9.8,
+      10.7,
+      11.35,
+      12.8,
+      13.35,
+      14.85,
+      15.3,
+      15.75,
+      16.7,
+      17.9,
+      18.3,
+      18.8,
+      19.2,
+      20.95,
+      21.5,
+      22.25,
+      23.6,
+      24.2,
+      25.4,
+      26.45,
+      26.8,
+      27.8,
+      29.5
+    ],
+    "scope": "4–30s; protected hook is classified using source/map and explicit approval, not falsely re-approved from post4 frame samples.",
+    "audio_subjective_listening": false,
+    "continuous_real_time_playback": false
+  },
+  "pacing_review": {
+    "slow_flags": [
+      {
+        "index": 6,
+        "selector": "[data-motion-audit-id=\"5\"]",
+        "start": 0,
+        "end": 15,
+        "classification": "intentional_ambient",
+        "reason": "Two15-second radial-light drifts below content, not slow scene/text transitions. Cannot infer narrative pacing from the ambient tween."
+      },
+      {
+        "index": 151,
+        "selector": "[data-motion-audit-id=\"5\"]",
+        "start": 15,
+        "end": 30,
+        "classification": "intentional_ambient",
+        "reason": "Two15-second radial-light drifts below content, not slow scene/text transitions. Cannot infer narrative pacing from the ambient tween."
+      }
+    ],
+    "fast_flags": [
+      {
+        "index": 33,
+        "selector": "#iris-border",
+        "start": 4.35,
+        "end": 4.53,
+        "classification": "intentional_short_secondary_motion",
+        "reason": "Protected iris rim fades in0.18s after its reveal; no reading content is shortened."
+      },
+      {
+        "index": 35,
+        "selector": "#masked-city",
+        "start": 5.04,
+        "end": 5.19,
+        "classification": "intentional_short_secondary_motion",
+        "reason": "15-centisecond image/solid-type matched crossfade begins photographic mask transformation; both paint states align."
+      },
+      {
+        "index": 36,
+        "selector": "#flat-query",
+        "start": 5.04,
+        "end": 5.19,
+        "classification": "intentional_short_secondary_motion",
+        "reason": "Complementary side of the same0.15s matched crossfade; aperture expands subsequently, not a bare text fade scene."
+      },
+      {
+        "index": 224,
+        "selector": "#flow-outline",
+        "start": 21.45,
+        "end": 21.65,
+        "classification": "intentional_short_secondary_motion",
+        "reason": "Flow-outline SVG fade nominally0.20s; floating-point threshold marks it fast. It is a decorative border handing off to the connector."
+      },
+      {
+        "index": 230,
+        "selector": "#audience-node",
+        "start": 22.77,
+        "end": 22.93,
+        "classification": "intentional_short_secondary_motion",
+        "reason": "Audience-node0.16s pulse has one yoyo repeat, total0.32s; expressive response after node has already been readable."
+      }
+    ],
+    "reading_holds": "After each short glyph/slice arrival, held wording remains clear. Impression20.981 stable after~15.75s; reach13.064 and full label stable18.8–20.7s; CTA/service holds after~27.1s. The ambient light spans whole composition, so deadZones0 alone is not evidence of editorial variety."
+  },
+  "offscreen_review": [
+    {
+      "index": 7,
+      "selector": "#hook-company",
+      "start": 0.76,
+      "end": 1.1,
+      "classification": "protected_hook_spatial_handoff",
+      "reason": "Outgoing/incoming title planes cross the viewport; final title positions resolve. Hook preserved by explicit approval."
+    },
+    {
+      "index": 8,
+      "selector": "#hook-known",
+      "start": 0.8,
+      "end": 1.22,
+      "classification": "protected_hook_spatial_handoff",
+      "reason": "Outgoing/incoming title planes cross the viewport; final title positions resolve. Hook preserved by explicit approval."
+    },
+    {
+      "index": 9,
+      "selector": "[data-motion-audit-id=\"7\"]",
+      "start": 0.8,
+      "end": 1.3,
+      "classification": "protected_hook_spatial_handoff",
+      "reason": "Outgoing/incoming title planes cross the viewport; final title positions resolve. Hook preserved by explicit approval."
+    },
+    {
+      "index": 17,
+      "selector": "#hook-city",
+      "start": 2.48,
+      "end": 2.8,
+      "classification": "protected_hook_spatial_handoff",
+      "reason": "Outgoing/incoming title planes cross the viewport; final title positions resolve. Hook preserved by explicit approval."
+    },
+    {
+      "index": 18,
+      "selector": "#hook-question",
+      "start": 2.52,
+      "end": 2.9,
+      "classification": "protected_hook_spatial_handoff",
+      "reason": "Outgoing/incoming title planes cross the viewport; final title positions resolve. Hook preserved by explicit approval."
+    },
+    {
+      "index": 39,
+      "selector": "#city-open",
+      "start": 5.15,
+      "end": 5.83,
+      "classification": "nonpainting_svg_mask_definition",
+      "reason": "#city-open is a rect inside defs/mask. getBoundingClientRect returns0×0 although its animated SVG attributes actively change the painted image mask. Offscreen flag follows zero-geometry heuristic, not missing media."
+    },
+    {
+      "index": 60,
+      "selector": "#city-open",
+      "start": 7.15,
+      "end": 7.65,
+      "classification": "nonpainting_svg_mask_definition",
+      "reason": "#city-open is a rect inside defs/mask. getBoundingClientRect returns0×0 although its animated SVG attributes actively change the painted image mask. Offscreen flag follows zero-geometry heuristic, not missing media."
+    },
+    {
+      "index": 61,
+      "selector": "#motion-world",
+      "start": 7.64,
+      "end": 8.26,
+      "classification": "continuous_world_container_offset",
+      "reason": "Root world bbox moves to−1920/−3840Y or−1080X. Children live at matching station offsets; their visible paint stays on canvas. Parent bbox alone is intentionally offscreen."
+    },
+    {
+      "index": 104,
+      "selector": "#production-type",
+      "start": 10.35,
+      "end": 10.87,
+      "classification": "outgoing_type_carried_into_next_composition",
+      "reason": "Production/distribution phrase moves out through the edge while next message takes its space; final held wording is intact. Process-stage clipping hides offscreen remnants."
+    },
+    {
+      "index": 127,
+      "selector": "#distribution-type",
+      "start": 12.48,
+      "end": 13.06,
+      "classification": "outgoing_type_carried_into_next_composition",
+      "reason": "Production/distribution phrase moves out through the edge while next message takes its space; final held wording is intact. Process-stage clipping hides offscreen remnants."
+    },
+    {
+      "index": 149,
+      "selector": "#motion-world",
+      "start": 14.63,
+      "end": 15.28,
+      "classification": "continuous_world_container_offset",
+      "reason": "Root world bbox moves to−1920/−3840Y or−1080X. Children live at matching station offsets; their visible paint stays on canvas. Parent bbox alone is intentionally offscreen."
+    },
+    {
+      "index": 173,
+      "selector": "#proof-metric-a",
+      "start": 17.8,
+      "end": 18.38,
+      "classification": "metric_axis_handoff",
+      "reason": "Old number+label exit together; next number+label arrive from the other axis. Brief fragments occur only in the0.58s handoff; fully resolved13.064 and label are visible by18.8s."
+    },
+    {
+      "index": 177,
+      "selector": "#proof-metric-b",
+      "start": 17.88,
+      "end": 18.46,
+      "classification": "metric_axis_handoff",
+      "reason": "Old number+label exit together; next number+label arrive from the other axis. Brief fragments occur only in the0.58s handoff; fully resolved13.064 and label are visible by18.8s."
+    },
+    {
+      "index": 178,
+      "selector": "[data-motion-audit-id=\"135\"]",
+      "start": 17.98,
+      "end": 18.515,
+      "classification": "metric_axis_handoff",
+      "reason": "Old number+label exit together; next number+label arrive from the other axis. Brief fragments occur only in the0.58s handoff; fully resolved13.064 and label are visible by18.8s."
+    },
+    {
+      "index": 197,
+      "selector": "#motion-world",
+      "start": 20.7,
+      "end": 21.35,
+      "classification": "continuous_world_container_offset",
+      "reason": "Root world bbox moves to−1920/−3840Y or−1080X. Children live at matching station offsets; their visible paint stays on canvas. Parent bbox alone is intentionally offscreen."
+    }
+  ],
+  "degenerate_review": [
+    {
+      "index": 39,
+      "selector": "#city-open",
+      "start": 5.15,
+      "end": 5.83,
+      "classification": "nonpainting_svg_mask_definition",
+      "reason": "The animated SVG rect belongs to defs/mask and has0×0 CSS bbox. Its mask effect was seen in final frames5.3/5.8/7.35; it is not a degenerate visible element."
+    },
+    {
+      "index": 60,
+      "selector": "#city-open",
+      "start": 7.15,
+      "end": 7.65,
+      "classification": "nonpainting_svg_mask_definition",
+      "reason": "The animated SVG rect belongs to defs/mask and has0×0 CSS bbox. Its mask effect was seen in final frames5.3/5.8/7.35; it is not a degenerate visible element."
+    }
+  ],
+  "same_target_property_overlap_review": [
+    {
+      "indices": [
+        10,
+        12
+      ],
+      "selector": "[data-motion-audit-id=\"8\"]",
+      "start": 1.05,
+      "end": 1.35,
+      "props": [
+        "rotation"
+      ],
+      "classification": "approved_protected_hook_rotation_overlap",
+      "action": "Preserve V12 hook exactly; no edit required in V13.",
+      "render_review_scope": "Prior approved hook, protected by contract; this report samples new4–30s."
+    }
+  ],
+  "collision_regions": [
+    {
+      "id": "approved_hook",
+      "start": 0,
+      "end": 4,
+      "flagged_tween_indices": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        12,
+        13,
+        14,
+        17,
+        18,
+        20,
+        21,
+        23
+      ],
+      "collision_tween_indices": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        12,
+        13,
+        14,
+        17,
+        18,
+        20,
+        21,
+        23
+      ],
+      "classification": "intentional_composition_or_masked_transition_in_reviewed_samples",
+      "reason": "Protected V12 type planes/parent-child bounds, echo+label layering, transparent radial light. Only property conflict is the explicitly approved known-tag rotation.",
+      "render_evidence": "Source/map contract; rendered hook preservation comparison belongs to dedicated hook QA."
+    },
+    {
+      "id": "city_mask_and_type",
+      "start": 4,
+      "end": 7.6,
+      "flagged_tween_indices": [
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        59,
+        60
+      ],
+      "collision_tween_indices": [
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        59
+      ],
+      "classification": "intentional_composition_or_masked_transition_in_reviewed_samples",
+      "reason": "Photographic SVG image and matching solid lettering deliberately coincide during0.15s transition. Three complementary slices share full text bounds but paint disjoint strips; glyph boxes and shared outline SVG can overlap without overlapping ink.",
+      "render_evidence": "Final4.6/5.05/5.3/5.8/6.4/7.35s"
+    },
+    {
+      "id": "camera_to_production",
+      "start": 7.6,
+      "end": 10.3,
+      "flagged_tween_indices": [
+        61,
+        62,
+        65,
+        66,
+        67,
+        68,
+        69,
+        70,
+        71,
+        72,
+        73,
+        74,
+        75,
+        76,
+        77,
+        78,
+        79,
+        80,
+        93,
+        94,
+        96,
+        97,
+        98,
+        99,
+        101,
+        102,
+        103
+      ],
+      "collision_tween_indices": [
+        62,
+        65,
+        66,
+        67,
+        68,
+        69,
+        70,
+        71,
+        72,
+        73,
+        74,
+        75,
+        76,
+        77,
+        78,
+        79,
+        80,
+        93,
+        94,
+        96,
+        97,
+        98,
+        99,
+        101,
+        102,
+        103
+      ],
+      "classification": "intentional_composition_or_masked_transition_in_reviewed_samples",
+      "reason": "Station movement, title glyphs, filming plane and production phrase trade foreground. Full-canvas flow-outline has only a stroked rect, not an opaque cover. Process-stage mask limits type; local shadows/top-film shading preserve legibility over real footage.",
+      "render_evidence": "Final7.82/8.2/8.7/9.8s"
+    },
+    {
+      "id": "distribution_type_planes",
+      "start": 10.3,
+      "end": 12.5,
+      "flagged_tween_indices": [
+        104,
+        106,
+        107,
+        109,
+        110,
+        111,
+        112,
+        113,
+        114,
+        115,
+        116,
+        120,
+        121,
+        122,
+        123,
+        124,
+        127
+      ],
+      "collision_tween_indices": [
+        106,
+        107,
+        109,
+        110,
+        111,
+        112,
+        113,
+        114,
+        115,
+        116,
+        120,
+        121,
+        122,
+        123,
+        124
+      ],
+      "classification": "intentional_composition_or_masked_transition_in_reviewed_samples",
+      "reason": "Production phrase hinges away, distribution glyphs arrive and three clips reconstruct Evoquex over the growing label-field. Media shrinks into another plane; clipping prevents retained old words.",
+      "render_evidence": "Final10.7/11.35s"
+    },
+    {
+      "id": "locality_and_wide_film",
+      "start": 12.5,
+      "end": 14.6,
+      "flagged_tween_indices": [
+        129,
+        130,
+        133,
+        134,
+        136,
+        139
+      ],
+      "collision_tween_indices": [
+        129,
+        130,
+        133,
+        134,
+        136,
+        139
+      ],
+      "classification": "intentional_composition_or_masked_transition_in_reviewed_samples",
+      "reason": "Locality glyphs enter while old distribution rig exits above. The same film window becomes landscape; only current phrase is held readable.",
+      "render_evidence": "Final12.8/13.35s"
+    },
+    {
+      "id": "document_and_impression",
+      "start": 14.6,
+      "end": 17.8,
+      "flagged_tween_indices": [
+        149,
+        150,
+        151,
+        153,
+        154,
+        155,
+        156,
+        157,
+        163,
+        168,
+        169
+      ],
+      "collision_tween_indices": [
+        150,
+        153,
+        154,
+        155,
+        156,
+        157,
+        163,
+        168,
+        169
+      ],
+      "classification": "intentional_composition_or_masked_transition_in_reviewed_samples",
+      "reason": "Metric slices and document panels each have overlapping full rects but complementary CSSclips. Border survives the station change; one number20.981 resolves, with correct impression label.",
+      "render_evidence": "Final14.85/15.3/15.75/16.7s"
+    },
+    {
+      "id": "reach_axis_swap",
+      "start": 17.8,
+      "end": 20.7,
+      "flagged_tween_indices": [
+        173,
+        174,
+        175,
+        177,
+        178,
+        180,
+        181,
+        182,
+        183,
+        184,
+        185,
+        186,
+        187,
+        188,
+        189,
+        190,
+        192,
+        193
+      ],
+      "collision_tween_indices": [
+        174,
+        175,
+        180,
+        181,
+        182,
+        183,
+        184,
+        185,
+        186,
+        187,
+        188,
+        189,
+        190,
+        192,
+        193
+      ],
+      "classification": "intentional_composition_or_masked_transition_in_reviewed_samples",
+      "reason": "Document travels to upper-left while old metric exits and13.064 arrives low. Glyph/parent interactions during landing are expected; stable final label distinguishes people reached from impressions.",
+      "render_evidence": "Final17.9/18.3/18.8/19.2s"
+    },
+    {
+      "id": "relevance_and_connector",
+      "start": 20.7,
+      "end": 23.85,
+      "flagged_tween_indices": [
+        197,
+        199,
+        200,
+        201,
+        202,
+        203,
+        204,
+        205,
+        206,
+        207,
+        208,
+        209,
+        210,
+        211,
+        212,
+        213,
+        214,
+        215,
+        216,
+        217,
+        218,
+        219,
+        220,
+        221,
+        222,
+        223,
+        224,
+        229,
+        230
+      ],
+      "collision_tween_indices": [
+        199,
+        200,
+        201,
+        202,
+        203,
+        204,
+        205,
+        206,
+        207,
+        208,
+        209,
+        210,
+        211,
+        212,
+        213,
+        214,
+        215,
+        216,
+        217,
+        218,
+        219,
+        220,
+        221,
+        222,
+        223,
+        224,
+        229,
+        230
+      ],
+      "classification": "intentional_composition_or_masked_transition_in_reviewed_samples",
+      "reason": "Camera translates to adjacent lateral station; glyph bounding boxes with negative tracking overlap transiently. Shared outline SVG retires; actual stroked path/node/pulse are intentional, not independent stacked text.",
+      "render_evidence": "Final20.95/21.5/22.25/23.6s"
+    },
+    {
+      "id": "cta_type_and_field",
+      "start": 23.85,
+      "end": 30,
+      "flagged_tween_indices": [
+        244,
+        245,
+        246,
+        247,
+        248,
+        249,
+        250,
+        251,
+        253,
+        254,
+        255,
+        256,
+        257,
+        258,
+        259,
+        260,
+        261,
+        262,
+        266,
+        267,
+        268,
+        269,
+        270,
+        271,
+        272,
+        273,
+        274,
+        275,
+        276,
+        277,
+        278,
+        279,
+        280,
+        281,
+        282
+      ],
+      "collision_tween_indices": [
+        244,
+        245,
+        246,
+        247,
+        248,
+        249,
+        250,
+        251,
+        253,
+        254,
+        255,
+        256,
+        257,
+        258,
+        259,
+        260,
+        261,
+        262,
+        266,
+        267,
+        268,
+        269,
+        270,
+        271,
+        272,
+        273,
+        274,
+        275,
+        276,
+        277,
+        278,
+        279,
+        280,
+        281,
+        282
+      ],
+      "classification": "intentional_composition_or_masked_transition_in_reviewed_samples",
+      "reason": "The blue field expands behind the CTA; glyphs articulate into distinct lines. Company/service share one clipped text window across time, with grammatical lead changing on26.48s. Close tracking creates geometric intersections between adjacent glyph bboxes; final copy has spacing and contrast.",
+      "render_evidence": "Final24.2/25.4/26.45/26.8/27.8/29.5s"
+    }
+  ],
+  "flagged_tweens": [
+    {
+      "index": 1,
+      "selector": "[data-motion-audit-id=\"1\"]",
+      "start": 0,
+      "end": 0.47,
+      "props": [
+        "yPercent",
+        "rotationX",
+        "opacity"
+      ],
+      "flags": [
+        "collision"
+      ],
+      "review_group": "approved_hook"
+    },
+    {
+      "index": 2,
+      "selector": "[data-motion-audit-id=\"2\"]",
+      "start": 0,
+      "end": 0.612,
+      "props": [
+        "yPercent",
+        "rotationX",
+        "opacity"
+      ],
+      "flags": [
+        "collision"
+      ],
+      "review_group": "approved_hook"
+    },
+    {
+      "index": 3,
+      "selector": "[data-motion-audit-id=\"3\"]",
+      "start": 0,
+      "end": 0.5,
+      "props": [
+        "y",
+        "opacity"
+      ],
+      "flags": [
+        "collision"
+      ],
+      "review_group": "approved_hook"
+    },
+    {
+      "index": 4,
+      "selector": "[data-motion-audit-id=\"4\"]",
+      "start": 0,
+      "end": 0.5,
+      "props": [
+        "scaleX"
+      ],
+      "flags": [
+        "collision"
+      ],
+      "review_group": "approved_hook"
+    },
+    {
+      "index": 5,
+      "selector": "#hook-company",
+      "start": 0,
+      "end": 0.6,
+      "props": [
+        "rotationY",
+        "z"
+      ],
+      "flags": [
+        "collision"
+      ],
+      "review_group": "approved_hook"
+    },
+    {
+      "index": 6,
+      "selector": "[data-motion-audit-id=\"5\"]",
+      "start": 0,
+      "end": 15,
+      "props": [
+        "x",
+        "y",
+        "scale"
+      ],
+      "flags": [
+        "paced-slow",
+        "collision"
+      ],
+      "review_group": "approved_hook"
+    },
+    {
+      "index": 7,
+      "selector": "#hook-company",
+      "start": 0.76,
+      "end": 1.1,
+      "props": [
+        "x",
+        "rotationY",
+        "z",
+        "scale",
+        "filter"
+      ],
+      "flags": [
+        "offscreen",
+        "collision"
+      ],
+      "review_group": "approved_hook"
+    },
+    {
+      "index": 8,
+      "selector": "#hook-known",
+      "start": 0.8,
+      "end": 1.22,
+      "props": [
+        "opacity",
+        "x",
+        "rotationY",
+        "z"
+      ],
+      "flags": [
+        "offscreen",
+        "collision"
+      ],
+      "review_group": "approved_hook"
+    },
+    {
+      "index": 9,
+      "selector": "[data-motion-audit-id=\"7\"]",
+      "start": 0.8,
+      "end": 1.3,
+      "props": [
+        "y",
+        "rotationX",
+        "opacity"
+      ],
+      "flags": [
+        "offscreen",
+        "collision"
+      ],
+      "review_group": "approved_hook"
+    },
+    {
+      "index": 10,
+      "selector": "[data-motion-audit-id=\"8\"]",
+      "start": 0.85,
+      "end": 1.35,
+      "props": [
+        "rotation",
+        "scale",
+        "y"
+      ],
+      "flags": [
+        "collision"
+      ],
+      "review_group": "approved_hook"
+    },
+    {
+      "index": 12,
+      "selector": "[data-motion-audit-id=\"8\"]",
+      "start": 1.05,
+      "end": 1.45,
+      "props": [
+        "rotation"
+      ],
+      "flags": [
+        "collision"
+      ],
+      "review_group": "approved_hook"
+    },
+    {
+      "index": 13,
+      "selector": "#hook-known",
+      "start": 1.63,
+      "end": 1.96,
+      "props": [
+        "y",
+        "rotationX",
+        "scale"
+      ],
+      "flags": [
+        "collision"
+      ],
+      "review_group": "approved_hook"
+    },
+    {
+      "index": 14,
+      "selector": "#hook-city",
+      "start": 1.66,
+      "end": 2.04,
+      "props": [
+        "opacity",
+        "y",
+        "rotationX"
+      ],
+      "flags": [
+        "collision"
+      ],
+      "review_group": "approved_hook"
+    },
+    {
+      "index": 17,
+      "selector": "#hook-city",
+      "start": 2.48,
+      "end": 2.8,
+      "props": [
+        "x",
+        "rotation",
+        "scale"
+      ],
+      "flags": [
+        "offscreen",
+        "collision"
+      ],
+      "review_group": "approved_hook"
+    },
+    {
+      "index": 18,
+      "selector": "#hook-question",
+      "start": 2.52,
+      "end": 2.9,
+      "props": [
+        "opacity",
+        "x",
+        "rotation"
+      ],
+      "flags": [
+        "offscreen",
+        "collision"
+      ],
+      "review_group": "approved_hook"
+    },
+    {
+      "index": 20,
+      "selector": "[data-motion-audit-id=\"13\"]",
+      "start": 2.6,
+      "end": 3.05,
+      "props": [
+        "opacity"
+      ],
+      "flags": [
+        "collision"
+      ],
+      "review_group": "approved_hook"
+    },
+    {
+      "index": 21,
+      "selector": "[data-motion-audit-id=\"14\"]",
+      "start": 2.65,
+      "end": 3.155,
+      "props": [
+        "yPercent",
+        "rotationX",
+        "opacity",
+        "transformOrigin"
+      ],
+      "flags": [
+        "collision"
+      ],
+      "review_group": "approved_hook"
+    },
+    {
+      "index": 23,
+      "selector": "[data-motion-audit-id=\"16\"]",
+      "start": 3.03,
+      "end": 3.53,
+      "props": [
+        "--light-x"
+      ],
+      "flags": [
+        "collision"
+      ],
+      "review_group": "approved_hook"
+    },
+    {
+      "index": 25,
+      "selector": "[data-motion-audit-id=\"17\"]",
+      "start": 4.02,
+      "end": 4.44,
+      "props": [
+        "x",
+        "rotation",
+        "opacity"
+      ],
+      "flags": [
+        "collision"
+      ],
+      "review_group": "city_mask_and_type"
+    },
+    {
+      "index": 26,
+      "selector": "[data-motion-audit-id=\"18\"]",
+      "start": 4.04,
+      "end": 4.48,
+      "props": [
+        "x",
+        "y",
+        "rotationX",
+        "rotationZ",
+        "opacity"
+      ],
+      "flags": [
+        "collision"
+      ],
+      "review_group": "city_mask_and_type"
+    },
+    {
+      "index": 27,
+      "selector": "[data-motion-audit-id=\"19\"]",
+      "start": 4.065,
+      "end": 4.505,
+      "props": [
+        "x",
+        "y",
+        "rotationX",
+        "rotationZ",
+        "opacity"
+      ],
+      "flags": [
+        "collision"
+      ],
+      "review_group": "city_mask_and_type"
+    },
+    {
+      "index": 28,
+      "selector": "[data-motion-audit-id=\"20\"]",
+      "start": 4.09,
+      "end": 4.53,
+      "props": [
+        "x",
+        "y",
+        "rotationX",
+        "rotationZ",
+        "opacity"
+      ],
+      "flags": [
+        "collision"
+      ],
+      "review_group": "city_mask_and_type"
+    },
+    {
+      "index": 29,
+      "selector": "[data-motion-audit-id=\"13\"]",
+      "start": 4.1,
+      "end": 4.7,
+      "props": [
+        "opacity"
+      ],
+      "flags": [
+        "collision"
+      ],
+      "review_group": "city_mask_and_type"
+    },
+    {
+      "index": 30,
+      "selector": "[data-motion-audit-id=\"21\"]",
+      "start": 4.115,
+      "end": 4.555,
+      "props": [
+        "x",
+        "y",
+        "rotationX",
+        "rotationZ",
+        "opacity"
+      ],
+      "flags": [
+        "collision"
+      ],
+      "review_group": "city_mask_and_type"
+    },
+    {
+      "index": 31,
+      "selector": "[data-motion-audit-id=\"22\"]",
+      "start": 4.14,
+      "end": 4.58,
+      "props": [
+        "x",
+        "y",
+        "rotationX",
+        "rotationZ",
+        "opacity"
+      ],
+      "flags": [
+        "collision"
+      ],
+      "review_group": "city_mask_and_type"
+    },
+    {
+      "index": 32,
+      "selector": "[data-motion-audit-id=\"23\"]",
+      "start": 4.165,
+      "end": 4.605,
+      "props": [
+        "x",
+        "y",
+        "rotationX",
+        "rotationZ",
+        "opacity"
+      ],
+      "flags": [
+        "collision"
+      ],
+      "review_group": "city_mask_and_type"
+    },
+    {
+      "index": 33,
+      "selector": "#iris-border",
+      "start": 4.35,
+      "end": 4.53,
+      "props": [
+        "opacity"
+      ],
+      "flags": [
+        "paced-fast",
+        "collision"
+      ],
+      "review_group": "city_mask_and_type"
+    },
+    {
+      "index": 34,
+      "selector": "#flat-query",
+      "start": 4.35,
+      "end": 4.85,
+      "props": [
+        "x",
+        "y",
+        "rotation",
+        "transformOrigin"
+      ],
+      "flags": [
+        "collision"
+      ],
+      "review_group": "city_mask_and_type"
+    },
+    {
+      "index": 35,
+      "selector": "#masked-city",
+      "start": 5.04,
+      "end": 5.19,
+      "props": [
+        "opacity"
+      ],
+      "flags": [
+        "paced-fast",
+        "collision"
+      ],
+      "review_group": "city_mask_and_type"
+    },
+    {
+      "index": 36,
+      "selector": "#flat-query",
+      "start": 5.04,
+      "end": 5.19,
+      "props": [
+        "opacity"
+      ],
+      "flags": [
+        "paced-fast",
+        "collision"
+      ],
+      "review_group": "city_mask_and_type"
+    },
+    {
+      "index": 37,
+      "selector": "[data-motion-audit-id=\"24\"]",
+      "start": 5.08,
+      "end": 5.63,
+      "props": [
+        "y",
+        "x",
+        "scale",
+        "transformOrigin"
+      ],
+      "flags": [
+        "collision"
+      ],
+      "review_group": "city_mask_and_type"
+    },
+    {
+      "index": 38,
+      "selector": "#masked-city",
+      "start": 5.1,
+      "end": 5.95,
+      "props": [
+        "x"
+      ],
+      "flags": [
+        "collision"
+      ],
+      "review_group": "city_mask_and_type"
+    },
+    {
+      "index": 39,
+      "selector": "#city-open",
+      "start": 5.15,
+      "end": 5.83,
+      "props": [
+        "attr"
+      ],
+      "flags": [
+        "degenerate",
+        "offscreen"
+      ],
+      "review_group": "city_mask_and_type"
+    },
+    {
+      "index": 40,
+      "selector": "#flow-outline",
+      "start": 5.55,
+      "end": 5.8,
+      "props": [
+        "opacity"
+      ],
+      "flags": [
+        "collision"
+      ],
+      "review_group": "city_mask_and_type"
+    },
+    {
+      "index": 41,
+      "selector": "[data-motion-audit-id=\"25\"]",
+      "start": 5.62,
+      "end": 6.04,
+      "props": [
+        "x",
+        "y",
+        "rotationX",
+        "rotationZ",
+        "opacity"
+      ],
+      "flags": [
+        "collision"
+      ],
+      "review_group": "city_mask_and_type"
+    },
+    {
+      "index": 42,
+      "selector": "[data-motion-audit-id=\"26\"]",
+      "start": 5.63,
+      "end": 6.05,
+      "props": [
+        "x",
+        "y",
+        "rotationX",
+        "rotationZ",
+        "opacity"
+      ],
+      "flags": [
+        "collision"
+      ],
+      "review_group": "city_mask_and_type"
+    },
+    {
+      "index": 43,
+      "selector": "[data-motion-audit-id=\"27\"]",
+      "start": 5.64,
+      "end": 6.06,
+      "props": [
+        "x",
+        "y",
+        "rotationX",
+        "rotationZ",
+        "opacity"
+      ],
+      "flags": [
+        "collision"
+      ],
+      "review_group": "city_mask_and_type"
+    },
+    {
+      "index": 44,
+      "selector": "[data-motion-audit-id=\"28\"]",
+      "start": 5.65,
+      "end": 6.07,
+      "props": [
+        "x",
+        "y",
+        "rotationX",
+        "rotationZ",
+        "opacity"
+      ],
+      "flags": [
+        "collision"
+      ],
+      "review_group": "city_mask_and_type"
+    },
+    {
+      "index": 45,
+      "selector": "[data-motion-audit-id=\"29\"]",
+      "start": 5.66,
+      "end": 6.08,
+      "props": [
+        "x",
+        "y",
+        "rotationX",
+        "rotationZ",
+        "opacity"
+      ],
+      "flags": [
+        "collision"
+      ],
+      "review_group": "city_mask_and_type"
+    },
+    {
+      "index": 46,
+      "selector": "[data-motion-audit-id=\"30\"]",
+      "start": 5.67,
+      "end": 6.09,
+      "props": [
+        "x",
+        "y",
+        "rotationX",
+        "rotationZ",
+        "opacity"
+      ],
+      "flags": [
+        "collision"
+      ],
+      "review_group": "city_mask_and_type"
+    },
+    {
+      "index": 47,
+      "selector": "[data-motion-audit-id=\"31\"]",
+      "start": 5.68,
+      "end": 6.1,
+      "props": [
+        "x",
+        "y",
+        "rotationX",
+        "rotationZ",
+        "opacity"
+      ],
+      "flags": [
+        "collision"
+      ],
+      "review_group": "city_mask_and_type"
+    },
+    {
+      "index": 48,
+      "selector": "[data-motion-audit-id=\"32\"]",
+      "start": 5.69,
+      "end": 6.11,
+      "props": [
+        "x",
+        "y",
+        "rotationX",
+        "rotationZ",
+        "opacity"
+      ],
+      "flags": [
+        "collision"
+      ],
+      "review_group": "city_mask_and_type"
+    },
+    {
+      "index": 49,
+      "selector": "[data-motion-audit-id=\"33\"]",
+      "start": 5.7,
+      "end": 6.12,
+      "props": [
+        "x",
+        "y",
+        "rotationX",
+        "rotationZ",
+        "opacity"
+      ],
+      "flags": [
+        "collision"
+      ],
+      "review_group": "city_mask_and_type"
+    },
+    {
+      "index": 50,
+      "selector": "[data-motion-audit-id=\"34\"]",
+      "start": 5.71,
+      "end": 6.13,
+      "props": [
+        "x",
+        "y",
+        "rotationX",
+        "rotationZ",
+        "opacity"
+      ],
+      "flags": [
+        "collision"
+      ],
+      "review_group": "city_mask_and_type"
+    },
+    {
+      "index": 51,
+      "selector": "[data-motion-audit-id=\"35\"]",
+      "start": 5.72,
+      "end": 6.14,
+      "props": [
+        "x",
+        "y",
+        "rotationX",
+        "rotationZ",
+        "opacity"
+      ],
+      "flags": [
+        "collision"
+      ],
+      "review_group": "city_mask_and_type"
+    },
+    {
+      "index": 52,
+      "selector": "[data-motion-audit-id=\"36\"]",
+      "start": 5.73,
+      "end": 6.15,
+      "props": [
+        "x",
+        "y",
+        "rotationX",
+        "rotationZ",
+        "opacity"
+      ],
+      "flags": [
+        "collision"
+      ],
+      "review_group": "city_mask_and_type"
+    },
+    {
+      "index": 53,
+      "selector": "[data-motion-audit-id=\"37\"]",
+      "start": 5.74,
+      "end": 6.16,
+      "props": [
+        "x",
+        "y",
+        "rotationX",
+        "rotationZ",
+        "opacity"
+      ],
+      "flags": [
+        "collision"
+      ],
+      "review_group": "city_mask_and_type"
+    },
+    {
+      "index": 54,
+      "selector": "[data-motion-audit-id=\"38\"]",
+      "start": 5.75,
+      "end": 6.17,
+      "props": [
+        "x",
+        "y",
+        "rotationX",
+        "rotationZ",
+        "opacity"
+      ],
+      "flags": [
+        "collision"
+      ],
+      "review_group": "city_mask_and_type"
+    },
+    {
+      "index": 55,
+      "selector": "[data-motion-audit-id=\"39\"]",
+      "start": 5.86,
+      "end": 6.36,
+      "props": [
+        "x",
+        "y",
+        "rotationZ",
+        "rotationY",
+        "opacity"
+      ],
+      "flags": [
+        "collision"
+      ],
+      "review_group": "city_mask_and_type"
+    },
+    {
+      "index": 56,
+      "selector": "[data-motion-audit-id=\"40\"]",
+      "start": 5.895,
+      "end": 6.395,
+      "props": [
+        "x",
+        "y",
+        "rotationZ",
+        "rotationY",
+        "opacity"
+      ],
+      "flags": [
+        "collision"
+      ],
+      "review_group": "city_mask_and_type"
+    },
+    {
+      "index": 57,
+      "selector": "[data-motion-audit-id=\"41\"]",
+      "start": 5.93,
+      "end": 6.43,
+      "props": [
+        "x",
+        "y",
+        "rotationZ",
+        "rotationY",
+        "opacity"
+      ],
+      "flags": [
+        "collision"
+      ],
+      "review_group": "city_mask_and_type"
+    },
+    {
+      "index": 58,
+      "selector": "#masked-city",
+      "start": 6.15,
+      "end": 7.2,
+      "props": [
+        "x"
+      ],
+      "flags": [
+        "collision"
+      ],
+      "review_group": "city_mask_and_type"
+    },
+    {
+      "index": 59,
+      "selector": "#flow-frame",
+      "start": 7.12,
+      "end": 7.57,
+      "props": [
+        "attr"
+      ],
+      "flags": [
+        "collision"
+      ],
+      "review_group": "city_mask_and_type"
+    },
+    {
+      "index": 60,
+      "selector": "#city-open",
+      "start": 7.15,
+      "end": 7.65,
+      "props": [
+        "attr"
+      ],
+      "flags": [
+        "degenerate",
+        "offscreen"
+      ],
+      "review_group": "city_mask_and_type"
+    },
+    {
+      "index": 61,
+      "selector": "#motion-world",
+      "start": 7.64,
+      "end": 8.26,
+      "props": [
+        "y"
+      ],
+      "flags": [
+        "offscreen"
+      ],
+      "review_group": "camera_to_production"
+    },
+    {
+      "index": 62,
+      "selector": "#flow-frame",
+      "start": 7.66,
+      "end": 8.41,
+      "props": [
+        "attr"
+      ],
+      "flags": [
+        "collision"
+      ],
+      "review_group": "camera_to_production"
+    },
+    {
+      "index": 65,
+      "selector": "[data-motion-audit-id=\"44\"]",
+      "start": 7.976,
+      "end": 8.456,
+      "props": [
+        "x",
+        "y",
+        "rotationX",
+        "rotationZ",
+        "opacity"
+      ],
+      "flags": [
+        "collision"
+      ],
+      "review_group": "camera_to_production"
+    },
+    {
+      "index": 66,
+      "selector": "[data-motion-audit-id=\"45\"]",
+      "start": 7.992,
+      "end": 8.472,
+      "props": [
+        "x",
+        "y",
+        "rotationX",
+        "rotationZ",
+        "opacity"
+      ],
+      "flags": [
+        "collision"
+      ],
+      "review_group": "camera_to_production"
+    },
+    {
+      "index": 67,
+      "selector": "[data-motion-audit-id=\"46\"]",
+      "start": 8.008,
+      "end": 8.488,
+      "props": [
+        "x",
+        "y",
+        "rotationX",
+        "rotationZ",
+        "opacity"
+      ],
+      "flags": [
+        "collision"
+      ],
+      "review_group": "camera_to_production"
+    },
+    {
+      "index": 68,
+      "selector": "#campaign-rig",
+      "start": 8.02,
+      "end": 8.69,
+      "props": [
+        "x",
+        "y",
+        "rotationY",
+        "rotationZ"
+      ],
+      "flags": [
+        "collision"
+      ],
+      "review_group": "camera_to_production"
+    },
+    {
+      "index": 69,
+      "selector": "[data-motion-audit-id=\"47\"]",
+      "start": 8.024,
+      "end": 8.504,
+      "props": [
+        "x",
+        "y",
+        "rotationX",
+        "rotationZ",
+        "opacity"
+      ],
+      "flags": [
+        "collision"
+      ],
+      "review_group": "camera_to_production"
+    },
+    {
+      "index": 70,
+      "selector": "[data-motion-audit-id=\"48\"]",
+      "start": 8.04,
+      "end": 8.52,
+      "props": [
+        "x",
+        "y",
+        "rotationX",
+        "rotationZ",
+        "opacity"
+      ],
+      "flags": [
+        "collision"
+      ],
+      "review_group": "camera_to_production"
+    },
+    {
+      "index": 71,
+      "selector": "[data-motion-audit-id=\"49\"]",
+      "start": 8.056,
+      "end": 8.536,
+      "props": [
+        "x",
+        "y",
+        "rotationX",
+        "rotationZ",
+        "opacity"
+      ],
+      "flags": [
+        "collision"
+      ],
+      "review_group": "camera_to_production"
+    },
+    {
+      "index": 72,
+      "selector": "[data-motion-audit-id=\"50\"]",
+      "start": 8.072,
+      "end": 8.552,
+      "props": [
+        "x",
+        "y",
+        "rotationX",
+        "rotationZ",
+        "opacity"
+      ],
+      "flags": [
+        "collision"
+      ],
+      "review_group": "camera_to_production"
+    },
+    {
+      "index": 73,
+      "selector": "[data-motion-audit-id=\"51\"]",
+      "start": 8.088,
+      "end": 8.568,
+      "props": [
+        "x",
+        "y",
+        "rotationX",
+        "rotationZ",
+        "opacity"
+      ],
+      "flags": [
+        "collision"
+      ],
+      "review_group": "camera_to_production"
+    },
+    {
+      "index": 74,
+      "selector": "[data-motion-audit-id=\"52\"]",
+      "start": 8.1,
+      "end": 8.75,
+      "props": [
+        "clipPath"
+      ],
+      "flags": [
+        "collision"
+      ],
+      "review_group": "camera_to_production"
+    },
+    {
+      "index": 75,
+      "selector": "[data-motion-audit-id=\"53\"]",
+      "start": 8.104,
+      "end": 8.584,
+      "props": [
+        "x",
+        "y",
+        "rotationX",
+        "rotationZ",
+        "opacity"
+      ],
+      "flags": [
+        "collision"
+      ],
+      "review_group": "camera_to_production"
+    },
+    {
+      "index": 76,
+      "selector": "[data-motion-audit-id=\"54\"]",
+      "start": 8.12,
+      "end": 8.6,
+      "props": [
+        "x",
+        "y",
+        "rotationX",
+        "rotationZ",
+        "opacity"
+      ],
+      "flags": [
+        "collision"
+      ],
+      "review_group": "camera_to_production"
+    },
+    {
+      "index": 77,
+      "selector": "[data-motion-audit-id=\"55\"]",
+      "start": 8.136,
+      "end": 8.616,
+      "props": [
+        "x",
+        "y",
+        "rotationX",
+        "rotationZ",
+        "opacity"
+      ],
+      "flags": [
+        "collision"
+      ],
+      "review_group": "camera_to_production"
+    },
+    {
+      "index": 78,
+      "selector": "[data-motion-audit-id=\"56\"]",
+      "start": 8.152,
+      "end": 8.632,
+      "props": [
+        "x",
+        "y",
+        "rotationX",
+        "rotationZ",
+        "opacity"
+      ],
+      "flags": [
+        "collision"
+      ],
+      "review_group": "camera_to_production"
+    },
+    {
+      "index": 79,
+      "selector": "[data-motion-audit-id=\"57\"]",
+      "start": 8.168,
+      "end": 8.648,
+      "props": [
+        "x",
+        "y",
+        "rotationX",
+        "rotationZ",
+        "opacity"
+      ],
+      "flags": [
+        "collision"
+      ],
+      "review_group": "camera_to_production"
+    },
+    {
+      "index": 80,
+      "selector": "[data-motion-audit-id=\"58\"]",
+      "start": 8.184,
+      "end": 8.664,
+      "props": [
+        "x",
+        "y",
+        "rotationX",
+        "rotationZ",
+        "opacity"
+      ],
+      "flags": [
+        "collision"
+      ],
+      "review_group": "camera_to_production"
+    },
+    {
+      "index": 93,
+      "selector": "[data-motion-audit-id=\"71\"]",
+      "start": 8.524,
+      "end": 9.004,
+      "props": [
+        "x",
+        "y",
+        "rotationX",
+        "rotationZ",
+        "opacity"
+      ],
+      "flags": [
+        "collision"
+      ],
+      "review_group": "camera_to_production"
+    },
+    {
+      "index": 94,
+      "selector": "[data-motion-audit-id=\"72\"]",
+      "start": 8.548,
+      "end": 9.028,
+      "props": [
+        "x",
+        "y",
+        "rotationX",
+        "rotationZ",
+        "opacity"
+      ],
+      "flags": [
+        "collision"
+      ],
+      "review_group": "camera_to_production"
+    },
+    {
+      "index": 96,
+      "selector": "[data-motion-audit-id=\"74\"]",
+      "start": 8.572,
+      "end": 9.052,
+      "props": [
+        "x",
+        "y",
+        "rotationX",
+        "rotationZ",
+        "opacity"
+      ],
+      "flags": [
+        "collision"
+      ],
+      "review_group": "camera_to_production"
+    },
+    {
+      "index": 97,
+      "selector": "[data-motion-audit-id=\"75\"]",
+      "start": 8.596,
+      "end": 9.076,
+      "props": [
+        "x",
+        "y",
+        "rotationX",
+        "rotationZ",
+        "opacity"
+      ],
+      "flags": [
+        "collision"
+      ],
+      "review_group": "camera_to_production"
+    },
+    {
+      "index": 98,
+      "selector": "[data-motion-audit-id=\"76\"]",
+      "start": 8.62,
+      "end": 9.1,
+      "props": [
+        "x",
+        "y",
+        "rotationX",
+        "rotationZ",
+        "opacity"
+      ],
+      "flags": [
+        "collision"
+      ],
+      "review_group": "camera_to_production"
+    },
+    {
+      "index": 99,
+      "selector": "[data-motion-audit-id=\"77\"]",
+      "start": 8.644,
+      "end": 9.124,
+      "props": [
+        "x",
+        "y",
+        "rotationX",
+        "rotationZ",
+        "opacity"
+      ],
+      "flags": [
+        "collision"
+      ],
+      "review_group": "camera_to_production"
+    },
+    {
+      "index": 101,
+      "selector": "#production-type",
+      "start": 9.5,
+      "end": 10.15,
+      "props": [
+        "x",
+        "y",
+        "rotationY",
+        "scale",
+        "transformOrigin"
+      ],
+      "flags": [
+        "collision"
+      ],
+      "review_group": "camera_to_production"
+    },
+    {
+      "index": 102,
+      "selector": "#campaign-rig",
+      "start": 9.5,
+      "end": 10.2,
+      "props": [
+        "left",
+        "top",
+        "width",
+        "height",
+        "rotationZ",
+        "rotationY"
+      ],
+      "flags": [
+        "collision"
+      ],
+      "review_group": "camera_to_production"
+    },
+    {
+      "index": 103,
+      "selector": "#flow-frame",
+      "start": 9.5,
+      "end": 10.2,
+      "props": [
+        "attr"
+      ],
+      "flags": [
+        "collision"
+      ],
+      "review_group": "camera_to_production"
+    },
+    {
+      "index": 104,
+      "selector": "#production-type",
+      "start": 10.35,
+      "end": 10.87,
+      "props": [
+        "x",
+        "rotationY",
+        "y"
+      ],
+      "flags": [
+        "offscreen"
+      ],
+      "review_group": "distribution_type_planes"
+    },
+    {
+      "index": 106,
+      "selector": "#campaign-rig",
+      "start": 10.4,
+      "end": 11.1,
+      "props": [
+        "left",
+        "top",
+        "width",
+        "height",
+        "rotationZ",
+        "rotationY"
+      ],
+      "flags": [
+        "collision"
+      ],
+      "review_group": "distribution_type_planes"
+    },
+    {
+      "index": 107,
+      "selector": "#flow-frame",
+      "start": 10.4,
+      "end": 11.1,
+      "props": [
+        "attr"
+      ],
+      "flags": [
+        "collision"
+      ],
+      "review_group": "distribution_type_planes"
+    },
+    {
+      "index": 109,
+      "selector": "[data-motion-audit-id=\"80\"]",
+      "start": 10.432,
+      "end": 10.932,
+      "props": [
+        "x",
+        "y",
+        "rotationX",
+        "rotationZ",
+        "opacity"
+      ],
+      "flags": [
+        "collision"
+      ],
+      "review_group": "distribution_type_planes"
+    },
+    {
+      "index": 110,
+      "selector": "[data-motion-audit-id=\"81\"]",
+      "start": 10.444,
+      "end": 10.944,
+      "props": [
+        "x",
+        "y",
+        "rotationX",
+        "rotationZ",
+        "opacity"
+      ],
+      "flags": [
+        "collision"
+      ],
+      "review_group": "distribution_type_planes"
+    },
+    {
+      "index": 111,
+      "selector": "[data-motion-audit-id=\"82\"]",
+      "start": 10.456,
+      "end": 10.956,
+      "props": [
+        "x",
+        "y",
+        "rotationX",
+        "rotationZ",
+        "opacity"
+      ],
+      "flags": [
+        "collision"
+      ],
+      "review_group": "distribution_type_planes"
+    },
+    {
+      "index": 112,
+      "selector": "[data-motion-audit-id=\"83\"]",
+      "start": 10.468,
+      "end": 10.968,
+      "props": [
+        "x",
+        "y",
+        "rotationX",
+        "rotationZ",
+        "opacity"
+      ],
+      "flags": [
+        "collision"
+      ],
+      "review_group": "distribution_type_planes"
+    },
+    {
+      "index": 113,
+      "selector": "[data-motion-audit-id=\"84\"]",
+      "start": 10.48,
+      "end": 10.98,
+      "props": [
+        "x",
+        "y",
+        "rotationX",
+        "rotationZ",
+        "opacity"
+      ],
+      "flags": [
+        "collision"
+      ],
+      "review_group": "distribution_type_planes"
+    },
+    {
+      "index": 114,
+      "selector": "[data-motion-audit-id=\"85\"]",
+      "start": 10.492,
+      "end": 10.992,
+      "props": [
+        "x",
+        "y",
+        "rotationX",
+        "rotationZ",
+        "opacity"
+      ],
+      "flags": [
+        "collision"
+      ],
+      "review_group": "distribution_type_planes"
+    },
+    {
+      "index": 115,
+      "selector": "[data-motion-audit-id=\"86\"]",
+      "start": 10.504,
+      "end": 11.004,
+      "props": [
+        "x",
+        "y",
+        "rotationX",
+        "rotationZ",
+        "opacity"
+      ],
+      "flags": [
+        "collision"
+      ],
+      "review_group": "distribution_type_planes"
+    },
+    {
+      "index": 116,
+      "selector": "[data-motion-audit-id=\"87\"]",
+      "start": 10.516,
+      "end": 11.016,
+      "props": [
+        "x",
+        "y",
+        "rotationX",
+        "rotationZ",
+        "opacity"
+      ],
+      "flags": [
+        "collision"
+      ],
+      "review_group": "distribution_type_planes"
+    },
+    {
+      "index": 120,
+      "selector": "[data-motion-audit-id=\"91\"]",
+      "start": 10.72,
+      "end": 11.22,
+      "props": [
+        "x",
+        "rotationY",
+        "opacity"
+      ],
+      "flags": [
+        "collision"
+      ],
+      "review_group": "distribution_type_planes"
+    },
+    {
+      "index": 121,
+      "selector": "[data-motion-audit-id=\"92\"]",
+      "start": 10.85,
+      "end": 11.4,
+      "props": [
+        "scaleX"
+      ],
+      "flags": [
+        "collision"
+      ],
+      "review_group": "distribution_type_planes"
+    },
+    {
+      "index": 122,
+      "selector": "[data-motion-audit-id=\"93\"]",
+      "start": 10.93,
+      "end": 11.47,
+      "props": [
+        "x",
+        "y",
+        "rotationZ",
+        "rotationY",
+        "opacity"
+      ],
+      "flags": [
+        "collision"
+      ],
+      "review_group": "distribution_type_planes"
+    },
+    {
+      "index": 123,
+      "selector": "[data-motion-audit-id=\"94\"]",
+      "start": 10.965,
+      "end": 11.505,
+      "props": [
+        "x",
+        "y",
+        "rotationZ",
+        "rotationY",
+        "opacity"
+      ],
+      "flags": [
+        "collision"
+      ],
+      "review_group": "distribution_type_planes"
+    },
+    {
+      "index": 124,
+      "selector": "[data-motion-audit-id=\"95\"]",
+      "start": 11,
+      "end": 11.54,
+      "props": [
+        "x",
+        "y",
+        "rotationZ",
+        "rotationY",
+        "opacity"
+      ],
+      "flags": [
+        "collision"
+      ],
+      "review_group": "distribution_type_planes"
+    },
+    {
+      "index": 127,
+      "selector": "#distribution-type",
+      "start": 12.48,
+      "end": 13.06,
+      "props": [
+        "y",
+        "x",
+        "rotationX"
+      ],
+      "flags": [
+        "offscreen"
+      ],
+      "review_group": "distribution_type_planes"
+    },
+    {
+      "index": 129,
+      "selector": "#campaign-rig",
+      "start": 12.75,
+      "end": 13.45,
+      "props": [
+        "left",
+        "top",
+        "width",
+        "height",
+        "rotationZ",
+        "rotationY"
+      ],
+      "flags": [
+        "collision"
+      ],
+      "review_group": "locality_and_wide_film"
+    },
+    {
+      "index": 130,
+      "selector": "#flow-frame",
+      "start": 12.75,
+      "end": 13.45,
+      "props": [
+        "attr"
+      ],
+      "flags": [
+        "collision"
+      ],
+      "review_group": "locality_and_wide_film"
+    },
+    {
+      "index": 133,
+      "selector": "[data-motion-audit-id=\"100\"]",
+      "start": 12.815,
+      "end": 13.215,
+      "props": [
+        "x",
+        "y",
+        "rotationX",
+        "rotationZ",
+        "opacity"
+      ],
+      "flags": [
+        "collision"
+      ],
+      "review_group": "locality_and_wide_film"
+    },
+    {
+      "index": 134,
+      "selector": "[data-motion-audit-id=\"101\"]",
+      "start": 12.84,
+      "end": 13.24,
+      "props": [
+        "x",
+        "y",
+        "rotationX",
+        "rotationZ",
+        "opacity"
+      ],
+      "flags": [
+        "collision"
+      ],
+      "review_group": "locality_and_wide_film"
+    },
+    {
+      "index": 136,
+      "selector": "[data-motion-audit-id=\"103\"]",
+      "start": 12.865,
+      "end": 13.265,
+      "props": [
+        "x",
+        "y",
+        "rotationX",
+        "rotationZ",
+        "opacity"
+      ],
+      "flags": [
+        "collision"
+      ],
+      "review_group": "locality_and_wide_film"
+    },
+    {
+      "index": 139,
+      "selector": "[data-motion-audit-id=\"106\"]",
+      "start": 12.89,
+      "end": 13.29,
+      "props": [
+        "x",
+        "y",
+        "rotationX",
+        "rotationZ",
+        "opacity"
+      ],
+      "flags": [
+        "collision"
+      ],
+      "review_group": "locality_and_wide_film"
+    },
+    {
+      "index": 149,
+      "selector": "#motion-world",
+      "start": 14.63,
+      "end": 15.28,
+      "props": [
+        "y"
+      ],
+      "flags": [
+        "offscreen"
+      ],
+      "review_group": "document_and_impression"
+    },
+    {
+      "index": 150,
+      "selector": "#flow-frame",
+      "start": 14.65,
+      "end": 15.35,
+      "props": [
+        "attr"
+      ],
+      "flags": [
+        "collision"
+      ],
+      "review_group": "document_and_impression"
+    },
+    {
+      "index": 151,
+      "selector": "[data-motion-audit-id=\"5\"]",
+      "start": 15,
+      "end": 30,
+      "props": [
+        "x",
+        "y",
+        "scale"
+      ],
+      "flags": [
+        "paced-slow"
+      ],
+      "review_group": "document_and_impression"
+    },
+    {
+      "index": 153,
+      "selector": "[data-motion-audit-id=\"117\"]",
+      "start": 15.12,
+      "end": 15.67,
+      "props": [
+        "x",
+        "y",
+        "rotationZ",
+        "rotationY",
+        "opacity"
+      ],
+      "flags": [
+        "collision"
+      ],
+      "review_group": "document_and_impression"
+    },
+    {
+      "index": 154,
+      "selector": "[data-motion-audit-id=\"118\"]",
+      "start": 15.155,
+      "end": 15.705,
+      "props": [
+        "x",
+        "y",
+        "rotationZ",
+        "rotationY",
+        "opacity"
+      ],
+      "flags": [
+        "collision"
+      ],
+      "review_group": "document_and_impression"
+    },
+    {
+      "index": 155,
+      "selector": "[data-motion-audit-id=\"119\"]",
+      "start": 15.19,
+      "end": 15.74,
+      "props": [
+        "x",
+        "y",
+        "rotationZ",
+        "rotationY",
+        "opacity"
+      ],
+      "flags": [
+        "collision"
+      ],
+      "review_group": "document_and_impression"
+    },
+    {
+      "index": 156,
+      "selector": "[data-motion-audit-id=\"120\"]",
+      "start": 15.2,
+      "end": 15.85,
+      "props": [
+        "x",
+        "y",
+        "rotationY",
+        "opacity"
+      ],
+      "flags": [
+        "collision"
+      ],
+      "review_group": "document_and_impression"
+    },
+    {
+      "index": 157,
+      "selector": "[data-motion-audit-id=\"121\"]",
+      "start": 15.3,
+      "end": 15.95,
+      "props": [
+        "x",
+        "y",
+        "rotationY",
+        "opacity"
+      ],
+      "flags": [
+        "collision"
+      ],
+      "review_group": "document_and_impression"
+    },
+    {
+      "index": 163,
+      "selector": "[data-motion-audit-id=\"127\"]",
+      "start": 15.4,
+      "end": 16.05,
+      "props": [
+        "x",
+        "y",
+        "rotationY",
+        "opacity"
+      ],
+      "flags": [
+        "collision"
+      ],
+      "review_group": "document_and_impression"
+    },
+    {
+      "index": 168,
+      "selector": "[data-motion-audit-id=\"132\"]",
+      "start": 15.475,
+      "end": 15.905,
+      "props": [
+        "x",
+        "y",
+        "rotationX",
+        "rotationZ",
+        "opacity"
+      ],
+      "flags": [
+        "collision"
+      ],
+      "review_group": "document_and_impression"
+    },
+    {
+      "index": 169,
+      "selector": "[data-motion-audit-id=\"133\"]",
+      "start": 15.52,
+      "end": 15.92,
+      "props": [
+        "x",
+        "opacity"
+      ],
+      "flags": [
+        "collision"
+      ],
+      "review_group": "document_and_impression"
+    },
+    {
+      "index": 173,
+      "selector": "#proof-metric-a",
+      "start": 17.8,
+      "end": 18.38,
+      "props": [
+        "x",
+        "y",
+        "rotationZ"
+      ],
+      "flags": [
+        "offscreen"
+      ],
+      "review_group": "reach_axis_swap"
+    },
+    {
+      "index": 174,
+      "selector": "#document-rig",
+      "start": 17.82,
+      "end": 18.47,
+      "props": [
+        "left",
+        "top",
+        "width",
+        "height",
+        "rotationZ",
+        "rotationY"
+      ],
+      "flags": [
+        "collision"
+      ],
+      "review_group": "reach_axis_swap"
+    },
+    {
+      "index": 175,
+      "selector": "#flow-frame",
+      "start": 17.82,
+      "end": 18.47,
+      "props": [
+        "attr"
+      ],
+      "flags": [
+        "collision"
+      ],
+      "review_group": "reach_axis_swap"
+    },
+    {
+      "index": 177,
+      "selector": "#proof-metric-b",
+      "start": 17.88,
+      "end": 18.46,
+      "props": [
+        "x",
+        "rotationZ"
+      ],
+      "flags": [
+        "offscreen"
+      ],
+      "review_group": "reach_axis_swap"
+    },
+    {
+      "index": 178,
+      "selector": "[data-motion-audit-id=\"135\"]",
+      "start": 17.98,
+      "end": 18.515,
+      "props": [
+        "y",
+        "rotationX"
+      ],
+      "flags": [
+        "offscreen"
+      ],
+      "review_group": "reach_axis_swap"
+    },
+    {
+      "index": 180,
+      "selector": "[data-motion-audit-id=\"137\"]",
+      "start": 18.168,
+      "end": 18.548,
+      "props": [
+        "x",
+        "y",
+        "rotationX",
+        "rotationZ",
+        "opacity"
+      ],
+      "flags": [
+        "collision"
+      ],
+      "review_group": "reach_axis_swap"
+    },
+    {
+      "index": 181,
+      "selector": "[data-motion-audit-id=\"138\"]",
+      "start": 18.176,
+      "end": 18.556,
+      "props": [
+        "x",
+        "y",
+        "rotationX",
+        "rotationZ",
+        "opacity"
+      ],
+      "flags": [
+        "collision"
+      ],
+      "review_group": "reach_axis_swap"
+    },
+    {
+      "index": 182,
+      "selector": "[data-motion-audit-id=\"139\"]",
+      "start": 18.184,
+      "end": 18.564,
+      "props": [
+        "x",
+        "y",
+        "rotationX",
+        "rotationZ",
+        "opacity"
+      ],
+      "flags": [
+        "collision"
+      ],
+      "review_group": "reach_axis_swap"
+    },
+    {
+      "index": 183,
+      "selector": "[data-motion-audit-id=\"140\"]",
+      "start": 18.192,
+      "end": 18.572,
+      "props": [
+        "x",
+        "y",
+        "rotationX",
+        "rotationZ",
+        "opacity"
+      ],
+      "flags": [
+        "collision"
+      ],
+      "review_group": "reach_axis_swap"
+    },
+    {
+      "index": 184,
+      "selector": "[data-motion-audit-id=\"141\"]",
+      "start": 18.2,
+      "end": 18.58,
+      "props": [
+        "x",
+        "y",
+        "rotationX",
+        "rotationZ",
+        "opacity"
+      ],
+      "flags": [
+        "collision"
+      ],
+      "review_group": "reach_axis_swap"
+    },
+    {
+      "index": 185,
+      "selector": "[data-motion-audit-id=\"142\"]",
+      "start": 18.208,
+      "end": 18.588,
+      "props": [
+        "x",
+        "y",
+        "rotationX",
+        "rotationZ",
+        "opacity"
+      ],
+      "flags": [
+        "collision"
+      ],
+      "review_group": "reach_axis_swap"
+    },
+    {
+      "index": 186,
+      "selector": "[data-motion-audit-id=\"143\"]",
+      "start": 18.216,
+      "end": 18.596,
+      "props": [
+        "x",
+        "y",
+        "rotationX",
+        "rotationZ",
+        "opacity"
+      ],
+      "flags": [
+        "collision"
+      ],
+      "review_group": "reach_axis_swap"
+    },
+    {
+      "index": 187,
+      "selector": "[data-motion-audit-id=\"144\"]",
+      "start": 18.224,
+      "end": 18.604,
+      "props": [
+        "x",
+        "y",
+        "rotationX",
+        "rotationZ",
+        "opacity"
+      ],
+      "flags": [
+        "collision"
+      ],
+      "review_group": "reach_axis_swap"
+    },
+    {
+      "index": 188,
+      "selector": "[data-motion-audit-id=\"145\"]",
+      "start": 18.232,
+      "end": 18.612,
+      "props": [
+        "x",
+        "y",
+        "rotationX",
+        "rotationZ",
+        "opacity"
+      ],
+      "flags": [
+        "collision"
+      ],
+      "review_group": "reach_axis_swap"
+    },
+    {
+      "index": 189,
+      "selector": "[data-motion-audit-id=\"146\"]",
+      "start": 18.24,
+      "end": 18.62,
+      "props": [
+        "x",
+        "y",
+        "rotationX",
+        "rotationZ",
+        "opacity"
+      ],
+      "flags": [
+        "collision"
+      ],
+      "review_group": "reach_axis_swap"
+    },
+    {
+      "index": 190,
+      "selector": "[data-motion-audit-id=\"147\"]",
+      "start": 18.248,
+      "end": 18.628,
+      "props": [
+        "x",
+        "y",
+        "rotationX",
+        "rotationZ",
+        "opacity"
+      ],
+      "flags": [
+        "collision"
+      ],
+      "review_group": "reach_axis_swap"
+    },
+    {
+      "index": 192,
+      "selector": "[data-motion-audit-id=\"149\"]",
+      "start": 18.264,
+      "end": 18.644,
+      "props": [
+        "x",
+        "y",
+        "rotationX",
+        "rotationZ",
+        "opacity"
+      ],
+      "flags": [
+        "collision"
+      ],
+      "review_group": "reach_axis_swap"
+    },
+    {
+      "index": 193,
+      "selector": "[data-motion-audit-id=\"150\"]",
+      "start": 18.272,
+      "end": 18.652,
+      "props": [
+        "x",
+        "y",
+        "rotationX",
+        "rotationZ",
+        "opacity"
+      ],
+      "flags": [
+        "collision"
+      ],
+      "review_group": "reach_axis_swap"
+    },
+    {
+      "index": 197,
+      "selector": "#motion-world",
+      "start": 20.7,
+      "end": 21.35,
+      "props": [
+        "x"
+      ],
+      "flags": [
+        "offscreen"
+      ],
+      "review_group": "relevance_and_connector"
+    },
+    {
+      "index": 199,
+      "selector": "[data-motion-audit-id=\"154\"]",
+      "start": 21.04,
+      "end": 21.52,
+      "props": [
+        "x",
+        "y",
+        "rotationX",
+        "rotationZ",
+        "opacity"
+      ],
+      "flags": [
+        "collision"
+      ],
+      "review_group": "relevance_and_connector"
+    },
+    {
+      "index": 200,
+      "selector": "[data-motion-audit-id=\"155\"]",
+      "start": 21.056,
+      "end": 21.536,
+      "props": [
+        "x",
+        "y",
+        "rotationX",
+        "rotationZ",
+        "opacity"
+      ],
+      "flags": [
+        "collision"
+      ],
+      "review_group": "relevance_and_connector"
+    },
+    {
+      "index": 201,
+      "selector": "[data-motion-audit-id=\"156\"]",
+      "start": 21.072,
+      "end": 21.552,
+      "props": [
+        "x",
+        "y",
+        "rotationX",
+        "rotationZ",
+        "opacity"
+      ],
+      "flags": [
+        "collision"
+      ],
+      "review_group": "relevance_and_connector"
+    },
+    {
+      "index": 202,
+      "selector": "[data-motion-audit-id=\"157\"]",
+      "start": 21.088,
+      "end": 21.568,
+      "props": [
+        "x",
+        "y",
+        "rotationX",
+        "rotationZ",
+        "opacity"
+      ],
+      "flags": [
+        "collision"
+      ],
+      "review_group": "relevance_and_connector"
+    },
+    {
+      "index": 203,
+      "selector": "[data-motion-audit-id=\"158\"]",
+      "start": 21.104,
+      "end": 21.584,
+      "props": [
+        "x",
+        "y",
+        "rotationX",
+        "rotationZ",
+        "opacity"
+      ],
+      "flags": [
+        "collision"
+      ],
+      "review_group": "relevance_and_connector"
+    },
+    {
+      "index": 204,
+      "selector": "[data-motion-audit-id=\"159\"]",
+      "start": 21.12,
+      "end": 21.6,
+      "props": [
+        "x",
+        "y",
+        "rotationX",
+        "rotationZ",
+        "opacity"
+      ],
+      "flags": [
+        "collision"
+      ],
+      "review_group": "relevance_and_connector"
+    },
+    {
+      "index": 205,
+      "selector": "[data-motion-audit-id=\"160\"]",
+      "start": 21.136,
+      "end": 21.616,
+      "props": [
+        "x",
+        "y",
+        "rotationX",
+        "rotationZ",
+        "opacity"
+      ],
+      "flags": [
+        "collision"
+      ],
+      "review_group": "relevance_and_connector"
+    },
+    {
+      "index": 206,
+      "selector": "[data-motion-audit-id=\"161\"]",
+      "start": 21.152,
+      "end": 21.632,
+      "props": [
+        "x",
+        "y",
+        "rotationX",
+        "rotationZ",
+        "opacity"
+      ],
+      "flags": [
+        "collision"
+      ],
+      "review_group": "relevance_and_connector"
+    },
+    {
+      "index": 207,
+      "selector": "[data-motion-audit-id=\"162\"]",
+      "start": 21.168,
+      "end": 21.648,
+      "props": [
+        "x",
+        "y",
+        "rotationX",
+        "rotationZ",
+        "opacity"
+      ],
+      "flags": [
+        "collision"
+      ],
+      "review_group": "relevance_and_connector"
+    },
+    {
+      "index": 208,
+      "selector": "[data-motion-audit-id=\"163\"]",
+      "start": 21.184,
+      "end": 21.664,
+      "props": [
+        "x",
+        "y",
+        "rotationX",
+        "rotationZ",
+        "opacity"
+      ],
+      "flags": [
+        "collision"
+      ],
+      "review_group": "relevance_and_connector"
+    },
+    {
+      "index": 209,
+      "selector": "[data-motion-audit-id=\"164\"]",
+      "start": 21.2,
+      "end": 21.68,
+      "props": [
+        "x",
+        "y",
+        "rotationX",
+        "rotationZ",
+        "opacity"
+      ],
+      "flags": [
+        "collision"
+      ],
+      "review_group": "relevance_and_connector"
+    },
+    {
+      "index": 210,
+      "selector": "[data-motion-audit-id=\"165\"]",
+      "start": 21.216,
+      "end": 21.696,
+      "props": [
+        "x",
+        "y",
+        "rotationX",
+        "rotationZ",
+        "opacity"
+      ],
+      "flags": [
+        "collision"
+      ],
+      "review_group": "relevance_and_connector"
+    },
+    {
+      "index": 211,
+      "selector": "[data-motion-audit-id=\"166\"]",
+      "start": 21.232,
+      "end": 21.712,
+      "props": [
+        "x",
+        "y",
+        "rotationX",
+        "rotationZ",
+        "opacity"
+      ],
+      "flags": [
+        "collision"
+      ],
+      "review_group": "relevance_and_connector"
+    },
+    {
+      "index": 212,
+      "selector": "[data-motion-audit-id=\"167\"]",
+      "start": 21.24,
+      "end": 21.74,
+      "props": [
+        "x",
+        "y",
+        "rotationX",
+        "rotationZ",
+        "opacity"
+      ],
+      "flags": [
+        "collision"
+      ],
+      "review_group": "relevance_and_connector"
+    },
+    {
+      "index": 213,
+      "selector": "#relevance-two",
+      "start": 21.24,
+      "end": 21.79,
+      "props": [
+        "rotationZ",
+        "x"
+      ],
+      "flags": [
+        "collision"
+      ],
+      "review_group": "relevance_and_connector"
+    },
+    {
+      "index": 214,
+      "selector": "[data-motion-audit-id=\"168\"]",
+      "start": 21.256,
+      "end": 21.756,
+      "props": [
+        "x",
+        "y",
+        "rotationX",
+        "rotationZ",
+        "opacity"
+      ],
+      "flags": [
+        "collision"
+      ],
+      "review_group": "relevance_and_connector"
+    },
+    {
+      "index": 215,
+      "selector": "[data-motion-audit-id=\"169\"]",
+      "start": 21.272,
+      "end": 21.772,
+      "props": [
+        "x",
+        "y",
+        "rotationX",
+        "rotationZ",
+        "opacity"
+      ],
+      "flags": [
+        "collision"
+      ],
+      "review_group": "relevance_and_connector"
+    },
+    {
+      "index": 216,
+      "selector": "[data-motion-audit-id=\"170\"]",
+      "start": 21.288,
+      "end": 21.788,
+      "props": [
+        "x",
+        "y",
+        "rotationX",
+        "rotationZ",
+        "opacity"
+      ],
+      "flags": [
+        "collision"
+      ],
+      "review_group": "relevance_and_connector"
+    },
+    {
+      "index": 217,
+      "selector": "[data-motion-audit-id=\"171\"]",
+      "start": 21.304,
+      "end": 21.804,
+      "props": [
+        "x",
+        "y",
+        "rotationX",
+        "rotationZ",
+        "opacity"
+      ],
+      "flags": [
+        "collision"
+      ],
+      "review_group": "relevance_and_connector"
+    },
+    {
+      "index": 218,
+      "selector": "[data-motion-audit-id=\"172\"]",
+      "start": 21.32,
+      "end": 21.82,
+      "props": [
+        "x",
+        "y",
+        "rotationX",
+        "rotationZ",
+        "opacity"
+      ],
+      "flags": [
+        "collision"
+      ],
+      "review_group": "relevance_and_connector"
+    },
+    {
+      "index": 219,
+      "selector": "[data-motion-audit-id=\"173\"]",
+      "start": 21.336,
+      "end": 21.836,
+      "props": [
+        "x",
+        "y",
+        "rotationX",
+        "rotationZ",
+        "opacity"
+      ],
+      "flags": [
+        "collision"
+      ],
+      "review_group": "relevance_and_connector"
+    },
+    {
+      "index": 220,
+      "selector": "[data-motion-audit-id=\"174\"]",
+      "start": 21.352,
+      "end": 21.852,
+      "props": [
+        "x",
+        "y",
+        "rotationX",
+        "rotationZ",
+        "opacity"
+      ],
+      "flags": [
+        "collision"
+      ],
+      "review_group": "relevance_and_connector"
+    },
+    {
+      "index": 221,
+      "selector": "[data-motion-audit-id=\"175\"]",
+      "start": 21.368,
+      "end": 21.868,
+      "props": [
+        "x",
+        "y",
+        "rotationX",
+        "rotationZ",
+        "opacity"
+      ],
+      "flags": [
+        "collision"
+      ],
+      "review_group": "relevance_and_connector"
+    },
+    {
+      "index": 222,
+      "selector": "[data-motion-audit-id=\"176\"]",
+      "start": 21.384,
+      "end": 21.884,
+      "props": [
+        "x",
+        "y",
+        "rotationX",
+        "rotationZ",
+        "opacity"
+      ],
+      "flags": [
+        "collision"
+      ],
+      "review_group": "relevance_and_connector"
+    },
+    {
+      "index": 223,
+      "selector": "[data-motion-audit-id=\"177\"]",
+      "start": 21.4,
+      "end": 21.9,
+      "props": [
+        "x",
+        "y",
+        "rotationX",
+        "rotationZ",
+        "opacity"
+      ],
+      "flags": [
+        "collision"
+      ],
+      "review_group": "relevance_and_connector"
+    },
+    {
+      "index": 224,
+      "selector": "#flow-outline",
+      "start": 21.45,
+      "end": 21.65,
+      "props": [
+        "opacity"
+      ],
+      "flags": [
+        "paced-fast",
+        "collision"
+      ],
+      "review_group": "relevance_and_connector"
+    },
+    {
+      "index": 229,
+      "selector": "#traveller",
+      "start": 22.15,
+      "end": 22.85,
+      "props": [
+        "motionPath"
+      ],
+      "flags": [
+        "collision"
+      ],
+      "review_group": "relevance_and_connector"
+    },
+    {
+      "index": 230,
+      "selector": "#audience-node",
+      "start": 22.77,
+      "end": 22.93,
+      "props": [
+        "scale"
+      ],
+      "flags": [
+        "paced-fast",
+        "collision"
+      ],
+      "review_group": "relevance_and_connector"
+    },
+    {
+      "index": 244,
+      "selector": "[data-motion-audit-id=\"188\"]",
+      "start": 25.05,
+      "end": 25.55,
+      "props": [
+        "x",
+        "y",
+        "rotationX",
+        "rotationZ",
+        "opacity"
+      ],
+      "flags": [
+        "collision"
+      ],
+      "review_group": "cta_type_and_field"
+    },
+    {
+      "index": 245,
+      "selector": "[data-motion-audit-id=\"189\"]",
+      "start": 25.072,
+      "end": 25.572,
+      "props": [
+        "x",
+        "y",
+        "rotationX",
+        "rotationZ",
+        "opacity"
+      ],
+      "flags": [
+        "collision"
+      ],
+      "review_group": "cta_type_and_field"
+    },
+    {
+      "index": 246,
+      "selector": "[data-motion-audit-id=\"190\"]",
+      "start": 25.094,
+      "end": 25.594,
+      "props": [
+        "x",
+        "y",
+        "rotationX",
+        "rotationZ",
+        "opacity"
+      ],
+      "flags": [
+        "collision"
+      ],
+      "review_group": "cta_type_and_field"
+    },
+    {
+      "index": 247,
+      "selector": "[data-motion-audit-id=\"191\"]",
+      "start": 25.116,
+      "end": 25.616,
+      "props": [
+        "x",
+        "y",
+        "rotationX",
+        "rotationZ",
+        "opacity"
+      ],
+      "flags": [
+        "collision"
+      ],
+      "review_group": "cta_type_and_field"
+    },
+    {
+      "index": 248,
+      "selector": "[data-motion-audit-id=\"192\"]",
+      "start": 25.138,
+      "end": 25.638,
+      "props": [
+        "x",
+        "y",
+        "rotationX",
+        "rotationZ",
+        "opacity"
+      ],
+      "flags": [
+        "collision"
+      ],
+      "review_group": "cta_type_and_field"
+    },
+    {
+      "index": 249,
+      "selector": "[data-motion-audit-id=\"193\"]",
+      "start": 25.16,
+      "end": 25.66,
+      "props": [
+        "x",
+        "y",
+        "rotationX",
+        "rotationZ",
+        "opacity"
+      ],
+      "flags": [
+        "collision"
+      ],
+      "review_group": "cta_type_and_field"
+    },
+    {
+      "index": 250,
+      "selector": "[data-motion-audit-id=\"194\"]",
+      "start": 25.182,
+      "end": 25.682,
+      "props": [
+        "x",
+        "y",
+        "rotationX",
+        "rotationZ",
+        "opacity"
+      ],
+      "flags": [
+        "collision"
+      ],
+      "review_group": "cta_type_and_field"
+    },
+    {
+      "index": 251,
+      "selector": "[data-motion-audit-id=\"195\"]",
+      "start": 25.204,
+      "end": 25.704,
+      "props": [
+        "x",
+        "y",
+        "rotationX",
+        "rotationZ",
+        "opacity"
+      ],
+      "flags": [
+        "collision"
+      ],
+      "review_group": "cta_type_and_field"
+    },
+    {
+      "index": 253,
+      "selector": "[data-motion-audit-id=\"197\"]",
+      "start": 25.296,
+      "end": 25.796,
+      "props": [
+        "x",
+        "y",
+        "rotationX",
+        "rotationZ",
+        "opacity"
+      ],
+      "flags": [
+        "collision"
+      ],
+      "review_group": "cta_type_and_field"
+    },
+    {
+      "index": 254,
+      "selector": "[data-motion-audit-id=\"198\"]",
+      "start": 25.312,
+      "end": 25.812,
+      "props": [
+        "x",
+        "y",
+        "rotationX",
+        "rotationZ",
+        "opacity"
+      ],
+      "flags": [
+        "collision"
+      ],
+      "review_group": "cta_type_and_field"
+    },
+    {
+      "index": 255,
+      "selector": "[data-motion-audit-id=\"199\"]",
+      "start": 25.328,
+      "end": 25.828,
+      "props": [
+        "x",
+        "y",
+        "rotationX",
+        "rotationZ",
+        "opacity"
+      ],
+      "flags": [
+        "collision"
+      ],
+      "review_group": "cta_type_and_field"
+    },
+    {
+      "index": 256,
+      "selector": "[data-motion-audit-id=\"200\"]",
+      "start": 25.344,
+      "end": 25.844,
+      "props": [
+        "x",
+        "y",
+        "rotationX",
+        "rotationZ",
+        "opacity"
+      ],
+      "flags": [
+        "collision"
+      ],
+      "review_group": "cta_type_and_field"
+    },
+    {
+      "index": 257,
+      "selector": "[data-motion-audit-id=\"201\"]",
+      "start": 25.36,
+      "end": 25.86,
+      "props": [
+        "x",
+        "y",
+        "rotationX",
+        "rotationZ",
+        "opacity"
+      ],
+      "flags": [
+        "collision"
+      ],
+      "review_group": "cta_type_and_field"
+    },
+    {
+      "index": 258,
+      "selector": "[data-motion-audit-id=\"202\"]",
+      "start": 25.376,
+      "end": 25.876,
+      "props": [
+        "x",
+        "y",
+        "rotationX",
+        "rotationZ",
+        "opacity"
+      ],
+      "flags": [
+        "collision"
+      ],
+      "review_group": "cta_type_and_field"
+    },
+    {
+      "index": 259,
+      "selector": "[data-motion-audit-id=\"203\"]",
+      "start": 25.392,
+      "end": 25.892,
+      "props": [
+        "x",
+        "y",
+        "rotationX",
+        "rotationZ",
+        "opacity"
+      ],
+      "flags": [
+        "collision"
+      ],
+      "review_group": "cta_type_and_field"
+    },
+    {
+      "index": 260,
+      "selector": "[data-motion-audit-id=\"204\"]",
+      "start": 25.408,
+      "end": 25.908,
+      "props": [
+        "x",
+        "y",
+        "rotationX",
+        "rotationZ",
+        "opacity"
+      ],
+      "flags": [
+        "collision"
+      ],
+      "review_group": "cta_type_and_field"
+    },
+    {
+      "index": 261,
+      "selector": "[data-motion-audit-id=\"205\"]",
+      "start": 25.424,
+      "end": 25.924,
+      "props": [
+        "x",
+        "y",
+        "rotationX",
+        "rotationZ",
+        "opacity"
+      ],
+      "flags": [
+        "collision"
+      ],
+      "review_group": "cta_type_and_field"
+    },
+    {
+      "index": 262,
+      "selector": "[data-motion-audit-id=\"206\"]",
+      "start": 25.44,
+      "end": 25.94,
+      "props": [
+        "x",
+        "y",
+        "rotationX",
+        "rotationZ",
+        "opacity"
+      ],
+      "flags": [
+        "collision"
+      ],
+      "review_group": "cta_type_and_field"
+    },
+    {
+      "index": 266,
+      "selector": "[data-motion-audit-id=\"208\"]",
+      "start": 26.48,
+      "end": 26.92,
+      "props": [
+        "x",
+        "y",
+        "rotationX",
+        "rotationZ",
+        "opacity"
+      ],
+      "flags": [
+        "collision"
+      ],
+      "review_group": "cta_type_and_field"
+    },
+    {
+      "index": 267,
+      "selector": "[data-motion-audit-id=\"209\"]",
+      "start": 26.494,
+      "end": 26.934,
+      "props": [
+        "x",
+        "y",
+        "rotationX",
+        "rotationZ",
+        "opacity"
+      ],
+      "flags": [
+        "collision"
+      ],
+      "review_group": "cta_type_and_field"
+    },
+    {
+      "index": 268,
+      "selector": "[data-motion-audit-id=\"210\"]",
+      "start": 26.508,
+      "end": 26.948,
+      "props": [
+        "x",
+        "y",
+        "rotationX",
+        "rotationZ",
+        "opacity"
+      ],
+      "flags": [
+        "collision"
+      ],
+      "review_group": "cta_type_and_field"
+    },
+    {
+      "index": 269,
+      "selector": "[data-motion-audit-id=\"211\"]",
+      "start": 26.522,
+      "end": 26.962,
+      "props": [
+        "x",
+        "y",
+        "rotationX",
+        "rotationZ",
+        "opacity"
+      ],
+      "flags": [
+        "collision"
+      ],
+      "review_group": "cta_type_and_field"
+    },
+    {
+      "index": 270,
+      "selector": "[data-motion-audit-id=\"212\"]",
+      "start": 26.536,
+      "end": 26.976,
+      "props": [
+        "x",
+        "y",
+        "rotationX",
+        "rotationZ",
+        "opacity"
+      ],
+      "flags": [
+        "collision"
+      ],
+      "review_group": "cta_type_and_field"
+    },
+    {
+      "index": 271,
+      "selector": "[data-motion-audit-id=\"213\"]",
+      "start": 26.55,
+      "end": 26.99,
+      "props": [
+        "x",
+        "y",
+        "rotationX",
+        "rotationZ",
+        "opacity"
+      ],
+      "flags": [
+        "collision"
+      ],
+      "review_group": "cta_type_and_field"
+    },
+    {
+      "index": 272,
+      "selector": "[data-motion-audit-id=\"214\"]",
+      "start": 26.564,
+      "end": 27.004,
+      "props": [
+        "x",
+        "y",
+        "rotationX",
+        "rotationZ",
+        "opacity"
+      ],
+      "flags": [
+        "collision"
+      ],
+      "review_group": "cta_type_and_field"
+    },
+    {
+      "index": 273,
+      "selector": "[data-motion-audit-id=\"215\"]",
+      "start": 26.578,
+      "end": 27.018,
+      "props": [
+        "x",
+        "y",
+        "rotationX",
+        "rotationZ",
+        "opacity"
+      ],
+      "flags": [
+        "collision"
+      ],
+      "review_group": "cta_type_and_field"
+    },
+    {
+      "index": 274,
+      "selector": "#cta-flight",
+      "start": 26.95,
+      "end": 27.9,
+      "props": [
+        "strokeDashoffset"
+      ],
+      "flags": [
+        "collision"
+      ],
+      "review_group": "cta_type_and_field"
+    },
+    {
+      "index": 275,
+      "selector": "[data-motion-audit-id=\"216\"]",
+      "start": 27.35,
+      "end": 27.85,
+      "props": [
+        "x",
+        "y",
+        "rotationX",
+        "rotationZ",
+        "opacity"
+      ],
+      "flags": [
+        "collision"
+      ],
+      "review_group": "cta_type_and_field"
+    },
+    {
+      "index": 276,
+      "selector": "[data-motion-audit-id=\"217\"]",
+      "start": 27.375,
+      "end": 27.875,
+      "props": [
+        "x",
+        "y",
+        "rotationX",
+        "rotationZ",
+        "opacity"
+      ],
+      "flags": [
+        "collision"
+      ],
+      "review_group": "cta_type_and_field"
+    },
+    {
+      "index": 277,
+      "selector": "[data-motion-audit-id=\"218\"]",
+      "start": 27.4,
+      "end": 27.9,
+      "props": [
+        "x",
+        "y",
+        "rotationX",
+        "rotationZ",
+        "opacity"
+      ],
+      "flags": [
+        "collision"
+      ],
+      "review_group": "cta_type_and_field"
+    },
+    {
+      "index": 278,
+      "selector": "[data-motion-audit-id=\"219\"]",
+      "start": 27.425,
+      "end": 27.925,
+      "props": [
+        "x",
+        "y",
+        "rotationX",
+        "rotationZ",
+        "opacity"
+      ],
+      "flags": [
+        "collision"
+      ],
+      "review_group": "cta_type_and_field"
+    },
+    {
+      "index": 279,
+      "selector": "[data-motion-audit-id=\"220\"]",
+      "start": 27.45,
+      "end": 27.95,
+      "props": [
+        "x",
+        "y",
+        "rotationX",
+        "rotationZ",
+        "opacity"
+      ],
+      "flags": [
+        "collision"
+      ],
+      "review_group": "cta_type_and_field"
+    },
+    {
+      "index": 280,
+      "selector": "[data-motion-audit-id=\"221\"]",
+      "start": 27.475,
+      "end": 27.975,
+      "props": [
+        "x",
+        "y",
+        "rotationX",
+        "rotationZ",
+        "opacity"
+      ],
+      "flags": [
+        "collision"
+      ],
+      "review_group": "cta_type_and_field"
+    },
+    {
+      "index": 281,
+      "selector": "[data-motion-audit-id=\"222\"]",
+      "start": 27.5,
+      "end": 28,
+      "props": [
+        "x",
+        "y",
+        "rotationX",
+        "rotationZ",
+        "opacity"
+      ],
+      "flags": [
+        "collision"
+      ],
+      "review_group": "cta_type_and_field"
+    },
+    {
+      "index": 282,
+      "selector": "#cta-field",
+      "start": 27.8,
+      "end": 28.14,
+      "props": [
+        "top",
+        "height"
+      ],
+      "flags": [
+        "collision"
+      ],
+      "review_group": "cta_type_and_field"
+    }
+  ],
+  "findings": [
+    {
+      "severity": "accepted_protected_behavior",
+      "finding": "known-tag rotation overlap1.05–1.35s is the approved preserved hook, not a V13 regression; no edit made."
+    },
+    {
+      "severity": "informational",
+      "finding": "City-mask zero bboxes and world offscreen bboxes are analyzer blind spots verified against actual final paint, not defects to hide by disabling checks."
+    },
+    {
+      "severity": "informational",
+      "finding": "Three slice elements paint complementary vertical strips. This is not a literal96-band Canvas slit-scan, real3D camera or temporal shutter simulation."
+    },
+    {
+      "severity": "non_blocking_source_limit",
+      "finding": "Original aerial source600×337 and original results screenshot limit detail. The document remains genuine; large values/labels carry reading. No new evidence or fake result introduced."
+    }
+  ],
+  "native_check_summary": {
+    "ok": true,
+    "lint_errors": 0,
+    "runtime_errors": 0,
+    "layout_errors": 0,
+    "layout_warnings": 0,
+    "layout_info": 0,
+    "motion_assertions_enabled": false,
+    "contrast_checked": 104,
+    "contrast_passed": 104
+  },
+  "limitations": [
+    "Collision test uses temporal bbox proximity and AABB intersection, not clipped paint, DOM ancestry, effective opacity, layer order or semantic ownership. Adjacent glyph bounds are not the same as colliding glyph ink.",
+    "Multi-target tween geometry is sampled only on the first target; short zero-duration text/visibility/texture sets are among73 skipped microtweens.",
+    "OnUpdate iris driver has timing but no target geometry; SVGmask effect was validated in final pixels.",
+    "Map duration() does not fully cover finite repeat/yoyo spans, notably audience pulse; total pulse0.32s reviewed with code, not only its0.16s mapped half.",
+    "Property alias/nested transform interactions require code review; the same-selector/common-property search found only the approved hook overlap.",
+    "Native automatic motion assertions remain disabled; this separate map/manual review does not claim they executed.",
+    "No subjective audio listening or continuous real-time playback; no natural voice is claimed, narration remains pending."
+  ]
+}
