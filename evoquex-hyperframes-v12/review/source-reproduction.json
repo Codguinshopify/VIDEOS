@@ -1,0 +1,287 @@
+{
+  "version": "V12",
+  "ok": true,
+  "reproduction_type": "isolated_source_archive_extraction_and_native_snapshots",
+  "extracted_project": "/tmp/v12-source-repro-nmpjxm0e/evoquex-hyperframes-v12",
+  "archive_crc_passed": true,
+  "archive_safe_paths_checked": true,
+  "archive_symlinks_rejected": true,
+  "source_archive_members": 85,
+  "archive_hash_intentionally_not_a_dependency": true,
+  "source_hash_scope": "Only render inputs, runtime configuration, local dependencies metadata and media; excludes documentation and QA so they may be repackaged without invalidating this reproduction.",
+  "node_modules_independent_directory": true,
+  "commands": [
+    {
+      "command": "npm ci --offline --cache /workspace/.npm --no-audit --no-fund",
+      "exit_code": 0,
+      "result": "added 80 packages in 4s",
+      "offline": true,
+      "cache": "/workspace/.npm",
+      "different_cache_used": false
+    },
+    {
+      "command": "node scripts/hf.mjs lint --json",
+      "exit_code": 0,
+      "result": {
+        "ok": true,
+        "errorCount": 0,
+        "warningCount": 0,
+        "infoCount": 0,
+        "findings": [],
+        "filesScanned": 1,
+        "_meta": {
+          "version": "0.8.162",
+          "updateAvailable": false
+        }
+      }
+    },
+    {
+      "command": "node scripts/hf.mjs snapshot --at 0,3.3,4.8,8.8,16.7,19.7,22.5,28.5 --output review/repro-snapshots",
+      "exit_code": 0,
+      "requested_frames": 8,
+      "generated_frames": 9,
+      "font_count_reported": 1
+    }
+  ],
+  "source_render_inputs": [
+    {
+      "path": "assets/DM-Sans.woff2",
+      "original_sha256": "9fea608a947e67020c33cad9a6fe3d60c54119dfb8cff87768a8117a15ed7543",
+      "extracted_sha256": "9fea608a947e67020c33cad9a6fe3d60c54119dfb8cff87768a8117a15ed7543",
+      "matches": true
+    },
+    {
+      "path": "assets/arrow-up-right.svg",
+      "original_sha256": "7a58fb69deddd385b9bd47b406d3e9f3ccfbe11b319efcd5071cbd5b19c1bd4f",
+      "extracted_sha256": "7a58fb69deddd385b9bd47b406d3e9f3ccfbe11b319efcd5071cbd5b19c1bd4f",
+      "matches": true
+    },
+    {
+      "path": "assets/camera.svg",
+      "original_sha256": "89b7493fb7f18b3a303184f9dea61e989521eae4a98349bbaa979a586f063cba",
+      "extracted_sha256": "89b7493fb7f18b3a303184f9dea61e989521eae4a98349bbaa979a586f063cba",
+      "matches": true
+    },
+    {
+      "path": "assets/campanha.mp4",
+      "original_sha256": "01144794dd01f913af3d6fe1c24563a74ee89461b44289ac4a0dd5534139d335",
+      "extracted_sha256": "01144794dd01f913af3d6fe1c24563a74ee89461b44289ac4a0dd5534139d335",
+      "matches": true
+    },
+    {
+      "path": "assets/clevelandia.jpg",
+      "original_sha256": "a5bba18170e69a3b9db2203d0babbb39b341217772a1794495718afaa7b331a1",
+      "extracted_sha256": "a5bba18170e69a3b9db2203d0babbb39b341217772a1794495718afaa7b331a1",
+      "matches": true
+    },
+    {
+      "path": "assets/megaphone.svg",
+      "original_sha256": "ebdb880d7460c4eb4f590faca7933b1560a4abbc2edbf7cd8ffb602cc7b15340",
+      "extracted_sha256": "ebdb880d7460c4eb4f590faca7933b1560a4abbc2edbf7cd8ffb602cc7b15340",
+      "matches": true
+    },
+    {
+      "path": "assets/message-circle.svg",
+      "original_sha256": "f62830d9fbbbf697e53555398d31a342ddec8dd008d707f21cd90bb19befcc87",
+      "extracted_sha256": "f62830d9fbbbf697e53555398d31a342ddec8dd008d707f21cd90bb19befcc87",
+      "matches": true
+    },
+    {
+      "path": "assets/mix-v12.wav",
+      "original_sha256": "cde124ba505d0fe60ab30f239ccf510c2f452e012b59c551419ca9009cd6fdb7",
+      "extracted_sha256": "cde124ba505d0fe60ab30f239ccf510c2f452e012b59c551419ca9009cd6fdb7",
+      "matches": true
+    },
+    {
+      "path": "assets/play.svg",
+      "original_sha256": "f0cab5b458fdf5e5d5d1a8aeb3d368ccab337cc578b1f8081807b8e39f68f1a1",
+      "extracted_sha256": "f0cab5b458fdf5e5d5d1a8aeb3d368ccab337cc578b1f8081807b8e39f68f1a1",
+      "matches": true
+    },
+    {
+      "path": "assets/poster-hook-end.jpg",
+      "original_sha256": "0edee26ac16d4fb5857a797f9d9ab976a3b3865b3e4c29932f3c9d77f40d32d3",
+      "extracted_sha256": "0edee26ac16d4fb5857a797f9d9ab976a3b3865b3e4c29932f3c9d77f40d32d3",
+      "matches": true
+    },
+    {
+      "path": "assets/resultados.jpg",
+      "original_sha256": "e99bf6462689f5d84b7e47f23af46c9fa60b7dd310f0fb5d9c9b324a90ed0147",
+      "extracted_sha256": "e99bf6462689f5d84b7e47f23af46c9fa60b7dd310f0fb5d9c9b324a90ed0147",
+      "matches": true
+    },
+    {
+      "path": "assets/target.svg",
+      "original_sha256": "24062423af9b4ba3cc3306862826c74715aaaf4b32a335b2ed87265dbbd9c4c9",
+      "extracted_sha256": "24062423af9b4ba3cc3306862826c74715aaaf4b32a335b2ed87265dbbd9c4c9",
+      "matches": true
+    },
+    {
+      "path": "hyperframes.json",
+      "original_sha256": "8af50d8d2ca7a808044b1eb551b7aa542ea7006e1f84d43eb25dd8e50faf38d7",
+      "extracted_sha256": "8af50d8d2ca7a808044b1eb551b7aa542ea7006e1f84d43eb25dd8e50faf38d7",
+      "matches": true
+    },
+    {
+      "path": "index.html",
+      "original_sha256": "06910129f09a5672f2a53ca0281072e1158624ef4a5f4d0609e420fa90a98396",
+      "extracted_sha256": "06910129f09a5672f2a53ca0281072e1158624ef4a5f4d0609e420fa90a98396",
+      "matches": true
+    },
+    {
+      "path": "meta.json",
+      "original_sha256": "bd56b1ce7920a45f2d9d0f3d1b55a6d1d9b6a6518d1687a1db699d829c6d0ad1",
+      "extracted_sha256": "bd56b1ce7920a45f2d9d0f3d1b55a6d1d9b6a6518d1687a1db699d829c6d0ad1",
+      "matches": true
+    },
+    {
+      "path": "motion.js",
+      "original_sha256": "de6eb413209d3b9f3d187d34033d696f7365736ab74e3a9a572a22f603784b77",
+      "extracted_sha256": "de6eb413209d3b9f3d187d34033d696f7365736ab74e3a9a572a22f603784b77",
+      "matches": true
+    },
+    {
+      "path": "package-lock.json",
+      "original_sha256": "86d06759cb4e942bc04e7e2ac70493ca17852545e9c23ef6920310cdd9734d2b",
+      "extracted_sha256": "86d06759cb4e942bc04e7e2ac70493ca17852545e9c23ef6920310cdd9734d2b",
+      "matches": true
+    },
+    {
+      "path": "package.json",
+      "original_sha256": "16d363280969aaee0303f330aa7e110c68e67dc516a873f332c41d4fdbeba98c",
+      "extracted_sha256": "16d363280969aaee0303f330aa7e110c68e67dc516a873f332c41d4fdbeba98c",
+      "matches": true
+    },
+    {
+      "path": "scripts/hf.mjs",
+      "original_sha256": "26c8c386644f519a1397662c00b5ec4a8cd38eccbe0de6a4c51c2be609efcf3c",
+      "extracted_sha256": "26c8c386644f519a1397662c00b5ec4a8cd38eccbe0de6a4c51c2be609efcf3c",
+      "matches": true
+    },
+    {
+      "path": "style.css",
+      "original_sha256": "3f5e33cce75202d63da3334ab73511f3a3419a8ba316fc8990a6f0ae6d8c8535",
+      "extracted_sha256": "3f5e33cce75202d63da3334ab73511f3a3419a8ba316fc8990a6f0ae6d8c8535",
+      "matches": true
+    },
+    {
+      "path": "vendor/MotionPathPlugin.min.js",
+      "original_sha256": "aa5f955ca4ce3095ebe5726f43a46b72532230edb3501b28fb853f189f023cab",
+      "extracted_sha256": "aa5f955ca4ce3095ebe5726f43a46b72532230edb3501b28fb853f189f023cab",
+      "matches": true
+    },
+    {
+      "path": "vendor/evoquex-motion-kit.js",
+      "original_sha256": "ea6ee1a32fb5bf3593efbfa911296c9340aa6928b3af8d01661241c0379309c5",
+      "extracted_sha256": "ea6ee1a32fb5bf3593efbfa911296c9340aa6928b3af8d01661241c0379309c5",
+      "matches": true
+    },
+    {
+      "path": "vendor/evoquex-v12-effects.js",
+      "original_sha256": "18ec4bace80716614e09cfbbf1a9fa555d07af64f33788e52063a411f778eec2",
+      "extracted_sha256": "18ec4bace80716614e09cfbbf1a9fa555d07af64f33788e52063a411f778eec2",
+      "matches": true
+    },
+    {
+      "path": "vendor/gsap.min.js",
+      "original_sha256": "c174bfce53a729418d57a8ad8625e7247c793a22fef8e2851e3cfa3de9cd8280",
+      "extracted_sha256": "c174bfce53a729418d57a8ad8625e7247c793a22fef8e2851e3cfa3de9cd8280",
+      "matches": true
+    }
+  ],
+  "source_render_input_mismatches": [],
+  "snapshots": [
+    {
+      "file": "review/repro-snapshots/frame-00-at-0s.png",
+      "dimensions": [
+        1080,
+        1920
+      ],
+      "sha256": "7b0cf98a66a059e37e8c3859f1fad75e3c1ddfc706c3e0c6cdfc0a6bcd9d643f",
+      "nonuniform_image": true
+    },
+    {
+      "file": "review/repro-snapshots/frame-01-at-3.3s.png",
+      "dimensions": [
+        1080,
+        1920
+      ],
+      "sha256": "307d423a75d2d73e63af494c24066e6aaf98005ddc656f4000fbf36b8cd3b42e",
+      "nonuniform_image": true
+    },
+    {
+      "file": "review/repro-snapshots/frame-02-at-4.8s.png",
+      "dimensions": [
+        1080,
+        1920
+      ],
+      "sha256": "c954074d963b8e3494897ff061fc179d31e7955257c7bc81e67a7de04ad5c000",
+      "nonuniform_image": true
+    },
+    {
+      "file": "review/repro-snapshots/frame-03-at-8.8s.png",
+      "dimensions": [
+        1080,
+        1920
+      ],
+      "sha256": "20fd9c5a1a70c642389d3a4080ce5c57e241aba49c897960f0751a70ae527193",
+      "nonuniform_image": true
+    },
+    {
+      "file": "review/repro-snapshots/frame-04-at-16.7s.png",
+      "dimensions": [
+        1080,
+        1920
+      ],
+      "sha256": "eebc1d91c5ba41877d4532ce3ba5038b7303a9cf6594565fa8292c33e3998568",
+      "nonuniform_image": true
+    },
+    {
+      "file": "review/repro-snapshots/frame-05-at-19.7s.png",
+      "dimensions": [
+        1080,
+        1920
+      ],
+      "sha256": "0396b8bca7cc6e990587f2b414a2b8748d9d7b91fa4996a6d8b67302b4ab7ee1",
+      "nonuniform_image": true
+    },
+    {
+      "file": "review/repro-snapshots/frame-06-at-22.5s.png",
+      "dimensions": [
+        1080,
+        1920
+      ],
+      "sha256": "448ae54d74d11e84ea9f48d6343ee8edb254c0b4de7f3e3d471aaceb1a019ef1",
+      "nonuniform_image": true
+    },
+    {
+      "file": "review/repro-snapshots/frame-07-at-28.5s.png",
+      "dimensions": [
+        1080,
+        1920
+      ],
+      "sha256": "3d65fa9c2314cc8f406dbc1a49db52f92d3a0264a2b6dcceb0bcf23933e5a8bc",
+      "nonuniform_image": true
+    },
+    {
+      "file": "review/repro-snapshots/frame-08-at-29.1s.png",
+      "dimensions": [
+        1080,
+        1920
+      ],
+      "sha256": "52e8e0bd1349240585f62519d1fd3668f9cd4a2ad75f6e81ade8f53a51a84c08",
+      "nonuniform_image": true
+    }
+  ],
+  "all_requested_frames_present": true,
+  "all_snapshots_dimensions_correct": true,
+  "all_snapshots_decoded": true,
+  "visual_contact_sheet_inspected": true,
+  "visual_inspection_result": "Opening, local photograph, case film, separate true metrics, strategy and CTA are populated with no visible missing assets in the sampled frames. This is source reproduction, not full exported-MP4 QA.",
+  "nonblocking_warnings": [
+    "HyperFrames could not persist global snapshot history under /home/agent/.cache/hyperframes/history; requested snapshot files were saved successfully.",
+    "CLI automatically added an end-of-timeline frame at 29.10s, giving 9 actual images for 8 requested times."
+  ],
+  "subjective_listening_performed": false,
+  "final_video_rendered_in_reproduction": false
+}

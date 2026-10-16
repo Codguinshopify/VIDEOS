@@ -1,0 +1,28 @@
+{
+  "ok": true,
+  "local_refs_resolved": [
+    "style.css",
+    "vendor/gsap.min.js",
+    "vendor/evoquex-v12-effects.js",
+    "assets/clevelandia.jpg",
+    "assets/poster-hook-end.jpg",
+    "assets/campanha.mp4",
+    "assets/resultados.jpg",
+    "assets/mix-v12.wav",
+    "motion.js"
+  ],
+  "no_external_assets": true,
+  "motion_kit_matches_permanent_library": true,
+  "source_sha256": {
+    "index.html": "06910129f09a5672f2a53ca0281072e1158624ef4a5f4d0609e420fa90a98396",
+    "style.css": "3f5e33cce75202d63da3334ab73511f3a3419a8ba316fc8990a6f0ae6d8c8535",
+    "motion.js": "de6eb413209d3b9f3d187d34033d696f7365736ab74e3a9a572a22f603784b77",
+    "vendor/evoquex-v12-effects.js": "18ec4bace80716614e09cfbbf1a9fa555d07af64f33788e52063a411f778eec2",
+    "package-lock.json": "86d06759cb4e942bc04e7e2ac70493ca17852545e9c23ef6920310cdd9734d2b",
+    "DESIGN.md": "123fc0cfa59e27aba69bc34c4c5c9e3045cff5e07561c6e16c57d2cf104b6e6a",
+    "STORYBOARD.md": "06891ee860e99151abf8c35adb5c1a272bcbc8bfb7a9c1994eedfe4b9ce52022"
+  },
+  "original_footage_plays_once": true,
+  "voice_file_not_referenced": true,
+  "voice_windows": "resources/voice-cues.json"
+}

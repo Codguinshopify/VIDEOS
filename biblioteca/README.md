@@ -5,7 +5,7 @@ não depende de anexos temporários do chat ou de caminhos externos à cópia do
 
 | Recurso | Local | Uso e limite |
 |---|---|---|
-| Duas referências originais | `referencias/catalogo.json` | MP4 originais, nomes preservados em diretórios distintos, com hash e metadados. Estudo somente. |
+| Quatro referências originais | `referencias/catalogo.json` | MP4 originais, nomes preservados em diretórios distintos, com hash e metadados. Estudo somente. |
 | Análise de técnicas | `referencias/ANALISE.md` | Trechos e decisões de adaptação, sem reproduzir a identidade das peças. |
 | Catálogo HyperFrames selecionado | `hyperframes/catalogo.json` | Fontes originais fixadas em revisão Git. HTML arquivado como `.html.txt`, para o Studio não alterar sua integridade. |
 | Recursos de packs | `packs/inventario.json` | Amostras completas já extraídas; volumes adicionais apenas identificados. AEP requer outro runtime. |
@@ -21,5 +21,11 @@ Para adicionar referências: use novo diretório, mantenha nome original, regist
 metadados e análise; não substitua as atuais. Para novos componentes: registre origem,
 licença, dependências, variáveis de timing e um exemplo de uso real. Evite duplicações.
 
-A V11 mantém o instrumento e os efeitos próprios já utilizados. Os efeitos de tinta
-do pack estão disponíveis para outros estilos; não foram forçados numa direção limpa.
+A V12 mantém o instrumento e os efeitos próprios já utilizados. Os efeitos de tinta
+do pack estão disponíveis para outros estilos; não foram forçados numa direção atual.
+
+A análise Oto adicional está em referencias/oto-criativo/ANALISE-OTO.md. Técnicas
+implementadas e seus critérios estão em ../evoquex-hyperframes-v12/REFERENCE-IMPLEMENTATION.md.
+
+A referência Park/Weven anterior foi recuperada na auditoria por hash de todos os
+anexos, com análise própria. Uploads de conteúdo idêntico não duplicam a biblioteca.

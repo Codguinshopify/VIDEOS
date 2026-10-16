@@ -14,6 +14,6 @@ for item in json.loads((B/'hyperframes/catalogo.json').read_text())['items']:
     d=ROOT/item['path'];assert (d/(item['name']+'.html.txt')).is_file();assert (d/'registry-item.json').is_file()
     for name,digest in item['sha256'].items():assert hashlib.sha256((d/name).read_bytes()).hexdigest()==digest,str(d/name)
 assert (ROOT/'AGENTS.md').is_file()
-report={'ok':True,'media_and_component_checks':checks,'catalogue_sources':10,'full_pack_extraction_claimed':False}
+report={'ok':True,'media_and_component_checks':checks,'catalogue_sources':len(json.loads((B/'hyperframes/catalogo.json').read_text())['items']),'full_pack_extraction_claimed':False}
 (B/'validacao.json').write_text(json.dumps(report,indent=2)+'\n')
-print(json.dumps({'ok':True,'checked_media_and_component_files':len(checks),'catalogue_sources':10}))
+print(json.dumps({'ok':True,'checked_media_and_component_files':len(checks),'catalogue_sources':len(json.loads((B/'hyperframes/catalogo.json').read_text())['items'])}))

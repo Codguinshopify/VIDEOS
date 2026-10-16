@@ -52,3 +52,17 @@ qualidade sonora percebida. Nenhum áudio das referências entra na produção.
 A V11 conserva a família DM Sans e a paleta Evoquex da V10, com branco predominante,
 azul apenas no ponto de atenção e um intervalo azul na evidência. Muda a gramática
 do movimento e reduz a densidade; não copia uma sequência dos vídeos analisados.
+
+## OtoCriativo —27,77s; quarta referência anterior recuperada
+
+A nova análise Oto está em oto-criativo/ANALISE-OTO.md: letras articuladas3,9–5,1s,
+planos/carrocel6,8–8,85s, documento11,15s, etiqueta em profundidade14,7–15,45s,
+contornoCTA20,45–21,1s. Referências anteriores Oto em anexos têm os mesmos bytes;
+contam como um único original preservado. A V12 executa essas famílias com darktype,
+iris,whip,filmplane,documento,FLIP eCTA, sem recibos, preços ou depoimentos fictícios.
+
+A auditoria ampliada achou uma quarta referência única de42,61s, Park/Weven,
+armazenada em park-weven/. A análise dela é adicional à direção já estabelecida,
+sem fingir que foi examinada antes de ser localizada. Não é Shard nem Virgílio.
+Seus verbos/ícones/processo e transformações reforçam técnicas já escolhidas;
+funil/CRM/receita não entram no case sem dados. Análise detalhada no mesmo diretório.

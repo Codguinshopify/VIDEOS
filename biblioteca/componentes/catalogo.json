@@ -16,6 +16,26 @@
         "underline": "underline(timeline, selector, atSeconds, duration)"
       },
       "origin": "Adapted motion mechanics from preserved HyperFrames catalog originals; project glue by Evoquex."
+    },
+    {
+      "name": "evoquex-v12-effects",
+      "path": "biblioteca/componentes/evoquex-v12-effects.js",
+      "sha256": "18ec4bace80716614e09cfbbf1a9fa555d07af64f33788e52063a411f778eec2",
+      "dependencies": [
+        "GSAP 3.14.2",
+        "DOM/SVG"
+      ],
+      "host_example": "evoquex-hyperframes-v12/motion.js",
+      "api": [
+        "letters",
+        "iris",
+        "whip",
+        "flipBox",
+        "draw",
+        "focus"
+      ],
+      "origin": "Mechanics adapted from pinned HyperFrames catalogue, source archives and Apache2 license preserved. Rectangles are explicit, no async layout reads.",
+      "limits": "CSS2.5D only; flipBox counter-scale selected children; no physics/reflow. Native host render validation required."
     }
   ],
   "historical_reuse": [

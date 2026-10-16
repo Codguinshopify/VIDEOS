@@ -1,0 +1,11 @@
+{
+  "video": "evoquex-hyperframes-v12.mp4",
+  "sha256": "928b0b271c5144169af4dfe378935af5f8b4ca1b45fa4865bb63b7b1fd2b3361",
+  "sampling_folder": "hf-v12-928b0b271c",
+  "full_duration_samples": 60,
+  "opening_frames": 121,
+  "transition_samples": 63,
+  "internal_states": 64,
+  "phone_checks": 6,
+  "subjective_audio_playback_available": false
+}

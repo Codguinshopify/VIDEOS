@@ -101,6 +101,76 @@
         "camera-rig-depth-stack.html.txt": "d0ab77610390dd1e30ac53347b06e3d6aa432ac972989c18df8593d2a2b6b19e",
         "registry-item.json": "db81f7e929376a6348dd45a30634a578178406c7370bb71a339d2503a26fe1df"
       }
+    },
+    {
+      "name": "whip-pan-cut",
+      "type": "components",
+      "path": "biblioteca/hyperframes/whip-pan-cut",
+      "source": "https://github.com/heygen-com/hyperframes/tree/08ee1bd5ad59987a7f2525222683e24ca30971f9/registry/components/whip-pan-cut",
+      "sha256": {
+        "whip-pan-cut.html.txt": "2e21c04b6b72c4c4087b9e926da4f83b95940e798b9e5ad26e4845c41e6df7b7",
+        "registry-item.json": "d94fc3446d2e150451f7adf66af231663c36dd3318ce8777ba6702c0ed03f591"
+      }
+    },
+    {
+      "name": "perspective-marquee",
+      "type": "components",
+      "path": "biblioteca/hyperframes/perspective-marquee",
+      "source": "https://github.com/heygen-com/hyperframes/tree/08ee1bd5ad59987a7f2525222683e24ca30971f9/registry/components/perspective-marquee",
+      "sha256": {
+        "perspective-marquee.html.txt": "14d4544b748881f564ee3a2ffd55b1a630179b47b9d17bc3ee24667baf7c1698",
+        "registry-item.json": "dd58efc4635d18550ef20d380f2140a63e41c36ef534f804e79bd9f0cca92d39"
+      }
+    },
+    {
+      "name": "iris-reveal",
+      "type": "components",
+      "path": "biblioteca/hyperframes/iris-reveal",
+      "source": "https://github.com/heygen-com/hyperframes/tree/08ee1bd5ad59987a7f2525222683e24ca30971f9/registry/components/iris-reveal",
+      "sha256": {
+        "iris-reveal.html.txt": "977a7e068ebe7f547006794ee36ef4d30cd36d68edbd05acf60719e294de989e",
+        "registry-item.json": "fa1700c4e29b98ad6169a8cbe67438a583d9f6797f7d1d82f5aef6ca3ddcab18"
+      }
+    },
+    {
+      "name": "modal-morph",
+      "type": "components",
+      "path": "biblioteca/hyperframes/modal-morph",
+      "source": "https://github.com/heygen-com/hyperframes/tree/08ee1bd5ad59987a7f2525222683e24ca30971f9/registry/components/modal-morph",
+      "sha256": {
+        "modal-morph.html.txt": "a932a8deece4bbe231f99010e01800e35564a4d59ca4d59bbce09b1f0be942b4",
+        "registry-item.json": "a0b1a87b24fbd21e8f19863da00ce91cb5861b3c3df77e3703bba7401fb9a6b4"
+      }
+    },
+    {
+      "name": "scan-band",
+      "type": "components",
+      "path": "biblioteca/hyperframes/scan-band",
+      "source": "https://github.com/heygen-com/hyperframes/tree/08ee1bd5ad59987a7f2525222683e24ca30971f9/registry/components/scan-band",
+      "sha256": {
+        "scan-band.html.txt": "66e19b727703fa360aca5a9c87b930e71b07b3d1c1649eb8e0befab4e614e83f",
+        "registry-item.json": "c7e2f1f9e50a36438a034d530e597d1d0c585877bb6a5d4d6be108dc9a295c4e"
+      }
+    },
+    {
+      "name": "light-sweep-pass",
+      "type": "components",
+      "path": "biblioteca/hyperframes/light-sweep-pass",
+      "source": "https://github.com/heygen-com/hyperframes/tree/08ee1bd5ad59987a7f2525222683e24ca30971f9/registry/components/light-sweep-pass",
+      "sha256": {
+        "light-sweep-pass.html.txt": "16f8575923e3deacbbf2a2154bf4ec7c77ae8dd8d588c0ce0b5e25e5eea7376a",
+        "registry-item.json": "9228f84345f6d0e3b4a3fdf3e0d577589c448d6d333834293d5bcc48c6c7b9f3"
+      }
+    },
+    {
+      "name": "grain-overlay",
+      "type": "components",
+      "path": "biblioteca/hyperframes/grain-overlay",
+      "source": "https://github.com/heygen-com/hyperframes/tree/08ee1bd5ad59987a7f2525222683e24ca30971f9/registry/components/grain-overlay",
+      "sha256": {
+        "grain-overlay.html.txt": "97a0da8f26feca9574abcf08b8186cef10ea4819b2aeabc30547ae16ed9ae80d",
+        "registry-item.json": "bd0c8976bc2cf7c6ed6aae3a64023c73e61505b604dfba97220ed27bbca0e897"
+      }
     }
   ]
 }

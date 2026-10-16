@@ -1,0 +1,993 @@
+{
+  "schema": 1,
+  "reviewed_at_utc": "2026-10-16T00:32:49.373586+00:00",
+  "status": "reviewed_no_blocking_visual_issue_in_sampled_final_render",
+  "project": "evoquex-hyperframes-v12",
+  "viewport": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30
+  },
+  "duration_seconds": 30,
+  "video": {
+    "path": "renders/evoquex-hyperframes-v12.mp4",
+    "sha256": "928b0b271c5144169af4dfe378935af5f8b4ca1b45fa4865bb63b7b1fd2b3361"
+  },
+  "animation_map": {
+    "path": "review/animation-map/animation-map.json",
+    "sha256": "3651b7271bc2dc13f71f461d88e9bbb2189dea0eb6291d4aebc6a8a6440030cb",
+    "total_tweens": 197,
+    "mapped_tweens": 89,
+    "skipped_micro_tweens": 108,
+    "sampled_bboxes_per_target_tween": 6,
+    "flagged_tweens": 49,
+    "flag_counts": {
+      "collision": 48,
+      "paced-slow": 3,
+      "offscreen": 9,
+      "paced-fast": 1
+    },
+    "collision_pairs": [
+      [
+        1,
+        5
+      ],
+      [
+        2,
+        5
+      ],
+      [
+        3,
+        5
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        6,
+        9
+      ],
+      [
+        6,
+        38
+      ],
+      [
+        6,
+        43
+      ],
+      [
+        7,
+        8
+      ],
+      [
+        8,
+        9
+      ],
+      [
+        9,
+        10
+      ],
+      [
+        9,
+        12
+      ],
+      [
+        10,
+        12
+      ],
+      [
+        13,
+        14
+      ],
+      [
+        17,
+        18
+      ],
+      [
+        17,
+        20
+      ],
+      [
+        18,
+        20
+      ],
+      [
+        21,
+        23
+      ],
+      [
+        25,
+        30
+      ],
+      [
+        26,
+        30
+      ],
+      [
+        27,
+        28
+      ],
+      [
+        27,
+        29
+      ],
+      [
+        27,
+        30
+      ],
+      [
+        28,
+        29
+      ],
+      [
+        28,
+        30
+      ],
+      [
+        29,
+        30
+      ],
+      [
+        38,
+        40
+      ],
+      [
+        43,
+        44
+      ],
+      [
+        54,
+        55
+      ],
+      [
+        55,
+        59
+      ],
+      [
+        56,
+        59
+      ],
+      [
+        56,
+        60
+      ],
+      [
+        57,
+        59
+      ],
+      [
+        57,
+        60
+      ],
+      [
+        58,
+        68
+      ],
+      [
+        58,
+        69
+      ],
+      [
+        59,
+        60
+      ],
+      [
+        62,
+        63
+      ],
+      [
+        68,
+        69
+      ],
+      [
+        75,
+        76
+      ],
+      [
+        77,
+        79
+      ],
+      [
+        80,
+        81
+      ],
+      [
+        81,
+        82
+      ],
+      [
+        86,
+        87
+      ]
+    ],
+    "collision_pair_count": 43,
+    "dead_zones_reported": 0
+  },
+  "method": "Leitura do código final, algoritmo do mapa e seus bboxes/flags; inspeção visual de12sheets/phones extraídos do MP4final (3sheets duração completa,3sheets hook,2cuts,2phones,2QAfinal). Conferência SHA do MP4 com sampling.json. Sem editar fontes visuais.",
+  "rendered_evidence_inspected": [
+    "review/hf-v12-full-01.jpg",
+    "review/hf-v12-full-02.jpg",
+    "review/hf-v12-full-03.jpg",
+    "review/hf-v12-hook-01.jpg",
+    "review/hf-v12-hook-02.jpg",
+    "review/hf-v12-hook-05.jpg",
+    "review/hf-v12-cuts-02.jpg",
+    "review/hf-v12-cuts-03.jpg",
+    "review/hf-v12-phone-proof.png",
+    "review/hf-v12-phone-cta.png",
+    "/workspace/reference-review-v12/qa-final/proof.jpg",
+    "/workspace/reference-review-v12/qa-final/strategy.jpg"
+  ],
+  "findings": [
+    {
+      "severity": "resolved_previous_render_issue",
+      "topic": "shutter hold",
+      "times": [
+        14.8,
+        15.55
+      ],
+      "finding": "A pausa azul prolongada do primeiro render foi reduzida. Na versãofinal, quadro completamente coberto fica próximo0.13–0.17s; já há revelação15.1–15.2. Não classificado como problema atual de pacing.",
+      "evidence": "qa-final/proof.jpg; independent-visual-review.md"
+    },
+    {
+      "severity": "non_blocking_maintenance",
+      "topic": "overlapping rotation ownership",
+      "selector": ".known-tag",
+      "tween_indices": [
+        10,
+        12
+      ],
+      "times": [
+        1.05,
+        1.35
+      ],
+      "finding": "Há dois tweens escrevendo rotation simultaneamente: intro0.85–1.35e settle1.05–1.45. O segundo conduz a−6°. Frames30–47 mostram rotação resolvida sem salto ou texto quebrado, então não exige nova renderização por falha visual atual. Num futuro retime, consolidar num owner para evitar dependência da ordem de escrita. Não tratar toda collision como falso positivo sem registrar esse risco."
+    },
+    {
+      "severity": "informational_limitation",
+      "topic": "reading cadence",
+      "finding": "Zero deadzones no mapa não prova variedade contínua: .blue-light anima durante30s. Há holds deliberados de leitura, sobretudo foto/caption6.4–7.75, métricas~15.9–18.05/~18.8–20.82 e CTA~27.5–30. As sheets mostram esses holds sem elementos que ficaram presos em meia animação."
+    },
+    {
+      "severity": "informational_limitation",
+      "topic": "document legibility",
+      "finding": "O documento verdadeiro em perspectiva é pequeno para ler integralmente no celular; não declarar que toda a captura é legível. Métricas/rótulos ampliados estão claros na inspeção360×640."
+    }
+  ],
+  "classification_groups": [
+    {
+      "id": "hook_type_planes",
+      "indices": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        8,
+        9,
+        10,
+        12,
+        13,
+        14,
+        17,
+        18,
+        20,
+        21,
+        23
+      ],
+      "classification": "intentional_layering_and_short_handoffs",
+      "selectors": [
+        ".suaword .char",
+        ".companyword .char",
+        ".hook-kicker",
+        ".company-rule",
+        "#hook-company",
+        "#hook-known",
+        ".known-echo",
+        ".known-tag",
+        "#hook-city",
+        "#hook-question",
+        ".red-light",
+        ".vista-word .char",
+        ".vista-sheen"
+      ],
+      "reason": "Colisões1–5 são filhos dentro do próprio painel; known-echo/tag são camadas projetadas. Handoffs0.76–1.22,1.63–2.04 e2.48–2.90 atravessam o mesmo palco em perspectiva. A luz vermelha é radial transparente, e vista-sheen é cópia recortada do mesmo lettering, não outro texto. Offscreen7/8/9/17/18 ocorre na viagem, não no estado de leitura.",
+      "evidence": [
+        "hf-v12-hook-01.jpg: frames0–23, conteúdo presente desde0 e assentamento imediato",
+        "hf-v12-hook-02.jpg: frames24–47, interseção breve e resolução da etiqueta",
+        "hf-v12-full-01.jpg: estados1.25/2.25/3.25/3.75",
+        "hf-v12-hook-05.jpg: frames96–119, pergunta vermelha estável e iris começa nofinal"
+      ],
+      "residual_note": "Ver item de manutenção known-tag: dois canaisrotation se sobrepõem1.05–1.35s, sem salto perceptível nas amostras."
+    },
+    {
+      "id": "ambient_light",
+      "indices": [
+        6,
+        58
+      ],
+      "classification": "intentional_slow_decorative_motion",
+      "selectors": [
+        ".blue-light"
+      ],
+      "reason": "Dois tweens consecutivos15s produzem luz radial de alpha0.13 atrás de todas as cenas, não uma transição de15s nem um texto lento. O mapa mede o retângulo1000×1000 da luz e conta interseções com tinta transparente. Não estabelece colisão material com a tipografia.",
+      "evidence": [
+        "style.css:.ambient z-index0; .blue-light radial transparent68%",
+        "motion.js: últimosdoistweens15s0/15",
+        "hf-v12-full-01.jpg",
+        "hf-v12-full-02.jpg",
+        "hf-v12-full-03.jpg"
+      ]
+    },
+    {
+      "id": "city_and_iris",
+      "indices": [
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "classification": "intentional_depth_and_mask",
+      "selectors": [
+        ".local-overline",
+        "#recognition h1",
+        ".red-light",
+        ".city-stack",
+        ".city-backplate",
+        "#iris-border",
+        ".city-photo"
+      ],
+      "reason": "O SVGiris-border ocupa1080×1920 mas só pinta círculo de7px: seu bbox colide com título/foto sem cobri-los. Rápido0.18s é desaparecimento dessa borda, não duração de leitura. Backplates são planos atrás da foto real. Movimento2.3s da foto é parallax leve: foto assenta e fica dentro da área final, caption e seta entram separadamente.",
+      "evidence": [
+        "hf-v12-full-01.jpg:4.25–7.75s, foto/caption/seta legíveis sem borda persistente",
+        "style.css:#iris-ring fillnone/strokewidth7; city-photo z-index3",
+        "motion.js: iris3.82–4.47, bordafade4.35–4.53; foto5.1–7.4"
+      ]
+    },
+    {
+      "id": "film_layers",
+      "indices": [
+        38,
+        40,
+        43,
+        44
+      ],
+      "classification": "intentional_parent_child_media_composition",
+      "selectors": [
+        "#film-shell",
+        ".film-face",
+        ".film-sweep"
+      ],
+      "reason": "Shell é o pai da mídia, film-face é a mesma superfície revelada por máscara, film-sweep é luz transparente na própria superfície. Suas interseções são necessárias. A viagem7.75–8.30 compartilha strip único; filmagem começa uma vez8.1 e a máscara conclui8.75. Não detectado flash ou dupla reprodução nas sheets.",
+      "evidence": [
+        "hf-v12-cuts-02.jpg: passagemcidade/case",
+        "hf-v12-full-01.jpg:8.25–11.75s",
+        "hf-v12-full-02.jpg:12.25–14.75s",
+        "index.html:#real-film data-start8.1/duration5.06 muted; poster separado"
+      ]
+    },
+    {
+      "id": "shutter_and_proof",
+      "indices": [
+        54,
+        55,
+        56,
+        57,
+        59,
+        60,
+        62,
+        63
+      ],
+      "classification": "intentional_shutter_occlusion_and_metric_container",
+      "selectors": [
+        ".gate-two",
+        ".gate-one",
+        ".results-kicker",
+        "#proof-paper",
+        ".metrics-window",
+        "#impression-value"
+      ],
+      "reason": "Quatro offscreen54/55/59/60 pertencem a duas barras1700×2700 rotacionadas−16°, que precisam sair totalmente do quadro e cobrir cantos sem vazamento. Kicker/documento ficam sob a revelação por um breve momento. Métrica é filha da janela, logo collision62/63 é contenção. Frames finais confirmam cobertura total breve, revelação ágil e número20.981estável depois15.9s.",
+      "evidence": [
+        "hf-v12-cuts-02.jpg: wipe/prova e frames15.2–15.7",
+        "/workspace/reference-review-v12/qa-final/proof.jpg:14.80–15.55, passo0.05s",
+        "hf-v12-full-02.jpg:15.75–20.75, troca vertical e valores finais",
+        "hf-v12-phone-proof.png: número/rótulo legíveis em360×640"
+      ],
+      "residual_note": "A captura real permanece inclinada e pequena; serve como documento de apoio, não comprovante integralmente legível em tela móvel. Números ampliados e rótulos são a leitura principal."
+    },
+    {
+      "id": "proof_to_invitation",
+      "indices": [
+        68,
+        69
+      ],
+      "classification": "intentional_layered_scene_handoff",
+      "selectors": [
+        "#invitation",
+        "#results"
+      ],
+      "reason": "Os dois retângulos de cena têm1080×1920, mas invitation abre por polígono e results recua/perde foco/opacidade. O mapa ignora essa máscara e trata os dois como áreas cheias. Frames20.8–21.9 confirmam que não permanece número nítido atrás do título.",
+      "evidence": [
+        "hf-v12-cuts-02.jpg: última linha, prova→painel",
+        "/workspace/reference-review-v12/qa-final/strategy.jpg:20.8–21.9",
+        "motion.js: máscara20.82–21.50 e resultsopacity0 ao21.30/21.50"
+      ]
+    },
+    {
+      "id": "strategy_to_question",
+      "indices": [
+        75,
+        76,
+        77,
+        79
+      ],
+      "classification": "intentional_shared_panel_and_attention_shift",
+      "selectors": [
+        ".strategy-link path",
+        ".frame-light",
+        ".strategy-diagram",
+        ".invite-question"
+      ],
+      "reason": "A luz do painel recobre intencionalmente o conector no mesmo suporte; não o esconde. A interseção temporal diagramfade23.10–23.45/questionfocus23.40–23.95 dura0.05s; em23.42 o diagrama temopacity~0.003. Texto novo fica legível e sem ícones residuais.",
+      "evidence": [
+        "hf-v12-full-02.jpg:21.75–23.75",
+        "hf-v12-full-03.jpg:24.25–25.25",
+        "/workspace/reference-review-v12/qa-final/strategy.jpg: labels/traços já surgem21.5"
+      ]
+    },
+    {
+      "id": "cta_and_signature",
+      "indices": [
+        80,
+        81,
+        82,
+        86,
+        87
+      ],
+      "classification": "intentional_container_outline_and_child_glyphs",
+      "selectors": [
+        "#cta-button",
+        "#cta-outline rect",
+        "#cta-button>span",
+        ".end-wordmark .char",
+        ".end-wordmark"
+      ],
+      "reason": "Botão+contorno+texto são camadas do mesmo objeto, não duas mensagens concorrentes. Os glifos da assinatura são filhos do wordmark que também se desloca; bboxpai/filho produz collision86/87. CTA final fica nítido, com margem interna; empresa→serviço preserva concordância.",
+      "evidence": [
+        "hf-v12-cuts-03.jpg:25.5–26.0 entrada gradual de botão/label",
+        "hf-v12-full-03.jpg:26.75–29.75, CTA/assinatura sustentados",
+        "hf-v12-phone-cta.png: convite e marca legíveis em360×640"
+      ]
+    }
+  ],
+  "flagged_tweens_reviewed": [
+    {
+      "index": 1,
+      "selector": "[data-motion-audit-id=\"1\"]",
+      "start": 0,
+      "end": 0.47,
+      "flags": [
+        "collision"
+      ],
+      "review_group": "hook_type_planes"
+    },
+    {
+      "index": 2,
+      "selector": "[data-motion-audit-id=\"2\"]",
+      "start": 0,
+      "end": 0.612,
+      "flags": [
+        "collision"
+      ],
+      "review_group": "hook_type_planes"
+    },
+    {
+      "index": 3,
+      "selector": "[data-motion-audit-id=\"3\"]",
+      "start": 0,
+      "end": 0.5,
+      "flags": [
+        "collision"
+      ],
+      "review_group": "hook_type_planes"
+    },
+    {
+      "index": 4,
+      "selector": "[data-motion-audit-id=\"4\"]",
+      "start": 0,
+      "end": 0.5,
+      "flags": [
+        "collision"
+      ],
+      "review_group": "hook_type_planes"
+    },
+    {
+      "index": 5,
+      "selector": "#hook-company",
+      "start": 0,
+      "end": 0.6,
+      "flags": [
+        "collision"
+      ],
+      "review_group": "hook_type_planes"
+    },
+    {
+      "index": 6,
+      "selector": "[data-motion-audit-id=\"5\"]",
+      "start": 0,
+      "end": 15,
+      "flags": [
+        "paced-slow",
+        "collision"
+      ],
+      "review_group": "ambient_light"
+    },
+    {
+      "index": 7,
+      "selector": "#hook-company",
+      "start": 0.76,
+      "end": 1.1,
+      "flags": [
+        "offscreen",
+        "collision"
+      ],
+      "review_group": "hook_type_planes"
+    },
+    {
+      "index": 8,
+      "selector": "#hook-known",
+      "start": 0.8,
+      "end": 1.22,
+      "flags": [
+        "offscreen",
+        "collision"
+      ],
+      "review_group": "hook_type_planes"
+    },
+    {
+      "index": 9,
+      "selector": "[data-motion-audit-id=\"7\"]",
+      "start": 0.8,
+      "end": 1.3,
+      "flags": [
+        "offscreen",
+        "collision"
+      ],
+      "review_group": "hook_type_planes"
+    },
+    {
+      "index": 10,
+      "selector": "[data-motion-audit-id=\"8\"]",
+      "start": 0.85,
+      "end": 1.35,
+      "flags": [
+        "collision"
+      ],
+      "review_group": "hook_type_planes"
+    },
+    {
+      "index": 12,
+      "selector": "[data-motion-audit-id=\"8\"]",
+      "start": 1.05,
+      "end": 1.45,
+      "flags": [
+        "collision"
+      ],
+      "review_group": "hook_type_planes"
+    },
+    {
+      "index": 13,
+      "selector": "#hook-known",
+      "start": 1.63,
+      "end": 1.96,
+      "flags": [
+        "collision"
+      ],
+      "review_group": "hook_type_planes"
+    },
+    {
+      "index": 14,
+      "selector": "#hook-city",
+      "start": 1.66,
+      "end": 2.04,
+      "flags": [
+        "collision"
+      ],
+      "review_group": "hook_type_planes"
+    },
+    {
+      "index": 17,
+      "selector": "#hook-city",
+      "start": 2.48,
+      "end": 2.8,
+      "flags": [
+        "offscreen",
+        "collision"
+      ],
+      "review_group": "hook_type_planes"
+    },
+    {
+      "index": 18,
+      "selector": "#hook-question",
+      "start": 2.52,
+      "end": 2.9,
+      "flags": [
+        "offscreen",
+        "collision"
+      ],
+      "review_group": "hook_type_planes"
+    },
+    {
+      "index": 20,
+      "selector": "[data-motion-audit-id=\"13\"]",
+      "start": 2.6,
+      "end": 3.05,
+      "flags": [
+        "collision"
+      ],
+      "review_group": "hook_type_planes"
+    },
+    {
+      "index": 21,
+      "selector": "[data-motion-audit-id=\"14\"]",
+      "start": 2.65,
+      "end": 3.155,
+      "flags": [
+        "collision"
+      ],
+      "review_group": "hook_type_planes"
+    },
+    {
+      "index": 23,
+      "selector": "[data-motion-audit-id=\"16\"]",
+      "start": 3.03,
+      "end": 3.53,
+      "flags": [
+        "collision"
+      ],
+      "review_group": "hook_type_planes"
+    },
+    {
+      "index": 25,
+      "selector": "[data-motion-audit-id=\"17\"]",
+      "start": 4.02,
+      "end": 4.47,
+      "flags": [
+        "collision"
+      ],
+      "review_group": "city_and_iris"
+    },
+    {
+      "index": 26,
+      "selector": "[data-motion-audit-id=\"18\"]",
+      "start": 4.08,
+      "end": 4.73,
+      "flags": [
+        "collision"
+      ],
+      "review_group": "city_and_iris"
+    },
+    {
+      "index": 27,
+      "selector": "[data-motion-audit-id=\"13\"]",
+      "start": 4.1,
+      "end": 4.7,
+      "flags": [
+        "collision"
+      ],
+      "review_group": "city_and_iris"
+    },
+    {
+      "index": 28,
+      "selector": "[data-motion-audit-id=\"19\"]",
+      "start": 4.12,
+      "end": 4.87,
+      "flags": [
+        "collision"
+      ],
+      "review_group": "city_and_iris"
+    },
+    {
+      "index": 29,
+      "selector": "[data-motion-audit-id=\"20\"]",
+      "start": 4.25,
+      "end": 5.02,
+      "flags": [
+        "collision"
+      ],
+      "review_group": "city_and_iris"
+    },
+    {
+      "index": 30,
+      "selector": "#iris-border",
+      "start": 4.35,
+      "end": 4.53,
+      "flags": [
+        "paced-fast",
+        "collision"
+      ],
+      "review_group": "city_and_iris"
+    },
+    {
+      "index": 31,
+      "selector": "[data-motion-audit-id=\"21\"]",
+      "start": 5.1,
+      "end": 7.4,
+      "flags": [
+        "paced-slow"
+      ],
+      "review_group": "city_and_iris"
+    },
+    {
+      "index": 38,
+      "selector": "#film-shell",
+      "start": 8.02,
+      "end": 8.77,
+      "flags": [
+        "collision"
+      ],
+      "review_group": "film_layers"
+    },
+    {
+      "index": 40,
+      "selector": "[data-motion-audit-id=\"26\"]",
+      "start": 8.1,
+      "end": 8.75,
+      "flags": [
+        "collision"
+      ],
+      "review_group": "film_layers"
+    },
+    {
+      "index": 43,
+      "selector": "[data-motion-audit-id=\"29\"]",
+      "start": 8.7,
+      "end": 9.5,
+      "flags": [
+        "collision"
+      ],
+      "review_group": "film_layers"
+    },
+    {
+      "index": 44,
+      "selector": "#film-shell",
+      "start": 9.1,
+      "end": 10.5,
+      "flags": [
+        "collision"
+      ],
+      "review_group": "film_layers"
+    },
+    {
+      "index": 54,
+      "selector": "[data-motion-audit-id=\"34\"]",
+      "start": 14.7,
+      "end": 14.98,
+      "flags": [
+        "offscreen",
+        "collision"
+      ],
+      "review_group": "shutter_and_proof"
+    },
+    {
+      "index": 55,
+      "selector": "[data-motion-audit-id=\"35\"]",
+      "start": 14.75,
+      "end": 15.03,
+      "flags": [
+        "offscreen",
+        "collision"
+      ],
+      "review_group": "shutter_and_proof"
+    },
+    {
+      "index": 56,
+      "selector": "[data-motion-audit-id=\"36\"]",
+      "start": 14.95,
+      "end": 15.35,
+      "flags": [
+        "collision"
+      ],
+      "review_group": "shutter_and_proof"
+    },
+    {
+      "index": 57,
+      "selector": "#proof-paper",
+      "start": 14.96,
+      "end": 15.61,
+      "flags": [
+        "collision"
+      ],
+      "review_group": "shutter_and_proof"
+    },
+    {
+      "index": 58,
+      "selector": "[data-motion-audit-id=\"5\"]",
+      "start": 15,
+      "end": 30,
+      "flags": [
+        "paced-slow",
+        "collision"
+      ],
+      "review_group": "ambient_light"
+    },
+    {
+      "index": 59,
+      "selector": "[data-motion-audit-id=\"34\"]",
+      "start": 15.01,
+      "end": 15.29,
+      "flags": [
+        "offscreen",
+        "collision"
+      ],
+      "review_group": "shutter_and_proof"
+    },
+    {
+      "index": 60,
+      "selector": "[data-motion-audit-id=\"35\"]",
+      "start": 15.06,
+      "end": 15.34,
+      "flags": [
+        "offscreen",
+        "collision"
+      ],
+      "review_group": "shutter_and_proof"
+    },
+    {
+      "index": 62,
+      "selector": "[data-motion-audit-id=\"38\"]",
+      "start": 15.3,
+      "end": 15.8,
+      "flags": [
+        "collision"
+      ],
+      "review_group": "shutter_and_proof"
+    },
+    {
+      "index": 63,
+      "selector": "#impression-value",
+      "start": 15.3,
+      "end": 15.9,
+      "flags": [
+        "collision"
+      ],
+      "review_group": "shutter_and_proof"
+    },
+    {
+      "index": 68,
+      "selector": "#invitation",
+      "start": 20.82,
+      "end": 21.5,
+      "flags": [
+        "collision"
+      ],
+      "review_group": "proof_to_invitation"
+    },
+    {
+      "index": 69,
+      "selector": "#results",
+      "start": 20.82,
+      "end": 21.3,
+      "flags": [
+        "collision"
+      ],
+      "review_group": "proof_to_invitation"
+    },
+    {
+      "index": 75,
+      "selector": "[data-motion-audit-id=\"42\"]",
+      "start": 21.8,
+      "end": 22.3,
+      "flags": [
+        "collision"
+      ],
+      "review_group": "strategy_to_question"
+    },
+    {
+      "index": 76,
+      "selector": "[data-motion-audit-id=\"43\"]",
+      "start": 22,
+      "end": 22.8,
+      "flags": [
+        "collision"
+      ],
+      "review_group": "strategy_to_question"
+    },
+    {
+      "index": 77,
+      "selector": "[data-motion-audit-id=\"40\"]",
+      "start": 23.1,
+      "end": 23.45,
+      "flags": [
+        "collision"
+      ],
+      "review_group": "strategy_to_question"
+    },
+    {
+      "index": 79,
+      "selector": "[data-motion-audit-id=\"45\"]",
+      "start": 23.4,
+      "end": 23.95,
+      "flags": [
+        "collision"
+      ],
+      "review_group": "strategy_to_question"
+    },
+    {
+      "index": 80,
+      "selector": "#cta-button",
+      "start": 25.35,
+      "end": 26,
+      "flags": [
+        "collision"
+      ],
+      "review_group": "cta_and_signature"
+    },
+    {
+      "index": 81,
+      "selector": "[data-motion-audit-id=\"46\"]",
+      "start": 25.55,
+      "end": 26.4,
+      "flags": [
+        "collision"
+      ],
+      "review_group": "cta_and_signature"
+    },
+    {
+      "index": 82,
+      "selector": "[data-motion-audit-id=\"47\"]",
+      "start": 25.75,
+      "end": 26.15,
+      "flags": [
+        "collision"
+      ],
+      "review_group": "cta_and_signature"
+    },
+    {
+      "index": 86,
+      "selector": "[data-motion-audit-id=\"51\"]",
+      "start": 26.75,
+      "end": 27.49,
+      "flags": [
+        "collision"
+      ],
+      "review_group": "cta_and_signature"
+    },
+    {
+      "index": 87,
+      "selector": "[data-motion-audit-id=\"52\"]",
+      "start": 26.75,
+      "end": 27.3,
+      "flags": [
+        "collision"
+      ],
+      "review_group": "cta_and_signature"
+    }
+  ],
+  "native_check": {
+    "ok": true,
+    "lint_errors": 0,
+    "runtime_errors": 0,
+    "layout_errors": 0,
+    "layout_warnings": 0,
+    "layout_info": 1,
+    "motion_assertions_enabled": false,
+    "contrast_checked": 21,
+    "contrast_passed": 21,
+    "info_review": "results-kicker sob gate-two em15.0s é o shutter intencional. O texto ainda não é destinado à leitura durante o breve encobrimento."
+  },
+  "limitations": [
+    "Colisão do mapa é teste de AABB, tolerância temporal0.05s e interseção>30%da área do primeiro elemento. Não calcula pixelsemitidos, parentesco DOM, máscaras/clip-path, alfa efetiva dos pais, z-index/oclusão ou semântica.",
+    "Bboxes de um tween de múltiplos targets representam só o primeiro alvo.108microtweens menores0.15s ficam fora do mapa, inclusivecontadores e textura; foram relacionados ao código e ao MP4, não auditados porAABB individual.",
+    "Quatro drivers onUpdate (iris, blur subida/descida, FLIP) têm duração mas não geometria própria no mapa; sua imagem foi conferida nos frames das passagens.",
+    "Enumerador usa duration(), não totalDuration(), portanto janelas de repeat/yoyo não ficam integralmente representadas; o final do CTA foi inspecionado nas sheets.",
+    "Nativecheckdesativou asserçõesmotionautomáticas conformepadrão; esta revisão manual do mapa é separada. Não alegar que o móduloautomaticodechoreography passou.",
+    "Revisão visual amostrada, não reprodução contínua em tempo real. Sem escuta subjetiva e sem validação de voz natural; locução ainda ausente."
+  ]
+}

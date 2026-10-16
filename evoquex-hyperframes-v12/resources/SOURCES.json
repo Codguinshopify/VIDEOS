@@ -1,0 +1,23 @@
+{
+  "runtime": "HyperFrames0.8.162/GSAP3.14.2, pinned, no newdependencies",
+  "font": "DM Sans local/OFL",
+  "icons": "Existing Lucide0.468.0SVG/ISC; no new handdrawn icons",
+  "catalogue_revision": "08ee1bd5ad59987a7f2525222683e24ca30971f9",
+  "sources": "../biblioteca/hyperframes/catalogo.json",
+  "reference_catalogue": "../biblioteca/referencias/catalogo.json",
+  "reference_media_used": false,
+  "reference_audio_used": false,
+  "adaptations": [
+    "Articulated letter motion and depth label from Oto execution",
+    "Perspective plane from perspective-marquee, not its repeating demo layout",
+    "Shared-strip whip-pan-cut with directional SVG blur",
+    "iris-reveal single proxy/rim",
+    "modal-morph explicit-rectangle FLIP; typography separate from background support",
+    "light-sweep-pass single CSS variable on film and CTA",
+    "grain-overlay converted to finite deterministic offsets, no CSS animation"
+  ],
+  "pack_use": [],
+  "pack_reason": "Available complete ink/brush samples do not improve this type-led direction; AEP not executable, archive incomplete. No invented pack compatibility.",
+  "ai_visual_assets_generated": false,
+  "ai_reason": "Real campaign/city/proof media plus native vector/type geometry satisfy identified needs; a generated stand-in would add no factual value."
+}

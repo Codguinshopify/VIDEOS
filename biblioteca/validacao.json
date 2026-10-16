@@ -12,6 +12,16 @@
       "ok": true
     },
     {
+      "path": "biblioteca/referencias/oto-criativo/oto_criativo_video_no_watermark.mp4",
+      "sha256": "39bc21037a522d3088630fcf79b9da61cc759c31b5386c39759e074283395a8c",
+      "ok": true
+    },
+    {
+      "path": "biblioteca/referencias/park-weven/Park_Criativo_video_no_watermark (1).mp4",
+      "sha256": "55e691627b4c2c44f867184702be323dd885e9f3767a4a9a7223eb4cbe1c6e95",
+      "ok": true
+    },
+    {
       "path": "biblioteca/packs/6000-motion-amostras/Brush 2.png",
       "sha256": "67ce186796c62860d5b17f08258fb10e2dedf86f7d0f11c21ef557d12e6d2a54",
       "ok": true
@@ -50,8 +60,13 @@
       "path": "biblioteca/componentes/motion-kit.js",
       "sha256": "ea6ee1a32fb5bf3593efbfa911296c9340aa6928b3af8d01661241c0379309c5",
       "ok": true
+    },
+    {
+      "path": "biblioteca/componentes/evoquex-v12-effects.js",
+      "sha256": "18ec4bace80716614e09cfbbf1a9fa555d07af64f33788e52063a411f778eec2",
+      "ok": true
     }
   ],
-  "catalogue_sources": 10,
+  "catalogue_sources": 17,
   "full_pack_extraction_claimed": false
 }

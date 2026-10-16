@@ -24,6 +24,31 @@
         1024
       ],
       "usage": "Somente estudo técnico; não inserir imagem, voz, música ou identidade da referência no vídeo comercial."
+    },
+    {
+      "id": "oto-criativo",
+      "path": "biblioteca/referencias/oto-criativo/oto_criativo_video_no_watermark.mp4",
+      "sha256": "39bc21037a522d3088630fcf79b9da61cc759c31b5386c39759e074283395a8c",
+      "bytes": 746993,
+      "duration": 27.766667,
+      "dimensions": [
+        576,
+        1024
+      ],
+      "usage": "Somente estudo técnico; não inserir imagem, voz, música ou identidade da referência no vídeo comercial."
+    },
+    {
+      "id": "park-weven",
+      "path": "biblioteca/referencias/park-weven/Park_Criativo_video_no_watermark (1).mp4",
+      "sha256": "55e691627b4c2c44f867184702be323dd885e9f3767a4a9a7223eb4cbe1c6e95",
+      "bytes": 781464,
+      "duration": 42.608005,
+      "dimensions": [
+        576,
+        1024
+      ],
+      "usage": "Somente estudo técnico; referência anterior recuperada em auditoria completa dos anexos; não reutilizar mídia/claims."
     }
-  ]
+  ],
+  "duplicate_uploads_note": "Three Oto uploads have identical SHA256; two Virgilio uploads identical. Originals stored once per unique content, none replaced."
 }
