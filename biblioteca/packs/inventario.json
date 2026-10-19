@@ -1,5 +1,15 @@
 {
   "schema": 2,
+  "production_preparation_v15": {
+    "manifest": "biblioteca/production-v15/manifest.json",
+    "readme": "biblioteca/production-v15/README.md",
+    "purpose": "Five derived assets prepared for actual V15 use, with source hashes, conversions and visual/decode validation. Preparation is not a claim of inclusion in the exported video.",
+    "user_authorization": "User explicitly authorized the provided pack resources, including commercial use, after the historical V13 audit. Do not impose the old generic licence hold on the current production.",
+    "reused_preserved_samples": ["Ink_11.mp4", "Brush 2.png", "TransitionFlare_1.mp4"],
+    "newly_recovered_archive": "pack/Viral_Video_Template.rar at commit 6cc0a25e788f0f654f35992628b0d648c7fc085c; complete 225406633 bytes, LFS SHA matched, full 7zz integrity test passed",
+    "selected_new_sources": ["Dots light burn 1.mov", "Background texture.jpg"],
+    "scope": "Targeted production research. No new completeness claim for the Glitch, Mockups or other archives in this reset environment."
+  },
   "remote_branch": "packs-lfs",
   "remote_commit": "b1e0a83a28f424143601f134d9e1de2570eaf54c",
   "volumes": [

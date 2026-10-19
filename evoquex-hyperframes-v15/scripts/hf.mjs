@@ -1,0 +1,14 @@
+import {spawnSync} from 'node:child_process';
+import {createRequire} from 'node:module';
+import {dirname,join,resolve} from 'node:path';
+import {existsSync,mkdirSync} from 'node:fs';
+const require=createRequire(import.meta.url);
+const cli=join(dirname(require.resolve('hyperframes/package.json')),'bin/hyperframes.mjs');
+const env={...process.env,HYPERFRAMES_NO_TELEMETRY:'1'};
+const cache=resolve('.hyperframes/runtime-cache');mkdirSync(cache,{recursive:true});
+env.XDG_CACHE_HOME=cache;
+if(!env.XDG_STATE_HOME)env.XDG_STATE_HOME=resolve('.hyperframes/runtime-state');
+if(!env.HYPERFRAMES_BROWSER_PATH&&existsSync('/usr/bin/chromium'))env.HYPERFRAMES_BROWSER_PATH='/usr/bin/chromium';
+const result=spawnSync(process.execPath,[cli,...process.argv.slice(2)],{stdio:'inherit',env});
+if(result.error)throw result.error;
+process.exitCode=result.status??1;

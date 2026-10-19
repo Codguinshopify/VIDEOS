@@ -1,0 +1,10 @@
+node_modules/
+.hyperframes/
+renders/
+__pycache__/
+review/keyframes/
+review/frames/
+review/samples/
+review/*.log
+review/**/*.png
+review/**/*.jpg

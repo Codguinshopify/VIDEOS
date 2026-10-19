@@ -1,0 +1,48 @@
+{
+  "version": "V15",
+  "video_sha256": "b49533215c68181ad225d74de8aa58de6e4ee496e5a330bdec9d62caa1724e1d",
+  "source_bundle_id": "c2968c97deb6c129d7c87d098da4c27f10e080d6bf28817a98b2e4cfe49138d6",
+  "approved_for_delivery": true,
+  "scope": "Visual delivery with music and effects; user-supplied narration will be integrated later.",
+  "technical_validation": "Full decode, frozen inputs, 1080x1920, 30fps, 828frames, 27.6s, H264/AAC validated.",
+  "visual_review": {
+    "method": "Actual exported MP4 decoded and inspected via temporal contact sheets and phone-size frames; no real-time playback.",
+    "final_export_inspected_by_root": [
+      "full-01.jpg",
+      "full-02.jpg",
+      "full-03.jpg",
+      "opening-01.jpg",
+      "opening-02.jpg",
+      "opening-03.jpg",
+      "opening-04.jpg",
+      "opening-05.jpg",
+      "critical-04-01.jpg",
+      "critical-04-02.jpg"
+    ],
+    "image_folder": "review/v15-b49533215c68",
+    "independent_report": "review/independent-export-review-v15.md",
+    "correction": "Removed premature appearance/hide/re-entry of location text by adding initial opacity states. Verified correct in final frames394–415.",
+    "previous_candidate_dense_review": "All30 sheets, nine phone images and extra proof/end frames; sole defect corrected in final export.",
+    "all_frame_change_check": "review/correction-frame-comparison-v15.json; only frames394–400 have mean absolute RGB change >1/255 between candidate exports at216x384. This comparison is not standalone visual approval.",
+    "final_status": "No remaining visual blocker observed within inspected sequences."
+  },
+  "audio_review": {
+    "report": "review/export-audio-review-v15.json",
+    "aac_equivalent_to_independently_checked_candidate": true,
+    "integrated_lufs": -16.22,
+    "actual_true_peak_dbtp": -1.55,
+    "clipped_samples": 0,
+    "subjective_listening_performed": false
+  },
+  "facts_checked": [
+    "Danny’s Presentes spelling",
+    "20 mil visualizações de pessoas de Clevelândia is user-attested, not an independent screenshot-derived reach metric",
+    "Aerial source is a photograph",
+    "No narration generated or included"
+  ],
+  "limitations": [
+    "Continuous audiovisual playback and subjective listening unavailable; review used decoded image sequences and technical audio verification.",
+    "Native full check hit fixed120s deadline; focused runtime checks completed, scene occlusion flags were assessed against exported frames."
+  ],
+  "prior_candidate_sha256": "e69aa4b4fdcb99395b2707bbca27c59dd67cba64f50347eeb1684a8b630913bc"
+}

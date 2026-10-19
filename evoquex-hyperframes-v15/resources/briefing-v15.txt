@@ -1,0 +1,498 @@
+# DIREÇÃO DE PRODUÇÃO — MOTION DESIGN PROFISSIONAL EVOQUEX
+## Análise das referências, reconstrução da edição, uso das bibliotecas e entrega do vídeo final
+
+Você deve tratar esta tarefa como um projeto profissional de motion design, não como uma simples edição de vídeo com textos animados.
+
+O objetivo é transformar o vídeo atual da Evoquex em uma peça audiovisual curta, com acabamento profissional, tipografia cinética, transições elaboradas, composição visual, animações integradas, sound design e uso inteligente de cores e recursos gráficos.
+
+**Sua responsabilidade é executar a edição, renderizar o vídeo final e revisar o resultado. Não entregue apenas um plano, uma análise, um código ou uma lista de sugestões.**
+
+O vídeo atual é o ponto de partida. As três referências fornecidas são a principal fonte de estudo visual e de linguagem de motion. As duas bibliotecas disponíveis no projeto devem ser utilizadas como recursos reais de produção.
+
+---
+
+# 1. PRIMEIRA ETAPA — ANALISAR AS REFERÊNCIAS ANTES DE EDITAR
+
+Localize e analise integralmente os três vídeos de referência já fornecidos no projeto:
+
+- `Park_Criativo_video_no_watermark (1).mp4`
+- `Park_Criativo_video_no_watermark.mp4`
+- `oto_criativo_video_no_watermark.mp4`
+
+Não analise apenas capturas de tela, thumbnails ou alguns frames isolados. Assista aos vídeos completos e estude a evolução visual e sonora ao longo do tempo.
+
+Para cada referência, identifique:
+
+1. Linguagem visual e direção de arte.
+2. Uso de cores, contrastes e mudanças de paleta.
+3. Tipografia, hierarquia, tamanhos, pesos, alinhamento e quebras de linha.
+4. Como os textos entram, saem, são revelados, se transformam ou interagem com outros elementos.
+5. Uso de máscaras, recortes, círculos, linhas, setas, formas geométricas e elementos orgânicos.
+6. Movimentos de escala, posição, rotação, perspectiva e profundidade.
+7. Transições entre cenas e como uma composição conduz à próxima.
+8. Ritmo das animações, pausas, acelerações e desacelerações.
+9. Sobreposição de elementos, camadas, iluminação, sombras, texturas e desfoques.
+10. Como imagens, vídeos, ícones e elementos de interface são incorporados ao motion.
+11. Trilha sonora, efeitos sonoros, impactos, whooshes, texturas sonoras, pausas e sincronização com as animações.
+12. Como cada vídeo mantém a atenção e cria uma hierarquia visual, sem deixar todos os elementos competirem simultaneamente.
+
+Analise também os tempos aproximados de cada movimento relevante. Observe como as animações começam, atingem seu ponto de destaque e terminam.
+
+**Não basta reconhecer que as referências usam círculos, textos animados ou transições. É necessário compreender como esses elementos se movimentam, como se relacionam entre si e por que funcionam visualmente.**
+
+Não reproduza as referências de maneira literal. Extraia os princípios técnicos e estéticos e aplique-os à identidade e à mensagem da Evoquex.
+
+Se houver diferenças entre as referências, aproveite o que cada uma faz melhor. A primeira pode contribuir com formas geométricas e revelações; a segunda, com continuidade visual e elementos conectados; a terceira, com tipografia cinética, contraste e ritmo. Essa divisão é uma orientação inicial, não uma limitação: utilize os recursos que realmente funcionarem para cada cena.
+
+# 2. SEGUNDA ETAPA — INSPECIONAR O PROJETO ATUAL
+
+Antes de modificar qualquer coisa, inspecione o projeto de edição e identifique:
+
+- O arquivo de vídeo atual que deve ser aprimorado.
+- A estrutura das cenas, componentes, animações e transições existentes.
+- A resolução, a taxa de quadros e a duração.
+- Os arquivos de mídia, trilha sonora e efeitos sonoros já utilizados.
+- As dependências e os recursos disponíveis no HyperFrames.
+- A organização real das duas bibliotecas.
+- Os caminhos efetivamente acessíveis no ambiente de edição.
+
+O vídeo atual tem aproximadamente 26 segundos, em formato vertical 1080 × 1920, a 30 fps.
+
+Confirme os tempos e o conteúdo real de cada cena no projeto. Não presuma que a sequência ou a duração exata correspondem a uma descrição anterior. Use a estrutura existente como referência e ajuste-a conforme necessário para obter uma edição coerente.
+
+Preserve a mensagem principal e os materiais reais da campanha. Você pode reorganizar, retimar e reconstruir animações para melhorar a qualidade, desde que não altere o significado das informações.
+
+Não faça uma reconstrução superficial, trocando apenas cores ou adicionando efeitos sobre as animações atuais. Identifique o que está funcionando, o que precisa ser corrigido e quais partes precisam ser refeitas.
+
+# 3. TERCEIRA ETAPA — UTILIZAR AS DUAS BIBLIOTECAS
+
+Existem duas fontes de recursos que devem ser consideradas durante a produção.
+
+## Biblioteca 1 — HyperFrames
+
+Utilize o HyperFrames para estruturar e executar o motion design:
+
+- Composição das cenas.
+- Controle de posição, escala, rotação, opacidade e perspectiva.
+- Animações tipográficas.
+- Máscaras e revelações.
+- Transições entre cenas.
+- Animação de formas e elementos vetoriais.
+- Sincronização dos movimentos.
+- Composição de múltiplas camadas.
+- Integração de vídeos, imagens e recursos externos.
+- Controle da linha do tempo e renderização final.
+
+Explore os recursos existentes da biblioteca antes de criar soluções do zero. Quando um componente existente atender ao objetivo, aproveite-o e adapte-o ao projeto.
+
+Quando não existir um recurso adequado, construa a animação necessária utilizando os recursos disponíveis no próprio sistema.
+
+## Biblioteca 2 — Packs de motion graphics e recursos adicionais
+
+Pesquise a biblioteca `packs` já existente no projeto, incluindo os recursos preparados anteriormente, se estiverem acessíveis no ambiente atual.
+
+Essa biblioteca pode conter:
+
+- Transições.
+- Overlays.
+- Elementos gráficos animados.
+- Texturas.
+- Partículas.
+- Flashes e flares.
+- Animações de letras.
+- Elementos de interface.
+- Mockups.
+- Efeitos de tinta.
+- Elementos de composição.
+- Efeitos sonoros.
+- Outros recursos úteis para acabamento.
+
+Não comece baixando tudo novamente nem refazendo uma auditoria completa sem necessidade. Primeiro, inspecione o inventário e os arquivos já selecionados. Pesquise recursos adicionais somente quando houver uma necessidade específica que ainda não esteja atendida.
+
+A preparação anterior identificou candidatos como `Hand_Click_4K.mov`, `Laptop_10_Dolly.mp4`, `summer-letters.mp4`, `Dots light burn 1.mov`, `scene1- alpha.mov`, elementos de tinta, `TransitionFlare_1.mp4`, `SFX - Fast Swoosh 1.wav` e `SFX - Impact 1.wav`.
+
+Esses nomes são referências de busca, não uma ordem para usar todos. Confirme a disponibilidade, o caminho, o formato, a resolução, a duração e a transparência real antes de aplicar qualquer recurso.
+
+Verifique especialmente:
+
+- Se o arquivo possui canal alfa real.
+- Se o fundo precisa ser removido por máscara ou composição.
+- Se o modo de mesclagem é adequado.
+- Se a resolução suporta a saída vertical.
+- Se a animação pode ser cortada sem ficar visualmente incompleta.
+- Se o recurso é compatível com o pipeline atual.
+- Se o efeito realmente melhora a cena.
+
+Arquivos AEP e MOGRT que dependam de After Effects não devem ser considerados diretamente executáveis no HyperFrames. Utilize-os somente se houver uma forma de integração tecnicamente viável.
+
+**A exigência é usar as duas bibliotecas de forma intencional, não forçar o uso de um recurso incompatível.** Combine componentes do HyperFrames com assets externos quando isso produzir um resultado melhor. Se um recurso não funcionar, utilize outro recurso adequado ou crie a animação necessária.
+
+Não substitua animações elaboradas por imagens estáticas dos packs. Os recursos devem ser integrados à composição e, quando necessário, animados, recortados, colorizados ou sincronizados.
+
+# 4. DIREÇÃO DE ARTE — CORES, CONTRASTE E PSICOLOGIA VISUAL
+
+Este ponto é essencial: **não limite o vídeo a azul, branco e preto apenas porque essas são as cores principais da Evoquex.**
+
+Observe as três referências. Elas utilizam variações de cor, mudanças de fundo, contrastes e combinações cromáticas para dar identidade a cada momento do vídeo. Essa liberdade deve ser preservada.
+
+A identidade da Evoquex deve continuar reconhecível, mas ela não precisa ser a única fonte de cor de toda a edição.
+
+Use a cor como ferramenta narrativa e de direção de atenção.
+
+Por exemplo:
+
+- Azul pode comunicar tecnologia, direcionamento, confiança e conexão.
+- Branco pode oferecer clareza, respiro e contraste.
+- Preto e azul-marinho podem criar profundidade, sofisticação e foco.
+- Vermelho ou coral podem criar tensão, urgência e contraste em uma pergunta.
+- Cores mais luminosas podem destacar um número ou uma revelação.
+- Tons quentes podem ajudar a integrar cenas reais de uma loja, quando fizer sentido.
+- Fundos claros podem criar uma mudança de ritmo depois de uma sequência escura.
+- Cores complementares ou contrastantes podem separar etapas distintas da mensagem.
+
+Essas associações são referências de direção de arte, não regras rígidas. Escolha as cores conforme a mensagem, o conteúdo da cena, a legibilidade e a composição.
+
+Você pode usar cores secundárias, gradientes, tons quentes, cores saturadas e mudanças expressivas de fundo, como fazem as referências. A paleta pode evoluir ao longo do vídeo.
+
+Entretanto, não use cores aleatoriamente. Cada mudança cromática deve ter uma função: destacar uma palavra, separar uma ideia, preparar uma transição, criar contraste ou conduzir o olhar.
+
+Mantenha consistência de tipografia, qualidade dos elementos e acabamento, mesmo quando a paleta mudar.
+
+Evite tanto a monotonia de uma paleta excessivamente restrita quanto o excesso de cores sem hierarquia. O objetivo é obter variedade controlada e intencional.
+
+A marca Evoquex deve continuar identificável nos momentos apropriados, mas não é necessário colocar seu azul em todos os elementos nem manter todos os fundos na mesma cor.
+
+# 5. GUIA DE EXECUÇÃO — CENA POR CENA
+
+Use os intervalos abaixo como referência inicial. Confirme a linha do tempo real e ajuste as durações de acordo com o ritmo da edição. O tempo de cada cena deve servir à mensagem e à animação, e não o contrário.
+
+## CENA 1 — ABERTURA E GANCHO
+### Aproximadamente 00:00–00:04
+
+Mensagem:
+
+“SUA EMPRESA É CONHECIDA EM CLEVELÂNDIA. MAS É VISTA?”
+
+Objetivo: interromper a rolagem, gerar curiosidade e apresentar uma pergunta que faça sentido para empresas locais.
+
+Direção de animação:
+
+1. Comece com uma composição visual deliberada, sem um fade-in genérico e prolongado.
+2. Revele “SUA EMPRESA” com movimento tipográfico curto e preciso.
+3. Desenhe uma linha, uma faixa ou uma forma que ajude a conduzir o olhar.
+4. Dê destaque a “CONHECIDA” por meio de uma revelação tipográfica, uma máscara ou uma transformação de forma.
+5. Introduza “EM CLEVELÂNDIA” de forma que a localização seja percebida imediatamente.
+6. Apresente “MAS É VISTA?” com um contraste visual mais incisivo, que pode incluir uma cor de acento diferente da usada anteriormente.
+7. Utilize aceleração e desaceleração naturais. O texto deve parar de forma limpa e legível.
+
+A composição deve ter profundidade, hierarquia e intenção. Use formas geométricas, máscaras, linhas ou elementos da biblioteca quando forem úteis.
+
+Não coloque todos os textos simultaneamente na tela. Construa a frase em etapas e preserve o tempo necessário para leitura.
+
+Transição: aproveite uma linha, uma forma ou uma máscara da composição para conduzir à próxima cena.
+
+## CENA 2 — RECONHECIMENTO LOCAL
+### Aproximadamente 00:04–00:07
+
+Mensagem:
+
+“JÁ VIU POR AQUI?”
+
+Utilize a filmagem aérea real de Clevelândia.
+
+Direção de animação:
+
+1. Integre a filmagem à composição por meio de uma transição motivada pela cena anterior.
+2. Use um movimento de escala ou deslocamento discreto se isso valorizar a imagem.
+3. Introduza a pergunta com hierarquia tipográfica clara.
+4. Destaque a expressão principal com cor, tamanho ou movimento, conforme a direção de arte definida para o vídeo.
+5. Mantenha a filmagem visível e evite cobrir pontos relevantes da imagem.
+6. Se utilizar uma moldura, círculo ou linha animada, faça com que esse elemento pareça pertencer à composição.
+
+Transição: transforme uma forma da cena em máscara, recorte ou elemento de ligação para a cena da loja.
+
+## CENA 3 — PROVA REAL
+### Aproximadamente 00:07–00:10
+
+Mensagem:
+
+“PRODUZIMOS O VÍDEO.”
+
+Utilize o material real da Danny’s Presentes disponível no projeto.
+
+Direção de animação:
+
+1. Introduza a filmagem ou imagem por meio de uma moldura, recorte animado ou composição integrada ao fundo.
+2. Utilize movimento de entrada com escala e posição controladas.
+3. Se a perspectiva for aplicada, mantenha-a discreta e sem deformar excessivamente o conteúdo.
+4. Apresente “Danny’s Presentes” como uma identificação visual limpa e profissional.
+5. Utilize linhas, molduras, formas ou acentos de cor para conectar o material real ao restante do motion.
+6. Preserve a imagem original e sua legibilidade.
+
+A filmagem deve funcionar como evidência real da produção, não como um clipe jogado sobre o fundo.
+
+Transição: aproveite a saída da moldura, uma linha ou uma faixa gráfica para preparar a próxima composição.
+
+## CENA 4 — DISTRIBUIÇÃO PELA EVOQUEX
+### Aproximadamente 00:10–00:13
+
+Mensagem:
+
+“E DIVULGAMOS PELA EVOQUEX.”
+
+Direção de animação:
+
+1. Revele a frase em etapas, preservando a hierarquia entre o texto introdutório e o nome da marca.
+2. Dê ao nome Evoquex um tratamento visual próprio, sem exagerar em efeitos.
+3. Construa ou refine a seta existente a partir de um traço animado.
+4. Faça a seta entrar, percorrer a composição e conduzir o olhar.
+5. Utilize um movimento com desaceleração e parada precisas.
+6. Explore os recursos da biblioteca para linhas, setas ou elementos gráficos, se forem adequados.
+
+A seta deve fazer parte da lógica da composição. Não adicione setas, brilhos ou partículas apenas para preencher espaço.
+
+Transição: a ponta da seta pode originar um ponto, círculo ou elemento que se transforme na representação da localização.
+
+## CENA 5 — SEGMENTAÇÃO GEOGRÁFICA
+### Aproximadamente 00:13–00:16
+
+Mensagem:
+
+“SÓ PARA CLEVELÂNDIA.”
+
+Direção de animação:
+
+1. Apresente o texto com uma composição limpa e forte.
+2. Introduza o pino de localização em camadas, se a solução visual escolhida permitir.
+3. Anime a forma principal, o recorte interno e os detalhes de maneira coordenada.
+4. Utilize um anel de expansão, uma linha ou uma forma de contato para comunicar o direcionamento geográfico.
+5. Faça a animação terminar em uma composição estável, com o texto totalmente legível.
+
+O pino não deve parecer um emoji colocado no fundo. Ele precisa ter o mesmo nível de acabamento visual dos demais elementos.
+
+Transição: o anel ou a forma de localização pode crescer e servir como máscara para a cena seguinte.
+
+## CENA 6 — RESULTADO
+### Aproximadamente 00:16–00:19
+
+Mensagem:
+
+“20 MIL VISUALIZAÇÕES DE PESSOAS DE CLEVELÂNDIA.”
+
+Este é o principal ponto de prova numérica do vídeo.
+
+Direção de animação:
+
+1. Crie uma mudança de ritmo visual em relação à cena anterior.
+2. Utilize uma mudança de cor de fundo se isso aumentar o impacto. Não é necessário manter o fundo azul-marinho.
+3. Revele “20 MIL” com uma animação tipográfica forte e controlada.
+4. Dê escala e destaque ao número sem provocar deformação ou excesso de movimento.
+5. Introduza “VISUALIZAÇÕES” em seguida, com hierarquia clara.
+6. Apresente “DE PESSOAS DE CLEVELÂNDIA” como complemento legível.
+7. Utilize formas de fundo, recortes, gradientes ou elementos de composição para dar profundidade.
+8. Mantenha o número como foco principal até que a informação seja absorvida.
+
+Não invente gráficos, porcentagens, contadores, alcance ou outras métricas. A informação confirmada é exatamente **20 mil visualizações de pessoas de Clevelândia**.
+
+Transição: utilize uma forma, recorte ou movimento que devolva a composição ao próximo conceito sem interromper bruscamente a continuidade visual.
+
+## CENA 7 — ESTRATÉGIA
+### Aproximadamente 00:19–00:22
+
+Mensagem:
+
+“CADA EMPRESA. UMA ESTRATÉGIA.”
+
+Direção de animação:
+
+1. Introduza a primeira parte da frase e depois complete a segunda.
+2. Dê destaque a “ESTRATÉGIA” por meio de cor, tamanho, máscara ou movimento.
+3. Integre os elementos de mensagem e público à composição.
+4. Anime os ícones de forma coordenada, com linhas desenhadas progressivamente ou trajetórias que conectem os elementos.
+5. Faça os elementos aparecerem em uma sequência que ajude a explicar a mensagem.
+6. Utilize ícones com estilo consistente, espessura de linha uniforme e acabamento profissional.
+
+Os ícones devem comunicar visualmente a relação entre divulgação, público e estratégia. Não devem parecer elementos de interface sem conexão com a mensagem.
+
+Transição: aproveite a linha ou trajetória da animação para conduzir à chamada final.
+
+## CENA 8 — CHAMADA PARA AÇÃO
+### Aproximadamente 00:22–00:24
+
+Mensagem:
+
+“CONVERSA COM A GENTE.”
+
+Direção de animação:
+
+1. Crie uma composição com alto contraste e leitura imediata.
+2. Utilize uma mudança de fundo ou uma combinação cromática expressiva, caso isso ajude a destacar a chamada.
+3. Revele a frase com tipografia cinética, mantendo a leitura natural.
+4. Utilize uma linha, seta ou elemento gráfico para conduzir o olhar.
+5. Integre a marca Evoquex sem sobrecarregar a composição.
+6. Preserve margem suficiente nas bordas e na região inferior.
+
+A chamada deve permanecer legível. Não sacrifique a leitura para conseguir uma animação mais rápida.
+
+Transição: conduza a composição para o encerramento por meio de um movimento curto e intencional.
+
+## CENA 9 — ENCERRAMENTO
+### Aproximadamente 00:24–00:26
+
+Objetivo: encerrar com uma assinatura de marca limpa e memorável.
+
+Direção de animação:
+
+1. Apresente a assinatura Evoquex em uma composição equilibrada.
+2. Utilize uma entrada curta e precisa, com o tratamento visual adequado à identidade da marca.
+3. Evite excesso de brilho, partículas, glitch ou distorção no logo.
+4. Faça a composição estabilizar antes do fim.
+5. Garanta que o vídeo não termine com elementos cortados, uma transição incompleta ou um frame visualmente acidental.
+
+Se o ritmo da edição exigir mais tempo para a chamada e o encerramento, redistribua alguns segundos entre as cenas. Não comprima tudo a ponto de prejudicar a leitura.
+
+---
+
+# 6. TRANSIÇÕES — CONSTRUIR CONTINUIDADE VISUAL
+
+As transições são parte central do projeto.
+
+Não utilize o mesmo efeito genérico em todas as passagens. Também não use cortes secos por conveniência quando houver uma oportunidade de conectar visualmente duas cenas.
+
+Estude as transições das referências e selecione, conforme a necessidade:
+
+- Revelações por máscara.
+- Círculos que crescem e viram recortes.
+- Linhas que percorrem a tela.
+- Formas que mudam de função entre uma cena e outra.
+- Faixas que atravessam a composição.
+- Transformações de escala e posição.
+- Transições com elementos de tinta, overlays ou flares, quando adequados.
+- Cortes sincronizados com movimentos ou impactos sonoros.
+
+Uma transição bem executada deve parecer parte da linguagem visual, e não um efeito colocado entre dois blocos.
+
+Crie continuidade entre elementos sempre que fizer sentido. Por exemplo, uma linha pode começar como sublinhado, transformar-se em seta e terminar como parte de uma moldura. Um círculo pode destacar uma palavra, expandir-se e virar uma máscara de transição.
+
+Varie a intensidade: algumas transições devem ser rápidas e impactantes; outras, mais suaves. O ritmo precisa alternar momentos de energia com momentos de leitura.
+
+Evite excesso de motion blur, distorção, zoom, rotação, flashes ou efeitos de impacto. Utilize-os somente quando houver intenção visual clara.
+
+# 7. TIPOGRAFIA E COMPOSIÇÃO
+
+A tipografia deve ter acabamento profissional e consistência em todo o vídeo.
+
+- Utilize uma família tipográfica coerente, com pesos diferentes quando necessário.
+- Crie hierarquia entre títulos, palavras de destaque e textos complementares.
+- Anime palavras ou grupos de palavras, em vez de mover todos os caracteres sem propósito.
+- Explore máscaras, recortes, revelações, deslocamentos e variações de escala.
+- Utilize espaçamento, alinhamento e quebras de linha deliberados.
+- Evite textos excessivamente pequenos.
+- Não permita palavras cortadas, caracteres sobrepostos ou alinhamentos inconsistentes.
+- Respeite as margens de segurança do formato vertical.
+- Não deixe textos importantes escondidos nas áreas ocupadas pela interface de redes sociais.
+- Verifique a acentuação e a grafia de todas as frases.
+
+O movimento precisa respeitar a leitura. Uma animação pode ser complexa, mas o resultado deve continuar fácil de entender.
+
+# 8. SOUND DESIGN E TRILHA
+
+Nesta etapa, finalize o vídeo visual com trilha e efeitos sonoros. A narração será produzida posteriormente, por ElevenLabs, e integrada em uma etapa separada.
+
+Primeiro, analise o áudio original das três referências. Observe o caráter da trilha, a densidade de efeitos, os impactos, os whooshes, as pausas e como o som acompanha os movimentos.
+
+Depois, aplique uma abordagem sonora própria ao vídeo da Evoquex.
+
+Procure na biblioteca de packs efeitos que correspondam às animações executadas, incluindo whooshes, impactos, sons de transição, texturas e outros elementos relevantes.
+
+Use os arquivos existentes quando forem adequados. Não adicione um som a cada palavra nem utilize efeitos de maneira repetitiva.
+
+Direção sonora sugerida:
+
+- Abertura: impacto curto e controlado que enfatize o gancho.
+- Revelações de texto: whooshes discretos, sincronizados com o movimento.
+- Linhas e setas: efeitos leves de movimento ou desenho, quando fizerem sentido.
+- Localização: som sutil associado à entrada ou expansão do pino.
+- Número de visualizações: impacto mais expressivo no momento em que “20 MIL” aparece.
+- Transições: sons sincronizados com os movimentos, variando conforme a intensidade.
+- Chamada final: redução da densidade sonora para dar espaço à mensagem.
+- Encerramento: assinatura sonora curta, se combinar com a trilha.
+
+A trilha deve sustentar o ritmo sem competir com a mensagem. Controle volumes, transientes, clipping e sobreposições. Evite cortes abruptos de áudio e finais sonoros acidentais.
+
+Não gere a narração agora. Não utilize Kokoro ou outra ferramenta de TTS nesta etapa.
+
+Quando o vídeo visual estiver concluído, será fornecido um áudio de narração produzido externamente. O projeto deverá permitir integrar esse arquivo posteriormente, ajustar os tempos das cenas e sincronizar os movimentos com a voz sem exigir a reconstrução integral do vídeo.
+
+# 9. QUALIDADE TÉCNICA E RENDERIZAÇÃO
+
+O vídeo final deve ser renderizado em:
+
+- Formato vertical: 1080 × 1920.
+- Taxa de quadros: 30 fps.
+- Proporção: 9:16.
+- Formato de saída: MP4, com vídeo e áudio.
+- Codificação e bitrate adequados para publicação em redes sociais.
+
+Antes de renderizar, confira os arquivos e as dependências realmente disponíveis. Não altere configurações globais, apague recursos ou faça mudanças desnecessárias fora do projeto.
+
+Após renderizar, assista ao vídeo inteiro, do primeiro ao último frame.
+
+Faça uma revisão visual e sonora, verificando:
+
+1. Se todas as cenas aparecem na ordem correta.
+2. Se as transições terminam corretamente.
+3. Se não existem frames pretos ou brancos acidentais.
+4. Se nenhum texto ou elemento aparece cortado.
+5. Se as animações não apresentam saltos, travamentos ou movimentos bruscos não intencionais.
+6. Se as imagens reais mantêm qualidade e proporção.
+7. Se os efeitos sonoros estão sincronizados.
+8. Se não há clipping, ruídos indesejados ou cortes sonoros abruptos.
+9. Se a cor, o contraste e a tipografia mantêm consistência.
+10. Se o resultado tem ritmo e acabamento de uma peça profissional.
+
+Se encontrar erros, corrija-os e renderize novamente. Não entregue uma versão que você ainda não revisou.
+
+# 10. PADRÃO DE QUALIDADE ESPERADO
+
+O objetivo não é apenas melhorar a versão atual. Queremos estabelecer um padrão de produção que possa ser repetido nos próximos vídeos da Evoquex.
+
+Isso significa:
+
+- Motion design pensado cena por cena.
+- Tipografia cinética com hierarquia.
+- Composições com profundidade.
+- Transições com continuidade visual.
+- Uso expressivo e intencional de cores.
+- Integração de imagens reais com elementos gráficos.
+- Sound design sincronizado.
+- Utilização inteligente das duas bibliotecas.
+- Consistência visual sem monotonia.
+- Acabamento técnico e revisão final.
+
+Não confunda profissionalismo com excesso de efeitos. Cada movimento, cor, transição e som deve cumprir uma função.
+
+Não transforme o vídeo em uma sequência de templates prontos. Os recursos das bibliotecas são matéria-prima para uma composição própria.
+
+Se um elemento não estiver contribuindo para a mensagem ou para a qualidade visual, remova-o.
+
+# 11. ENTREGA FINAL E PADRÃO PARA OS PRÓXIMOS PROJETOS
+
+Execute o trabalho no projeto existente e entregue o vídeo final renderizado.
+
+A entrega principal deve ser o arquivo MP4 final, pronto para publicação. Não substitua a entrega por uma análise técnica, um storyboard, capturas de tela, trechos isolados ou apenas código.
+
+Ao concluir:
+
+1. Informe o caminho exato do arquivo final.
+2. Confirme a resolução, a taxa de quadros e a duração renderizada.
+3. Confirme que o vídeo completo foi revisado após a renderização.
+4. Informe somente eventuais limitações relevantes que realmente tenham impedido o uso de algum recurso.
+
+Preserve a estrutura do projeto e as melhorias reutilizáveis. Se desenvolver componentes, transições ou padrões de animação que possam ser reutilizados, organize-os de maneira que facilitem os próximos trabalhos, sem criar complexidade desnecessária.
+
+**Este vídeo deve servir como referência de qualidade para os próximos projetos de motion design da Evoquex.** Os próximos vídeos deverão seguir o mesmo processo: estudar as referências, definir a direção de arte, selecionar os recursos das duas bibliotecas, planejar as cenas, executar as animações, sincronizar o som, renderizar e revisar.
+
+Não assuma que basta repetir exatamente os mesmos efeitos. Reutilize o padrão técnico e a metodologia de produção, adaptando a linguagem visual, as cores, o ritmo e os movimentos a cada novo vídeo.
+
+Comece inspecionando os arquivos e as referências, depois execute a edição completa. Não pare após apresentar o plano. A tarefa só estará concluída quando o vídeo final tiver sido renderizado, revisado e entregue.

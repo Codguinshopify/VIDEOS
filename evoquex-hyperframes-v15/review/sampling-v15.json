@@ -1,0 +1,207 @@
+{
+  "video_sha256": "b49533215c68181ad225d74de8aa58de6e4ee496e5a330bdec9d62caa1724e1d",
+  "source_bundle_id": "c2968c97deb6c129d7c87d098da4c27f10e080d6bf28817a98b2e4cfe49138d6",
+  "decoded_frames": 828,
+  "all_frames_folder": "review/v15-b49533215c68/all-frames",
+  "full_duration_samples": 57,
+  "opening_consecutive_frames": 120,
+  "windows": [
+    {
+      "id": "transition-local",
+      "start": 3.45,
+      "end": 4.85,
+      "first_frame": 104,
+      "last_frame_inclusive": 145,
+      "consecutive_frames": 42
+    },
+    {
+      "id": "transition-production",
+      "start": 6.45,
+      "end": 7.85,
+      "first_frame": 194,
+      "last_frame_inclusive": 235,
+      "consecutive_frames": 42
+    },
+    {
+      "id": "transition-distribution",
+      "start": 9.45,
+      "end": 10.85,
+      "first_frame": 284,
+      "last_frame_inclusive": 325,
+      "consecutive_frames": 42
+    },
+    {
+      "id": "transition-target",
+      "start": 12.45,
+      "end": 13.85,
+      "first_frame": 374,
+      "last_frame_inclusive": 415,
+      "consecutive_frames": 42
+    },
+    {
+      "id": "transition-proof",
+      "start": 15.45,
+      "end": 16.85,
+      "first_frame": 464,
+      "last_frame_inclusive": 505,
+      "consecutive_frames": 42
+    },
+    {
+      "id": "transition-strategy",
+      "start": 19.05,
+      "end": 20.450000000000003,
+      "first_frame": 572,
+      "last_frame_inclusive": 613,
+      "consecutive_frames": 42
+    },
+    {
+      "id": "transition-cta",
+      "start": 22.25,
+      "end": 23.650000000000002,
+      "first_frame": 668,
+      "last_frame_inclusive": 709,
+      "consecutive_frames": 42
+    },
+    {
+      "id": "transition-brand",
+      "start": 24.55,
+      "end": 25.950000000000003,
+      "first_frame": 737,
+      "last_frame_inclusive": 778,
+      "consecutive_frames": 42
+    },
+    {
+      "id": "media-real-film-start",
+      "start": 6.640000000000001,
+      "end": 6.94,
+      "first_frame": 200,
+      "last_frame_inclusive": 208,
+      "consecutive_frames": 9
+    },
+    {
+      "id": "media-real-film-end",
+      "start": 10.200000000000001,
+      "end": 10.5,
+      "first_frame": 306,
+      "last_frame_inclusive": 314,
+      "consecutive_frames": 9
+    },
+    {
+      "id": "media-pack-dots-start",
+      "start": 10.06,
+      "end": 10.36,
+      "first_frame": 302,
+      "last_frame_inclusive": 310,
+      "consecutive_frames": 9
+    },
+    {
+      "id": "media-pack-dots-end",
+      "start": 11.227,
+      "end": 11.527,
+      "first_frame": 337,
+      "last_frame_inclusive": 345,
+      "consecutive_frames": 9
+    },
+    {
+      "id": "media-pack-flare-start",
+      "start": 15.620000000000001,
+      "end": 15.92,
+      "first_frame": 469,
+      "last_frame_inclusive": 477,
+      "consecutive_frames": 9
+    },
+    {
+      "id": "media-pack-flare-end",
+      "start": 16.119999999999997,
+      "end": 16.419999999999998,
+      "first_frame": 484,
+      "last_frame_inclusive": 492,
+      "consecutive_frames": 9
+    }
+  ],
+  "sheets": [
+    "review/v15-b49533215c68/full-01.jpg",
+    "review/v15-b49533215c68/full-02.jpg",
+    "review/v15-b49533215c68/full-03.jpg",
+    "review/v15-b49533215c68/opening-01.jpg",
+    "review/v15-b49533215c68/opening-02.jpg",
+    "review/v15-b49533215c68/opening-03.jpg",
+    "review/v15-b49533215c68/opening-04.jpg",
+    "review/v15-b49533215c68/opening-05.jpg",
+    "review/v15-b49533215c68/critical-01-01.jpg",
+    "review/v15-b49533215c68/critical-01-02.jpg",
+    "review/v15-b49533215c68/critical-02-01.jpg",
+    "review/v15-b49533215c68/critical-02-02.jpg",
+    "review/v15-b49533215c68/critical-03-01.jpg",
+    "review/v15-b49533215c68/critical-03-02.jpg",
+    "review/v15-b49533215c68/critical-04-01.jpg",
+    "review/v15-b49533215c68/critical-04-02.jpg",
+    "review/v15-b49533215c68/critical-05-01.jpg",
+    "review/v15-b49533215c68/critical-05-02.jpg",
+    "review/v15-b49533215c68/critical-06-01.jpg",
+    "review/v15-b49533215c68/critical-06-02.jpg",
+    "review/v15-b49533215c68/critical-07-01.jpg",
+    "review/v15-b49533215c68/critical-07-02.jpg",
+    "review/v15-b49533215c68/critical-08-01.jpg",
+    "review/v15-b49533215c68/critical-08-02.jpg",
+    "review/v15-b49533215c68/critical-09-01.jpg",
+    "review/v15-b49533215c68/critical-10-01.jpg",
+    "review/v15-b49533215c68/critical-11-01.jpg",
+    "review/v15-b49533215c68/critical-12-01.jpg",
+    "review/v15-b49533215c68/critical-13-01.jpg",
+    "review/v15-b49533215c68/critical-14-01.jpg"
+  ],
+  "phone_checks": [
+    {
+      "scene": "hook",
+      "frame": 82,
+      "path": "review/v15-b49533215c68/phone-hook.png"
+    },
+    {
+      "scene": "local",
+      "frame": 181,
+      "path": "review/v15-b49533215c68/phone-local.png"
+    },
+    {
+      "scene": "production",
+      "frame": 271,
+      "path": "review/v15-b49533215c68/phone-production.png"
+    },
+    {
+      "scene": "distribution",
+      "frame": 361,
+      "path": "review/v15-b49533215c68/phone-distribution.png"
+    },
+    {
+      "scene": "target",
+      "frame": 451,
+      "path": "review/v15-b49533215c68/phone-target.png"
+    },
+    {
+      "scene": "proof",
+      "frame": 553,
+      "path": "review/v15-b49533215c68/phone-proof.png"
+    },
+    {
+      "scene": "strategy",
+      "frame": 653,
+      "path": "review/v15-b49533215c68/phone-strategy.png"
+    },
+    {
+      "scene": "cta",
+      "frame": 731,
+      "path": "review/v15-b49533215c68/phone-cta.png"
+    },
+    {
+      "scene": "brand",
+      "frame": 804,
+      "path": "review/v15-b49533215c68/phone-brand.png"
+    }
+  ],
+  "statistics": "review/v15-b49533215c68/frame-statistics.json",
+  "near_uniform_frame_candidates": [],
+  "statistics_are_review_prompts_not_automatic_visual_failures": true,
+  "subjective_listening_performed": false,
+  "continuous_playback_performed": false,
+  "visual_inspection_status": "Frames extracted; human/model image inspection must be recorded separately."
+}

@@ -1,0 +1,36 @@
+{
+  "version": "V15",
+  "duration": 27.6,
+  "fps": 30,
+  "timing_source": "Motion director confirmed 19 October 2026; semantic anchors match timing.js",
+  "narration_present": false,
+  "old_music_anchors": [0, 3.85, 6.35, 9, 11.35, 13.6, 18.1, 20.45, 23, 24.5, 26],
+  "new_music_anchors": [0, 4, 7, 10, 13, 16, 19.6, 22.8, 23.7, 25.1, 27.6],
+  "scenes": [
+    {"id": "hook", "start": 0, "end": 4},
+    {"id": "local", "start": 4, "end": 7},
+    {"id": "production", "start": 7, "end": 10},
+    {"id": "distribution", "start": 10, "end": 13},
+    {"id": "location", "start": 13, "end": 16},
+    {"id": "proof", "start": 16, "end": 19.6},
+    {"id": "strategy", "start": 19.6, "end": 22.8},
+    {"id": "invitation", "start": 22.8, "end": 25.1},
+    {"id": "signature", "start": 25.1, "end": 27.6}
+  ],
+  "music_energy_points": [[0,0.76],[0.1,0.96],[2.48,0.96],[2.66,0.31],[2.78,0.45],[3.10,0.96],[6.6,0.98],[6.95,0.70],[7.34,1.0],[9.7,1.0],[10.0,0.78],[10.4,1.02],[12.75,1.0],[13.1,0.86],[14.1,0.95],[15.5,0.95],[15.76,0.16],[16.04,0.16],[16.2,0.58],[16.55,0.88],[17.4,0.72],[19.1,0.72],[19.6,1.0],[22.45,1.0],[22.8,0.78],[23.7,0.70],[24.0,0.62],[25.0,0.62],[25.1,0.9],[26.1,0.78],[27.2,0.66],[27.6,0]],
+  "events": [
+    {"id":"opening", "anchor":0.04,"source":"impact","duration":0.42,"level_dbfs":-15.0,"pan":0,"lowpass":5800,"peak_lead":0,"role":"Short controlled first-frame kinetic company impact"},
+    {"id":"known_band", "anchor":0.85,"source":"swoosh","duration":0.32,"level_dbfs":-23.5,"pan":-0.22,"lowpass":4800,"peak_lead":0.05,"role":"Known band glides into place, not every word"},
+    {"id":"question", "anchor":2.78,"source":"impact","duration":0.50,"level_dbfs":-15.5,"pan":0,"lowpass":7800,"peak_lead":0,"role":"Coral question after deliberate musical breath"},
+    {"id":"local_aperture", "anchor":3.97,"source":"swoosh","duration":0.45,"level_dbfs":-22.0,"pan":0.24,"lowpass":7200,"peak_lead":0.03,"role":"Line bends into the city image aperture"},
+    {"id":"ink_reveal", "anchor":7.05,"source":"swoosh","duration":0.62,"level_dbfs":-20.5,"pan":-0.28,"lowpass":6100,"peak_lead":0.05,"role":"Organic ink opens the actual Danny’s Presentes footage"},
+    {"id":"film_to_arrow", "anchor":9.93,"source":"swoosh","duration":0.40,"level_dbfs":-22.5,"pan":0.32,"lowpass":8200,"peak_lead":0.06,"role":"Film border travels into distribution arrow"},
+    {"id":"pin_transform", "anchor":13.08,"source":"swoosh","duration":0.46,"level_dbfs":-23.5,"pan":-0.16,"lowpass":4500,"peak_lead":0.05,"role":"Arrow resolves into geographical marker"},
+    {"id":"pin_contact", "anchor":14.10,"source":"impact","duration":0.14,"level_dbfs":-27.0,"pan":0,"lowpass":2200,"peak_lead":0,"role":"Restrained low-frequency pin contact, short filtered excerpt"},
+    {"id":"proof_reveal_air", "anchor":16.10,"source":"swoosh","duration":0.50,"level_dbfs":-22.0,"pan":0.2,"lowpass":7400,"peak_lead":0.12,"role":"Flare anticipation leads toward strongest numeric impact"},
+    {"id":"proof_impact", "anchor":16.20,"source":"impact","duration":1.05,"level_dbfs":-12.5,"pan":0,"lowpass":12000,"peak_lead":0,"role":"20 mil arrives; longer tail, then reading space"},
+    {"id":"proof_to_strategy", "anchor":19.58,"source":"swoosh","duration":0.47,"level_dbfs":-23.0,"pan":-0.23,"lowpass":5300,"peak_lead":0.05,"role":"Proof circle opens the connected strategy scene"},
+    {"id":"invitation", "anchor":22.94,"source":"swoosh","duration":0.48,"level_dbfs":-24.5,"pan":0.12,"lowpass":4700,"peak_lead":0.06,"role":"Connection path becomes invitation field; fewer sounds for CTA"},
+    {"id":"signature", "anchor":25.18,"source":"impact","duration":0.28,"level_dbfs":-25.5,"pan":0,"lowpass":1900,"peak_lead":0,"role":"Subtle bass accent under authored musical signature resolution"}
+  ]
+}

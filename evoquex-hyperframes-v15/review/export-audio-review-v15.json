@@ -1,0 +1,223 @@
+{
+  "reviewed_at_utc": "2026-10-19T20:12:59.712427+00:00",
+  "version": "V15",
+  "review_kind": "Independent technical audio export review; no subjective playback/listening",
+  "verdict": "pass_technical_checks_with_encoded_true_peak_note",
+  "blocking_defects_found": false,
+  "video_path": "/workspace/VIDEOS/evoquex-hyperframes-v15/renders/evoquex-hyperframes-v15.mp4",
+  "video_sha256": "b49533215c68181ad225d74de8aa58de6e4ee496e5a330bdec9d62caa1724e1d",
+  "source_bundle_id": "c2968c97deb6c129d7c87d098da4c27f10e080d6bf28817a98b2e4cfe49138d6",
+  "video_hash_matches_output_validation": true,
+  "all_frozen_input_hashes_match": true,
+  "export_measurements": {
+    "measurement_source": "review/output-validation-v15.json; full-program probe, decode, correlation and loudnorm measurements reused rather than repeated",
+    "measurement_file_sha256": "81625a088f6272a84986e36e390b7a2d351251da1343694cb032b3f0785d4573",
+    "codec": "aac",
+    "duration_s": 27.6,
+    "sample_rate": 48000,
+    "channels": 2,
+    "integrated_lufs": -16.22,
+    "true_peak_dbtp": -1.55,
+    "loudness_range_lu": 6.7,
+    "clipped_decoded_samples": 0,
+    "full_decode_passed": true,
+    "whole_program_correlation_with_source_mix": 0.999693521268914
+  },
+  "source_mix": {
+    "path": "assets/mix-v15.wav",
+    "sha256": "6d6d6d4e985700445c8e2e6e06065896b33c5b0509a907a0a25f349a5d1ec53d",
+    "integrated_lufs": -16.21,
+    "true_peak_dbtp": -1.98
+  },
+  "encoded_peak_note": {
+    "rise_from_source_dbtp": 0.43,
+    "remaining_true_peak_headroom_db": 1.55,
+    "readme_source_acceptance_dbtp": -1.8,
+    "export_exceeds_readme_value_by_db": 0.25,
+    "interpretation": "No decoded clipping. The source WAV meets the documented -1.8 dBTP source threshold. The encoded AAC measures -1.55 dBTP. If that same threshold is imposed on the encoded deliverable, a new master with additional headroom and a fresh frozen render would be required. The loudnorm diagnostic output_tp=-1.80 is a hypothetical filtered result, not the MP4 measured peak."
+  },
+  "no_voice_evidence": {
+    "campaign_html_element": "index.html #real-film",
+    "campaign_source": "assets/campanha.mp4",
+    "muted_attribute_present": true,
+    "data_volume": 0,
+    "campaign_timeline_window_s": [
+      6.74,
+      10.3
+    ],
+    "only_active_audio_element": "#soundtrack assets/mix-v15.wav, start 0, duration 27.6, volume 1",
+    "synthesis_inputs": "Frozen build script reads authored note score, soundfont and two pack effects; no campaign audio, narration, reference audio or TTS input",
+    "additional_partial_export_check": {
+      "method": "FFmpeg decode only campaign window and compare to corresponding source WAV PCM",
+      "decoded_frames": 170880,
+      "correlation": 0.999846562652438,
+      "difference_rms_dbfs": -52.159794656009794,
+      "residual_snr_db": 35.10471097354533,
+      "applicability_to_replacement": "Performed on prior candidate; byte-identical AAC and identical packet timing prove the same decoded campaign segment in this replacement."
+    },
+    "conclusion": "Pipeline and waveform evidence support the intended music/effects-only export with no campaign voice mixed. This is not a subjective speech-listening or speech-recognition claim."
+  },
+  "actual_pack_sfx_evidence": {
+    "files": [
+      {
+        "path": "resources/audio/pack-sources/SFX - Fast Swoosh 1.wav",
+        "sha256": "68a0da89fe528a5468f2902b73a6d53b3a68bd82370e98384154db7287a97473",
+        "original_library_path": "../biblioteca/packs/6000-motion-audit-v13/SFX - Fast Swoosh 1.wav",
+        "original_library_sha256": "68a0da89fe528a5468f2902b73a6d53b3a68bd82370e98384154db7287a97473"
+      },
+      {
+        "path": "resources/audio/pack-sources/SFX - Impact 1.wav",
+        "sha256": "cc87bf699bec061913cb96eac93adbe986be98da69472703fd4e4b02c4dd6172",
+        "original_library_path": "../biblioteca/packs/6000-motion-audit-v13/SFX - Impact 1.wav",
+        "original_library_sha256": "cc87bf699bec061913cb96eac93adbe986be98da69472703fd4e4b02c4dd6172"
+      }
+    ],
+    "distinct_source_files": 2,
+    "events": 13,
+    "effects_stem_sha256": "5ca071e2fa5998974491bd3ecd31986ce8a0030b970f6b13b705d2666ac2cb57",
+    "music_stem_sha256": "11121f9e79a9dc5a49357a39d62724455e76ecd0aa093140ba125bd27ab4be92",
+    "independent_check": "Read actual source WAVs, apply declared atempo/trim, bandpass, edge envelope, gain and stereo pan; place each at recorded time; compare reconstructed PCM to stored effects stem. No production files or build scripts executed or changed.",
+    "all_effects_pcm_samples_identical_to_reconstruction": true,
+    "max_pcm_sample_difference": 0,
+    "effects_nonzero_channel_samples": 437251,
+    "premix_equals_music_plus_effects_within_quantization": true,
+    "max_premix_sum_error_lsb": 1,
+    "premix_samples_with_sum_error_over_one_lsb": 0
+  },
+  "cue_alignment": {
+    "method": "Independently recomputed 10 ms block energy maxima on treated isolated source effects, before summing. Compared with anchor minus explicit peak_lead.",
+    "energy_window_s": 0.01,
+    "all_13_peak_targets_match_to_sample_precision": true,
+    "scene_time_windows_equal_active_contract": true,
+    "scene_id_aliases": {
+      "location": "target",
+      "invitation": "cta",
+      "signature": "brand"
+    },
+    "events": [
+      {
+        "id": "opening",
+        "visual_cue_anchor_s": 0.04,
+        "intentional_anticipation_s": 0,
+        "measured_isolated_energy_peak_s": 0.04
+      },
+      {
+        "id": "known_band",
+        "visual_cue_anchor_s": 0.85,
+        "intentional_anticipation_s": 0.05,
+        "measured_isolated_energy_peak_s": 0.8
+      },
+      {
+        "id": "question",
+        "visual_cue_anchor_s": 2.78,
+        "intentional_anticipation_s": 0,
+        "measured_isolated_energy_peak_s": 2.78
+      },
+      {
+        "id": "local_aperture",
+        "visual_cue_anchor_s": 3.97,
+        "intentional_anticipation_s": 0.03,
+        "measured_isolated_energy_peak_s": 3.94
+      },
+      {
+        "id": "ink_reveal",
+        "visual_cue_anchor_s": 7.05,
+        "intentional_anticipation_s": 0.05,
+        "measured_isolated_energy_peak_s": 7.0
+      },
+      {
+        "id": "film_to_arrow",
+        "visual_cue_anchor_s": 9.93,
+        "intentional_anticipation_s": 0.06,
+        "measured_isolated_energy_peak_s": 9.87
+      },
+      {
+        "id": "pin_transform",
+        "visual_cue_anchor_s": 13.08,
+        "intentional_anticipation_s": 0.05,
+        "measured_isolated_energy_peak_s": 13.03
+      },
+      {
+        "id": "pin_contact",
+        "visual_cue_anchor_s": 14.1,
+        "intentional_anticipation_s": 0,
+        "measured_isolated_energy_peak_s": 14.1
+      },
+      {
+        "id": "proof_reveal_air",
+        "visual_cue_anchor_s": 16.1,
+        "intentional_anticipation_s": 0.12,
+        "measured_isolated_energy_peak_s": 15.98
+      },
+      {
+        "id": "proof_impact",
+        "visual_cue_anchor_s": 16.2,
+        "intentional_anticipation_s": 0,
+        "measured_isolated_energy_peak_s": 16.2
+      },
+      {
+        "id": "proof_to_strategy",
+        "visual_cue_anchor_s": 19.58,
+        "intentional_anticipation_s": 0.05,
+        "measured_isolated_energy_peak_s": 19.53
+      },
+      {
+        "id": "invitation",
+        "visual_cue_anchor_s": 22.94,
+        "intentional_anticipation_s": 0.06,
+        "measured_isolated_energy_peak_s": 22.88
+      },
+      {
+        "id": "signature",
+        "visual_cue_anchor_s": 25.18,
+        "intentional_anticipation_s": 0,
+        "measured_isolated_energy_peak_s": 25.18
+      }
+    ],
+    "limitation": "This validates declared cue timing and actual source waveform placement. It does not independently approve the subjective audiovisual synchronization of motion, mixed audio or overlapping cues. At 30 fps, image timing is sampled in 33.33 ms frames; effect energy uses 10 ms windows."
+  },
+  "tail_check": {
+    "method": "Independent FFmpeg decode of final second, 26.6–27.6 s",
+    "decoded_frames": 48000,
+    "final_10ms_rms": 0.0,
+    "final_10ms_rms_dbfs": null,
+    "dbfs_note": "Exact digital silence; previous finite logarithm floor was -240 dBFS, not a nonzero measured level.",
+    "final_decoded_sample_max_abs": 0.0,
+    "source_mix_final_sample_max_abs": 0.0,
+    "applicability_to_replacement": "Performed on prior candidate; byte-identical AAC and identical packet timing prove the same digital-silence tail in this replacement."
+  },
+  "preserved_external_voice_workflow": "No voice generated or configured. NARRATION-HANDOFF.md and separate stems retain future externally supplied ElevenLabs integration.",
+  "subjective_listening_performed": false,
+  "continuous_audio_playback_performed": false,
+  "limitations": [
+    "No tool providing subjective listening was available; tonal balance, musical taste and perceptual sync were not approved by hearing.",
+    "The high AAC/source correlation demonstrates signal consistency but is not mathematical proof that every possible inaudible foreign component is absent.",
+    "Source and runtime files were frozen and were not modified. This review writes only its JSON and Markdown reports."
+  ],
+  "superseded_candidates": [
+    {
+      "status": "superseded_after_visual_only_css_correction",
+      "video_path": "review/candidate-e69aa4b4fdcb.mp4",
+      "video_sha256": "e69aa4b4fdcb99395b2707bbca27c59dd67cba64f50347eeb1684a8b630913bc",
+      "source_bundle_id": "014ead5abeff35217566d3aaab8de48a8ed9f8bffa2e49982aad432e1233b9d5",
+      "technical_audio_verdict": "pass_technical_checks_with_encoded_true_peak_note",
+      "integrated_lufs": -16.22,
+      "true_peak_dbtp": -1.55,
+      "clipped_samples": 0,
+      "original_reviewed_at_utc": "2026-10-19T20:05:08.036453+00:00",
+      "reason": "A visual opacity correction required rerendering; no audio or timing inputs changed."
+    }
+  ],
+  "replacement_render_audio_equivalence": {
+    "method": "Lossless AAC stream-copy to ADTS in memory for both MP4s, SHA-256 comparison; independent ffprobe comparison of all audio packet timestamps, durations, flags and side data and audio stream timing metadata. No heavy decode or loudness job repeated.",
+    "aac_adts_streams_exactly_identical": true,
+    "aac_adts_bytes_each": 696315,
+    "aac_adts_sha256": "1cb341676f3da54e25e0d433307a85955f235ba09dfc2997dd6fc82c3636dd78",
+    "all_audio_packet_timing_and_selected_stream_metadata_identical": true,
+    "audio_packet_count": 1295,
+    "changed_frozen_input_paths": [
+      "style.css"
+    ],
+    "conclusion": "The previous independently verified campaign-window waveform, silent tail, cue placement and pack-stem reconstruction remain applicable to this replacement render, because encoded audio contents, audio timing and all audio inputs are identical. Current full-program QA independently remeasured the replacement export."
+  }
+}

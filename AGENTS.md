@@ -168,3 +168,31 @@ lista de skills, código ou descrição do processo. Fontes, auditorias e QA per
 internos ao repositório. Se um bloqueio real impedir a conclusão, informar apenas o
 impedimento específico. As decisões criativas já estão autorizadas; não pedir
 aprovação a cada transição ou escolha técnica.
+
+## Direção vigente V15 — 19/10/2026
+
+O pedido completo está em `evoquex-hyperframes-v15/resources/briefing-v15.txt` e
+prevalece sobre restrições históricas conflitantes. A V15 permite reconstruir o
+hook e o restante, variar a paleta com função narrativa e retimar as nove cenas
+para leitura. Não limitar a edição a azul, branco e preto. Preserve versões anteriores.
+
+As duas bibliotecas são fontes efetivas de produção: componentes do HyperFrames e
+assets dos packs. O usuário autorizou o uso comercial dos materiais que forneceu;
+não bloquear por dúvidas genéricas de licença. Verificar compatibilidade, origem,
+integridade e uso real na composição. Consultar seleções existentes antes de baixar
+packs inteiros. AEP/MOGRT não passam a ser executáveis apenas por terem sido extraídos.
+
+Nesta fase, música e efeitos, **sem geração de voz ou configuração de TTS**. A voz
+do ElevenLabs será fornecida pelo usuário depois. Manter cenas, marcadores sonoros
+e stems editáveis para sincronizar esse áudio sem reconstruir a composição.
+
+Dado ativo: “20 mil visualizações de pessoas de Clevelândia”, informado pelo usuário.
+Não transformar em alcance, pessoas únicas, vendas ou contadores. A imagem aérea
+disponível é fotografia; não afirmar que existe filmagem aérea. Danny’s Presentes é
+a grafia obrigatória. Preservar registro histórico das outras métricas.
+
+Estudar os três MP4 reais antes da execução e revisar o MP4 final por toda a duração,
+com sequências densas de abertura e transições. Registrar exatamente os métodos
+disponíveis de revisão; decodificação/medição de áudio não equivale a escuta humana.
+Entrega: MP4 com link direto, caminho, dimensões, fps, duração e revisão realizada;
+informar apenas limitações relevantes. Sem montagem comparativa.

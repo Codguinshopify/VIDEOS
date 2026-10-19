@@ -1,0 +1,867 @@
+{
+  "ok": false,
+  "strict": false,
+  "browserSkipped": false,
+  "lint": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 0,
+    "infoCount": 0,
+    "findings": [],
+    "filesScanned": 1
+  },
+  "runtime": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 0,
+    "infoCount": 0,
+    "findings": []
+  },
+  "layout": {
+    "ok": false,
+    "errorCount": 11,
+    "warningCount": 3,
+    "infoCount": 7,
+    "findings": [
+      {
+        "code": "text_occluded",
+        "severity": "error",
+        "time": 13.7,
+        "selector": "div.question-prefix.mask > span:nth-of-type(1)",
+        "message": "Text is hidden beneath an opaque element.",
+        "rect": {
+          "left": 82,
+          "top": 760.86,
+          "right": 390.03,
+          "bottom": 906.86,
+          "width": 308.03,
+          "height": 146
+        },
+        "containerSelector": "#target-scene",
+        "text": "MAS É",
+        "fixHint": "Give the text its own zone, raise its stacking order above the covering element, or mark intentional layering with data-layout-allow-occlusion.",
+        "coveredFraction": 1,
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 82,
+          "y": 760.86,
+          "width": 308.03,
+          "height": 146
+        },
+        "firstSeen": 13.7,
+        "lastSeen": 13.7,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          13.7
+        ]
+      },
+      {
+        "code": "text_occluded",
+        "severity": "error",
+        "time": 13.7,
+        "selector": "div.question-word > span:nth-of-type(1)",
+        "message": "Text is hidden beneath an opaque element.",
+        "rect": {
+          "left": 80,
+          "top": 902.86,
+          "right": 226.78,
+          "bottom": 1187.86,
+          "width": 146.78,
+          "height": 285
+        },
+        "containerSelector": "#target-scene",
+        "text": "V",
+        "fixHint": "Give the text its own zone, raise its stacking order above the covering element, or mark intentional layering with data-layout-allow-occlusion.",
+        "coveredFraction": 1,
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 80,
+          "y": 902.86,
+          "width": 146.78,
+          "height": 285
+        },
+        "firstSeen": 13.7,
+        "lastSeen": 13.7,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          13.7
+        ]
+      },
+      {
+        "code": "text_occluded",
+        "severity": "error",
+        "time": 13.7,
+        "selector": "div.question-word > span:nth-of-type(2)",
+        "message": "Text is hidden beneath an opaque element.",
+        "rect": {
+          "left": 226.78,
+          "top": 902.86,
+          "right": 278.95,
+          "bottom": 1187.86,
+          "width": 52.17,
+          "height": 285
+        },
+        "containerSelector": "#target-scene",
+        "text": "I",
+        "fixHint": "Give the text its own zone, raise its stacking order above the covering element, or mark intentional layering with data-layout-allow-occlusion.",
+        "coveredFraction": 1,
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 226.78,
+          "y": 902.86,
+          "width": 52.17,
+          "height": 285
+        },
+        "firstSeen": 13.7,
+        "lastSeen": 13.7,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          13.7
+        ]
+      },
+      {
+        "code": "text_occluded",
+        "severity": "error",
+        "time": 13.7,
+        "selector": "div.question-word > span:nth-of-type(3)",
+        "message": "Text is hidden beneath an opaque element.",
+        "rect": {
+          "left": 278.95,
+          "top": 902.86,
+          "right": 401.86,
+          "bottom": 1187.86,
+          "width": 122.91,
+          "height": 285
+        },
+        "containerSelector": "#target-scene",
+        "text": "S",
+        "fixHint": "Give the text its own zone, raise its stacking order above the covering element, or mark intentional layering with data-layout-allow-occlusion.",
+        "coveredFraction": 1,
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 278.95,
+          "y": 902.86,
+          "width": 122.91,
+          "height": 285
+        },
+        "firstSeen": 13.7,
+        "lastSeen": 13.7,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          13.7
+        ]
+      },
+      {
+        "code": "text_occluded",
+        "severity": "error",
+        "time": 13.7,
+        "selector": "div.question-word > span:nth-of-type(4)",
+        "message": "Text is hidden beneath an opaque element.",
+        "rect": {
+          "left": 401.86,
+          "top": 902.86,
+          "right": 524.77,
+          "bottom": 1187.86,
+          "width": 122.91,
+          "height": 285
+        },
+        "containerSelector": "#target-scene",
+        "text": "T",
+        "fixHint": "Give the text its own zone, raise its stacking order above the covering element, or mark intentional layering with data-layout-allow-occlusion.",
+        "coveredFraction": 1,
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 401.86,
+          "y": 902.86,
+          "width": 122.91,
+          "height": 285
+        },
+        "firstSeen": 13.7,
+        "lastSeen": 13.7,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          13.7
+        ]
+      },
+      {
+        "code": "text_occluded",
+        "severity": "error",
+        "time": 13.7,
+        "selector": "div.question-word > span:nth-of-type(5)",
+        "message": "Text is hidden beneath an opaque element.",
+        "rect": {
+          "left": 524.77,
+          "top": 902.86,
+          "right": 672.86,
+          "bottom": 1187.86,
+          "width": 148.09,
+          "height": 285
+        },
+        "containerSelector": "#target-scene",
+        "text": "A",
+        "fixHint": "Give the text its own zone, raise its stacking order above the covering element, or mark intentional layering with data-layout-allow-occlusion.",
+        "coveredFraction": 1,
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 524.77,
+          "y": 902.86,
+          "width": 148.09,
+          "height": 285
+        },
+        "firstSeen": 13.7,
+        "lastSeen": 13.7,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          13.7
+        ]
+      },
+      {
+        "code": "text_occluded",
+        "severity": "error",
+        "time": 13.7,
+        "selector": "div.question-word > span:nth-of-type(6)",
+        "message": "Text is hidden beneath an opaque element.",
+        "rect": {
+          "left": 672.86,
+          "top": 902.86,
+          "right": 780.66,
+          "bottom": 1187.86,
+          "width": 107.8,
+          "height": 285
+        },
+        "containerSelector": "#target-scene",
+        "text": "?",
+        "fixHint": "Give the text its own zone, raise its stacking order above the covering element, or mark intentional layering with data-layout-allow-occlusion.",
+        "coveredFraction": 1,
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 672.86,
+          "y": 902.86,
+          "width": 107.8,
+          "height": 285
+        },
+        "firstSeen": 13.7,
+        "lastSeen": 13.7,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          13.7
+        ]
+      },
+      {
+        "code": "text_occluded",
+        "severity": "error",
+        "time": 13.7,
+        "selector": "#produzimos",
+        "message": "Text is hidden beneath an opaque element.",
+        "rect": {
+          "left": 82,
+          "top": 239,
+          "right": 695.89,
+          "bottom": 390,
+          "width": 613.89,
+          "height": 151
+        },
+        "containerSelector": "#target-scene",
+        "text": "Produzimos",
+        "fixHint": "Give the text its own zone, raise its stacking order above the covering element, or mark intentional layering with data-layout-allow-occlusion.",
+        "coveredFraction": 1,
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 82,
+          "y": 239,
+          "width": 613.89,
+          "height": 151
+        },
+        "firstSeen": 13.7,
+        "lastSeen": 13.7,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          13.7
+        ]
+      },
+      {
+        "code": "text_occluded",
+        "severity": "error",
+        "time": 13.7,
+        "selector": "#o-video",
+        "message": "Text is hidden beneath an opaque element.",
+        "rect": {
+          "left": 82,
+          "top": 366.52,
+          "right": 688.06,
+          "bottom": 596.52,
+          "width": 606.06,
+          "height": 230
+        },
+        "containerSelector": "#target-scene",
+        "text": "o vídeo.",
+        "fixHint": "Give the text its own zone, raise its stacking order above the covering element, or mark intentional layering with data-layout-allow-occlusion.",
+        "coveredFraction": 1,
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 82,
+          "y": 366.52,
+          "width": 606.06,
+          "height": 230
+        },
+        "firstSeen": 13.7,
+        "lastSeen": 13.7,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          13.7
+        ]
+      },
+      {
+        "code": "text_occluded",
+        "severity": "error",
+        "time": 13.7,
+        "selector": "#client-first",
+        "message": "Text is hidden beneath an opaque element.",
+        "rect": {
+          "left": 710,
+          "top": 983.23,
+          "right": 958.45,
+          "bottom": 1075.23,
+          "width": 248.45,
+          "height": 92
+        },
+        "containerSelector": "#target-scene",
+        "text": "Danny’s",
+        "fixHint": "Give the text its own zone, raise its stacking order above the covering element, or mark intentional layering with data-layout-allow-occlusion.",
+        "coveredFraction": 1,
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 710,
+          "y": 983.23,
+          "width": 248.45,
+          "height": 92
+        },
+        "firstSeen": 13.7,
+        "lastSeen": 13.7,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          13.7
+        ]
+      },
+      {
+        "code": "text_occluded",
+        "severity": "error",
+        "time": 13.7,
+        "selector": "#client-last",
+        "message": "Text is hidden beneath an opaque element.",
+        "rect": {
+          "left": 710,
+          "top": 1070.06,
+          "right": 982.98,
+          "bottom": 1150.06,
+          "width": 272.98,
+          "height": 80
+        },
+        "containerSelector": "#target-scene",
+        "text": "Presentes",
+        "fixHint": "Give the text its own zone, raise its stacking order above the covering element, or mark intentional layering with data-layout-allow-occlusion.",
+        "coveredFraction": 1,
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 710,
+          "y": 1070.06,
+          "width": 272.98,
+          "height": 80
+        },
+        "firstSeen": 13.7,
+        "lastSeen": 13.7,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          13.7
+        ]
+      },
+      {
+        "code": "content_overlap",
+        "severity": "warning",
+        "time": 10.615,
+        "selector": "#client-first",
+        "message": "Two text blocks overlap and may render unreadable.",
+        "rect": {
+          "left": 710,
+          "top": 983.23,
+          "right": 958.45,
+          "bottom": 1075.23,
+          "width": 248.45,
+          "height": 92
+        },
+        "containerSelector": "#brand-word > span:nth-of-type(7)",
+        "text": "Danny’s",
+        "fixHint": "Give each block its own zone, or put data-layout-allow-overlap on the text or on a container inside the scene. A marker on the scene root does not apply.",
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 710,
+          "y": 983.23,
+          "width": 248.45,
+          "height": 92
+        },
+        "firstSeen": 10.615,
+        "lastSeen": 25.477,
+        "occurrences": 15,
+        "heldMs": 1374.0000000000023,
+        "times": [
+          10.615,
+          10.74,
+          16.735,
+          16.86,
+          16.985,
+          17.11,
+          17.234,
+          17.359,
+          17.484,
+          17.609,
+          17.734,
+          17.859,
+          17.984,
+          18.109,
+          25.477
+        ]
+      },
+      {
+        "code": "content_overlap",
+        "severity": "warning",
+        "time": 10.615,
+        "selector": "#client-last",
+        "message": "Two text blocks overlap and may render unreadable.",
+        "rect": {
+          "left": 710,
+          "top": 1070.06,
+          "right": 982.98,
+          "bottom": 1150.06,
+          "width": 272.98,
+          "height": 80
+        },
+        "containerSelector": "#brand-word > span:nth-of-type(7)",
+        "text": "Presentes",
+        "fixHint": "Give each block its own zone, or put data-layout-allow-overlap on the text or on a container inside the scene. A marker on the scene root does not apply.",
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 710,
+          "y": 1070.06,
+          "width": 272.98,
+          "height": 80
+        },
+        "firstSeen": 10.615,
+        "lastSeen": 25.477,
+        "occurrences": 2,
+        "heldMs": 0,
+        "times": [
+          10.615,
+          25.477
+        ]
+      },
+      {
+        "code": "content_overlap",
+        "severity": "warning",
+        "time": 25.352,
+        "selector": "#gente",
+        "message": "Two text blocks overlap and may render unreadable.",
+        "rect": {
+          "left": 87.09,
+          "top": 919.5,
+          "right": 709.88,
+          "bottom": 1160.2,
+          "width": 622.79,
+          "height": 240.7
+        },
+        "containerSelector": "#brand-signature > span:nth-of-type(1)",
+        "text": "gente.",
+        "fixHint": "Give each block its own zone, or put data-layout-allow-overlap on the text or on a container inside the scene. A marker on the scene root does not apply.",
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 87.09,
+          "y": 919.5,
+          "width": 622.79,
+          "height": 240.7
+        },
+        "firstSeen": 25.352,
+        "lastSeen": 25.352,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          25.352
+        ]
+      },
+      {
+        "code": "canvas_overflow",
+        "severity": "info",
+        "time": 13.7,
+        "selector": "div.hook-signature",
+        "message": "Text extends outside the composition canvas.",
+        "rect": {
+          "left": -699.83,
+          "top": 739.16,
+          "right": -637.88,
+          "bottom": 787.84,
+          "width": 61.95,
+          "height": 48.68
+        },
+        "containerSelector": "#root",
+        "text": "Evoquex",
+        "fixHint": "Move the text inward, reduce its size, or mark intentional off-canvas animation with data-layout-allow-overflow.",
+        "containerRect": {
+          "left": 0,
+          "top": 0,
+          "right": 1080,
+          "bottom": 1920,
+          "width": 1080,
+          "height": 1920
+        },
+        "overflow": {
+          "left": 699.83
+        },
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": -699.83,
+          "y": 739.16,
+          "width": 61.95,
+          "height": 48.68
+        },
+        "firstSeen": 13.7,
+        "lastSeen": 13.7,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          13.7
+        ]
+      },
+      {
+        "code": "canvas_overflow",
+        "severity": "info",
+        "time": 13.7,
+        "selector": "div.sua.mask > span:nth-of-type(1)",
+        "message": "Text extends outside the composition canvas.",
+        "rect": {
+          "left": -699.09,
+          "top": 845.3,
+          "right": -602.07,
+          "bottom": 985.08,
+          "width": 97.02,
+          "height": 139.78
+        },
+        "containerSelector": "#root",
+        "text": "SUA",
+        "fixHint": "Move the text inward, reduce its size, or mark intentional off-canvas animation with data-layout-allow-overflow.",
+        "containerRect": {
+          "left": 0,
+          "top": 0,
+          "right": 1080,
+          "bottom": 1920,
+          "width": 1080,
+          "height": 1920
+        },
+        "overflow": {
+          "left": 699.09
+        },
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": -699.09,
+          "y": 845.3,
+          "width": 97.02,
+          "height": 139.78
+        },
+        "firstSeen": 13.7,
+        "lastSeen": 13.7,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          13.7
+        ]
+      },
+      {
+        "code": "canvas_overflow",
+        "severity": "info",
+        "time": 13.7,
+        "selector": "div.empresa.mask > span:nth-of-type(1)",
+        "message": "Text extends outside the composition canvas.",
+        "rect": {
+          "left": -699.09,
+          "top": 973.37,
+          "right": -366.51,
+          "bottom": 1177.75,
+          "width": 332.58,
+          "height": 204.38
+        },
+        "containerSelector": "#root",
+        "text": "EMPRESA",
+        "fixHint": "Move the text inward, reduce its size, or mark intentional off-canvas animation with data-layout-allow-overflow.",
+        "containerRect": {
+          "left": 0,
+          "top": 0,
+          "right": 1080,
+          "bottom": 1920,
+          "width": 1080,
+          "height": 1920
+        },
+        "overflow": {
+          "left": 699.09
+        },
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": -699.09,
+          "y": 973.37,
+          "width": 332.58,
+          "height": 204.38
+        },
+        "firstSeen": 13.7,
+        "lastSeen": 13.7,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          13.7
+        ]
+      },
+      {
+        "code": "canvas_overflow",
+        "severity": "info",
+        "time": 13.7,
+        "selector": "div.known-prefix",
+        "message": "Text extends outside the composition canvas.",
+        "rect": {
+          "left": 164.65,
+          "top": -252.66,
+          "right": 229.64,
+          "bottom": -198.11,
+          "width": 64.99,
+          "height": 54.55
+        },
+        "containerSelector": "#root",
+        "text": "É",
+        "fixHint": "Move the text inward, reduce its size, or mark intentional off-canvas animation with data-layout-allow-overflow.",
+        "containerRect": {
+          "left": 0,
+          "top": 0,
+          "right": 1080,
+          "bottom": 1920,
+          "width": 1080,
+          "height": 1920
+        },
+        "overflow": {
+          "top": 252.66
+        },
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 164.65,
+          "y": -252.66,
+          "width": 64.99,
+          "height": 54.55
+        },
+        "firstSeen": 13.7,
+        "lastSeen": 13.7,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          13.7
+        ]
+      },
+      {
+        "code": "canvas_overflow",
+        "severity": "info",
+        "time": 13.7,
+        "selector": "div.known-band > span:nth-of-type(1)",
+        "message": "Text extends outside the composition canvas.",
+        "rect": {
+          "left": 279.01,
+          "top": -140.7,
+          "right": 807.53,
+          "bottom": -53.91,
+          "width": 528.52,
+          "height": 86.79
+        },
+        "containerSelector": "#root",
+        "text": "CONHECIDA",
+        "fixHint": "Move the text inward, reduce its size, or mark intentional off-canvas animation with data-layout-allow-overflow.",
+        "containerRect": {
+          "left": 0,
+          "top": 0,
+          "right": 1080,
+          "bottom": 1920,
+          "width": 1080,
+          "height": 1920
+        },
+        "overflow": {
+          "top": 140.7
+        },
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 279.01,
+          "y": -140.7,
+          "width": 528.52,
+          "height": 86.79
+        },
+        "firstSeen": 13.7,
+        "lastSeen": 13.7,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          13.7
+        ]
+      },
+      {
+        "code": "canvas_overflow",
+        "severity": "info",
+        "time": 13.7,
+        "selector": "div.city-prefix",
+        "message": "Text extends outside the composition canvas.",
+        "rect": {
+          "left": 1209.43,
+          "top": 823.28,
+          "right": 1389.35,
+          "bottom": 987.38,
+          "width": 179.92,
+          "height": 164.1
+        },
+        "containerSelector": "#root",
+        "text": "EM",
+        "fixHint": "Move the text inward, reduce its size, or mark intentional off-canvas animation with data-layout-allow-overflow.",
+        "containerRect": {
+          "left": 0,
+          "top": 0,
+          "right": 1080,
+          "bottom": 1920,
+          "width": 1080,
+          "height": 1920
+        },
+        "overflow": {
+          "right": 309.35
+        },
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 1209.43,
+          "y": 823.28,
+          "width": 179.92,
+          "height": 164.1
+        },
+        "firstSeen": 13.7,
+        "lastSeen": 13.7,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          13.7
+        ]
+      },
+      {
+        "code": "canvas_overflow",
+        "severity": "info",
+        "time": 13.7,
+        "selector": "div.city-name.mask > span:nth-of-type(1)",
+        "message": "Text extends outside the composition canvas.",
+        "rect": {
+          "left": 1232.56,
+          "top": 894.81,
+          "right": 1972.73,
+          "bottom": 1138.61,
+          "width": 740.17,
+          "height": 243.8
+        },
+        "containerSelector": "#root",
+        "text": "CLEVELÂNDIA.",
+        "fixHint": "Move the text inward, reduce its size, or mark intentional off-canvas animation with data-layout-allow-overflow.",
+        "containerRect": {
+          "left": 0,
+          "top": 0,
+          "right": 1080,
+          "bottom": 1920,
+          "width": 1080,
+          "height": 1920
+        },
+        "overflow": {
+          "right": 892.73
+        },
+        "dataAttributes": {},
+        "sourceFile": "index.html",
+        "bbox": {
+          "x": 1232.56,
+          "y": 894.81,
+          "width": 740.17,
+          "height": 243.8
+        },
+        "firstSeen": 13.7,
+        "lastSeen": 13.7,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          13.7
+        ]
+      }
+    ],
+    "duration": 27.6,
+    "samples": [
+      13.7
+    ],
+    "transitionSamples": [],
+    "transitionSamplesDropped": 0,
+    "tolerance": 2,
+    "totalIssueCount": 21,
+    "truncated": false
+  },
+  "motion": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 0,
+    "infoCount": 0,
+    "findings": [],
+    "enabled": false,
+    "samples": 0
+  },
+  "contrast": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 0,
+    "infoCount": 0,
+    "findings": [],
+    "enabled": false,
+    "samples": [],
+    "checked": 0,
+    "passed": 0
+  },
+  "hdr": {
+    "autoPromotion": null,
+    "inspection": "available"
+  },
+  "snapshots": {
+    "enabled": false,
+    "files": [],
+    "times": [],
+    "findingFiles": []
+  },
+  "_meta": {
+    "version": "0.8.162",
+    "updateAvailable": false
+  }
+}

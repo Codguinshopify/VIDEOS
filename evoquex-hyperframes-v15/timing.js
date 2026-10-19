@@ -1,0 +1,2 @@
+/* Single production timing contract. Change scene windows here for later voice retiming. */
+window.EVOQUEX_TIMING={duration:27.6,fps:30,scenes:{hook:[0,4],local:[4,7],production:[7,10],distribution:[10,13],target:[13,16],proof:[16,19.6],strategy:[19.6,22.8],cta:[22.8,25.1],brand:[25.1,27.6]},media:{film:{start:6.74,end:10.3},flare:{start:15.72,end:16.22},dots:{start:10.16,end:11.327}},anchors:{question:2.78,cityOpen:4.45,inkStart:6.74,inkEnd:7.36,film:7.34,arrow:11, pin:13.35,ring:14.1,number:16.2,unit:16.7,qualifier:17.15,strategy:20.35,connect:21.1,cta:23.2,brand:25.65}};
