@@ -2,6 +2,7 @@
 const tl=window.__timelines['evoquex-hf-v15'];
 const T=window.EVOQUEX_TIMING,M=window.EvoquexV14,V=window.EvoquexV15;
 const S=(id,offset=0)=>T.scenes[id][0]+offset;
+const H=(oldSeconds)=>oldSeconds*(T.scenes.hook[1]/4);
 M.glyphs();gsap.registerPlugin(MotionPathPlugin);
 Object.entries(T.scenes).forEach(([id,p])=>tl.addLabel(id,p[0]));
 document.querySelector('#root').dataset.duration=T.duration;
@@ -13,30 +14,30 @@ gsap.set('#actor-position,#actor-rotation',{svgOrigin:'0 0',smoothOrigin:false})
 document.querySelector('#actor-mesh').style.filter='saturate(.95)';
 
 // 1. An immediate living type rig: the bar becomes a mask, then the question opens the city.
-tl.from('.sua span',{yPercent:13,rotationX:12,duration:.4,ease:'power3.out'},0);
-tl.from('.empresa span',{yPercent:12,rotationX:18,duration:.5,ease:'power4.out'},0);
-tl.from('.hook-signature',{y:25,opacity:.35,duration:.45,ease:'power2.out'},0);
-tl.from('.company-rule',{scaleX:.1,duration:.5,ease:'expo.out'},0);
-tl.from('#hook-company',{rotationY:-10,z:90,duration:.5,ease:'power3.out'},0);
-tl.to('#hook-company',{x:-1050,rotationY:-25,scale:.82,duration:.35,ease:'power3.inOut'},.70);
-tl.fromTo('#hook-known',{opacity:1,x:1080,rotationY:25},{opacity:1,x:0,rotationY:0,duration:.44,ease:'power4.out',immediateRender:false},.74);
-tl.from('.known-band',{scale:.62,rotation:10,y:100,duration:.49,ease:'back.out(1.1)'},.81);
-tl.to('.known-band',{rotation:-5,duration:.4,ease:'power3.out'},1.04);
-tl.from('.known-prefix',{y:-60,opacity:0,duration:.36,ease:'power2.out'},.87);
-tl.from('.known-echo',{y:90,opacity:0,rotationX:38,duration:.5,ease:'sine.out'},.82);
-tl.to('#hook-known',{y:-1100,rotationX:27,scale:.85,duration:.36,ease:'power3.inOut'},1.59);
-tl.fromTo('#hook-city',{opacity:1,y:1120,rotationX:-25},{opacity:1,y:0,rotationX:0,duration:.42,ease:'power4.out',immediateRender:false},1.64);
-tl.from('.city-name span',{x:160,rotationY:20,duration:.42,ease:'expo.out'},1.70);
-tl.from('.city-underline',{scaleX:0,duration:.43,ease:'power2.inOut'},1.82);
-tl.to('#hook-city',{x:1150,rotation:-8,duration:.38,ease:'power3.inOut'},2.47);
-tl.fromTo('#hook-question',{opacity:1,x:-1050,rotation:7},{opacity:1,x:0,rotation:0,duration:.43,ease:'power4.out',immediateRender:false},2.51);
-tl.from('.question-prefix span',{y:100,duration:.35,ease:'power2.out'},2.61);
-M.letters(tl,'.question-word',2.67,{y:90,rx:55,stagger:.023,duration:.42});
-V.draw(tl,'#question-curve',3.04,.55,'power3.inOut');
-tl.to('.hook-orbit',{scale:.8,x:-110,y:-90,duration:3.5,ease:'sine.inOut'},0);
+tl.from('.sua span',{yPercent:13,rotationX:12,duration:.4,ease:'power3.out'},H(0));
+tl.from('.empresa span',{yPercent:12,rotationX:18,duration:.5,ease:'power4.out'},H(0));
+tl.from('.hook-signature',{y:25,opacity:.35,duration:.45,ease:'power2.out'},H(0));
+tl.from('.company-rule',{scaleX:.1,duration:.5,ease:'expo.out'},H(0));
+tl.from('#hook-company',{rotationY:-10,z:90,duration:.5,ease:'power3.out'},H(0));
+tl.to('#hook-company',{x:-1050,rotationY:-25,scale:.82,duration:.35,ease:'power3.inOut'},H(.70));
+tl.fromTo('#hook-known',{opacity:1,x:1080,rotationY:25},{opacity:1,x:0,rotationY:0,duration:.44,ease:'power4.out',immediateRender:false},H(.74));
+tl.from('.known-band',{scale:.62,rotation:10,y:100,duration:.49,ease:'back.out(1.1)'},H(.81));
+tl.to('.known-band',{rotation:-5,duration:.4,ease:'power3.out'},H(1.04));
+tl.from('.known-prefix',{y:-60,opacity:0,duration:.36,ease:'power2.out'},H(.87));
+tl.from('.known-echo',{y:90,opacity:0,rotationX:38,duration:.5,ease:'sine.out'},H(.82));
+tl.to('#hook-known',{y:-1100,rotationX:27,scale:.85,duration:.36,ease:'power3.inOut'},H(1.59));
+tl.fromTo('#hook-city',{opacity:1,y:1120,rotationX:-25},{opacity:1,y:0,rotationX:0,duration:.42,ease:'power4.out',immediateRender:false},H(1.64));
+tl.from('.city-name span',{x:160,rotationY:20,duration:.42,ease:'expo.out'},H(1.70));
+tl.from('.city-underline',{scaleX:0,duration:.43,ease:'power2.inOut'},H(1.82));
+tl.to('#hook-city',{x:1150,rotation:-8,duration:.38,ease:'power3.inOut'},H(2.47));
+tl.fromTo('#hook-question',{opacity:1,x:-1050,rotation:7},{opacity:1,x:0,rotation:0,duration:.43,ease:'power4.out',immediateRender:false},H(2.51));
+tl.from('.question-prefix span',{y:100,duration:.35,ease:'power2.out'},H(2.61));
+M.letters(tl,'.question-word',H(2.67),{y:90,rx:55,stagger:.023,duration:.42});
+V.draw(tl,'#question-curve',H(3.04),.55,'power3.inOut');
+tl.to('.hook-orbit',{scale:.8,x:-110,y:-90,duration:3.5,ease:'sine.inOut'},H(0));
 
 // 2. A photographic field opens between words. The source is the user's aerial PHOTO.
-tl.fromTo('#local-scene',{opacity:1,clipPath:'circle(0px at 540px 1050px)'},{opacity:1,clipPath:'circle(1500px at 540px 1050px)',duration:.62,ease:'power3.inOut',immediateRender:false},S('local',-.22));
+tl.fromTo('#local-scene',{opacity:1,clipPath:'circle(0px at 540px 1050px)'},{opacity:1,clipPath:'circle(1500px at 540px 1050px)',duration:.44,ease:'power4.inOut',immediateRender:false},S('local',-.22));
 V.enter(tl,'#local-ja',S('local',.02),{y:120,duration:.44,ease:'expo.out'});
 V.enter(tl,'#local-aqui',S('local',.17),{y:160,rx:30,duration:.52,ease:'power4.out'});
 tl.fromTo('#local-title',{rotation:-5,x:50},{rotation:0,x:0,duration:.57,ease:'power3.inOut',immediateRender:false},S('local',.12));
@@ -51,6 +52,8 @@ tl.to('#city-frame',{rotation:-3,y:-15,scale:1.02,duration:.6,ease:'sine.inOut'}
 // 3. Real pack ink is the transition matte; one real vertical film occupies the main plane.
 tl.set('#production-scene',{opacity:1},S('production',-.26));
 V.atlas(tl,'#production-scene',S('production',-.26),.62);
+tl.fromTo('#production-brush',{opacity:0,x:-420,y:140,rotation:-16,scaleX:.72},{opacity:.26,x:0,y:0,rotation:-7,scaleX:1,duration:.58,ease:'power3.out',immediateRender:false},S('production',-.08));
+tl.to('#production-brush',{x:95,y:-45,rotation:3,scaleX:1.09,duration:1.65,ease:'sine.inOut'},S('production',.52));
 V.enter(tl,'#produzimos',S('production',.02),{y:100,duration:.43,ease:'power3.out'});
 V.enter(tl,'#o-video',S('production',.16),{y:160,rx:-25,duration:.48,ease:'expo.out'});
 tl.fromTo('#film-shell',{x:-90,y:110,rotation:-10,scale:.9},{x:0,y:0,rotation:-3,scale:1,duration:.64,ease:'power4.out',immediateRender:false},S('production',.05));
@@ -64,7 +67,7 @@ tl.fromTo('#actor-position',{opacity:0,x:865,y:620,scale:.18},{opacity:1,x:865,y
 tl.fromTo('#actor-rotation',{rotation:-15},{rotation:8,duration:1.1,ease:'sine.inOut',immediateRender:false},S('production',.65));
 
 // 4. The filmed plane hands off to an actual arrow; the trail wraps around the brand.
-tl.fromTo('#distribution-scene',{opacity:1,clipPath:'polygon(100% 0%,100% 0%,100% 100%,100% 100%)'},{opacity:1,clipPath:'polygon(0% 0%,100% 0%,100% 100%,0% 100%)',duration:.50,ease:'power4.inOut',immediateRender:false},S('distribution',-.26));
+tl.fromTo('#distribution-scene',{opacity:1,clipPath:'polygon(100% 0%,100% 0%,100% 100%,100% 100%)'},{opacity:1,clipPath:'polygon(0% 0%,100% 0%,100% 100%,0% 100%)',duration:.38,ease:'power4.inOut',immediateRender:false},S('distribution',-.26));
 mesh.morph(tl,1,S('distribution',-.22),.68);
 tl.to('#actor-position',{x:130,y:1370,scale:.62,duration:.68,ease:'power3.inOut'},S('distribution',-.22));
 tl.to('#actor-rotation',{rotation:-20,duration:.6,ease:'power3.inOut'},S('distribution',-.22));
@@ -74,12 +77,13 @@ M.letters(tl,'#brand-word',S('distribution',.42),{y:95,rx:-45,stagger:.025,durat
 tl.fromTo('#brand-back',{opacity:0,y:80},{opacity:1,y:0,duration:.64,ease:'power3.out',immediateRender:false},S('distribution',.48));
 V.draw(tl,'#distribution-path',S('distribution',1),.82,'power3.inOut');
 V.draw(tl,'#distribution-trace',S('distribution',1.09),.86,'sine.inOut');
+V.draw(tl,'#distribution-guide',S('distribution',1.72),.55,'power3.inOut');
 tl.to('#actor-position',{motionPath:{path:'#distribution-path',autoRotate:false},duration:.85,ease:'power3.inOut'},S('distribution',1));
 tl.to('#actor-rotation',{rotation:-65,duration:.85,ease:'power3.inOut'},S('distribution',1));
 tl.to('#distribution-brand',{rotation:-4,x:20,y:20,duration:.75,ease:'sine.inOut'},S('distribution',1.3));
 
 // 5. Arrow→pin: top-heavy composition reverses the prior type hierarchy.
-tl.fromTo('#target-scene',{opacity:1,clipPath:'polygon(0% 0%,100% 0%,100% 0%,0% 0%)'},{opacity:1,clipPath:'polygon(0% 0%,100% 0%,100% 100%,0% 100%)',duration:.6,ease:'power3.inOut',immediateRender:false},S('target',-.24));
+tl.fromTo('#target-scene',{opacity:1,clipPath:'polygon(0% 0%,100% 0%,100% 0%,0% 0%)'},{opacity:1,clipPath:'polygon(0% 0%,100% 0%,100% 100%,0% 100%)',duration:.43,ease:'power4.inOut',immediateRender:false},S('target',-.24));
 mesh.morph(tl,2,S('target',-.22),.63);
 tl.to('#actor-position',{x:540,y:790,xPercent:0,yPercent:0,scale:1.32,duration:.66,ease:'power3.inOut'},S('target',-.22));
 tl.to('#actor-rotation',{rotation:0,duration:.6,ease:'power3.inOut'},S('target',-.22));
@@ -92,10 +96,14 @@ V.enter(tl,'#clevelandia',S('target',.34),{y:150,rx:30,duration:.52,ease:'power4
 tl.fromTo('#pin-shadow',{opacity:0,scaleX:.4,transformOrigin:'540px 1060px'},{opacity:.8,scaleX:1,duration:.5,ease:'power3.out',immediateRender:false},S('target',.35));
 tl.fromTo('#pin-contact',{opacity:0,scale:.4,transformOrigin:'540px 1050px'},{opacity:1,scale:1,duration:.68,ease:'power3.out',immediateRender:false},S('target',1.1));
 tl.fromTo('#pin-contact-outer',{opacity:0,scale:.5,transformOrigin:'540px 1050px'},{opacity:.5,scale:1,duration:.82,ease:'sine.out',immediateRender:false},S('target',1.22));
+V.draw(tl,'#target-ray-left',S('target',1.42),.42,'power3.out');
+V.draw(tl,'#target-ray-right',S('target',1.57),.43,'power2.inOut');
 tl.to('#actor-position',{y:775,scale:1.27,duration:.85,ease:'sine.inOut'},S('target',1.1));
 
 // 6. The pin's contact area becomes a luminous proof field. No invented chart or counter.
-tl.fromTo('#proof-scene',{opacity:1,clipPath:'circle(0px at 540px 1050px)'},{opacity:1,clipPath:'circle(1500px at 540px 1050px)',duration:.57,ease:'power3.in',immediateRender:false},S('proof',-.27));
+tl.fromTo('#proof-scene',{opacity:1,clipPath:'circle(0px at 540px 1050px)'},{opacity:1,clipPath:'circle(1500px at 540px 1050px)',duration:.44,ease:'power4.in',immediateRender:false},S('proof',-.27));
+tl.fromTo('#proof-ribbon',{opacity:0,x:380,y:-170,rotation:-42},{opacity:.38,x:0,y:0,rotation:-42,duration:.58,ease:'power4.out',immediateRender:false},S('proof',-.06));
+tl.to('#proof-ribbon',{x:-95,y:70,rotation:-35,duration:1.75,ease:'sine.inOut'},S('proof',.75));
 tl.to('#pin-contact',{scale:6,opacity:.2,duration:.57,ease:'power3.in'},S('proof',-.27));
 tl.to('#actor-hole',{scale:.1,opacity:0,duration:.2,ease:'power2.in'},S('proof',-.25));
 tl.to('#actor-smooth-pin',{opacity:0,duration:.12,ease:'power2.in'},S('proof',-.25));
@@ -117,11 +125,11 @@ V.draw(tl,'#proof-frame-a',S('proof',.45),.9,'power2.inOut');
 V.draw(tl,'#proof-frame-b',S('proof',.7),.75,'sine.inOut');
 tl.fromTo('#proof-dot',{opacity:0,scale:0,transformOrigin:'995px 1450px'},{opacity:1,scale:1,duration:.38,ease:'back.out(1.15)',immediateRender:false},S('proof',1.2));
 // A single fitted camera adjustment changes the hierarchy without erasing reading time.
-M.camera(tl,'#proof-camera',[-20,35,1100,1955],S('proof',1.75),.72,1);
-tl.to('#proof-art',{rotation:-3,scale:1.03,transformOrigin:'540px 960px',duration:.72,ease:'sine.inOut'},S('proof',1.75));
+M.camera(tl,'#proof-camera',[-20,35,1100,1955],S('proof',1.54),.62,1);
+tl.to('#proof-art',{rotation:-3,scale:1.03,transformOrigin:'540px 960px',duration:.62,ease:'sine.inOut'},S('proof',1.54));
 
 // 7. A proof point moves into the message→audience connection; the composition is explanatory.
-tl.fromTo('#strategy-scene',{opacity:1,clipPath:'circle(0px at 820px 1180px)'},{opacity:1,clipPath:'circle(1700px at 820px 1180px)',duration:.59,ease:'power3.inOut',immediateRender:false},S('strategy',-.28));
+tl.fromTo('#strategy-scene',{opacity:1,clipPath:'circle(0px at 820px 1180px)'},{opacity:1,clipPath:'circle(1700px at 820px 1180px)',duration:.46,ease:'power4.inOut',immediateRender:false},S('strategy',-.28));
 V.enter(tl,'#cada-empresa',S('strategy',.02),{y:-130,duration:.47,ease:'power3.out'});
 V.enter(tl,'#uma',S('strategy',.35),{x:-100,y:0,duration:.36,ease:'power2.out'});
 M.letters(tl,'#estrategia',S('strategy',.75),{y:110,rx:35,stagger:.018,duration:.46});
@@ -136,18 +144,18 @@ V.enter(tl,'#message-label',S('strategy',1.1),{y:25,duration:.35,ease:'power2.ou
 V.enter(tl,'#audience-label',S('strategy',1.26),{y:25,duration:.35,ease:'sine.out'});
 tl.fromTo('#strategy-dot',{opacity:0},{opacity:1,duration:.1,ease:'none',immediateRender:false},S('strategy',1.5));
 tl.to('#strategy-dot',{motionPath:{path:'#strategy-link',align:'#strategy-link',alignOrigin:[.5,.5],autoRotate:false},duration:.66,ease:'power3.inOut'},S('strategy',1.5));
-tl.to('#strategy-graph',{rotation:-3,y:-20,transformOrigin:'540px 1180px',duration:.7,ease:'sine.inOut'},S('strategy',2.15));
+tl.to('#strategy-graph',{rotation:-3,y:-20,transformOrigin:'540px 1180px',duration:.52,ease:'sine.inOut'},S('strategy',1.85));
 
 // 8. The same path opens the conversation. A large, legible editorial invitation.
-tl.fromTo('#cta-scene',{opacity:1,clipPath:'polygon(0% 100%,100% 100%,100% 100%,0% 100%)'},{opacity:1,clipPath:'polygon(0% 0%,100% 0%,100% 100%,0% 100%)',duration:.54,ease:'power4.inOut',immediateRender:false},S('cta',-.24));
-V.enter(tl,'#conversa',S('cta',.16),{y:160,rx:-22,duration:.45,ease:'expo.out'});
-V.enter(tl,'#com-a',S('cta',.47),{x:-150,y:0,duration:.36,ease:'power3.out'});
-V.enter(tl,'#gente',S('cta',.72),{y:150,rx:22,duration:.48,ease:'power4.out'});
+tl.fromTo('#cta-scene',{opacity:1,clipPath:'polygon(0% 100%,100% 100%,100% 100%,0% 100%)'},{opacity:1,clipPath:'polygon(0% 0%,100% 0%,100% 100%,0% 100%)',duration:.39,ease:'power4.inOut',immediateRender:false},S('cta',-.24));
+V.enter(tl,'#conversa',S('cta',.08),{y:160,rx:-22,duration:.38,ease:'expo.out'});
+V.enter(tl,'#com-a',S('cta',.32),{x:-150,y:0,duration:.31,ease:'power3.out'});
+V.enter(tl,'#gente',S('cta',.56),{y:150,rx:22,duration:.39,ease:'power4.out'});
 V.draw(tl,'#cta-path',S('cta',.9),.7,'power3.inOut');
 M.camera(tl,'#cta-camera',[-8,-12,1108,1972],S('cta',1.37),.61,1);
 
 // 9. The underline resolves into an unambiguous brand signature; settle before the final frame.
-tl.fromTo('#brand-scene',{opacity:1,clipPath:'polygon(100% 0%,100% 0%,100% 100%,100% 100%)'},{opacity:1,clipPath:'polygon(0% 0%,100% 0%,100% 100%,0% 100%)',duration:.52,ease:'power3.inOut',immediateRender:false},S('brand',-.08));
+tl.fromTo('#brand-scene',{opacity:1,clipPath:'polygon(100% 0%,100% 0%,100% 100%,100% 100%)'},{opacity:1,clipPath:'polygon(0% 0%,100% 0%,100% 100%,0% 100%)',duration:.4,ease:'power4.inOut',immediateRender:false},S('brand',-.08));
 M.letters(tl,'#brand-signature',S('brand',.2),{y:85,rx:-25,stagger:.024,duration:.45});
 tl.from('#brand-rule',{scaleX:0,duration:.52,ease:'power3.inOut'},S('brand',.48));
 tl.from('.brand-content',{rotation:-3,scale:.95,duration:.72,ease:'power3.out'},S('brand',.2));

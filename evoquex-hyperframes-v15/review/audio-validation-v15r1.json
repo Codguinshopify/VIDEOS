@@ -1,0 +1,18 @@
+{
+  "version": "V15R1",
+  "file": "assets/mix-v15r1.wav",
+  "sha256": "628e91b7f8721985a40418e31e0c5a42f07089d702baa39049e2b1590a0c0390",
+  "duration": 23.4,
+  "channels": 2,
+  "sample_rate": 48000,
+  "integrated_lufs": -16.04,
+  "actual_true_peak_dbtp": -2.48,
+  "clipped_samples": 0,
+  "last_sample_abs": 0.0,
+  "cue_count": 17,
+  "distinct_effect_sources": 7,
+  "continuous_music": true,
+  "narration_present": false,
+  "subjective_listening_performed": false,
+  "ok": true
+}

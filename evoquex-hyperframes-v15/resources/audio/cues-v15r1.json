@@ -1,0 +1,338 @@
+{
+  "version": "V15R1",
+  "duration": 23.4,
+  "fps": 30,
+  "scenes": [
+    {
+      "id": "hook",
+      "start": 0,
+      "end": 3.35
+    },
+    {
+      "id": "local",
+      "start": 3.35,
+      "end": 5.7
+    },
+    {
+      "id": "production",
+      "start": 5.7,
+      "end": 8.45
+    },
+    {
+      "id": "distribution",
+      "start": 8.45,
+      "end": 11
+    },
+    {
+      "id": "target",
+      "start": 11,
+      "end": 13.45
+    },
+    {
+      "id": "proof",
+      "start": 13.45,
+      "end": 16.75
+    },
+    {
+      "id": "strategy",
+      "start": 16.75,
+      "end": 19.55
+    },
+    {
+      "id": "cta",
+      "start": 19.55,
+      "end": 21.55
+    },
+    {
+      "id": "brand",
+      "start": 21.55,
+      "end": 23.4
+    }
+  ],
+  "music": {
+    "title": "Close Up",
+    "artist": "Michael Ramir C.",
+    "source_url": "https://assets.mixkit.co/music/1167/1167.mp3",
+    "page": "https://mixkit.co/free-stock-music/tag/technology/",
+    "license": "https://mixkit.co/license/#musicFree",
+    "local_source": "resources/audio/track-source/mixkit-close-up.mp3",
+    "source_trim_start": 0,
+    "instrumental": true,
+    "purpose": "Continuous rhythmic and futuristic corporate bed under the whole reel",
+    "energy_points": [
+      [
+        0,
+        0.78
+      ],
+      [
+        0.1,
+        0.95
+      ],
+      [
+        2.25,
+        0.95
+      ],
+      [
+        2.36,
+        0.81
+      ],
+      [
+        2.7,
+        0.99
+      ],
+      [
+        5.5,
+        0.98
+      ],
+      [
+        5.62,
+        0.86
+      ],
+      [
+        6.1,
+        1
+      ],
+      [
+        8.35,
+        1
+      ],
+      [
+        8.5,
+        0.88
+      ],
+      [
+        9.0,
+        0.99
+      ],
+      [
+        11.0,
+        1
+      ],
+      [
+        11.08,
+        0.88
+      ],
+      [
+        12.5,
+        0.97
+      ],
+      [
+        13.5,
+        0.8
+      ],
+      [
+        13.68,
+        0.66
+      ],
+      [
+        14.1,
+        1
+      ],
+      [
+        16.7,
+        0.95
+      ],
+      [
+        17.15,
+        1
+      ],
+      [
+        19.65,
+        0.9
+      ],
+      [
+        20.1,
+        0.96
+      ],
+      [
+        21.55,
+        0.89
+      ],
+      [
+        22.2,
+        0.8
+      ],
+      [
+        23.05,
+        0.72
+      ],
+      [
+        23.4,
+        0
+      ]
+    ]
+  },
+  "events": [
+    {
+      "id": "hook-first",
+      "anchor": 0.04,
+      "source": "pack-impact",
+      "duration": 0.4,
+      "level_dbfs": -17.5,
+      "pan": 0,
+      "lowpass_hz": 6300,
+      "role": "First-frame company type"
+    },
+    {
+      "id": "known-band",
+      "anchor": 0.71,
+      "source": "tech-select",
+      "duration": 0.42,
+      "level_dbfs": -21.5,
+      "pan": -0.2,
+      "lowpass_hz": 6600,
+      "role": "Blue band settles"
+    },
+    {
+      "id": "question",
+      "anchor": 2.36,
+      "source": "pack-impact",
+      "duration": 0.5,
+      "level_dbfs": -17.0,
+      "pan": 0,
+      "lowpass_hz": 7400,
+      "role": "Coral question lands"
+    },
+    {
+      "id": "city-iris",
+      "anchor": 3.32,
+      "source": "pack-swoosh",
+      "duration": 0.42,
+      "level_dbfs": -20.8,
+      "pan": 0.22,
+      "lowpass_hz": 7600,
+      "role": "Line opens real city photograph"
+    },
+    {
+      "id": "ink-film",
+      "anchor": 5.62,
+      "source": "pack-swoosh",
+      "duration": 0.58,
+      "level_dbfs": -20.0,
+      "pan": -0.28,
+      "lowpass_hz": 6800,
+      "role": "Organic ink reveals real film"
+    },
+    {
+      "id": "film-frame",
+      "anchor": 6.08,
+      "source": "metal-sweep",
+      "duration": 0.68,
+      "level_dbfs": -23.4,
+      "pan": 0.16,
+      "lowpass_hz": 8800,
+      "role": "Film frame completes its reveal"
+    },
+    {
+      "id": "film-arrow",
+      "anchor": 8.39,
+      "source": "tech-slide",
+      "duration": 0.56,
+      "level_dbfs": -21.8,
+      "pan": 0.3,
+      "lowpass_hz": 8800,
+      "role": "Film border becomes distribution arrow"
+    },
+    {
+      "id": "brand-route",
+      "anchor": 9.54,
+      "source": "interface-click",
+      "duration": 0.24,
+      "level_dbfs": -28.0,
+      "pan": -0.07,
+      "lowpass_hz": 6000,
+      "role": "Drawn distribution route changes direction"
+    },
+    {
+      "id": "arrow-pin",
+      "anchor": 11.08,
+      "source": "pack-swoosh",
+      "duration": 0.43,
+      "level_dbfs": -23.0,
+      "pan": -0.18,
+      "lowpass_hz": 5800,
+      "role": "Arrow curves into location pin"
+    },
+    {
+      "id": "pin-contact",
+      "anchor": 12.1,
+      "source": "interface-click",
+      "duration": 0.18,
+      "level_dbfs": -26.5,
+      "pan": 0,
+      "lowpass_hz": 5200,
+      "role": "Pin contact on target"
+    },
+    {
+      "id": "result-air",
+      "anchor": 13.53,
+      "source": "metal-sweep",
+      "duration": 0.78,
+      "level_dbfs": -20.5,
+      "pan": 0.22,
+      "lowpass_hz": 10400,
+      "role": "Pin ring expands into result color"
+    },
+    {
+      "id": "result-impact",
+      "anchor": 13.68,
+      "source": "pack-impact",
+      "duration": 0.9,
+      "level_dbfs": -13.8,
+      "pan": 0,
+      "lowpass_hz": 11000,
+      "role": "20 MIL numerical reveal"
+    },
+    {
+      "id": "strategy-orbit",
+      "anchor": 16.75,
+      "source": "tech-slide",
+      "duration": 0.53,
+      "level_dbfs": -22.7,
+      "pan": -0.27,
+      "lowpass_hz": 7600,
+      "role": "Result field opens strategy composition"
+    },
+    {
+      "id": "graph-link",
+      "anchor": 18.28,
+      "source": "high-tech-confirmation",
+      "duration": 0.35,
+      "level_dbfs": -27.2,
+      "pan": 0.23,
+      "lowpass_hz": 6400,
+      "role": "Message connects to audience"
+    },
+    {
+      "id": "cta-arc",
+      "anchor": 19.69,
+      "source": "pack-swoosh",
+      "duration": 0.43,
+      "level_dbfs": -23.2,
+      "pan": 0.18,
+      "lowpass_hz": 6600,
+      "role": "Graph path opens invitation"
+    },
+    {
+      "id": "brand-signature",
+      "anchor": 21.63,
+      "source": "pack-impact",
+      "duration": 0.26,
+      "level_dbfs": -25.5,
+      "pan": 0,
+      "lowpass_hz": 2300,
+      "role": "Quiet branded punctuation"
+    },
+    {
+      "id": "final-confirmation",
+      "anchor": 22.17,
+      "source": "high-tech-confirmation",
+      "duration": 0.32,
+      "level_dbfs": -27.0,
+      "pan": 0,
+      "lowpass_hz": 5800,
+      "role": "Signature line settles"
+    }
+  ],
+  "narration_present": false
+}

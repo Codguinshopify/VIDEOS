@@ -24,3 +24,11 @@
 
 /* Explicit inactive state prevents fromTo/immediateRender:false flashes. */
 #local-ja,#local-aqui,#produzimos,#o-video,#client-first,#client-last,#divulgamos,#pela,#so-para,#clevelandia,#mil span,#proof-unit,#de-pessoas,#proof-city,#cada-empresa,#uma,#conversa,#com-a,#gente{opacity:0}
+
+/* V15 rhythm pass: one real brush plane and connective paths, kept behind legible copy. */
+#production-brush{left:-100px;top:1145px;width:1250px;height:400px;background:#BC5F3A;opacity:0;mask-image:url('assets/packs/brush-2-alpha.png');mask-size:100% 100%;mask-repeat:no-repeat;-webkit-mask-image:url('assets/packs/brush-2-alpha.png');-webkit-mask-size:100% 100%;-webkit-mask-repeat:no-repeat;z-index:0}
+.production-content{z-index:3}#film-shell{z-index:4}
+#distribution-guide{fill:none;stroke:#AFC5FF;stroke-width:3;opacity:.42;stroke-dasharray:12 16}
+#target-ray-left,#target-ray-right{fill:none;stroke:#3876BC;stroke-width:4;opacity:.62}
+#proof-ribbon{left:720px;top:350px;width:650px;height:55px;background:#A7CF3E;opacity:.38;z-index:0}
+.proof-content{z-index:2}

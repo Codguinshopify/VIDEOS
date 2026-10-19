@@ -184,7 +184,7 @@ def source_report():
             assert all(0 <= e['start'] < e['end'] <= duration + .001 for e in events)
             pack_audio.append({'path': name, 'sha256': expected, 'production_cues': len(events),
                                'events': [e['id'] for e in events]})
-        generator = ROOT / 'scripts/build-audio-v15.py'
+        generator = ROOT / 'scripts/build-audio-v15r1.py'
         if generator.is_file():
             paths.add(generator)
     pack_visual = sorted({e['path'] for e in edges if e['path'].startswith('assets/packs/')})

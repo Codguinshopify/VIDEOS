@@ -2,14 +2,14 @@
 
 |Janela|Mensagem e foco|Movimento, planos e continuidade|Acervo e cue|
 |---|---|---|---|
-|0–4|SUA EMPRESA / É CONHECIDA / EM CLEVELÂNDIA. / MAS É VISTA?|Tipo articulado já no frame zero; trocas dentro de um rig; faixa azul, foco coral; linha curva se abre no recorte da cidade.|line-swap e mecanismo de câmera; impactos0/0,85/2,78; abertura3,78.|
-|4–7|JÁ VIU POR AQUI?|Duas metades tipográficas liberam o espaço da foto; fotografia em plano oblíquo com leve parallax, contorno desenhado pertence ao recorte.|type-match-cut; foto real; máscara Ink_11 em6,74–7,36.|
-|7–10|PRODUZIMOS O VÍDEO. / Danny’s Presentes|Campo quente; filmagem vertical grande à esquerda, nome independente à direita; enquadramento inclina discretamente, borda vira vetor de distribuição.|Vídeo real; tinta de pack; entrada7,34; borda/seta9,78.|
-|10–13|E DIVULGAMOS PELA EVOQUEX.|Campo azul e nome de grande escala; linha faz percurso curvo à volta da marca; play evolui em seta, eixo diagonal cria profundidade.|facet-morph adaptado com facetas sutis; palavra10,42; vetor11–11,65.|
-|13–16|SÓ PARA CLEVELÂNDIA.|Seta dobra em pino; corpo, furo e contato têm entradas coordenadas; pino no plano superior, título inferior. Anel cresce até revelar a prova.|Transformação de malha e recorte circular; pino13,35; anel14,1; flare15,72.|
-|16–19,6|20 MIL VISUALIZAÇÕES DE PESSOAS DE CLEVELÂNDIA.|Campo lima; número recomposto por recortes tipográficos, unidade e complemento em ordem. Re-enquadramento único preserva2s de leitura. Moldura dá profundidade, sem falso gráfico.|caption-camera-follow; flare real de pack; impacto16,2; qualifier17,15.|
-|19,6–22,8|CADA EMPRESA. UMA ESTRATÉGIA.|Número entrega um ponto à relação mensagem/público; campos lilás e marinho, curva atravessa dois ícones e vira início da chamada.|Desenho de caminhos consistente; conexão21,1; handoff22,56.|
-|22,8–25,1|CONVERSA COM A GENTE.|Campo claro abre pela curva de conversa; palavras em três escalas e mesmo eixo; sublinhado leva à marca.|Tipografia por grupos; camera-follow; cues23,2/23,65.|
-|25,1–27,6|Evoquex|Campo azul, assinatura central limpa, linha encaixa abaixo. Composição estabilizada antes do fim.|Entrada25,65; resolve26,1; música decai27,2–27,6.|
+|0–3,35|SUA EMPRESA / É CONHECIDA / EM CLEVELÂNDIA. / MAS É VISTA?|Trocas rápidas dentro de um rig, faixa azul, foco coral; linha abre o recorte da cidade.|line-swap; impacto inicial e foco 2,36 s.|
+|3,35–5,70|JÁ VIU POR AQUI?|Tipografia libera a foto real; parallax breve e contorno no recorte.|type-match-cut; foto real; passagem por máscara Ink_11.|
+|5,70–8,45|PRODUZIMOS O VÍDEO. / Danny’s Presentes|Filme original em plano vertical, pincel coral do pack em segundo plano; borda e seta conduzem a próxima cena.|Vídeo real, Ink_11 e Brush 2; gesto de entrada 5,62–6,35.|
+|8,45–11|E DIVULGAMOS PELA EVOQUEX.|Campo azul; linha/rota desenhada percorre a marca, com light burn discreto; play se transforma em seta.|facet-morph; Dots light burn 8,61–9,777.|
+|11–13,45|SÓ PARA CLEVELÂNDIA.|Seta vira pino, raios apontam o destino e anel abre o resultado.|Transformação de malha; contato 12,1; flare 13,17–13,67.|
+|13,45–16,75|20 MIL VISUALIZAÇÕES DE PESSOAS DE CLEVELÂNDIA.|Campo lima; número em recortes, faixa gráfica varre o plano sem atravessar a leitura; complemento mantém tempo de leitura.|caption-camera-follow; resultado e impacto em 13,68; dado é visualizações, sem inferência de alcance único.|
+|16,75–19,55|CADA EMPRESA. UMA ESTRATÉGIA.|Número entrega o ponto à relação mensagem/público; linha conecta ícones; contraste de campos.|Curva e ícones; abertura 16,75; conexão 18,28.|
+|19,55–21,55|CONVERSA COM A GENTE.|Curva vira conversa; palavras em três escalas e mesmo eixo; entrada rápida com breve leitura.|Tipografia por grupos; arco e acento 19,69.|
+|21,55–23,4|Evoquex|Campo azul; assinatura encaixa sobre linha, com fecho sonoro discreto.|Entrada 21,63; linha 22,17; música decai no fim.|
 
 Os intervalos são definidos em timing.js e resources/scene-timing-v15.json. Passagens iniciam com o conteúdo anterior visível. Primeiro e último frame das mídias devem estar cobertos por máscara ou dentro da janela ativa; nenhuma placa vazia. Dado de20mil é declaração explícita do usuário, não impressão/alcance nem pessoas únicas. Sem narrativa falada nesta fase.

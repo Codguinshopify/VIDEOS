@@ -1,5 +1,5 @@
 {
-  "version": "V15",
+  "version": "V15R1",
   "status": "wired in composition; actual MP4 acceptance recorded separately in review",
   "assets": [
     {
@@ -7,16 +7,24 @@
       "source": "biblioteca/packs/6000-motion-amostras/Ink_11.mp4",
       "derived_library_path": "biblioteca/production-v15/ink-11-portrait-mask-atlas.png",
       "sha256": "19d47368cfc9775658dd5c8b92828bdcd1481a086aeef66b8604e46b27678168",
-      "scene": "local → production, 6.74–7.36",
+      "scene": "local → production, 5.70–6.35",
       "role": "Real organic ink footage converted to30 alpha matte frames,6×5atlas; deterministic CSSmask reveals the warm filming composition; texture isactualpackmedia, not a simulated blob.",
       "integration": "style.css #production-scene; motion.js V.atlas"
+    },
+    {
+      "runtime_path": "assets/packs/brush-2-alpha.png",
+      "source": "biblioteca/production-v15/brush-2-alpha.png, derivado do Brush 2 do pack fornecido",
+      "sha256": "a32d3aa2698c4342b8c6796b31bd90d24b83a235441ef2a6239101bef250b4bd",
+      "scene": "production, 5.70–8.45",
+      "role": "Textura real com alfa do pack compõe um plano gráfico coral atrás da filmagem; entrada, deslocamento e saída seguem o gesto de revelação.",
+      "integration": "index.html #production-brush; style.css; motion.js"
     },
     {
       "runtime_path": "assets/packs/flare-transition.mp4",
       "source": "biblioteca/packs/6000-motion-audit-v13/TransitionFlare_1.mp4",
       "derived_library_path": "biblioteca/production-v15/flare-warm-impact.mp4",
       "sha256": "83157589d0b9312a3b4b868b9272ccec688dbb365961a7e99f1d79e0ab4bbf57",
-      "scene": "target → proof,15.72–16.22",
+      "scene": "target → proof, 13.17–13.67",
       "role": "Short warm light accent at the geographic ring's transformation into the result field; screenblend, controlledopacity andfade; sourcehasblackbackground, notalpha.",
       "integration": "index.html #pack-flare; style.css #flare-wrapper"
     },
@@ -25,38 +33,38 @@
       "source": "Viral_Video_Template/(Footage)/Footage/light burns/Dots light burn 1.mov",
       "derived_library_path": "biblioteca/production-v15/dots-light-burn.mp4",
       "sha256": "285bac84b19078af32641057c4739062b98e7add4c47758b1dda2fc3bbdcab9f",
-      "scene": "distribution,10.16–11.327",
+      "scene": "distribution, 8.61–9.777",
       "role": "Actual bluehalftone light crossing behind the largeEvoquexword;16%screenblend keeps typography dominant. IndependentMOV converted tobrowserH264; noAEprojectexecution.",
       "integration": "index.html #pack-dots; style.css #dots-wrapper"
     },
     {
       "runtime_path": "assets/campanha.mp4",
       "source": "User-provided real Danny’s Presentes campaign footage, preserved fromV14",
-      "scene": "production,media6.74–10.30; aperture7.05 onward",
+      "scene": "production, media 5.44–8.75",
       "role": "Real documentary evidence of video production; vertical560×995aperture preservesperson/context; audio fullymuted; name isindependentrightcolumn."
     },
     {
       "runtime_path": "assets/clevelandia.jpg",
       "source": "User-provided aerial photograph, preserved fromV14",
-      "scene": "local,4.45–7.36",
+      "scene": "local, 3.35–5.70",
       "role": "Recognizable city photograph in expanding mask and subtlecamera movement. It is not an aerialvideo."
     },
     {
-      "runtime_path": "assets/mix-v15.wav",
+      "runtime_path": "assets/mix-v15r1.wav",
       "source": "resources/audio/provenance-v15.json",
-      "scene": "all,0–27.6",
-      "role": "Original authored score retimed toV15 with realpackSFX mixed according to cues; no narration."
+      "scene": "all, 0–23.4",
+      "role": "Música instrumental contínua Close Up de Michael Ramir C. (Mixkit) com automação e 17 acentos de sete fontes de efeitos. Sem narração. Origem, licenças, hashes e sincronização em resources/audio/provenance-v15.json."
     },
     {
       "runtime_path": "resources/audio/pack-sources/SFX - Fast Swoosh 1.wav",
       "source": "biblioteca/packs/6000-motion-audit-v13/SFX - Fast Swoosh 1.wav",
-      "scene": "selected transitions; resources/audio/cues-v15.json",
+      "scene": "selected transitions; resources/audio/cues-v15r1.json",
       "role": "Actual pack movement sound mixed into finalWAV; edits/trims/peaks recorded by audio provenance."
     },
     {
       "runtime_path": "resources/audio/pack-sources/SFX - Impact 1.wav",
       "source": "biblioteca/packs/6000-motion-audit-v13/SFX - Impact 1.wav",
-      "scene": "hook/proof/closing accents; resources/audio/cues-v15.json",
+      "scene": "hook/proof/closing accents; resources/audio/cues-v15r1.json",
       "role": "Actual pack impact sound mixed into finalWAV, with controlledlevel andtails."
     }
   ],
@@ -87,5 +95,6 @@
     }
   ],
   "commercial_authorization": "User expressly authorized supplied pack assets including commercial use in this session.",
-  "unselected": "Brush/cloth candidates and unrelated native template footage were not forced into scenes. AEP/MOGRT/ATOM are not declared executable. See biblioteca/production-v15/manifest.json for preparation and limitations."
+  "additional_audio_sources": "Cinco efeitos Mixkit foram selecionados: tech-select, tech-slide, interface-click, high-tech-confirmation e metal-sweep. Os WAVs locais, hashes, URLs de licença e 17 usos efetivos estão em resources/audio/provenance-v15.json. A trilha instrumental licenciada está preservada em resources/audio/track-source/mixkit-close-up.mp3.",
+  "unselected": "Outros arquivos sem função narrativa clara ficaram fora. AEP/MOGRT/ATOM não são declarados executáveis. Veja biblioteca/production-v15/manifest.json para preparação e limitações."
 }

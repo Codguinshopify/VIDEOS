@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="pt-BR" data-resolution="portrait">
 <head><meta charset="utf-8"><meta name="viewport" content="width=1080,height=1920"><title>Evoquex — Danny’s Presentes</title><link rel="stylesheet" href="style.css"><script src="vendor/gsap.min.js"></script><script src="vendor/MotionPathPlugin.min.js"></script><script src="vendor/evoquex-v14-motion.js"></script><script src="vendor/evoquex-v15-motion.js"></script><script src="timing.js"></script></head>
-<body><main id="root" data-composition-id="evoquex-hf-v15" data-start="0" data-duration="27.6" data-width="1080" data-height="1920" data-fps="30">
+<body><main id="root" data-composition-id="evoquex-hf-v15" data-start="0" data-duration="23.4" data-width="1080" data-height="1920" data-fps="30">
 <svg width="0" height="0" class="defs" aria-hidden="true" data-layout-ignore><defs><filter id="grain-filter"><feTurbulence type="fractalNoise" baseFrequency=".72" numOctaves="2" stitchTiles="stitch" seed="19"/><feColorMatrix type="saturate" values="0"/></filter><linearGradient id="actor-tone" gradientUnits="userSpaceOnUse" x1="-150" y1="-200" x2="170" y2="200"><stop offset="0" stop-color="#A1D7FF"/><stop offset=".5" stop-color="#54A6FF"/><stop offset="1" stop-color="#347CD8"/></linearGradient><clipPath id="production-aperture" clipPathUnits="userSpaceOnUse"><rect id="film-opening" x="0" y="0" width="560" height="0" rx="26"/></clipPath></defs></svg>
 
 <section id="hook" class="scene">
@@ -20,20 +20,21 @@
 </section>
 
 <section id="production-scene" class="scene">
+ <div id="production-brush" class="art" aria-hidden="true" data-layout-ignore></div>
  <div class="scene-content production-content"><div id="production-title" class="title"><div class="mask"><span id="produzimos">Produzimos</span></div><div class="mask"><span id="o-video">o vídeo.</span></div></div><div id="client-name" class="title"><span id="client-first">Danny’s</span><span id="client-last">Presentes</span></div></div>
- <div id="film-shell" class="art"><div class="film-shadow" data-layout-ignore></div><div id="film-window"><video id="real-film" class="clip" src="assets/campanha.mp4" data-start="6.74" data-duration="3.56" data-track-index="1" data-volume="0" muted playsinline></video></div><svg viewBox="0 0 600 1040" aria-hidden="true" data-layout-ignore><path id="film-frame-line" d="M16 280 L16 20 L580 20 L580 1020 L16 1020 L16 800"/></svg></div>
+ <div id="film-shell" class="art"><div class="film-shadow" data-layout-ignore></div><div id="film-window"><video id="real-film" class="clip" src="assets/campanha.mp4" data-start="5.44" data-duration="3.31" data-track-index="1" data-volume="0" muted playsinline></video></div><svg viewBox="0 0 600 1040" aria-hidden="true" data-layout-ignore><path id="film-frame-line" d="M16 280 L16 20 L580 20 L580 1020 L16 1020 L16 800"/></svg></div>
  <svg class="full-art production-arrow" viewBox="0 0 1080 1920" aria-hidden="true" data-layout-ignore><path id="production-pointer" d="M940 1320 C870 1450 800 1410 790 1290 M750 1320 L790 1290 L825 1322"/></svg>
 </section>
 
 <section id="distribution-scene" class="scene">
- <div id="dots-wrapper" class="art" aria-hidden="true" data-layout-ignore><video id="pack-dots" class="clip" src="assets/packs/dots-light-burn.mp4" data-start="10.16" data-duration="1.167" data-track-index="5" muted playsinline></video></div>
+ <div id="dots-wrapper" class="art" aria-hidden="true" data-layout-ignore><video id="pack-dots" class="clip" src="assets/packs/dots-light-burn.mp4" data-start="8.61" data-duration="1.167" data-track-index="5" muted playsinline></video></div>
  <div class="scene-content distribution-content"><div id="distribution-intro" class="title"><div class="mask"><span id="divulgamos">E divulgamos</span></div><div class="mask"><span id="pela">pela</span></div></div><div id="distribution-brand" class="title"><span id="brand-word" data-letters>Evoquex.</span><span id="brand-back" aria-hidden="true" data-layout-ignore>Evoquex.</span></div></div>
- <svg id="distribution-art" class="full-art" viewBox="0 0 1080 1920" aria-hidden="true" data-layout-ignore><path id="distribution-path" d="M130 1370 C160 1110 820 1460 890 490"/><path id="distribution-trace" d="M100 1425 C130 1165 790 1515 860 545"/></svg>
+ <svg id="distribution-art" class="full-art" viewBox="0 0 1080 1920" aria-hidden="true" data-layout-ignore><path id="distribution-guide" d="M82 790 C300 740 660 820 998 625"/><path id="distribution-path" d="M130 1370 C160 1110 820 1460 890 490"/><path id="distribution-trace" d="M100 1425 C130 1165 790 1515 860 545"/></svg>
 </section>
 
 <section id="target-scene" class="scene">
  <div class="scene-content target-content"><div id="target-title" class="title"><div class="mask"><span id="so-para">Só para</span></div><div class="mask"><span id="clevelandia">Clevelândia.</span></div></div></div>
- <svg id="target-rings" class="full-art" viewBox="0 0 1080 1920" aria-hidden="true" data-layout-ignore><ellipse id="pin-shadow" cx="540" cy="1060" rx="220" ry="28"/><ellipse id="pin-contact" cx="540" cy="1050" rx="260" ry="74"/><ellipse id="pin-contact-outer" cx="540" cy="1050" rx="350" ry="110"/></svg>
+ <svg id="target-rings" class="full-art" viewBox="0 0 1080 1920" aria-hidden="true" data-layout-ignore><path id="target-ray-left" d="M95 1090 C170 1130 270 1110 405 1070"/><path id="target-ray-right" d="M675 1070 C800 1100 890 1090 995 1035"/><ellipse id="pin-shadow" cx="540" cy="1060" rx="220" ry="28"/><ellipse id="pin-contact" cx="540" cy="1050" rx="260" ry="74"/><ellipse id="pin-contact-outer" cx="540" cy="1050" rx="350" ry="110"/></svg>
 </section>
 
 <section id="proof-scene" class="scene">
@@ -55,7 +56,7 @@
 <section id="brand-scene" class="scene"><div class="scene-content brand-content"><div id="brand-signature" data-letters>Evoquex</div><div id="brand-rule" data-layout-ignore></div></div></section>
 
 <svg id="actor-layer" class="full-art" viewBox="0 0 1080 1920" aria-hidden="true" data-layout-ignore><g id="actor-position"><g id="actor-rotation"><g id="actor-mesh"></g><path id="actor-smooth-pin" d="M0 218 C-40 160 -157 29 -157 -46 C-157 -133 -88 -204 0 -204 C88 -204 157 -133 157 -46 C157 29 40 160 0 218 Z" fill="url(#actor-tone)"/><circle id="actor-hole" cx="0" cy="-43" r="61" fill="#0B1018"/></g></g></svg>
-<div id="flare-wrapper" class="art" aria-hidden="true" data-layout-ignore><video id="pack-flare" class="clip" src="assets/packs/flare-transition.mp4" data-start="15.72" data-duration=".5" data-track-index="4" muted playsinline></video></div>
+<div id="flare-wrapper" class="art" aria-hidden="true" data-layout-ignore><video id="pack-flare" class="clip" src="assets/packs/flare-transition.mp4" data-start="13.17" data-duration=".5" data-track-index="4" muted playsinline></video></div>
 <div id="grain" data-layout-ignore aria-hidden="true"></div>
-<audio id="soundtrack" class="clip" src="assets/mix-v15.wav" data-start="0" data-duration="27.6" data-track-index="8" data-volume="1"></audio>
+<audio id="soundtrack" class="clip" src="assets/mix-v15r1.wav" data-start="0" data-duration="23.4" data-track-index="8" data-volume="1"></audio>
 </main><script>window.__timelines=window.__timelines||{};window.__timelines['evoquex-hf-v15']=gsap.timeline({paused:true});</script><script src="motion.js"></script></body></html>

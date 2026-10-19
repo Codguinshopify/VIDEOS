@@ -17,7 +17,7 @@ A evolução cromática é por função narrativa. Não há troca de cor em cada
 ## Linguagem e acervo efetivo
 Fontes originais HyperFrames consultadas: line-swap, type-match-cut, facet-morph, caption-camera-follow; mecanismos adaptados, sem outro clock ou runtime. Um único timeline pausado, animado com GSAP 3.14.2/HyperFrames 0.8.162. Estados iniciais fechados evitam flashes de mídia ou texto futuro. Câmera, objeto e tipografia em wrappers separados.
 
-Packs: Ink_11 como máscara orgânica real, atlas alpha derivado; TransitionFlare_1 como luz breve na revelação do dado; brush se adequado ao acabamento. SFX de pack incorporados pelo módulo sonoro. Cada asset preserva origem; não alegar que um preview Adobe se tornou template executável.
+Packs: Ink_11 como máscara orgânica real, atlas alpha derivado; Brush 2 como textura coral animada atrás da filmagem; TransitionFlare_1 como luz breve na revelação do dado; Dots light burn na distribuição. O som combina dois efeitos do pack com cinco efeitos Mixkit, todos documentados na procedência. Cada asset preserva origem; não alegar que um preview Adobe se tornou template executável.
 
 ## Referências consultadas antes do HTML
 Os três MP4 permanentes foram decodificados novamente: Shard Cloud 44,65 s; Virgílio 64,71 s; OtoCriativo 27,77 s. Foram abertos os 13 contatos novos a 2 fps cobrindo integralmente os três vídeos, aprofundando movimentos em sequências consecutivas. Método: análise de quadros, sem alegação de playback/escuta indisponíveis. Shard fornece linha–anel–campo; Virgílio fornece ícone que nasce da forma anterior e convive com texto estável; Oto fornece re-enquadramento editorial e acento de cor concentrado. Nenhuma imagem ou som dessas referências é incorporado ao case.
@@ -26,4 +26,4 @@ Os três MP4 permanentes foram decodificados novamente: Shard Cloud 44,65 s; Vir
 Repetir headline superior mais ícone inferior em todas as cenas; usar facetas pesadas como decoração; filmagem horizontal que corte a pessoa; texto pequeno para preencher espaço; efeito sonoro por palavra; estática longa disfarçada de grão; métricas antigas ou dados fabricados. Não gerar voz nesta etapa.
 
 ## Timing e futura voz
-27,6 s, 828 frames,1080×1920,30 fps. Nove cenas possuem âncoras e duração controláveis em timing.js. A locução externa posterior poderá alterar as janelas e os cues sem substituir a direção visual.
+Revisão V15R1: 23,4 s, 702 frames, 1080×1920, 30 fps. Nove cenas possuem âncoras e duração controláveis em timing.js. As trocas de cena foram antecipadas; brush, rota desenhada, raios do pino e faixa de resultado mantêm movimento entre os focos de leitura. Música instrumental contínua “Close Up” (Mixkit) com variações de nível, efeitos pontuais e pausa curta sob a revelação do dado. A locução externa posterior poderá alterar as janelas e os cues sem substituir a direção visual.

@@ -1,0 +1,14 @@
+{
+  "version": "V15R1",
+  "archive": "renders/evoquex-hyperframes-v15-revisado-projeto.zip",
+  "sha256": "6fc4a6c2b14ecb21862acaf7960ae6e1bc32637d2fd49e4e6530c4a16c67227b",
+  "bytes": 24959685,
+  "files": 73,
+  "validated_video_sha256": "88bd145d5f8d1a0737db24da200c3866c644e5b20ade38549e83944314d7409f",
+  "source_bundle_id": "554cd25118ae6733619a86707810e05072a3eb036ee7607efa47578b4820d41e",
+  "crc_verified": true,
+  "all_entries_equal_local": true,
+  "runtime_dependencies_included": true,
+  "node_modules_and_frame_dumps_excluded": true,
+  "note": "Prepared source archive; installation/reproduction in isolation is a separate check."
+}

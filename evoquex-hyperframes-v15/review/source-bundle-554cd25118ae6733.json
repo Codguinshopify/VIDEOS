@@ -1,0 +1,355 @@
+{
+  "version": "V15",
+  "ok": true,
+  "bundle_id": "554cd25118ae6733619a86707810e05072a3eb036ee7607efa47578b4820d41e",
+  "source_sha256": {
+    "assets/DM-Sans.woff2": "9fea608a947e67020c33cad9a6fe3d60c54119dfb8cff87768a8117a15ed7543",
+    "assets/campanha.mp4": "01144794dd01f913af3d6fe1c24563a74ee89461b44289ac4a0dd5534139d335",
+    "assets/clevelandia.jpg": "a5bba18170e69a3b9db2203d0babbb39b341217772a1794495718afaa7b331a1",
+    "assets/mix-v15r1.wav": "628e91b7f8721985a40418e31e0c5a42f07089d702baa39049e2b1590a0c0390",
+    "assets/packs/brush-2-alpha.png": "a32d3aa2698c4342b8c6796b31bd90d24b83a235441ef2a6239101bef250b4bd",
+    "assets/packs/dots-light-burn.mp4": "285bac84b19078af32641057c4739062b98e7add4c47758b1dda2fc3bbdcab9f",
+    "assets/packs/flare-transition.mp4": "83157589d0b9312a3b4b868b9272ccec688dbb365961a7e99f1d79e0ab4bbf57",
+    "assets/packs/ink11-mask-atlas.png": "19d47368cfc9775658dd5c8b92828bdcd1481a086aeef66b8604e46b27678168",
+    "hyperframes.json": "8af50d8d2ca7a808044b1eb551b7aa542ea7006e1f84d43eb25dd8e50faf38d7",
+    "index.html": "2763f7a43c2a19538fbafae80372e8f6184ccc20b4660f81abac9f0895c4db5b",
+    "motion.js": "1cfed84d41fc9e7464ff6ac809e421d8d61a707b563dd467aeba590ef05a4bd1",
+    "package-lock.json": "13730ee4f7d1bdb5dc0f041bd8ddd23634c528dfac56904a12624e5605d57400",
+    "package.json": "2730edb0028e1c305e0e3864397a5a7ed22e80d8f09feb0e4d5fade2b501126a",
+    "resources/asset-usage-v15.json": "0bf6da143c4f3ab4269c4dfd02ff00d83648537a9428cfc60674aee1cdd67acb",
+    "resources/audio/cues-v15.json": "b4a79abd52d8374f1bdd2df9ad94496677692c8759fca6044751f812a4760b3b",
+    "resources/audio/cues-v15r1.json": "a997e708b05c09c29c9554d6d688dfbcaf954f177c0c5acff78972f2478638b1",
+    "resources/audio/pack-sources/SFX - Fast Swoosh 1.wav": "68a0da89fe528a5468f2902b73a6d53b3a68bd82370e98384154db7287a97473",
+    "resources/audio/pack-sources/SFX - Impact 1.wav": "cc87bf699bec061913cb96eac93adbe986be98da69472703fd4e4b02c4dd6172",
+    "resources/audio/provenance-v15.json": "7fa47845753ea256fe9fb77ceb97253f6d08e9651f82eba240d67b4d1ba5aa1f",
+    "resources/audio/selected-sfx-v15r1/high-tech-confirmation.wav": "565a2664cbc96c5ca3c0e4161e97a21700b5a59eb62ced8f85f1de0fab2ed6a7",
+    "resources/audio/selected-sfx-v15r1/interface-click.wav": "bb9d4bb078ba650cd81027dfca724162cf1df0352fc56018cb6241aab5a406cc",
+    "resources/audio/selected-sfx-v15r1/metal-sweep.wav": "43964a9b142547afa8f0cfd7cb929df6482bab144ada2aecb445f3d71c688ddd",
+    "resources/audio/selected-sfx-v15r1/tech-select.wav": "00270a1847195cddb82d1b10c9407880ce311f522284afaefdc218fbba70d3ed",
+    "resources/audio/selected-sfx-v15r1/tech-slide.wav": "36abf2ab17ef9a9000ecbad52d489c3c3217f185aa4b0c4b26057723cfbbadae",
+    "resources/audio/source-score-v14.json": "2c0a246cf2ca03eea2a38abaa30ea17da2e6b45d8afc1522a58df663f7d66a2d",
+    "resources/briefing-v15.txt": "7a593ddb5274305cc6ea5c4c45e1c90ad231b724e305a239cf848167592ef0aa",
+    "resources/reference-audit-v15.json": "e2053805c7bdf7842940c65c777df2e2f62d7c9b1d540d9e4379491d4fabe726",
+    "resources/revision-v15r1.json": "b10729589dedbfc476745c1867cce1b6c7a1bc1bea5d3e9cb378c50e73f1ae0f",
+    "resources/scene-timing-v15.json": "6dfb7032f16ddfd7074caac9988320502955dfae29aeb05fcdb8d3bc98196719",
+    "scripts/build-audio-v15r1.py": "4398c71dd7665d7cc81f2d3b8bb2200836de08d4bbbaa28bb83e8be656e6fc09",
+    "style.css": "06e988338c3acceac6cf22b725b913803c65daf1a6f78a0a35ed38a6779b5b26",
+    "timing.js": "ae56a5275a54a65de9bcd5a3864887231b592a8bb6ad8aacbec3327e483ac88a",
+    "vendor/MotionPathPlugin.min.js": "aa5f955ca4ce3095ebe5726f43a46b72532230edb3501b28fb853f189f023cab",
+    "vendor/evoquex-v14-motion.js": "e5d345b3e755fb33d0cc8d164dc38e5b5ca11f6e4e111e8c4acfd571392dba5e",
+    "vendor/evoquex-v15-motion.js": "df927b5143fee8cc301f7ea6d9b4eecf750c9923ff32fa0e004deb059c3664a2",
+    "vendor/gsap.min.js": "c174bfce53a729418d57a8ad8625e7247c793a22fef8e2851e3cfa3de9cd8280"
+  },
+  "duration": 23.4,
+  "fps": 30.0,
+  "expected_frames": 702,
+  "scenes": [
+    {
+      "id": "hook",
+      "start": 0.0,
+      "end": 3.35
+    },
+    {
+      "id": "local",
+      "start": 3.35,
+      "end": 5.7
+    },
+    {
+      "id": "production",
+      "start": 5.7,
+      "end": 8.45
+    },
+    {
+      "id": "distribution",
+      "start": 8.45,
+      "end": 11.0
+    },
+    {
+      "id": "target",
+      "start": 11.0,
+      "end": 13.45
+    },
+    {
+      "id": "proof",
+      "start": 13.45,
+      "end": 16.75
+    },
+    {
+      "id": "strategy",
+      "start": 16.75,
+      "end": 19.55
+    },
+    {
+      "id": "cta",
+      "start": 19.55,
+      "end": 21.55
+    },
+    {
+      "id": "brand",
+      "start": 21.55,
+      "end": 23.4
+    }
+  ],
+  "normalized_dom_text": "Evoquex — Danny’s Presentes Evoquex SUA EMPRESA É CONHECIDA EM CLEVELÂNDIA. MAS É VISTA? Já viu por aqui? Produzimos o vídeo. Danny’s Presentes E divulgamos pela Evoquex. Só para Clevelândia. 20 mil VISUALIZAÇÕES DE PESSOAS DE CLEVELÂNDIA Cada empresa. Uma estratégia. Mensagem Público Conversa com a gente. Evoquex",
+  "active_metric": "20 mil visualizações de pessoas de Clevelândia",
+  "metric_provenance": "Explicit user statement in briefing-v15.txt; not independently proved by the historical screenshot.",
+  "media": [
+    {
+      "type": "video",
+      "id": "real-film",
+      "path": "assets/campanha.mp4",
+      "start": 5.44,
+      "duration": 3.31
+    },
+    {
+      "type": "video",
+      "id": "pack-dots",
+      "path": "assets/packs/dots-light-burn.mp4",
+      "start": 8.61,
+      "duration": 1.167
+    },
+    {
+      "type": "video",
+      "id": "pack-flare",
+      "path": "assets/packs/flare-transition.mp4",
+      "start": 13.17,
+      "duration": 0.5
+    },
+    {
+      "type": "audio",
+      "id": "soundtrack",
+      "path": "assets/mix-v15r1.wav",
+      "start": 0.0,
+      "duration": 23.4
+    }
+  ],
+  "render_dependencies": [
+    {
+      "owner": "index.html",
+      "reference": "style.css",
+      "path": "style.css"
+    },
+    {
+      "owner": "index.html",
+      "reference": "vendor/gsap.min.js",
+      "path": "vendor/gsap.min.js"
+    },
+    {
+      "owner": "index.html",
+      "reference": "vendor/MotionPathPlugin.min.js",
+      "path": "vendor/MotionPathPlugin.min.js"
+    },
+    {
+      "owner": "index.html",
+      "reference": "vendor/evoquex-v14-motion.js",
+      "path": "vendor/evoquex-v14-motion.js"
+    },
+    {
+      "owner": "index.html",
+      "reference": "vendor/evoquex-v15-motion.js",
+      "path": "vendor/evoquex-v15-motion.js"
+    },
+    {
+      "owner": "index.html",
+      "reference": "timing.js",
+      "path": "timing.js"
+    },
+    {
+      "owner": "index.html",
+      "reference": "assets/clevelandia.jpg",
+      "path": "assets/clevelandia.jpg"
+    },
+    {
+      "owner": "index.html",
+      "reference": "assets/campanha.mp4",
+      "path": "assets/campanha.mp4"
+    },
+    {
+      "owner": "index.html",
+      "reference": "assets/packs/dots-light-burn.mp4",
+      "path": "assets/packs/dots-light-burn.mp4"
+    },
+    {
+      "owner": "index.html",
+      "reference": "assets/packs/flare-transition.mp4",
+      "path": "assets/packs/flare-transition.mp4"
+    },
+    {
+      "owner": "index.html",
+      "reference": "assets/mix-v15r1.wav",
+      "path": "assets/mix-v15r1.wav"
+    },
+    {
+      "owner": "index.html",
+      "reference": "motion.js",
+      "path": "motion.js"
+    },
+    {
+      "owner": "style.css",
+      "reference": "assets/DM-Sans.woff2",
+      "path": "assets/DM-Sans.woff2"
+    },
+    {
+      "owner": "style.css",
+      "reference": "assets/packs/ink11-mask-atlas.png",
+      "path": "assets/packs/ink11-mask-atlas.png"
+    },
+    {
+      "owner": "style.css",
+      "reference": "assets/packs/ink11-mask-atlas.png",
+      "path": "assets/packs/ink11-mask-atlas.png"
+    },
+    {
+      "owner": "style.css",
+      "reference": "assets/packs/brush-2-alpha.png",
+      "path": "assets/packs/brush-2-alpha.png"
+    },
+    {
+      "owner": "style.css",
+      "reference": "assets/packs/brush-2-alpha.png",
+      "path": "assets/packs/brush-2-alpha.png"
+    }
+  ],
+  "asset_usage": [
+    {
+      "asset": "assets/packs/ink11-mask-atlas.png",
+      "direct_runtime_reference": true,
+      "source": "biblioteca/packs/6000-motion-amostras/Ink_11.mp4",
+      "role": "Real organic ink footage converted to30 alpha matte frames,6×5atlas; deterministic CSSmask reveals the warm filming composition; texture isactualpackmedia, not a simulated blob.",
+      "needs_generation_provenance": false
+    },
+    {
+      "asset": "assets/packs/brush-2-alpha.png",
+      "direct_runtime_reference": true,
+      "source": "biblioteca/production-v15/brush-2-alpha.png, derivado do Brush 2 do pack fornecido",
+      "role": "Textura real com alfa do pack compõe um plano gráfico coral atrás da filmagem; entrada, deslocamento e saída seguem o gesto de revelação.",
+      "needs_generation_provenance": false
+    },
+    {
+      "asset": "assets/packs/flare-transition.mp4",
+      "direct_runtime_reference": true,
+      "source": "biblioteca/packs/6000-motion-audit-v13/TransitionFlare_1.mp4",
+      "role": "Short warm light accent at the geographic ring's transformation into the result field; screenblend, controlledopacity andfade; sourcehasblackbackground, notalpha.",
+      "needs_generation_provenance": false
+    },
+    {
+      "asset": "assets/packs/dots-light-burn.mp4",
+      "direct_runtime_reference": true,
+      "source": "Viral_Video_Template/(Footage)/Footage/light burns/Dots light burn 1.mov",
+      "role": "Actual bluehalftone light crossing behind the largeEvoquexword;16%screenblend keeps typography dominant. IndependentMOV converted tobrowserH264; noAEprojectexecution.",
+      "needs_generation_provenance": false
+    },
+    {
+      "asset": "assets/campanha.mp4",
+      "direct_runtime_reference": true,
+      "source": "User-provided real Danny’s Presentes campaign footage, preserved fromV14",
+      "role": "Real documentary evidence of video production; vertical560×995aperture preservesperson/context; audio fullymuted; name isindependentrightcolumn.",
+      "needs_generation_provenance": false
+    },
+    {
+      "asset": "assets/clevelandia.jpg",
+      "direct_runtime_reference": true,
+      "source": "User-provided aerial photograph, preserved fromV14",
+      "role": "Recognizable city photograph in expanding mask and subtlecamera movement. It is not an aerialvideo.",
+      "needs_generation_provenance": false
+    },
+    {
+      "asset": "assets/mix-v15r1.wav",
+      "direct_runtime_reference": true,
+      "source": "resources/audio/provenance-v15.json",
+      "role": "Música instrumental contínua Close Up de Michael Ramir C. (Mixkit) com automação e 17 acentos de sete fontes de efeitos. Sem narração. Origem, licenças, hashes e sincronização em resources/audio/provenance-v15.json.",
+      "needs_generation_provenance": false
+    },
+    {
+      "asset": "resources/audio/pack-sources/SFX - Fast Swoosh 1.wav",
+      "direct_runtime_reference": true,
+      "source": "biblioteca/packs/6000-motion-audit-v13/SFX - Fast Swoosh 1.wav",
+      "role": "Actual pack movement sound mixed into finalWAV; edits/trims/peaks recorded by audio provenance.",
+      "needs_generation_provenance": false
+    },
+    {
+      "asset": "resources/audio/pack-sources/SFX - Impact 1.wav",
+      "direct_runtime_reference": true,
+      "source": "biblioteca/packs/6000-motion-audit-v13/SFX - Impact 1.wav",
+      "role": "Actual pack impact sound mixed into finalWAV, with controlledlevel andtails.",
+      "needs_generation_provenance": false
+    }
+  ],
+  "pack_visual_runtime_dependencies": [
+    "assets/packs/brush-2-alpha.png",
+    "assets/packs/dots-light-burn.mp4",
+    "assets/packs/flare-transition.mp4",
+    "assets/packs/ink11-mask-atlas.png"
+  ],
+  "pack_audio_generation_inputs": [
+    {
+      "path": "resources/audio/pack-sources/SFX - Impact 1.wav",
+      "sha256": "cc87bf699bec061913cb96eac93adbe986be98da69472703fd4e4b02c4dd6172",
+      "production_cues": 4,
+      "events": [
+        "hook-first",
+        "question",
+        "result-impact",
+        "brand-signature"
+      ]
+    },
+    {
+      "path": "resources/audio/pack-sources/SFX - Fast Swoosh 1.wav",
+      "sha256": "68a0da89fe528a5468f2902b73a6d53b3a68bd82370e98384154db7287a97473",
+      "production_cues": 4,
+      "events": [
+        "city-iris",
+        "ink-film",
+        "arrow-pin",
+        "cta-arc"
+      ]
+    },
+    {
+      "path": "resources/audio/selected-sfx-v15r1/tech-select.wav",
+      "sha256": "00270a1847195cddb82d1b10c9407880ce311f522284afaefdc218fbba70d3ed",
+      "production_cues": 1,
+      "events": [
+        "known-band"
+      ]
+    },
+    {
+      "path": "resources/audio/selected-sfx-v15r1/tech-slide.wav",
+      "sha256": "36abf2ab17ef9a9000ecbad52d489c3c3217f185aa4b0c4b26057723cfbbadae",
+      "production_cues": 2,
+      "events": [
+        "film-arrow",
+        "strategy-orbit"
+      ]
+    },
+    {
+      "path": "resources/audio/selected-sfx-v15r1/interface-click.wav",
+      "sha256": "bb9d4bb078ba650cd81027dfca724162cf1df0352fc56018cb6241aab5a406cc",
+      "production_cues": 2,
+      "events": [
+        "brand-route",
+        "pin-contact"
+      ]
+    },
+    {
+      "path": "resources/audio/selected-sfx-v15r1/high-tech-confirmation.wav",
+      "sha256": "565a2664cbc96c5ca3c0e4161e97a21700b5a59eb62ced8f85f1de0fab2ed6a7",
+      "production_cues": 2,
+      "events": [
+        "graph-link",
+        "final-confirmation"
+      ]
+    },
+    {
+      "path": "resources/audio/selected-sfx-v15r1/metal-sweep.wav",
+      "sha256": "43964a9b142547afa8f0cfd7cb929df6482bab144ada2aecb445f3d71c688ddd",
+      "production_cues": 2,
+      "events": [
+        "film-frame",
+        "result-air"
+      ]
+    }
+  ],
+  "pack_usage_note": "Runtime references prove dependency use, not aesthetic value. Audio baked into a mix additionally requires generator provenance and decoded waveform validation.",
+  "narration_requested_this_stage": false,
+  "visual_quality_approved_by_this_script": false
+}

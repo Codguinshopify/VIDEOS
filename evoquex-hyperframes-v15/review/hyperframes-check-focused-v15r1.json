@@ -1,0 +1,448 @@
+{
+  "version": "V15R1",
+  "video_sha256": "88bd145d5f8d1a0737db24da200c3866c644e5b20ade38549e83944314d7409f",
+  "source_bundle_id": "554cd25118ae6733619a86707810e05072a3eb036ee7607efa47578b4820d41e",
+  "scopes": [
+    [
+      3.35,
+      13.45
+    ],
+    [
+      13.45,
+      23.4
+    ]
+  ],
+  "runtime_ok_each": true,
+  "lint_ok_each": true,
+  "full_scoped_check_ok": false,
+  "reported_layout_errors": [
+    {
+      "code": "content_overlap",
+      "severity": "error",
+      "time": 14.694,
+      "selector": "#client-first",
+      "message": "Two text blocks overlap and may render unreadable.",
+      "rect": {
+        "left": 710,
+        "top": 983.23,
+        "right": 958.45,
+        "bottom": 1075.23,
+        "width": 248.45,
+        "height": 92
+      },
+      "containerSelector": "#proof-unit",
+      "text": "Danny’s",
+      "fixHint": "Give each block its own zone, or put data-layout-allow-overlap on the text or on a container inside the scene. A marker on the scene root does not apply.",
+      "dataAttributes": {},
+      "sourceFile": "index.html",
+      "bbox": {
+        "x": 710,
+        "y": 983.23,
+        "width": 248.45,
+        "height": 92
+      },
+      "firstSeen": 14.321,
+      "lastSeen": 21.908,
+      "occurrences": 10,
+      "heldMs": 995.000000000001,
+      "times": [
+        14.321,
+        14.445,
+        14.569,
+        14.694,
+        14.818,
+        14.942,
+        15.067,
+        15.191,
+        15.316,
+        21.908
+      ]
+    }
+  ],
+  "reported_contrast_errors": [
+    {
+      "code": "contrast_aa_failure",
+      "severity": "error",
+      "message": "Contrast is 1.12:1; WCAG AA requires 3:1.",
+      "text": "MAS É",
+      "fg": "rgb(250,252,255)",
+      "bg": "rgb(243,239,231)",
+      "ratio": 1.12,
+      "requiredRatio": 3,
+      "suggestedColor": "rgb(137,138,140)",
+      "large": true,
+      "selector": "main > section:nth-of-type(1) > div:nth-of-type(1) > div > div:nth-of-type(4) > div:nth-of-type(1) > span",
+      "dataAttributes": {},
+      "sourceFile": "index.html",
+      "bbox": {
+        "x": 82,
+        "y": 760.859375,
+        "width": 308.03125,
+        "height": 146
+      },
+      "time": 4.613,
+      "times": [
+        4.613,
+        7.137
+      ]
+    },
+    {
+      "code": "contrast_aa_failure",
+      "severity": "error",
+      "message": "Contrast is 1.79:1; WCAG AA requires 3:1.",
+      "text": "V",
+      "fg": "rgb(248,113,113)",
+      "bg": "rgb(53,101,237)",
+      "ratio": 1.79,
+      "requiredRatio": 3,
+      "suggestedColor": "rgb(252,185,185)",
+      "large": true,
+      "selector": "main > section:nth-of-type(1) > div:nth-of-type(1) > div > div:nth-of-type(4) > div:nth-of-type(2) > span:nth-of-type(1)",
+      "dataAttributes": {},
+      "sourceFile": "index.html",
+      "bbox": {
+        "x": 80,
+        "y": 922.859375,
+        "width": 146.78125,
+        "height": 245.265625
+      },
+      "time": 9.663,
+      "times": [
+        4.613,
+        7.137,
+        9.663
+      ]
+    },
+    {
+      "code": "contrast_aa_failure",
+      "severity": "error",
+      "message": "Contrast is 1.61:1; WCAG AA requires 3:1.",
+      "text": "I",
+      "fg": "rgb(248,113,113)",
+      "bg": "rgb(222,190,195)",
+      "ratio": 1.61,
+      "requiredRatio": 3,
+      "suggestedColor": "rgb(175,80,80)",
+      "large": true,
+      "selector": "main > section:nth-of-type(1) > div:nth-of-type(1) > div > div:nth-of-type(4) > div:nth-of-type(2) > span:nth-of-type(2)",
+      "dataAttributes": {},
+      "sourceFile": "index.html",
+      "bbox": {
+        "x": 226.78125,
+        "y": 922.859375,
+        "width": 52.171875,
+        "height": 245.265625
+      },
+      "time": 7.137,
+      "times": [
+        4.613,
+        7.137,
+        9.663
+      ]
+    },
+    {
+      "code": "contrast_aa_failure",
+      "severity": "error",
+      "message": "Contrast is 1.65:1; WCAG AA requires 3:1.",
+      "text": "S",
+      "fg": "rgb(248,113,113)",
+      "bg": "rgb(215,196,187)",
+      "ratio": 1.65,
+      "requiredRatio": 3,
+      "suggestedColor": "rgb(177,81,81)",
+      "large": true,
+      "selector": "main > section:nth-of-type(1) > div:nth-of-type(1) > div > div:nth-of-type(4) > div:nth-of-type(2) > span:nth-of-type(3)",
+      "dataAttributes": {},
+      "sourceFile": "index.html",
+      "bbox": {
+        "x": 278.953125,
+        "y": 922.859375,
+        "width": 122.90625,
+        "height": 245.265625
+      },
+      "time": 7.137,
+      "times": [
+        4.613,
+        7.137,
+        9.663
+      ]
+    },
+    {
+      "code": "contrast_aa_failure",
+      "severity": "error",
+      "message": "Contrast is 1.2:1; WCAG AA requires 3:1.",
+      "text": "T",
+      "fg": "rgb(248,113,113)",
+      "bg": "rgb(145,142,118)",
+      "ratio": 1.2,
+      "requiredRatio": 3,
+      "suggestedColor": "rgb(107,49,49)",
+      "large": true,
+      "selector": "main > section:nth-of-type(1) > div:nth-of-type(1) > div > div:nth-of-type(4) > div:nth-of-type(2) > span:nth-of-type(4)",
+      "dataAttributes": {},
+      "sourceFile": "index.html",
+      "bbox": {
+        "x": 401.859375,
+        "y": 922.859375,
+        "width": 122.90625,
+        "height": 245.265625
+      },
+      "time": 4.613,
+      "times": [
+        4.613,
+        7.137,
+        9.663
+      ]
+    },
+    {
+      "code": "contrast_aa_failure",
+      "severity": "error",
+      "message": "Contrast is 1.16:1; WCAG AA requires 3:1.",
+      "text": "A",
+      "fg": "rgb(248,113,113)",
+      "bg": "rgb(159,141,121)",
+      "ratio": 1.16,
+      "requiredRatio": 3,
+      "suggestedColor": "rgb(110,50,50)",
+      "large": true,
+      "selector": "main > section:nth-of-type(1) > div:nth-of-type(1) > div > div:nth-of-type(4) > div:nth-of-type(2) > span:nth-of-type(5)",
+      "dataAttributes": {},
+      "sourceFile": "index.html",
+      "bbox": {
+        "x": 524.765625,
+        "y": 922.859375,
+        "width": 148.09375,
+        "height": 245.265625
+      },
+      "time": 4.613,
+      "times": [
+        4.613,
+        7.137,
+        9.663
+      ]
+    },
+    {
+      "code": "contrast_aa_failure",
+      "severity": "error",
+      "message": "Contrast is 1.16:1; WCAG AA requires 3:1.",
+      "text": "?",
+      "fg": "rgb(248,113,113)",
+      "bg": "rgb(171,137,111)",
+      "ratio": 1.16,
+      "requiredRatio": 3,
+      "suggestedColor": "rgb(110,50,50)",
+      "large": true,
+      "selector": "main > section:nth-of-type(1) > div:nth-of-type(1) > div > div:nth-of-type(4) > div:nth-of-type(2) > span:nth-of-type(6)",
+      "dataAttributes": {},
+      "sourceFile": "index.html",
+      "bbox": {
+        "x": 672.859375,
+        "y": 922.859375,
+        "width": 107.796875,
+        "height": 245.265625
+      },
+      "time": 4.613,
+      "times": [
+        4.613,
+        7.137,
+        9.663
+      ]
+    },
+    {
+      "code": "contrast_aa_failure",
+      "severity": "error",
+      "message": "Contrast is 1.11:1; WCAG AA requires 3:1.",
+      "text": "MAS É",
+      "fg": "rgb(250,252,255)",
+      "bg": "rgb(219,254,118)",
+      "ratio": 1.11,
+      "requiredRatio": 3,
+      "suggestedColor": "rgb(137,138,140)",
+      "large": true,
+      "selector": "main > section:nth-of-type(1) > div:nth-of-type(1) > div > div:nth-of-type(4) > div:nth-of-type(1) > span",
+      "dataAttributes": {},
+      "sourceFile": "index.html",
+      "bbox": {
+        "x": 82,
+        "y": 760.859375,
+        "width": 308.03125,
+        "height": 146
+      },
+      "time": 14.694,
+      "times": [
+        14.694,
+        17.181,
+        19.669
+      ]
+    },
+    {
+      "code": "contrast_aa_failure",
+      "severity": "error",
+      "message": "Contrast is 1.47:1; WCAG AA requires 3:1.",
+      "text": "V",
+      "fg": "rgb(248,113,113)",
+      "bg": "rgb(194,180,244)",
+      "ratio": 1.47,
+      "requiredRatio": 3,
+      "suggestedColor": "rgb(165,75,75)",
+      "large": true,
+      "selector": "main > section:nth-of-type(1) > div:nth-of-type(1) > div > div:nth-of-type(4) > div:nth-of-type(2) > span:nth-of-type(1)",
+      "dataAttributes": {},
+      "sourceFile": "index.html",
+      "bbox": {
+        "x": 80,
+        "y": 922.859375,
+        "width": 146.78125,
+        "height": 245.265625
+      },
+      "time": 17.181,
+      "times": [
+        14.694,
+        17.181,
+        19.669,
+        22.156
+      ]
+    },
+    {
+      "code": "contrast_aa_failure",
+      "severity": "error",
+      "message": "Contrast is 1.47:1; WCAG AA requires 3:1.",
+      "text": "I",
+      "fg": "rgb(248,113,113)",
+      "bg": "rgb(194,180,244)",
+      "ratio": 1.47,
+      "requiredRatio": 3,
+      "suggestedColor": "rgb(165,75,75)",
+      "large": true,
+      "selector": "main > section:nth-of-type(1) > div:nth-of-type(1) > div > div:nth-of-type(4) > div:nth-of-type(2) > span:nth-of-type(2)",
+      "dataAttributes": {},
+      "sourceFile": "index.html",
+      "bbox": {
+        "x": 226.78125,
+        "y": 922.859375,
+        "width": 52.171875,
+        "height": 245.265625
+      },
+      "time": 17.181,
+      "times": [
+        14.694,
+        17.181,
+        19.669,
+        22.156
+      ]
+    },
+    {
+      "code": "contrast_aa_failure",
+      "severity": "error",
+      "message": "Contrast is 1.47:1; WCAG AA requires 3:1.",
+      "text": "S",
+      "fg": "rgb(248,113,113)",
+      "bg": "rgb(194,180,244)",
+      "ratio": 1.47,
+      "requiredRatio": 3,
+      "suggestedColor": "rgb(165,75,75)",
+      "large": true,
+      "selector": "main > section:nth-of-type(1) > div:nth-of-type(1) > div > div:nth-of-type(4) > div:nth-of-type(2) > span:nth-of-type(3)",
+      "dataAttributes": {},
+      "sourceFile": "index.html",
+      "bbox": {
+        "x": 278.953125,
+        "y": 922.859375,
+        "width": 122.90625,
+        "height": 245.265625
+      },
+      "time": 17.181,
+      "times": [
+        14.694,
+        17.181,
+        19.669,
+        22.156
+      ]
+    },
+    {
+      "code": "contrast_aa_failure",
+      "severity": "error",
+      "message": "Contrast is 1.47:1; WCAG AA requires 3:1.",
+      "text": "T",
+      "fg": "rgb(248,113,113)",
+      "bg": "rgb(194,180,244)",
+      "ratio": 1.47,
+      "requiredRatio": 3,
+      "suggestedColor": "rgb(165,75,75)",
+      "large": true,
+      "selector": "main > section:nth-of-type(1) > div:nth-of-type(1) > div > div:nth-of-type(4) > div:nth-of-type(2) > span:nth-of-type(4)",
+      "dataAttributes": {},
+      "sourceFile": "index.html",
+      "bbox": {
+        "x": 401.859375,
+        "y": 922.859375,
+        "width": 122.90625,
+        "height": 245.265625
+      },
+      "time": 17.181,
+      "times": [
+        14.694,
+        17.181,
+        19.669,
+        22.156
+      ]
+    },
+    {
+      "code": "contrast_aa_failure",
+      "severity": "error",
+      "message": "Contrast is 1.47:1; WCAG AA requires 3:1.",
+      "text": "A",
+      "fg": "rgb(248,113,113)",
+      "bg": "rgb(194,180,244)",
+      "ratio": 1.47,
+      "requiredRatio": 3,
+      "suggestedColor": "rgb(165,75,75)",
+      "large": true,
+      "selector": "main > section:nth-of-type(1) > div:nth-of-type(1) > div > div:nth-of-type(4) > div:nth-of-type(2) > span:nth-of-type(5)",
+      "dataAttributes": {},
+      "sourceFile": "index.html",
+      "bbox": {
+        "x": 524.765625,
+        "y": 922.859375,
+        "width": 148.09375,
+        "height": 245.265625
+      },
+      "time": 17.181,
+      "times": [
+        14.694,
+        17.181,
+        19.669,
+        22.156
+      ]
+    },
+    {
+      "code": "contrast_aa_failure",
+      "severity": "error",
+      "message": "Contrast is 1.47:1; WCAG AA requires 3:1.",
+      "text": "?",
+      "fg": "rgb(248,113,113)",
+      "bg": "rgb(194,180,244)",
+      "ratio": 1.47,
+      "requiredRatio": 3,
+      "suggestedColor": "rgb(165,75,75)",
+      "large": true,
+      "selector": "main > section:nth-of-type(1) > div:nth-of-type(1) > div > div:nth-of-type(4) > div:nth-of-type(2) > span:nth-of-type(6)",
+      "dataAttributes": {},
+      "sourceFile": "index.html",
+      "bbox": {
+        "x": 672.859375,
+        "y": 922.859375,
+        "width": 107.796875,
+        "height": 245.265625
+      },
+      "time": 17.181,
+      "times": [
+        14.694,
+        17.181,
+        19.669,
+        22.156
+      ]
+    }
+  ],
+  "assessment": "Reported overlap/contrast failures occur in old masked-off scene layers; inspected encoded frames at finding times show the active scene only. These checks are not recorded as passing. The encoded video and consecutive review frames provide direct output evidence."
+}
