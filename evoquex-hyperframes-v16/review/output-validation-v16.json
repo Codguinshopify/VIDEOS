@@ -1,0 +1,23 @@
+{
+  "file": "/workspace/VIDEOS/evoquex-hyperframes-v16/renders/evoquex-hyperframes-v16.mp4",
+  "sha256": "568afdd5d8fac8eca245c565cea8e6de087d70462d7f52a0e91b68e6ff85bdae",
+  "size_bytes": 29397636,
+  "duration": 44.0,
+  "video": {
+    "codec": "h264",
+    "width": 1080,
+    "height": 1920,
+    "fps": "30/1",
+    "frames": "1320"
+  },
+  "audio": {
+    "codec": "aac",
+    "sample_rate": "48000",
+    "channels": 2,
+    "lufs": -15.88,
+    "true_peak_db": -2.33
+  },
+  "black_intervals": [],
+  "decode_errors": "",
+  "ok": true
+}

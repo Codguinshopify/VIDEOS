@@ -1,0 +1,152 @@
+{
+  "duration": 44,
+  "events": [
+    {
+      "time": 3.0,
+      "source": "resources/audio/pack-sources/SFX - Impact 1.wav",
+      "level_dbfs": -19
+    },
+    {
+      "time": 3.4,
+      "source": "resources/audio/selected-sfx-v15r1/metal-sweep.wav",
+      "level_dbfs": -22
+    },
+    {
+      "time": 5.0,
+      "source": "resources/audio/pack-sources/SFX - Fast Swoosh 1.wav",
+      "level_dbfs": -20
+    },
+    {
+      "time": 5.7,
+      "source": "resources/audio/pack-sources/SFX - Impact 1.wav",
+      "level_dbfs": -18
+    },
+    {
+      "time": 6.27,
+      "source": "resources/audio/selected-sfx-v15r1/tech-slide.wav",
+      "level_dbfs": -22
+    },
+    {
+      "time": 7.76,
+      "source": "resources/audio/pack-sources/SFX - Fast Swoosh 1.wav",
+      "level_dbfs": -18
+    },
+    {
+      "time": 8.42,
+      "source": "resources/audio/pack-sources/SFX - Impact 1.wav",
+      "level_dbfs": -17
+    },
+    {
+      "time": 8.95,
+      "source": "resources/audio/selected-sfx-v15r1/tech-slide.wav",
+      "level_dbfs": -23
+    },
+    {
+      "time": 9.45,
+      "source": "resources/audio/selected-sfx-v15r1/interface-click.wav",
+      "level_dbfs": -22
+    },
+    {
+      "time": 10.3,
+      "source": "resources/audio/selected-sfx-v15r1/tech-select.wav",
+      "level_dbfs": -23
+    },
+    {
+      "time": 12.3,
+      "source": "resources/audio/selected-sfx-v15r1/tech-slide.wav",
+      "level_dbfs": -25
+    },
+    {
+      "time": 14.74,
+      "source": "resources/audio/pack-sources/SFX - Fast Swoosh 1.wav",
+      "level_dbfs": -18
+    },
+    {
+      "time": 15.85,
+      "source": "resources/audio/pack-sources/SFX - Impact 1.wav",
+      "level_dbfs": -18
+    },
+    {
+      "time": 16.65,
+      "source": "resources/audio/selected-sfx-v15r1/high-tech-confirmation.wav",
+      "level_dbfs": -19
+    },
+    {
+      "time": 18,
+      "source": "resources/audio/selected-sfx-v15r1/tech-select.wav",
+      "level_dbfs": -23
+    },
+    {
+      "time": 21.75,
+      "source": "resources/audio/selected-sfx-v15r1/metal-sweep.wav",
+      "level_dbfs": -20
+    },
+    {
+      "time": 22.65,
+      "source": "resources/audio/pack-sources/SFX - Impact 1.wav",
+      "level_dbfs": -14
+    },
+    {
+      "time": 23.48,
+      "source": "resources/audio/pack-sources/SFX - Fast Swoosh 1.wav",
+      "level_dbfs": -22
+    },
+    {
+      "time": 25.05,
+      "source": "resources/audio/selected-sfx-v15r1/tech-slide.wav",
+      "level_dbfs": -23
+    },
+    {
+      "time": 28.75,
+      "source": "resources/audio/selected-sfx-v15r1/metal-sweep.wav",
+      "level_dbfs": -19
+    },
+    {
+      "time": 29.43,
+      "source": "resources/audio/pack-sources/SFX - Impact 1.wav",
+      "level_dbfs": -18
+    },
+    {
+      "time": 32.35,
+      "source": "resources/audio/pack-sources/SFX - Fast Swoosh 1.wav",
+      "level_dbfs": -18
+    },
+    {
+      "time": 33.85,
+      "source": "resources/audio/selected-sfx-v15r1/metal-sweep.wav",
+      "level_dbfs": -16
+    },
+    {
+      "time": 34.47,
+      "source": "resources/audio/pack-sources/SFX - Impact 1.wav",
+      "level_dbfs": -12
+    },
+    {
+      "time": 36.72,
+      "source": "resources/audio/pack-sources/SFX - Fast Swoosh 1.wav",
+      "level_dbfs": -18
+    },
+    {
+      "time": 37.7,
+      "source": "resources/audio/pack-sources/SFX - Impact 1.wav",
+      "level_dbfs": -18
+    },
+    {
+      "time": 39.55,
+      "source": "resources/audio/selected-sfx-v15r1/tech-select.wav",
+      "level_dbfs": -21
+    },
+    {
+      "time": 41.45,
+      "source": "resources/audio/selected-sfx-v15r1/metal-sweep.wav",
+      "level_dbfs": -17
+    },
+    {
+      "time": 42.1,
+      "source": "resources/audio/selected-sfx-v15r1/high-tech-confirmation.wav",
+      "level_dbfs": -18
+    }
+  ],
+  "music": "Mixkit Close Up",
+  "no_narration": true
+}
